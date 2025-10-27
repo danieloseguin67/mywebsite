@@ -1,0 +1,11 @@
+<section id="products" class="section">
+  <div class="container">
+    <h2>{{ translations.products.title }}</h2>
+    <div class="grid-container">
+      <div class="card" *ngFor="let product of products" [class.coming-soon]="product.comingSoon">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>

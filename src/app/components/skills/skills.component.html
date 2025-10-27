@@ -1,0 +1,12 @@
+<section id="skills" class="section">
+  <div class="container">
+    <h2>{{ translations.skills.title }}</h2>
+    <div class="grid-container">
+      <div class="card" *ngFor="let skill of skills">
+        <h3>{{ skill.name }}</h3>
+        <p>{{ skill.description }}</p>
+        <span class="experience">{{ skill.experience }}</span>
+      </div>
+    </div>
+  </div>
+</section>

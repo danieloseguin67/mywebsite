@@ -1,0 +1,11 @@
+<section id="services" class="section">
+  <div class="container">
+    <h2>{{ translations.services.title }}</h2>
+    <div class="grid-container">
+      <div class="card" *ngFor="let service of services">
+        <h3>{{ service.name }}</h3>
+        <p>{{ service.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
