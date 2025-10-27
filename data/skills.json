@@ -1,0 +1,128 @@
+{
+  "en": [
+    {
+      "name": "JavaScript / TypeScript",
+      "description": "Expert-level proficiency in modern JavaScript and TypeScript for building scalable web applications and Node.js services.",
+      "experience": "10+ years"
+    },
+    {
+      "name": "Python",
+      "description": "Advanced Python development for backend services, data processing, automation, and machine learning applications.",
+      "experience": "8 years"
+    },
+    {
+      "name": "Java / Spring",
+      "description": "Enterprise Java development with Spring Framework for building robust, scalable microservices and applications.",
+      "experience": "12 years"
+    },
+    {
+      "name": "Cloud Platforms (AWS, Azure, GCP)",
+      "description": "Comprehensive experience in designing, deploying, and managing applications across major cloud platforms.",
+      "experience": "7 years"
+    },
+    {
+      "name": "Docker & Kubernetes",
+      "description": "Container orchestration and management for building cloud-native applications and microservices.",
+      "experience": "6 years"
+    },
+    {
+      "name": "React / Angular / Vue",
+      "description": "Modern frontend development using popular JavaScript frameworks for building interactive user interfaces.",
+      "experience": "8 years"
+    },
+    {
+      "name": "SQL & NoSQL Databases",
+      "description": "Database design and optimization with PostgreSQL, MySQL, MongoDB, and other database technologies.",
+      "experience": "12 years"
+    },
+    {
+      "name": "CI/CD & DevOps",
+      "description": "Implementing automated pipelines, infrastructure as code, and DevOps best practices.",
+      "experience": "7 years"
+    }
+  ],
+  "fr": [
+    {
+      "name": "JavaScript / TypeScript",
+      "description": "Maîtrise experte de JavaScript moderne et TypeScript pour créer des applications Web évolutives et des services Node.js.",
+      "experience": "10+ ans"
+    },
+    {
+      "name": "Python",
+      "description": "Développement Python avancé pour les services backend, le traitement des données, l'automatisation et les applications d'apprentissage automatique.",
+      "experience": "8 ans"
+    },
+    {
+      "name": "Java / Spring",
+      "description": "Développement Java d'entreprise avec Spring Framework pour créer des microservices et applications robustes et évolutifs.",
+      "experience": "12 ans"
+    },
+    {
+      "name": "Plateformes Cloud (AWS, Azure, GCP)",
+      "description": "Expérience complète dans la conception, le déploiement et la gestion d'applications sur les principales plateformes cloud.",
+      "experience": "7 ans"
+    },
+    {
+      "name": "Docker & Kubernetes",
+      "description": "Orchestration et gestion de conteneurs pour créer des applications cloud-native et des microservices.",
+      "experience": "6 ans"
+    },
+    {
+      "name": "React / Angular / Vue",
+      "description": "Développement frontend moderne utilisant des frameworks JavaScript populaires pour créer des interfaces utilisateur interactives.",
+      "experience": "8 ans"
+    },
+    {
+      "name": "Bases de Données SQL & NoSQL",
+      "description": "Conception et optimisation de bases de données avec PostgreSQL, MySQL, MongoDB et d'autres technologies de bases de données.",
+      "experience": "12 ans"
+    },
+    {
+      "name": "CI/CD & DevOps",
+      "description": "Mise en œuvre de pipelines automatisés, infrastructure en tant que code et meilleures pratiques DevOps.",
+      "experience": "7 ans"
+    }
+  ],
+  "es": [
+    {
+      "name": "JavaScript / TypeScript",
+      "description": "Dominio de nivel experto en JavaScript moderno y TypeScript para construir aplicaciones web escalables y servicios Node.js.",
+      "experience": "10+ años"
+    },
+    {
+      "name": "Python",
+      "description": "Desarrollo avanzado de Python para servicios backend, procesamiento de datos, automatización y aplicaciones de aprendizaje automático.",
+      "experience": "8 años"
+    },
+    {
+      "name": "Java / Spring",
+      "description": "Desarrollo Java empresarial con Spring Framework para construir microservicios y aplicaciones robustos y escalables.",
+      "experience": "12 años"
+    },
+    {
+      "name": "Plataformas en la Nube (AWS, Azure, GCP)",
+      "description": "Experiencia integral en diseño, implementación y gestión de aplicaciones en las principales plataformas de nube.",
+      "experience": "7 años"
+    },
+    {
+      "name": "Docker & Kubernetes",
+      "description": "Orquestación y gestión de contenedores para construir aplicaciones nativas de la nube y microservicios.",
+      "experience": "6 años"
+    },
+    {
+      "name": "React / Angular / Vue",
+      "description": "Desarrollo frontend moderno utilizando frameworks JavaScript populares para construir interfaces de usuario interactivas.",
+      "experience": "8 años"
+    },
+    {
+      "name": "Bases de Datos SQL y NoSQL",
+      "description": "Diseño y optimización de bases de datos con PostgreSQL, MySQL, MongoDB y otras tecnologías de bases de datos.",
+      "experience": "12 años"
+    },
+    {
+      "name": "CI/CD & DevOps",
+      "description": "Implementación de pipelines automatizados, infraestructura como código y mejores prácticas de DevOps.",
+      "experience": "7 años"
+    }
+  ]
+}

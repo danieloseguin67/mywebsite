@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Seguin - Senior IT Consultant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Daniel Seguin</h1>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                <li><a href="#products" data-i18n="nav.products">Products</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#demo" data-i18n="nav.demo">Demo</a></li>
+                <li><a href="#about" data-i18n="nav.about">About Me</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+        <div class="container">
+            <h1 data-i18n="home.title">Welcome to Daniel Seguin Consultant</h1>
+            <p class="subtitle" data-i18n="home.subtitle">Senior IT Consultant - Delivering Excellence in Technology Solutions</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 data-i18n="services.title">Services</h2>
+            <div id="servicesContainer" class="grid-container"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <h2 data-i18n="products.title">Products</h2>
+            <div id="productsContainer" class="grid-container"></div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 data-i18n="skills.title">Skills</h2>
+            <div id="skillsContainer" class="grid-container"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 data-i18n="projects.title">Projects</h2>
+            <div id="projectsContainer" class="grid-container"></div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="section">
+        <div class="container">
+            <h2 data-i18n="demo.title">Demo Websites</h2>
+            <div class="demo-grid">
+                <div class="demo-card">
+                    <h3 data-i18n="demo.service">Service Industry Website</h3>
+                    <div class="demo-placeholder">
+                        <p data-i18n="demo.placeholder">Demo Coming Soon</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <h3 data-i18n="demo.restaurant">Restaurant Industry Website</h3>
+                    <div class="demo-placeholder">
+                        <p data-i18n="demo.placeholder">Demo Coming Soon</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <h3 data-i18n="demo.manufacturing">Manufacturing Industry Website</h3>
+                    <div class="demo-placeholder">
+                        <p data-i18n="demo.placeholder">Demo Coming Soon</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <h3 data-i18n="demo.store">Store Industry Website</h3>
+                    <div class="demo-placeholder">
+                        <p data-i18n="demo.placeholder">Demo Coming Soon</p>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <h3 data-i18n="demo.church">Church Website</h3>
+                    <div class="demo-placeholder">
+                        <p data-i18n="demo.placeholder">Demo Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 data-i18n="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <p data-i18n="about.imageLabel">Photo</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p data-i18n="about.bio">
+                        As a Senior IT Consultant with extensive experience in delivering innovative technology solutions, 
+                        I specialize in helping businesses transform their operations through strategic technology implementation. 
+                        With a proven track record across multiple industries, I bring deep expertise in software development, 
+                        system architecture, and digital transformation. My passion lies in understanding client needs and 
+                        delivering solutions that drive real business value.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 data-i18n="contact.title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-image">
+                        <div class="image-placeholder">
+                            <p data-i18n="contact.imageLabel">Contact</p>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <h3 data-i18n="contact.addressTitle">Address</h3>
+                        <p>7227 Newman Boulevard, Unit 1504<br>
+                        Montreal (Lasalle), Quebec<br>
+                        H8N 0H7</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 data-i18n="contact.formTitle">Send Me a Message</h3>
+                    <form id="contactForm" action="https://formspree.io/f/xyzform" method="POST">
+                        <input type="hidden" name="_to" value="daniel@seguin.dev">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-i18n="contact.subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit" data-i18n="contact.send">Send Message</button>
+                    </form>
+                    <div id="formStatus"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Daniel Seguin - Senior IT Consultant. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
