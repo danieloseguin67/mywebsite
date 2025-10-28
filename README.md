@@ -142,7 +142,7 @@ The deployment is handled by a GitHub Actions workflow (`.github/workflows/deplo
 To build the project manually for GitHub Pages:
 
 ```bash
-npm run build -- --base-href=/
+npm run build -- --base-href="/"
 ```
 
 The build artifacts will be stored in the `dist/daniel-seguin-website/browser/` directory.
@@ -157,8 +157,12 @@ daniel.seguin.dev
 This file is automatically copied to the build output and tells GitHub Pages to serve the site at the custom domain.
 
 **DNS Configuration**: Ensure the DNS for seguin.dev is configured with:
-- An A record pointing to GitHub Pages IP addresses, or
-- A CNAME record for `daniel` pointing to `danieloseguin67.github.io`
+- A records pointing to GitHub Pages IP addresses:
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
+- Or a CNAME record for `daniel` pointing to `danieloseguin67.github.io`
 
 ### Netlify/Vercel
 
