@@ -23,7 +23,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '18'
           cache: 'npm'
 
       - name: Install dependencies
@@ -56,7 +56,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist/${{ steps.extract-names.outputs.project-name }}/browser
+          # Use the Angular dist output folder for the detected project
+          path: ./dist/${{ steps.extract-names.outputs.project-name }}
 
       - name: Send build notification email
         if: always()
@@ -75,7 +76,7 @@ jobs:
             Branch: ${{ github.ref }}
             Commit: ${{ github.sha }}
             Status: ${{ job.status }}
-            Actions run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ 
+            Actions run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
   deploy:
     environment:
