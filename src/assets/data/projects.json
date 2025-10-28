@@ -1,0 +1,98 @@
+{
+  "en": [
+    {
+      "name": "E-Commerce Platform Modernization",
+      "description": "Led the complete modernization of a legacy e-commerce platform, migrating to a microservices architecture with React frontend and Node.js backend. Implemented real-time inventory management and integrated payment gateways.",
+      "technology": "React, Node.js, MongoDB, AWS, Docker"
+    },
+    {
+      "name": "Healthcare Data Integration System",
+      "description": "Designed and developed a HIPAA-compliant data integration platform connecting multiple healthcare systems. Implemented secure APIs and real-time data synchronization across disparate systems.",
+      "technology": "Java, Spring Boot, PostgreSQL, RabbitMQ"
+    },
+    {
+      "name": "Financial Services Analytics Platform",
+      "description": "Built a comprehensive analytics platform for financial services, processing millions of transactions daily. Implemented machine learning models for fraud detection and risk assessment.",
+      "technology": "Python, Apache Spark, TensorFlow, Kubernetes"
+    },
+    {
+      "name": "Cloud Migration Initiative",
+      "description": "Orchestrated the migration of 50+ applications from on-premise infrastructure to AWS cloud. Achieved 40% cost reduction while improving system reliability and scalability.",
+      "technology": "AWS, Terraform, Jenkins, Docker, Kubernetes"
+    },
+    {
+      "name": "Mobile Banking Application",
+      "description": "Developed a secure mobile banking application with biometric authentication, real-time notifications, and seamless integration with backend banking systems.",
+      "technology": "React Native, Node.js, MongoDB, Firebase"
+    },
+    {
+      "name": "IoT Data Processing Pipeline",
+      "description": "Created a scalable IoT data processing pipeline handling millions of device events per second. Implemented real-time analytics and alerting systems for manufacturing operations.",
+      "technology": "Python, Apache Kafka, Elasticsearch, Azure IoT"
+    }
+  ],
+  "fr": [
+    {
+      "name": "Modernisation de Plateforme E-Commerce",
+      "description": "Dirigé la modernisation complète d'une plateforme e-commerce héritée, migration vers une architecture microservices avec frontend React et backend Node.js. Mise en œuvre de la gestion des stocks en temps réel et intégration des passerelles de paiement.",
+      "technology": "React, Node.js, MongoDB, AWS, Docker"
+    },
+    {
+      "name": "Système d'Intégration de Données de Santé",
+      "description": "Conçu et développé une plateforme d'intégration de données conforme HIPAA connectant plusieurs systèmes de santé. Mise en œuvre d'API sécurisées et synchronisation de données en temps réel entre systèmes disparates.",
+      "technology": "Java, Spring Boot, PostgreSQL, RabbitMQ"
+    },
+    {
+      "name": "Plateforme d'Analyse des Services Financiers",
+      "description": "Construit une plateforme d'analyse complète pour les services financiers, traitant des millions de transactions quotidiennes. Mise en œuvre de modèles d'apprentissage automatique pour la détection de fraude et l'évaluation des risques.",
+      "technology": "Python, Apache Spark, TensorFlow, Kubernetes"
+    },
+    {
+      "name": "Initiative de Migration Cloud",
+      "description": "Orchestré la migration de plus de 50 applications de l'infrastructure sur site vers le cloud AWS. Réduction des coûts de 40% tout en améliorant la fiabilité et l'évolutivité du système.",
+      "technology": "AWS, Terraform, Jenkins, Docker, Kubernetes"
+    },
+    {
+      "name": "Application Bancaire Mobile",
+      "description": "Développé une application bancaire mobile sécurisée avec authentification biométrique, notifications en temps réel et intégration transparente avec les systèmes bancaires backend.",
+      "technology": "React Native, Node.js, MongoDB, Firebase"
+    },
+    {
+      "name": "Pipeline de Traitement de Données IoT",
+      "description": "Créé un pipeline de traitement de données IoT évolutif traitant des millions d'événements d'appareils par seconde. Mise en œuvre d'analyses en temps réel et de systèmes d'alerte pour les opérations de fabrication.",
+      "technology": "Python, Apache Kafka, Elasticsearch, Azure IoT"
+    }
+  ],
+  "es": [
+    {
+      "name": "Modernización de Plataforma E-Commerce",
+      "description": "Lideré la modernización completa de una plataforma de comercio electrónico heredada, migrando a una arquitectura de microservicios con frontend React y backend Node.js. Implementé gestión de inventario en tiempo real e integré pasarelas de pago.",
+      "technology": "React, Node.js, MongoDB, AWS, Docker"
+    },
+    {
+      "name": "Sistema de Integración de Datos de Salud",
+      "description": "Diseñé y desarrollé una plataforma de integración de datos compatible con HIPAA que conecta múltiples sistemas de atención médica. Implementé API seguras y sincronización de datos en tiempo real entre sistemas dispares.",
+      "technology": "Java, Spring Boot, PostgreSQL, RabbitMQ"
+    },
+    {
+      "name": "Plataforma de Análisis de Servicios Financieros",
+      "description": "Construí una plataforma de análisis integral para servicios financieros, procesando millones de transacciones diarias. Implementé modelos de aprendizaje automático para detección de fraude y evaluación de riesgos.",
+      "technology": "Python, Apache Spark, TensorFlow, Kubernetes"
+    },
+    {
+      "name": "Iniciativa de Migración a la Nube",
+      "description": "Orquesté la migración de más de 50 aplicaciones desde infraestructura local a la nube AWS. Logré una reducción de costos del 40% mientras mejoraba la confiabilidad y escalabilidad del sistema.",
+      "technology": "AWS, Terraform, Jenkins, Docker, Kubernetes"
+    },
+    {
+      "name": "Aplicación Bancaria Móvil",
+      "description": "Desarrollé una aplicación bancaria móvil segura con autenticación biométrica, notificaciones en tiempo real e integración perfecta con sistemas bancarios backend.",
+      "technology": "React Native, Node.js, MongoDB, Firebase"
+    },
+    {
+      "name": "Pipeline de Procesamiento de Datos IoT",
+      "description": "Creé un pipeline de procesamiento de datos IoT escalable que maneja millones de eventos de dispositivos por segundo. Implementé análisis en tiempo real y sistemas de alertas para operaciones de fabricación.",
+      "technology": "Python, Apache Kafka, Elasticsearch, Azure IoT"
+    }
+  ]
+}

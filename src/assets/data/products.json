@@ -1,0 +1,68 @@
+{
+  "en": [
+    {
+      "name": "Enterprise Integration Suite",
+      "description": "Comprehensive integration platform for connecting disparate business systems and automating workflows.",
+      "comingSoon": false
+    },
+    {
+      "name": "Cloud Migration Toolkit",
+      "description": "Complete toolkit and methodology for seamless cloud migration with minimal downtime.",
+      "comingSoon": false
+    },
+    {
+      "name": "AI-Powered Analytics Dashboard",
+      "description": "Advanced analytics platform leveraging machine learning to provide actionable business insights.",
+      "comingSoon": true
+    },
+    {
+      "name": "Microservices Accelerator",
+      "description": "Framework and tools to rapidly develop, deploy, and manage microservices architectures.",
+      "comingSoon": true
+    }
+  ],
+  "fr": [
+    {
+      "name": "Suite d'Intégration d'Entreprise",
+      "description": "Plateforme d'intégration complète pour connecter des systèmes commerciaux disparates et automatiser les flux de travail.",
+      "comingSoon": false
+    },
+    {
+      "name": "Boîte à Outils de Migration Cloud",
+      "description": "Boîte à outils et méthodologie complètes pour une migration cloud transparente avec un temps d'arrêt minimal.",
+      "comingSoon": false
+    },
+    {
+      "name": "Tableau de Bord Analytique IA",
+      "description": "Plateforme d'analyse avancée exploitant l'apprentissage automatique pour fournir des informations commerciales exploitables.",
+      "comingSoon": true
+    },
+    {
+      "name": "Accélérateur de Microservices",
+      "description": "Framework et outils pour développer, déployer et gérer rapidement des architectures de microservices.",
+      "comingSoon": true
+    }
+  ],
+  "es": [
+    {
+      "name": "Suite de Integración Empresarial",
+      "description": "Plataforma de integración integral para conectar sistemas comerciales dispares y automatizar flujos de trabajo.",
+      "comingSoon": false
+    },
+    {
+      "name": "Kit de Herramientas de Migración a la Nube",
+      "description": "Kit de herramientas y metodología completa para una migración a la nube sin problemas con un tiempo de inactividad mínimo.",
+      "comingSoon": false
+    },
+    {
+      "name": "Panel de Análisis Impulsado por IA",
+      "description": "Plataforma de análisis avanzada que aprovecha el aprendizaje automático para proporcionar información comercial procesable.",
+      "comingSoon": true
+    },
+    {
+      "name": "Acelerador de Microservicios",
+      "description": "Framework y herramientas para desarrollar, implementar y gestionar rápidamente arquitecturas de microservicios.",
+      "comingSoon": true
+    }
+  ]
+}

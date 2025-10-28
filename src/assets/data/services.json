@@ -1,0 +1,80 @@
+{
+  "en": [
+    {
+      "name": "IT Strategy & Consulting",
+      "description": "Expert guidance on technology strategy, digital transformation, and IT roadmap development to align technology with business objectives."
+    },
+    {
+      "name": "Software Development",
+      "description": "Custom software solutions built with modern technologies, from web applications to enterprise systems that drive business efficiency."
+    },
+    {
+      "name": "System Architecture",
+      "description": "Design and implementation of scalable, secure, and maintainable system architectures using industry best practices."
+    },
+    {
+      "name": "Cloud Solutions",
+      "description": "Cloud migration, architecture design, and optimization services for AWS, Azure, and Google Cloud platforms."
+    },
+    {
+      "name": "DevOps & Automation",
+      "description": "Implementation of CI/CD pipelines, infrastructure as code, and automated testing to accelerate delivery and improve quality."
+    },
+    {
+      "name": "Technical Leadership",
+      "description": "Mentoring development teams, establishing coding standards, and providing technical direction for complex projects."
+    }
+  ],
+  "fr": [
+    {
+      "name": "Stratégie et Conseil IT",
+      "description": "Conseils d'experts sur la stratégie technologique, la transformation numérique et le développement de feuilles de route informatiques pour harmoniser la technologie avec les objectifs commerciaux."
+    },
+    {
+      "name": "Développement de Logiciels",
+      "description": "Solutions logicielles personnalisées construites avec des technologies modernes, des applications Web aux systèmes d'entreprise qui favorisent l'efficacité commerciale."
+    },
+    {
+      "name": "Architecture Système",
+      "description": "Conception et mise en œuvre d'architectures système évolutives, sécurisées et maintenables en utilisant les meilleures pratiques de l'industrie."
+    },
+    {
+      "name": "Solutions Cloud",
+      "description": "Services de migration, de conception d'architecture et d'optimisation cloud pour les plateformes AWS, Azure et Google Cloud."
+    },
+    {
+      "name": "DevOps et Automatisation",
+      "description": "Mise en œuvre de pipelines CI/CD, d'infrastructure en tant que code et de tests automatisés pour accélérer la livraison et améliorer la qualité."
+    },
+    {
+      "name": "Leadership Technique",
+      "description": "Encadrement des équipes de développement, établissement de normes de codage et orientation technique pour les projets complexes."
+    }
+  ],
+  "es": [
+    {
+      "name": "Estrategia y Consultoría TI",
+      "description": "Orientación experta en estrategia tecnológica, transformación digital y desarrollo de hojas de ruta de TI para alinear la tecnología con los objetivos comerciales."
+    },
+    {
+      "name": "Desarrollo de Software",
+      "description": "Soluciones de software personalizadas construidas con tecnologías modernas, desde aplicaciones web hasta sistemas empresariales que impulsan la eficiencia comercial."
+    },
+    {
+      "name": "Arquitectura de Sistemas",
+      "description": "Diseño e implementación de arquitecturas de sistemas escalables, seguras y mantenibles utilizando las mejores prácticas de la industria."
+    },
+    {
+      "name": "Soluciones en la Nube",
+      "description": "Servicios de migración, diseño de arquitectura y optimización en la nube para plataformas AWS, Azure y Google Cloud."
+    },
+    {
+      "name": "DevOps y Automatización",
+      "description": "Implementación de pipelines CI/CD, infraestructura como código y pruebas automatizadas para acelerar la entrega y mejorar la calidad."
+    },
+    {
+      "name": "Liderazgo Técnico",
+      "description": "Mentoría de equipos de desarrollo, establecimiento de estándares de codificación y dirección técnica para proyectos complejos."
+    }
+  ]
+}
