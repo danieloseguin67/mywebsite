@@ -59,25 +59,6 @@ jobs:
           # Use the Angular dist output folder for the detected project
           path: ./dist/${{ steps.extract-names.outputs.project-name }}
 
-      - name: Send build notification email
-        if: always()
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: ${{ secrets.SMTP_HOST }}
-          server_port: ${{ secrets.SMTP_PORT }}
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          from: ${{ secrets.MAIL_FROM }}
-          to: ${{ secrets.MAIL_TO }}
-          subject: Build ${{ job.status }} — ${{ github.repository }} / ${{ steps.extract-names.outputs.project-name }}
-          body: |
-            Repository: ${{ github.repository }}
-            Project: ${{ steps.extract-names.outputs.project-name }}
-            Branch: ${{ github.ref }}
-            Commit: ${{ github.sha }}
-            Status: ${{ job.status }}
-            Actions run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
   deploy:
     environment:
       name: github-pages
