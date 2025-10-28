@@ -12,8 +12,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "pages-${{ github.ref }}"
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,10 +31,18 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --prefer-offline --no-audit --progress=false
 
       - name: Build
+        # Adjust --base-href depending on whether this is a user/organization site ('/') or a project site ('/repo-name/')
         run: npm run build -- --base-href=/
+
+      - name: Show build output (for debug)
+        run: |
+          echo "Listing ./dist"
+          ls -la ./dist || true
+          echo "Listing expected site folder"
+          ls -la ./dist/daniel-seguin-website/browser || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
