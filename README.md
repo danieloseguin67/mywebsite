@@ -1,3 +1,5 @@
+# README.md
+
 # Daniel Seguin - Senior IT Consultant Website
 
 Professional Angular website showcasing the services, skills, projects, and expertise of Daniel Seguin, Senior IT Consultant.
