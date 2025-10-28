@@ -128,11 +128,37 @@ To add or modify translations, edit the `translations` object in `src/app/servic
 
 ### GitHub Pages
 
+This website is automatically deployed to GitHub Pages at [daniel.seguin.dev](https://daniel.seguin.dev) when changes are pushed to the `main` branch.
+
+#### Automatic Deployment
+
+The deployment is handled by a GitHub Actions workflow (`.github/workflows/deploy.yml`) that:
+1. Builds the Angular application in production mode
+2. Deploys the built files to GitHub Pages
+3. Configures the custom domain daniel.seguin.dev
+
+#### Manual Build
+
+To build the project manually for GitHub Pages:
+
 ```bash
-ng build --base-href /mywebsite/
+npm run build -- --base-href=/
 ```
 
-Then deploy the `dist/daniel-seguin-website/` folder to GitHub Pages.
+The build artifacts will be stored in the `dist/daniel-seguin-website/browser/` directory.
+
+#### Custom Domain Configuration
+
+The custom domain is configured via the `src/CNAME` file, which contains:
+```
+daniel.seguin.dev
+```
+
+This file is automatically copied to the build output and tells GitHub Pages to serve the site at the custom domain.
+
+**DNS Configuration**: Ensure the DNS for seguin.dev is configured with:
+- An A record pointing to GitHub Pages IP addresses, or
+- A CNAME record for `daniel` pointing to `danieloseguin67.github.io`
 
 ### Netlify/Vercel
 
