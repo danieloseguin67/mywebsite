@@ -108,3 +108,9 @@
     right: 10px;
   }
 }
+
+.nav-menu a.active {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 4px;
+}

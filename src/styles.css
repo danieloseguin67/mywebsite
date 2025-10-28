@@ -21,13 +21,9 @@ body {
 /* Sections */
 .section {
   padding: 80px 0;
-  min-height: 100vh;
+  min-height: calc(100vh - 120px);
   display: flex;
   align-items: center;
-}
-
-.section:nth-child(even) {
-  background-color: white;
 }
 
 .section h2 {

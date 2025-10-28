@@ -5,16 +5,30 @@ Professional Angular website showcasing the services, skills, projects, and expe
 ## Features
 
 - **Angular 17**: Modern Angular framework with standalone components
+- **Multi-Page Routing**: Separate pages for each section with Angular Router
 - **Multi-language Support**: Available in English, French, and Spanish
 - **Responsive Design**: Fully responsive across all devices
 - **Dynamic Content**: Services, products, skills, and projects loaded from JSON files
 - **Modern UI**: Clean, professional design with smooth animations
 - **Type-Safe**: Built with TypeScript for better code quality
 
+## Pages
+
+The website consists of 8 separate pages:
+1. **Home** (`/home`) - Hero section with welcome message
+2. **Services** (`/services`) - IT consulting services
+3. **Products** (`/products`) - Products with "Coming Soon" indicators
+4. **Skills** (`/skills`) - Technical skills with experience
+5. **Projects** (`/projects`) - Portfolio projects
+6. **Demo** (`/demo`) - Demo website templates
+7. **About Me** (`/about`) - Personal bio and information
+8. **Contact** (`/contact`) - Contact form and address
+
 ## Technology Stack
 
 - **Framework**: Angular 17
 - **Language**: TypeScript
+- **Routing**: Angular Router
 - **Styling**: CSS3
 - **Build Tool**: Angular CLI
 - **Development Server**: Vite
@@ -24,10 +38,10 @@ Professional Angular website showcasing the services, skills, projects, and expe
 ```
 src/
 ├── app/
-│   ├── components/          # All Angular components
+│   ├── components/          # All Angular components (now routed pages)
 │   │   ├── navbar/         # Navigation component
-│   │   ├── home/           # Home/Hero section
-│   │   ├── services/       # Services section
+│   │   ├── home/           # Home page
+│   │   ├── services/       # Services page
 │   │   ├── products/       # Products section
 │   │   ├── skills/         # Skills section
 │   │   ├── projects/       # Projects section

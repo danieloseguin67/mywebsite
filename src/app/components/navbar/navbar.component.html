@@ -10,14 +10,14 @@
   <div class="nav-container">
     <h1 class="logo">Daniel Seguin</h1>
     <ul class="nav-menu" [class.active]="menuOpen">
-      <li><a (click)="scrollToSection('home')">{{ translations.nav.home }}</a></li>
-      <li><a (click)="scrollToSection('services')">{{ translations.nav.services }}</a></li>
-      <li><a (click)="scrollToSection('products')">{{ translations.nav.products }}</a></li>
-      <li><a (click)="scrollToSection('skills')">{{ translations.nav.skills }}</a></li>
-      <li><a (click)="scrollToSection('projects')">{{ translations.nav.projects }}</a></li>
-      <li><a (click)="scrollToSection('demo')">{{ translations.nav.demo }}</a></li>
-      <li><a (click)="scrollToSection('about')">{{ translations.nav.about }}</a></li>
-      <li><a (click)="scrollToSection('contact')">{{ translations.nav.contact }}</a></li>
+      <li><a routerLink="/home" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.home }}</a></li>
+      <li><a routerLink="/services" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.services }}</a></li>
+      <li><a routerLink="/products" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.products }}</a></li>
+      <li><a routerLink="/skills" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.skills }}</a></li>
+      <li><a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.projects }}</a></li>
+      <li><a routerLink="/demo" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.demo }}</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.about }}</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.contact }}</a></li>
     </ul>
     <div class="hamburger" (click)="toggleMenu()">
       <span></span>
