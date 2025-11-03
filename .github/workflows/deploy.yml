@@ -47,8 +47,8 @@ jobs:
           PROJECT_NAME: ${{ env.PROJECT_NAME }}
           REPO_NAME: ${{ env.REPO_NAME }}
         run: |
-          # Build production output; base-href ensures assets are resolved for repo-hosted pages
-          npm run build -- --configuration production --project "$PROJECT_NAME" --base-href "/$REPO_NAME/"
+          # Build production output; since using custom domain, base-href is root
+          npm run build -- --configuration production --project "$PROJECT_NAME"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -56,7 +56,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist/${{ steps.extract-names.outputs.project-name }}/browser
+          path: ./dist/${{ steps.extract-names.outputs.project-name }}
 
   deploy:
     environment:
