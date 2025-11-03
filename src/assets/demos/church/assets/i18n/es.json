@@ -1,0 +1,123 @@
+{
+  "HEADER": {
+    "TITLE": "Parroquia Católica",
+    "HOME": "Inicio",
+    "PARISH": "Nuestra parroquia",
+    "CAMPAIGNS": "Campañas",
+    "MASSES": "Misas",
+    "EVENTS": "Eventos",
+    "NEWS": "Noticias",
+    "COMMITTEES": "Comités",
+    "VOLUNTEERING": "Voluntariado",
+    "CONTACT": "Contacto",
+    "DONATE": "Hacer una donación"
+  },
+  "HOME": {
+    "TITLE": "Bienvenido a nuestra parroquia",
+    "SUBTITLE": "Ustedes son el templo de Dios, la casa que Él construye.",
+    "MISSION": "Nuestra Misión",
+    "MISSION_DESC": "Proclamar el Evangelio de Jesucristo y servir a nuestra comunidad con fe, esperanza y amor.",
+    "MASS_TIMES": "Horarios de misas",
+    "MASS_TIMES_DESC": "Únase a nosotros para las celebraciones diarias y dominicales de la Santa Eucaristía.",
+    "COMMUNITY": "Comunidad",
+    "COMMUNITY_DESC": "Una familia parroquial acogedora comprometida con la adoración, el servicio y la fraternidad.",
+    "SACRAMENTS": "Sacramentos",
+    "SACRAMENTS_DESC": "Celebrando la vida sacramental y los hitos de nuestra comunidad de fe."
+  },
+  "PARISH": {
+    "TITLE": "Nuestra parroquia",
+    "ABOUT": "Acerca de nosotros",
+    "ABOUT_DESC": "Somos una comunidad católica vibrante dedicada a adorar a Dios y servir a nuestros vecinos. Nuestra parroquia está guiada por las enseñanzas de la Iglesia Católica e inspirada por el Evangelio de Jesucristo.",
+    "HISTORY": "Historia de la parroquia",
+    "HISTORY_DESC": "Nuestra parroquia tiene una rica historia de fe y servicio en nuestra comunidad. Fundada hace muchos años, continuamos creciendo en nuestro compromiso con Cristo y su Iglesia.",
+    "PASTOR": "Nuestro párroco",
+    "PASTOR_DESC": "El Padre Juan Smith ha estado sirviendo a nuestra comunidad parroquial con dedicación y cuidado pastoral.",
+    "SACRAMENTS_RITES": "Sacramentos y Ritos",
+    "LITURGICAL_FUNCTIONS": "Funciones litúrgicas"
+  },
+  "MASSES": {
+    "TITLE": "Horario de misas",
+    "WEEKDAY": "Misas de días laborables",
+    "WEEKDAY_DESC": "Lunes - Viernes: 7:00 AM y 12:10 PM",
+    "SATURDAY": "Misas del sábado",
+    "SATURDAY_DESC": "Misa de vigilia: 5:00 PM",
+    "SUNDAY": "Misas dominicales",
+    "SUNDAY_DESC": "8:00 AM, 10:00 AM, 12:00 PM y 5:00 PM",
+    "HOLY_DAYS": "Días santos de obligación",
+    "HOLY_DAYS_DESC": "Por favor, consulte el boletín para los horarios especiales de misas en los días santos.",
+    "VIRTUAL": "Misas virtuales",
+    "VIRTUAL_DESC": "Únase a nosotros en línea para las celebraciones transmitidas en vivo.",
+    "INTENTIONS": "Intenciones de misa",
+    "INTENTIONS_DESC": "Solicite que se ofrezca una misa por sus intenciones."
+  },
+  "EVENTS": {
+    "TITLE": "Eventos parroquiales",
+    "UPCOMING": "Próximos eventos",
+    "CALENDAR": "Calendario de eventos",
+    "CALENDAR_DESC": "Manténgase conectado con nuestra comunidad parroquial a través de diversos eventos y actividades durante todo el año."
+  },
+  "NEWS": {
+    "TITLE": "Noticias parroquiales",
+    "BULLETIN": "Boletín semanal",
+    "BULLETIN_DESC": "Lea nuestro último boletín parroquial para anuncios, próximos eventos y reflexiones espirituales.",
+    "ANNOUNCEMENTS": "Anuncios"
+  },
+  "COMMITTEES": {
+    "TITLE": "Comités parroquiales",
+    "DESCRIPTION": "Nuestros comités parroquiales ayudan a organizar y apoyar diversos aspectos de la vida parroquial. ¡Involúcrese y comparta sus talentos!",
+    "LITURGY": "Comité de liturgia",
+    "LITURGY_DESC": "Planifica y coordina las celebraciones litúrgicas y mejora nuestra experiencia de adoración.",
+    "FINANCE": "Consejo de finanzas",
+    "FINANCE_DESC": "Proporciona supervisión y orientación para la administración financiera de la parroquia.",
+    "PASTORAL": "Consejo pastoral",
+    "PASTORAL_DESC": "Asesora al párroco sobre asuntos pastorales y planificación parroquial."
+  },
+  "VOLUNTEERING": {
+    "TITLE": "Oportunidades de voluntariado",
+    "DESCRIPTION": "Hay muchas formas de servir en nuestra comunidad parroquial. Su tiempo y talentos son dones que ayudan a construir el Reino de Dios.",
+    "OPPORTUNITIES": "Oportunidades actuales",
+    "LECTORS": "Lectores",
+    "LECTORS_DESC": "Proclamar la Palabra de Dios durante la misa.",
+    "EUCHARISTIC": "Ministros de la Eucaristía",
+    "EUCHARISTIC_DESC": "Ayudar en la distribución de la Sagrada Comunión.",
+    "USHERS": "Ujieres y recepcionistas",
+    "USHERS_DESC": "Dar la bienvenida a los feligreses y ayudar durante la misa.",
+    "CHOIR": "Coro",
+    "CHOIR_DESC": "Compartir sus talentos musicales en las celebraciones litúrgicas."
+  },
+  "CAMPAIGNS": {
+    "TITLE": "Campañas parroquiales",
+    "DESCRIPTION": "Apoye nuestras iniciativas parroquiales y campañas especiales que nos ayudan a servir a nuestra comunidad y mantener nuestras instalaciones.",
+    "CAPITAL": "Campaña de capital",
+    "CAPITAL_DESC": "Ayúdenos con las mejoras y renovaciones del edificio.",
+    "ANNUAL": "Campaña anual",
+    "ANNUAL_DESC": "Su donación anual apoya nuestros ministerios parroquiales y programas de extensión."
+  },
+  "DONATION": {
+    "TITLE": "Hacer una donación",
+    "DESCRIPTION": "Su generoso apoyo ayuda a nuestra parroquia a continuar su misión de adoración, servicio y evangelización.",
+    "ONLINE": "Dar en línea",
+    "ONLINE_DESC": "Hacer una donación segura en línea a través de nuestra plataforma de donaciones.",
+    "MAIL": "Dar por correo",
+    "MAIL_DESC": "Envíe su donación a la oficina parroquial.",
+    "PERSON": "Dar en persona",
+    "PERSON_DESC": "Deje su donación en la oficina parroquial o colóquela en la canasta de colecta durante la misa.",
+    "WAYS": "Formas de dar",
+    "THANK_YOU": "¡Gracias por su generosidad!"
+  },
+  "CONTACT": {
+    "TITLE": "Contáctenos",
+    "ADDRESS_TITLE": "Oficina parroquial",
+    "PHONE": "Teléfono",
+    "EMAIL": "Correo electrónico",
+    "OFFICE_HOURS": "Horario de oficina",
+    "OFFICE_HOURS_DESC": "Lunes - Viernes: 9:00 AM - 5:00 PM",
+    "MAP_TITLE": "Encuéntrenos",
+    "MAP_VIEW": "Vista del mapa",
+    "MAP_NOTE": "La integración con Google Maps o un servicio de mapas similar iría aquí"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2025 Parroquia Católica. Todos los derechos reservados.",
+    "LOCATION": "Montreal, QC, Canadá"
+  }
+}

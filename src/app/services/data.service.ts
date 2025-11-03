@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { ServiceData } from '../models/service.model';
 import { ProductData } from '../models/product.model';
 import { SkillData } from '../models/skill.model';
 import { ProjectData } from '../models/project.model';
+import { TestimonialData, Testimonial } from '../models/testimonial.model';
 
 @Injectable({
   providedIn: 'root'
@@ -27,5 +28,11 @@ export class DataService {
 
   getProjects(): Observable<ProjectData> {
     return this.http.get<ProjectData>('assets/data/projects.json');
+  }
+
+  getTestimonials(language: string = 'en'): Observable<Testimonial[]> {
+    return this.http.get<TestimonialData>('assets/data/testimonials.json').pipe(
+      map((data: TestimonialData) => data[language as keyof TestimonialData] || data.en)
+    );
   }
 }

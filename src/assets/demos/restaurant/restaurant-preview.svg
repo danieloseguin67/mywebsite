@@ -1,0 +1,62 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f7fafc"/>
+  
+  <!-- Header -->
+  <rect width="800" height="70" fill="#2d3748"/>
+  <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Bella Vista Restaurant</text>
+  
+  <!-- Navigation -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="16" fill="#f6e05e">Home</text>
+  <text x="460" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Menu</text>
+  <text x="520" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">About</text>
+  <text x="590" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Reservations</text>
+  <text x="690" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Contact</text>
+  
+  <!-- Main Content Area -->
+  <rect x="50" y="100" width="700" height="480" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Hero Section -->
+  <rect x="70" y="120" width="660" height="200" fill="#fed7d7"/>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#742a2a" text-anchor="middle">Fine Dining Experience</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" fill="#744210" text-anchor="middle">Authentic Italian cuisine in an elegant atmosphere</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="16" fill="#744210" text-anchor="middle">Open Daily • Reservations Recommended</text>
+  
+  <!-- Chef Hat Icon -->
+  <g transform="translate(400, 155)">
+    <ellipse cx="0" cy="5" rx="15" ry="8" fill="#744210"/>
+    <ellipse cx="0" cy="-5" rx="12" ry="15" fill="white" stroke="#744210" stroke-width="2"/>
+    <ellipse cx="0" cy="-8" rx="8" ry="12" fill="white"/>
+  </g>
+  
+  <!-- Features Section -->
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#742a2a" text-anchor="middle">What We Offer</text>
+  
+  <!-- Feature Card 1 - Menu -->
+  <rect x="90" y="400" width="180" height="120" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="180" cy="430" r="15" fill="#e53e3e"/>
+  <text x="180" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🍝</text>
+  <text x="180" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#742a2a" text-anchor="middle">Gourmet Menu</text>
+  <text x="180" y="480" font-family="Arial, sans-serif" font-size="12" fill="#744210" text-anchor="middle">Fresh Pasta</text>
+  <text x="180" y="495" font-family="Arial, sans-serif" font-size="12" fill="#744210" text-anchor="middle">Wood-fired Pizza</text>
+  
+  <!-- Feature Card 2 - Wine -->
+  <rect x="290" y="400" width="180" height="120" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="380" cy="430" r="15" fill="#9f7aea"/>
+  <text x="380" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🍷</text>
+  <text x="380" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#742a2a" text-anchor="middle">Wine Selection</text>
+  <text x="380" y="480" font-family="Arial, sans-serif" font-size="12" fill="#744210" text-anchor="middle">Italian Vintages</text>
+  <text x="380" y="495" font-family="Arial, sans-serif" font-size="12" fill="#744210" text-anchor="middle">Sommelier Picks</text>
+  
+  <!-- Feature Card 3 - Atmosphere -->
+  <rect x="490" y="400" width="180" height="120" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="580" cy="430" r="15" fill="#38b2ac"/>
+  <text x="580" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✨</text>
+  <text x="580" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#742a2a" text-anchor="middle">Ambiance</text>
+  <text x="580" y="480" font-family="Arial, sans-serif" font-size="12" fill="#744210" text-anchor="middle">Romantic Setting</text>
+  <text x="580" y="495" font-family="Arial, sans-serif" font-size="12" fill="#744210" text-anchor="middle">Live Music</text>
+  
+  <!-- Footer -->
+  <rect x="50" y="550" width="700" height="30" fill="#2d3748"/>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">© 2025 Bella Vista Restaurant - Taste • Tradition • Excellence</text>
+</svg>

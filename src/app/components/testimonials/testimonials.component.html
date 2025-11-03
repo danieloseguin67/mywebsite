@@ -1,0 +1,18 @@
+<div class="testimonials-container">
+  <div class="content-section">
+    <h1>{{ translations.testimonials.title }}</h1>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card" *ngFor="let testimonial of testimonials">
+        <div class="testimonial-content">
+          <p class="testimonial-text">"{{ testimonial.testimonial }}"</p>
+        </div>
+        <div class="testimonial-author">
+          <h3 class="author-name">{{ testimonial.name }}</h3>
+          <p class="author-position">{{ testimonial.position }}</p>
+          <p class="author-company">{{ testimonial.company }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

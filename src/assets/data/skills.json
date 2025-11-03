@@ -1,128 +1,143 @@
 {
   "en": [
     {
-      "name": "JavaScript / TypeScript",
-      "description": "Expert-level proficiency in modern JavaScript and TypeScript for building scalable web applications and Node.js services.",
+      "name": "AI Developer",
+      "description": "Worked with Github Copilot as a colleague, and assigned particular programming and validating tasks to improve the overall development process.",
+      "experience": "2 years"
+    },
+    {
+      "name": "Python",
+      "description": "Advanced Python development for backend services, data processing, automation, migration, and machine learning applications.",
+      "experience": "2 years"
+    },
+    {
+      "name": "Cloud Platforms (AWS, Azure, Power Platform)",
+      "description": "Comprehensive experience in designing, deploying, and managing applications across major cloud platforms.",
+      "experience": "4 years"
+    },
+    {
+      "name": "Java / Spring / MVC / Oracle and Open JDK",
+      "description": "Enterprise Java development with Spring Framework for building robust, scalable microservices and applications.",
+      "experience": "5 years+"
+    },
+    {
+      "name": "PowerBuilder",
+      "description": "Expert-level proficiency in developing and maintening applications.",
       "experience": "10+ years"
     },
     {
-      "name": "Python",
-      "description": "Advanced Python development for backend services, data processing, automation, and machine learning applications.",
-      "experience": "8 years"
+      "name": "Website Frontend Development (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+      "description": "Modern frontend development using popular frameworks for building interactive user interfaces connected to SQL Server Databases.",
+      "experience": "10 years"
     },
     {
-      "name": "Java / Spring",
-      "description": "Enterprise Java development with Spring Framework for building robust, scalable microservices and applications.",
-      "experience": "12 years"
+      "name": "Informix 4gl / Fourgen Case Tools / Genero",
+      "description": "Developing and maintaining applications in Informix 4gl connected to either Informix, Sql Server, and Oracle",
+      "experience": "20 years+"
     },
     {
-      "name": "Cloud Platforms (AWS, Azure, GCP)",
-      "description": "Comprehensive experience in designing, deploying, and managing applications across major cloud platforms.",
-      "experience": "7 years"
+      "name": "Informix, Oracle, and SQL Server Databases",
+      "description": "Database design, development, maintenance, and optimizations.",
+      "experience": "20 years+"
     },
     {
-      "name": "Docker & Kubernetes",
-      "description": "Container orchestration and management for building cloud-native applications and microservices.",
-      "experience": "6 years"
-    },
-    {
-      "name": "React / Angular / Vue",
-      "description": "Modern frontend development using popular JavaScript frameworks for building interactive user interfaces.",
-      "experience": "8 years"
-    },
-    {
-      "name": "SQL & NoSQL Databases",
-      "description": "Database design and optimization with PostgreSQL, MySQL, MongoDB, and other database technologies.",
-      "experience": "12 years"
-    },
-    {
-      "name": "CI/CD & DevOps",
-      "description": "Implementing automated pipelines, infrastructure as code, and DevOps best practices.",
-      "experience": "7 years"
+      "name": "BI Reporting",
+      "description": "SSRS, SAP Business Objects, Power BI report development and maintenance.",
+      "experience": "5 years+"
     }
   ],
   "fr": [
-    {
-      "name": "JavaScript / TypeScript",
-      "description": "Maîtrise experte de JavaScript moderne et TypeScript pour créer des applications Web évolutives et des services Node.js.",
-      "experience": "10+ ans"
-    },
-    {
-      "name": "Python",
-      "description": "Développement Python avancé pour les services backend, le traitement des données, l'automatisation et les applications d'apprentissage automatique.",
-      "experience": "8 ans"
-    },
-    {
-      "name": "Java / Spring",
-      "description": "Développement Java d'entreprise avec Spring Framework pour créer des microservices et applications robustes et évolutifs.",
-      "experience": "12 ans"
-    },
-    {
-      "name": "Plateformes Cloud (AWS, Azure, GCP)",
-      "description": "Expérience complète dans la conception, le déploiement et la gestion d'applications sur les principales plateformes cloud.",
-      "experience": "7 ans"
-    },
-    {
-      "name": "Docker & Kubernetes",
-      "description": "Orchestration et gestion de conteneurs pour créer des applications cloud-native et des microservices.",
-      "experience": "6 ans"
-    },
-    {
-      "name": "React / Angular / Vue",
-      "description": "Développement frontend moderne utilisant des frameworks JavaScript populaires pour créer des interfaces utilisateur interactives.",
-      "experience": "8 ans"
-    },
-    {
-      "name": "Bases de Données SQL & NoSQL",
-      "description": "Conception et optimisation de bases de données avec PostgreSQL, MySQL, MongoDB et d'autres technologies de bases de données.",
-      "experience": "12 ans"
-    },
-    {
-      "name": "CI/CD & DevOps",
-      "description": "Mise en œuvre de pipelines automatisés, infrastructure en tant que code et meilleures pratiques DevOps.",
-      "experience": "7 ans"
-    }
+  {
+    "nom": "Développeur IA collaborant avec GitHub Copilot Agent",
+    "description": "Développement avancé en Python pour les services backend, le traitement de données, l'automatisation, la migration et les applications d'apprentissage automatique.",
+    "experience": "2 ans"
+  },
+  {
+    "nom": "Python",
+    "description": "Développement avancé en Python pour les services backend, le traitement de données, l'automatisation, la migration et les applications d'apprentissage automatique.",
+    "experience": "2 ans"
+  },
+  {
+    "nom": "Plateformes Cloud (AWS, Azure, Power Platform)",
+    "description": "Expérience complète dans la conception, le déploiement et la gestion d'applications sur les principales plateformes cloud.",
+    "experience": "4 ans"
+  },
+  {
+    "nom": "Java / Spring / MVC / Oracle et Open JDK",
+    "description": "Développement d'applications d'entreprise en Java avec le framework Spring pour créer des microservices et des applications robustes et évolutives.",
+    "experience": "Plus de 5 ans"
+  },
+  {
+    "nom": "PowerBuilder",
+    "description": "Maîtrise experte du développement et de la maintenance d'applications.",
+    "experience": "Plus de 10 ans"
+  },
+  {
+    "nom": "Développement Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+    "description": "Développement frontend moderne avec des frameworks populaires pour créer des interfaces utilisateur interactives connectées à des bases de données SQL Server.",
+    "experience": "10 ans"
+  },
+  {
+    "nom": "Informix 4GL / Fourgen Case Tools / Genero",
+    "description": "Orchestration et gestion de conteneurs pour la création d'applications et de microservices cloud-native.",
+    "experience": "Plus de 20 ans"
+  },
+  {
+    "nom": "Bases de données Informix, Oracle et SQL Server",
+    "description": "Conception, développement, maintenance et optimisation de bases de données.",
+    "experience": "Plus de 20 ans"
+  },
+  {
+  "nom": "Rapports BI",
+  "description": "Développement et maintenance de rapports SSRS, SAP Business Objects et Power BI.",
+  "expérience": "5 ans et plus"
+  }
   ],
   "es": [
-    {
-      "name": "JavaScript / TypeScript",
-      "description": "Dominio de nivel experto en JavaScript moderno y TypeScript para construir aplicaciones web escalables y servicios Node.js.",
-      "experience": "10+ años"
-    },
-    {
-      "name": "Python",
-      "description": "Desarrollo avanzado de Python para servicios backend, procesamiento de datos, automatización y aplicaciones de aprendizaje automático.",
-      "experience": "8 años"
-    },
-    {
-      "name": "Java / Spring",
-      "description": "Desarrollo Java empresarial con Spring Framework para construir microservicios y aplicaciones robustos y escalables.",
-      "experience": "12 años"
-    },
-    {
-      "name": "Plataformas en la Nube (AWS, Azure, GCP)",
-      "description": "Experiencia integral en diseño, implementación y gestión de aplicaciones en las principales plataformas de nube.",
-      "experience": "7 años"
-    },
-    {
-      "name": "Docker & Kubernetes",
-      "description": "Orquestación y gestión de contenedores para construir aplicaciones nativas de la nube y microservicios.",
-      "experience": "6 años"
-    },
-    {
-      "name": "React / Angular / Vue",
-      "description": "Desarrollo frontend moderno utilizando frameworks JavaScript populares para construir interfaces de usuario interactivas.",
-      "experience": "8 años"
-    },
-    {
-      "name": "Bases de Datos SQL y NoSQL",
-      "description": "Diseño y optimización de bases de datos con PostgreSQL, MySQL, MongoDB y otras tecnologías de bases de datos.",
-      "experience": "12 años"
-    },
-    {
-      "name": "CI/CD & DevOps",
-      "description": "Implementación de pipelines automatizados, infraestructura como código y mejores prácticas de DevOps.",
-      "experience": "7 años"
-    }
+  {
+    "nombre": "Desarrollador de IA en colaboración con GitHub Copilot Agent",
+    "descripcion": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
+    "experiencia": "2 años"
+  },
+  {
+    "nombre": "Python",
+    "descripcion": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
+    "experiencia": "2 años"
+  },
+  {
+    "nombre": "Plataformas en la nube (AWS, Azure, Power Platform)",
+    "descripcion": "Experiencia integral en diseño, implementación y gestión de aplicaciones en las principales plataformas en la nube.",
+    "experiencia": "4 años"
+  },
+  {
+    "nombre": "Java / Spring / MVC / Oracle y Open JDK",
+    "descripcion": "Desarrollo empresarial en Java con el framework Spring para construir microservicios y aplicaciones robustas y escalables.",
+    "experiencia": "Más de 5 años"
+  },
+  {
+    "nombre": "PowerBuilder",
+    "descripcion": "Dominio experto en el desarrollo y mantenimiento de aplicaciones.",
+    "experiencia": "Más de 10 años"
+  },
+  {
+    "nombre": "Desarrollo Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+    "descripcion": "Desarrollo frontend moderno utilizando frameworks populares para construir interfaces de usuario interactivas conectadas a bases de datos SQL Server.",
+    "experiencia": "10 años"
+  },
+  {
+    "nombre": "Informix 4GL / Fourgen Case Tools / Genero",
+    "descripcion": "Orquestación y gestión de contenedores para construir aplicaciones nativas en la nube y microservicios.",
+    "experiencia": "Más de 20 años"
+  },
+  {
+    "nombre": "Bases de datos Informix, Oracle y SQL Server",
+    "descripcion": "Diseño, desarrollo, mantenimiento y optimización de bases de datos.",
+    "experiencia": "Más de 20 años"
+  },
+  {
+    "nombre": "Informes BI",
+    "descripción": "Desarrollo y mantenimiento de informes en SSRS, SAP Business Objects y Power BI.",
+    "experiencia": "Más de 5 años"
+  }
   ]
 }

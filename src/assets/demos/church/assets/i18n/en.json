@@ -1,0 +1,123 @@
+{
+  "HEADER": {
+    "TITLE": "Catholic Parish",
+    "HOME": "Home",
+    "PARISH": "Our Parish",
+    "CAMPAIGNS": "Campaigns",
+    "MASSES": "Masses",
+    "EVENTS": "Events",
+    "NEWS": "News",
+    "COMMITTEES": "Committees",
+    "VOLUNTEERING": "Volunteering",
+    "CONTACT": "Contact",
+    "DONATE": "Make a Donation"
+  },
+  "HOME": {
+    "TITLE": "Welcome to Our Parish",
+    "SUBTITLE": "You are the temple of God, the house that He builds.",
+    "MISSION": "Our Mission",
+    "MISSION_DESC": "To proclaim the Gospel of Jesus Christ and serve our community with faith, hope, and love.",
+    "MASS_TIMES": "Mass Times",
+    "MASS_TIMES_DESC": "Join us for daily and Sunday celebrations of the Holy Eucharist.",
+    "COMMUNITY": "Community",
+    "COMMUNITY_DESC": "A welcoming parish family committed to worship, service, and fellowship.",
+    "SACRAMENTS": "Sacraments",
+    "SACRAMENTS_DESC": "Celebrating the sacramental life and milestones of our faith community."
+  },
+  "PARISH": {
+    "TITLE": "Our Parish",
+    "ABOUT": "About Us",
+    "ABOUT_DESC": "We are a vibrant Catholic community dedicated to worshiping God and serving our neighbors. Our parish is guided by the teachings of the Catholic Church and inspired by the Gospel of Jesus Christ.",
+    "HISTORY": "Parish History",
+    "HISTORY_DESC": "Our parish has a rich history of faith and service in our community. Founded many years ago, we continue to grow in our commitment to Christ and His Church.",
+    "PASTOR": "Our Pastor",
+    "PASTOR_DESC": "Father John Smith has been serving our parish community with dedication and pastoral care.",
+    "SACRAMENTS_RITES": "Sacraments and Rites",
+    "LITURGICAL_FUNCTIONS": "Liturgical Functions"
+  },
+  "MASSES": {
+    "TITLE": "Mass Schedule",
+    "WEEKDAY": "Weekday Masses",
+    "WEEKDAY_DESC": "Monday - Friday: 7:00 AM and 12:10 PM",
+    "SATURDAY": "Saturday Masses",
+    "SATURDAY_DESC": "Vigil Mass: 5:00 PM",
+    "SUNDAY": "Sunday Masses",
+    "SUNDAY_DESC": "8:00 AM, 10:00 AM, 12:00 PM, and 5:00 PM",
+    "HOLY_DAYS": "Holy Days of Obligation",
+    "HOLY_DAYS_DESC": "Please check the bulletin for special Mass times on Holy Days.",
+    "VIRTUAL": "Virtual Masses",
+    "VIRTUAL_DESC": "Join us online for livestreamed celebrations.",
+    "INTENTIONS": "Mass Intentions",
+    "INTENTIONS_DESC": "Request a Mass to be offered for your intentions."
+  },
+  "EVENTS": {
+    "TITLE": "Parish Events",
+    "UPCOMING": "Upcoming Events",
+    "CALENDAR": "Event Calendar",
+    "CALENDAR_DESC": "Stay connected with our parish community through various events and activities throughout the year."
+  },
+  "NEWS": {
+    "TITLE": "Parish News",
+    "BULLETIN": "Weekly Bulletin",
+    "BULLETIN_DESC": "Read our latest parish bulletin for announcements, upcoming events, and spiritual reflections.",
+    "ANNOUNCEMENTS": "Announcements"
+  },
+  "COMMITTEES": {
+    "TITLE": "Parish Committees",
+    "DESCRIPTION": "Our parish committees help organize and support various aspects of parish life. Get involved and share your talents!",
+    "LITURGY": "Liturgy Committee",
+    "LITURGY_DESC": "Plans and coordinates liturgical celebrations and enhances our worship experience.",
+    "FINANCE": "Finance Council",
+    "FINANCE_DESC": "Provides oversight and guidance for the parish's financial stewardship.",
+    "PASTORAL": "Pastoral Council",
+    "PASTORAL_DESC": "Advises the pastor on pastoral matters and parish planning."
+  },
+  "VOLUNTEERING": {
+    "TITLE": "Volunteer Opportunities",
+    "DESCRIPTION": "There are many ways to serve in our parish community. Your time and talents are gifts that help build the Kingdom of God.",
+    "OPPORTUNITIES": "Current Opportunities",
+    "LECTORS": "Lectors",
+    "LECTORS_DESC": "Proclaim the Word of God during Mass.",
+    "EUCHARISTIC": "Eucharistic Ministers",
+    "EUCHARISTIC_DESC": "Assist in the distribution of Holy Communion.",
+    "USHERS": "Ushers and Greeters",
+    "USHERS_DESC": "Welcome parishioners and assist during Mass.",
+    "CHOIR": "Choir",
+    "CHOIR_DESC": "Share your musical talents in liturgical celebrations."
+  },
+  "CAMPAIGNS": {
+    "TITLE": "Parish Campaigns",
+    "DESCRIPTION": "Support our parish initiatives and special campaigns that help us serve our community and maintain our facilities.",
+    "CAPITAL": "Capital Campaign",
+    "CAPITAL_DESC": "Help us with building improvements and renovations.",
+    "ANNUAL": "Annual Appeal",
+    "ANNUAL_DESC": "Your annual gift supports our parish ministries and outreach programs."
+  },
+  "DONATION": {
+    "TITLE": "Make a Donation",
+    "DESCRIPTION": "Your generous support helps our parish continue its mission of worship, service, and evangelization.",
+    "ONLINE": "Give Online",
+    "ONLINE_DESC": "Make a secure online donation through our giving platform.",
+    "MAIL": "Give by Mail",
+    "MAIL_DESC": "Send your donation to our parish office.",
+    "PERSON": "Give in Person",
+    "PERSON_DESC": "Drop off your donation at the parish office or place it in the collection basket at Mass.",
+    "WAYS": "Ways to Give",
+    "THANK_YOU": "Thank you for your generosity!"
+  },
+  "CONTACT": {
+    "TITLE": "Contact Us",
+    "ADDRESS_TITLE": "Parish Office",
+    "PHONE": "Phone",
+    "EMAIL": "Email",
+    "OFFICE_HOURS": "Office Hours",
+    "OFFICE_HOURS_DESC": "Monday - Friday: 9:00 AM - 5:00 PM",
+    "MAP_TITLE": "Find Us",
+    "MAP_VIEW": "Map View",
+    "MAP_NOTE": "Integration with Google Maps or similar mapping service would go here"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2025 Catholic Parish. All rights reserved.",
+    "LOCATION": "Montreal, QC, Canada"
+  }
+}

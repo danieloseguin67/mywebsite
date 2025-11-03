@@ -1,5 +1,22 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable, of, from } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { map, catchError } from 'rxjs/operators';
+import emailjs from '@emailjs/browser';
+import { environment } from '../../environments/environment';
+
+export interface EmailData {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
+
+export interface EmailResponse {
+  success: boolean;
+  message: string;
+  timestamp: string;
+}
 
 export interface Translations {
   nav: {
@@ -11,6 +28,7 @@ export interface Translations {
     demo: string;
     about: string;
     contact: string;
+    testimonials: string;
   };
   home: {
     title: string;
@@ -20,6 +38,7 @@ export interface Translations {
   products: { title: string };
   skills: { title: string };
   projects: { title: string };
+  testimonials: { title: string };
   demo: {
     title: string;
     service: string;
@@ -28,6 +47,12 @@ export interface Translations {
     store: string;
     church: string;
     placeholder: string;
+    introduction: {
+      title: string;
+      paragraph1: string;
+      paragraph2: string;
+      callToAction: string;
+    };
   };
   about: {
     title: string;
@@ -65,7 +90,8 @@ export class TranslationService {
         projects: 'Projects',
         demo: 'Demo',
         about: 'About Me',
-        contact: 'Contact Me'
+        contact: 'Contact Me',
+        testimonials: 'Customer Testimonials'
       },
       home: {
         title: 'Welcome to Daniel Seguin Consultant',
@@ -75,6 +101,7 @@ export class TranslationService {
       products: { title: 'Products' },
       skills: { title: 'Skills' },
       projects: { title: 'Projects' },
+      testimonials: { title: 'Customer Testimonials' },
       demo: {
         title: 'Demo Websites',
         service: 'Service Industry Website',
@@ -82,7 +109,13 @@ export class TranslationService {
         manufacturing: 'Manufacturing Industry Website',
         store: 'Store Industry Website',
         church: 'Church Website',
-        placeholder: 'Demo Coming Soon'
+        placeholder: 'Demo Coming Soon',
+        introduction: {
+          title: 'Professional Website Design for Every Industry',
+          paragraph1: 'Your website is more than just an online presence—it\'s your brand\'s first impression. I specialize in creating modern, responsive, and visually appealing websites tailored to your business needs. Whether you run a service company, restaurant, manufacturing firm, retail store, or a community organization, I design websites that combine functionality, aesthetics, and user experience to help you stand out.',
+          paragraph2: 'Explore my demo websites below to see how I bring ideas to life across different industries. Each design is crafted to be easy to navigate, mobile-friendly, and optimized for performance, ensuring your visitors have a seamless experience.',
+          callToAction: 'Ready to elevate your online presence? Let\'s build a website that works for you.'
+        }
       },
       about: {
         title: 'About Me',
@@ -111,7 +144,8 @@ export class TranslationService {
         projects: 'Projets',
         demo: 'Démo',
         about: 'À Propos',
-        contact: 'Me Contacter'
+        contact: 'Me Contacter',
+        testimonials: 'Témoignages Clients'
       },
       home: {
         title: 'Bienvenue chez Daniel Seguin Consultant',
@@ -121,6 +155,7 @@ export class TranslationService {
       products: { title: 'Produits' },
       skills: { title: 'Compétences' },
       projects: { title: 'Projets' },
+      testimonials: { title: 'Témoignages Clients' },
       demo: {
         title: 'Sites Web de Démonstration',
         service: 'Site Web Industrie des Services',
@@ -128,7 +163,13 @@ export class TranslationService {
         manufacturing: 'Site Web Industrie Manufacturière',
         store: 'Site Web Industrie du Commerce',
         church: 'Site Web d\'Église',
-        placeholder: 'Démo Bientôt Disponible'
+        placeholder: 'Démo Bientôt Disponible',
+        introduction: {
+          title: 'Conception de Sites Web Professionnels pour Chaque Industrie',
+          paragraph1: 'Votre site web est bien plus qu\'une simple présence en ligne—c\'est la première impression de votre marque. Je me spécialise dans la création de sites web modernes, adaptatifs et visuellement attrayants, conçus sur mesure selon les besoins de votre entreprise. Que vous dirigiez une entreprise de services, un restaurant, une firme manufacturière, un magasin de détail ou une organisation communautaire, je conçois des sites web qui combinent fonctionnalité, esthétique et expérience utilisateur pour vous aider à vous démarquer.',
+          paragraph2: 'Explorez mes sites web de démonstration ci-dessous pour voir comment je donne vie aux idées à travers différentes industries. Chaque design est conçu pour être facile à naviguer, compatible avec les appareils mobiles et optimisé pour la performance, garantissant à vos visiteurs une expérience fluide.',
+          callToAction: 'Prêt à élever votre présence en ligne? Construisons ensemble un site web qui fonctionne pour vous.'
+        }
       },
       about: {
         title: 'À Propos de Moi',
@@ -157,7 +198,8 @@ export class TranslationService {
         projects: 'Proyectos',
         demo: 'Demo',
         about: 'Acerca de Mí',
-        contact: 'Contáctame'
+        contact: 'Contáctame',
+        testimonials: 'Testimonios de Clientes'
       },
       home: {
         title: 'Bienvenido a Daniel Seguin Consultant',
@@ -167,6 +209,7 @@ export class TranslationService {
       products: { title: 'Productos' },
       skills: { title: 'Habilidades' },
       projects: { title: 'Proyectos' },
+      testimonials: { title: 'Testimonios de Clientes' },
       demo: {
         title: 'Sitios Web de Demostración',
         service: 'Sitio Web de Industria de Servicios',
@@ -174,7 +217,13 @@ export class TranslationService {
         manufacturing: 'Sitio Web de Industria Manufacturera',
         store: 'Sitio Web de Industria de Tiendas',
         church: 'Sitio Web de Iglesia',
-        placeholder: 'Demo Próximamente'
+        placeholder: 'Demo Próximamente',
+        introduction: {
+          title: 'Diseño de Sitios Web Profesionales para Cada Industria',
+          paragraph1: 'Su sitio web es más que solo una presencia en línea—es la primera impresión de su marca. Me especializo en crear sitios web modernos, responsivos y visualmente atractivos, adaptados a las necesidades de su negocio. Ya sea que dirija una empresa de servicios, restaurante, firma manufacturera, tienda minorista o una organización comunitaria, diseño sitios web que combinan funcionalidad, estética y experiencia del usuario para ayudarle a destacarse.',
+          paragraph2: 'Explore mis sitios web de demostración a continuación para ver cómo doy vida a las ideas en diferentes industrias. Cada diseño está elaborado para ser fácil de navegar, compatible con dispositivos móviles y optimizado para el rendimiento, asegurando que sus visitantes tengan una experiencia perfecta.',
+          callToAction: '¿Listo para elevar su presencia en línea? Construyamos un sitio web que funcione para usted.'
+        }
       },
       about: {
         title: 'Acerca de Mí',
@@ -196,7 +245,12 @@ export class TranslationService {
     }
   };
 
-  constructor() {}
+  constructor(private http: HttpClient) {
+    // Initialize EmailJS with your public key from environment
+    if (environment.emailjs.publicKey !== 'YOUR_ACTUAL_PUBLIC_KEY') {
+      emailjs.init(environment.emailjs.publicKey);
+    }
+  }
 
   setLanguage(lang: string): void {
     this.currentLangSubject.next(lang);
@@ -209,5 +263,69 @@ export class TranslationService {
   getTranslations(lang?: string): Translations {
     const currentLang = lang || this.currentLangSubject.value;
     return this.translations[currentLang] || this.translations['en'];
+  }
+
+  sendEmail(emailData: EmailData): Observable<EmailResponse> {
+    // EmailJS Implementation
+    // You need to:
+    // 1. Sign up at https://emailjs.com/
+    // 2. Create an email service (Gmail, Outlook, etc.)
+    // 3. Create an email template
+    // 4. Replace the placeholders below with your actual values
+    
+    const templateParams = {
+      from_name: emailData.name,
+      from_email: emailData.email,
+      subject: emailData.subject,
+      message: emailData.message,
+      to_email: 'daniel@seguin.dev' // Your email address
+    };
+
+    // Replace these with your actual EmailJS values from environment:
+    const SERVICE_ID = environment.emailjs.serviceId;
+    const TEMPLATE_ID = environment.emailjs.templateId;
+
+    // Check if EmailJS is properly configured
+    if (SERVICE_ID === 'YOUR_ACTUAL_SERVICE_ID' || TEMPLATE_ID === 'YOUR_ACTUAL_TEMPLATE_ID') {
+      console.error('❌ EmailJS not configured! Please set up your SERVICE_ID and TEMPLATE_ID');
+      console.log('📧 To set up EmailJS:');
+      console.log('1. Go to https://emailjs.com/ and create an account');
+      console.log('2. Add an email service (Gmail, Outlook, etc.)');
+      console.log('3. Create an email template');
+      console.log('4. Get your Service ID, Template ID, and Public Key');
+      console.log('5. Update the values in this service');
+      
+      return of({
+        success: false,
+        message: 'Email service not configured. Please contact administrator.',
+        timestamp: new Date().toISOString()
+      });
+    }
+
+    // Send email using EmailJS
+    const emailPromise = emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams);
+    
+    return from(emailPromise).pipe(
+      map((response: any) => ({
+        success: true,
+        message: 'Email sent successfully!',
+        timestamp: new Date().toISOString()
+      } as EmailResponse)),
+      catchError((error: any) => {
+        console.error('EmailJS Error:', error);
+        return of({
+          success: false,
+          message: 'Failed to send email. Please try again later.',
+          timestamp: new Date().toISOString()
+        } as EmailResponse);
+      })
+    );
+  }
+
+  // Alternative method using backend API (recommended for production)
+  sendEmailViaBackend(emailData: EmailData): Observable<EmailResponse> {
+    // This method would call your backend API
+    // Example implementation:
+    return this.http.post<EmailResponse>('/api/send-email', emailData);
   }
 }

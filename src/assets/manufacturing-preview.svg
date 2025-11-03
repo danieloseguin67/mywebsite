@@ -1,0 +1,70 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="800" height="70" fill="#1a365d"/>
+  <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Manufacturing Excellence</text>
+  
+  <!-- Navigation -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="16" fill="#87ceeb">Home</text>
+  <text x="470" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Products</text>
+  <text x="550" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Services</text>
+  <text x="620" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Contact</text>
+  
+  <!-- Main Content Area -->
+  <rect x="50" y="100" width="700" height="480" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Hero Section -->
+  <rect x="70" y="120" width="660" height="200" fill="#edf2f7"/>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1a365d" text-anchor="middle">Precision Manufacturing</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" fill="#2d3748" text-anchor="middle">Quality engineering and industrial solutions</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="16" fill="#2d3748" text-anchor="middle">ISO 9001 Certified • 25+ Years Experience</text>
+  
+  <!-- Gear Icon -->
+  <g transform="translate(400, 160)">
+    <circle cx="0" cy="0" r="20" fill="#2b6cb0" stroke="#1a365d" stroke-width="2"/>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#1a365d" stroke-width="2"/>
+    <rect x="-2" y="-25" width="4" height="10" fill="#1a365d"/>
+    <rect x="-2" y="15" width="4" height="10" fill="#1a365d"/>
+    <rect x="-25" y="-2" width="10" height="4" fill="#1a365d"/>
+    <rect x="15" y="-2" width="10" height="4" fill="#1a365d"/>
+    <g transform="rotate(45)">
+      <rect x="-2" y="-18" width="4" height="7" fill="#1a365d"/>
+      <rect x="-2" y="11" width="4" height="7" fill="#1a365d"/>
+      <rect x="-18" y="-2" width="7" height="4" fill="#1a365d"/>
+      <rect x="11" y="-2" width="7" height="4" fill="#1a365d"/>
+    </g>
+  </g>
+  
+  <!-- Services Section -->
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a365d" text-anchor="middle">Our Capabilities</text>
+  
+  <!-- Service Card 1 - Production -->
+  <rect x="90" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+  <circle cx="180" cy="430" r="15" fill="#2b6cb0"/>
+  <text x="180" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🏭</text>
+  <text x="180" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">Production</text>
+  <text x="180" y="480" font-family="Arial, sans-serif" font-size="12" fill="#2d3748" text-anchor="middle">CNC Machining</text>
+  <text x="180" y="495" font-family="Arial, sans-serif" font-size="12" fill="#2d3748" text-anchor="middle">Assembly Lines</text>
+  
+  <!-- Service Card 2 - Quality -->
+  <rect x="290" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+  <circle cx="380" cy="430" r="15" fill="#38a169"/>
+  <text x="380" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">✓</text>
+  <text x="380" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">Quality Control</text>
+  <text x="380" y="480" font-family="Arial, sans-serif" font-size="12" fill="#2d3748" text-anchor="middle">Testing &amp; Inspection</text>
+  <text x="380" y="495" font-family="Arial, sans-serif" font-size="12" fill="#2d3748" text-anchor="middle">ISO Compliance</text>
+  
+  <!-- Service Card 3 - Logistics -->
+  <rect x="490" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+  <circle cx="580" cy="430" r="15" fill="#d69e2e"/>
+  <text x="580" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🚛</text>
+  <text x="580" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">Logistics</text>
+  <text x="580" y="480" font-family="Arial, sans-serif" font-size="12" fill="#2d3748" text-anchor="middle">Supply Chain</text>
+  <text x="580" y="495" font-family="Arial, sans-serif" font-size="12" fill="#2d3748" text-anchor="middle">Global Shipping</text>
+  
+  <!-- Footer -->
+  <rect x="50" y="550" width="700" height="30" fill="#1a365d"/>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">© 2025 Manufacturing Excellence - Precision • Quality • Innovation</text>
+</svg>

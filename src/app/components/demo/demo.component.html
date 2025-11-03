@@ -1,35 +1,133 @@
 <section class="section">
   <div class="container">
     <h2>{{ translations.demo.title }}</h2>
+    
+    <!-- Introduction Section -->
+    <div class="demo-introduction">
+      <h3>{{ translations.demo.introduction.title }}</h3>
+      <p>{{ translations.demo.introduction.paragraph1 }}</p>
+      
+      <p>{{ translations.demo.introduction.paragraph2 }}</p>
+      
+      <p class="call-to-action">{{ translations.demo.introduction.callToAction }}</p>
+    </div>
+    
     <div class="demo-grid">
       <div class="demo-card">
         <h3>{{ translations.demo.service }}</h3>
-        <div class="demo-placeholder">
-          <p>{{ translations.demo.placeholder }}</p>
+        <div class="demo-image-container">
+          <img 
+            src="./assets/service-preview.svg" 
+            alt="Service Industry Website Preview"
+            class="demo-preview-image"
+            (click)="openServiceDemo()">
+          <div class="demo-overlay">
+            <div class="demo-overlay-content">
+              <h4>Service Industry Website</h4>
+              <p>Professional service business website with electrical, plumbing, and construction services</p>
+            </div>
+          </div>
+        </div>
+        <div class="demo-actions">
+          <button class="demo-btn" (click)="openServiceDemo()">View Live Demo</button>
         </div>
       </div>
       <div class="demo-card">
         <h3>{{ translations.demo.restaurant }}</h3>
-        <div class="demo-placeholder">
-          <p>{{ translations.demo.placeholder }}</p>
+        <div class="demo-image-container">
+          <img 
+            src="./assets/restaurant-preview.svg" 
+            alt="Restaurant Website Preview"
+            class="demo-preview-image"
+            (click)="openRestaurantDemo()">
+          <div class="demo-overlay">
+            <div class="demo-overlay-content">
+              <h4>Restaurant Website</h4>
+              <p>Elegant fine dining restaurant with menu, reservations, and wine selection</p>
+            </div>
+          </div>
+        </div>
+        <div class="demo-actions">
+          <button class="demo-btn" (click)="openRestaurantDemo()">View Live Demo</button>
         </div>
       </div>
       <div class="demo-card">
         <h3>{{ translations.demo.manufacturing }}</h3>
-        <div class="demo-placeholder">
-          <p>{{ translations.demo.placeholder }}</p>
+        <div class="demo-image-container">
+          <div class="manufacturing-preview-inline" (click)="openManufacturingDemo()">
+            <svg width="100%" height="400" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+              <rect width="800" height="600" fill="#f8f9fa"/>
+              <rect width="800" height="70" fill="#1a365d"/>
+              <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Manufacturing Excellence</text>
+              <text x="400" y="45" font-family="Arial, sans-serif" font-size="16" fill="#87ceeb">Home</text>
+              <text x="470" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Products</text>
+              <text x="550" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Services</text>
+              <rect x="50" y="100" width="700" height="480" fill="white" stroke="#dee2e6" stroke-width="2"/>
+              <rect x="70" y="120" width="660" height="200" fill="#edf2f7"/>
+              <text x="400" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1a365d" text-anchor="middle">Precision Manufacturing</text>
+              <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" fill="#2d3748" text-anchor="middle">Quality engineering and industrial solutions</text>
+              <circle cx="400" cy="160" r="20" fill="#2b6cb0" stroke="#1a365d" stroke-width="2"/>
+              <text x="400" y="370" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a365d" text-anchor="middle">Our Capabilities</text>
+              <rect x="90" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+              <circle cx="180" cy="430" r="15" fill="#2b6cb0"/>
+              <text x="180" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">Production</text>
+              <rect x="290" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+              <circle cx="380" cy="430" r="15" fill="#38a169"/>
+              <text x="380" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">Quality Control</text>
+              <rect x="490" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+              <circle cx="580" cy="430" r="15" fill="#d69e2e"/>
+              <text x="580" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a365d" text-anchor="middle">Logistics</text>
+              <rect x="50" y="550" width="700" height="30" fill="#1a365d"/>
+              <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">© 2025 Manufacturing Excellence</text>
+            </svg>
+          </div>
+          <div class="demo-overlay">
+            <div class="demo-overlay-content">
+              <h4>Manufacturing Website</h4>
+              <p>Industrial solutions company with production capabilities and quality control</p>
+            </div>
+          </div>
+        </div>
+        <div class="demo-actions">
+          <button class="demo-btn" (click)="openManufacturingDemo()">View Live Demo</button>
         </div>
       </div>
       <div class="demo-card">
         <h3>{{ translations.demo.store }}</h3>
-        <div class="demo-placeholder">
-          <p>{{ translations.demo.placeholder }}</p>
+        <div class="demo-image-container">
+          <img 
+            src="./assets/service-preview.svg" 
+            alt="Store Website Preview"
+            class="demo-preview-image"
+            (click)="openStoreDemo()">
+          <div class="demo-overlay">
+            <div class="demo-overlay-content">
+              <h4>E-commerce Store</h4>
+              <p>Online retail store with product catalog and shopping cart functionality</p>
+            </div>
+          </div>
+        </div>
+        <div class="demo-actions">
+          <button class="demo-btn" (click)="openStoreDemo()">View Live Demo</button>
         </div>
       </div>
       <div class="demo-card">
         <h3>{{ translations.demo.church }}</h3>
-        <div class="demo-placeholder">
-          <p>{{ translations.demo.placeholder }}</p>
+        <div class="demo-image-container">
+          <img 
+            src="./assets/church-preview.svg" 
+            alt="Church Website Preview"
+            class="demo-preview-image"
+            (click)="openChurchDemo()">
+          <div class="demo-overlay">
+            <div class="demo-overlay-content">
+              <h4>Church Website</h4>
+              <p>Community church website with service times, ministry programs, and events</p>
+            </div>
+          </div>
+        </div>
+        <div class="demo-actions">
+          <button class="demo-btn" (click)="openChurchDemo()">View Live Demo</button>
         </div>
       </div>
     </div>

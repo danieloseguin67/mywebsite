@@ -1,0 +1,61 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="800" height="70" fill="#4a5568"/>
+  <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Grace Community Church</text>
+  
+  <!-- Navigation -->
+  <text x="350" y="45" font-family="Arial, sans-serif" font-size="16" fill="#87ceeb">Home</text>
+  <text x="420" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">About</text>
+  <text x="480" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Services</text>
+  <text x="550" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Events</text>
+  <text x="620" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Contact</text>
+  
+  <!-- Main Content Area -->
+  <rect x="50" y="100" width="700" height="480" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Hero Section -->
+  <rect x="70" y="120" width="660" height="200" fill="#e8f4f8"/>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2d3748" text-anchor="middle">Welcome to Our Church</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" fill="#4a5568" text-anchor="middle">Join us in worship and fellowship</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="16" fill="#4a5568" text-anchor="middle">Sunday Service: 10:00 AM | Wednesday Prayer: 7:00 PM</text>
+  
+  <!-- Cross Icon -->
+  <g transform="translate(400, 160)">
+    <rect x="-3" y="-25" width="6" height="50" fill="#4a5568"/>
+    <rect x="-20" y="-8" width="40" height="6" fill="#4a5568"/>
+  </g>
+  
+  <!-- Services Section -->
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2d3748" text-anchor="middle">Our Ministry</text>
+  
+  <!-- Ministry Card 1 - Worship -->
+  <rect x="90" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+  <circle cx="180" cy="430" r="15" fill="#805ad5"/>
+  <text x="180" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">🙏</text>
+  <text x="180" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Worship</text>
+  <text x="180" y="480" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">Sunday Services</text>
+  <text x="180" y="495" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">Prayer Meetings</text>
+  
+  <!-- Ministry Card 2 - Youth -->
+  <rect x="290" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+  <circle cx="380" cy="430" r="15" fill="#38b2ac"/>
+  <text x="380" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">👥</text>
+  <text x="380" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Youth Ministry</text>
+  <text x="380" y="480" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">Bible Study</text>
+  <text x="380" y="495" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">Community Events</text>
+  
+  <!-- Ministry Card 3 - Community -->
+  <rect x="490" y="400" width="180" height="120" fill="white" stroke="#cbd5e0" stroke-width="1"/>
+  <circle cx="580" cy="430" r="15" fill="#ed8936"/>
+  <text x="580" y="436" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">❤️</text>
+  <text x="580" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748" text-anchor="middle">Community</text>
+  <text x="580" y="480" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">Outreach Programs</text>
+  <text x="580" y="495" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">Charity Events</text>
+  
+  <!-- Footer -->
+  <rect x="50" y="550" width="700" height="30" fill="#4a5568"/>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">© 2025 Grace Community Church - Faith • Hope • Love</text>
+</svg>

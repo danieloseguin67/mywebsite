@@ -7,10 +7,12 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { DemoComponent } from './components/demo/demo.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'testimonials', component: TestimonialsComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'skills', component: SkillsComponent },

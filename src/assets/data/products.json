@@ -1,68 +1,53 @@
 {
   "en": [
     {
-      "name": "Enterprise Integration Suite",
-      "description": "Comprehensive integration platform for connecting disparate business systems and automating workflows.",
+      "name": "DbDocGen Powerbuilder Appliction",
+      "description": "Application to reverse engineer databases and generate comprehensive documentation.",
       "comingSoon": false
     },
     {
-      "name": "Cloud Migration Toolkit",
-      "description": "Complete toolkit and methodology for seamless cloud migration with minimal downtime.",
+      "name": "Consultant Companion Powerbuilder Application",
+      "description": "Application to help consultant manage his company and integrates with Sage Accounting",
       "comingSoon": false
     },
     {
-      "name": "AI-Powered Analytics Dashboard",
-      "description": "Advanced analytics platform leveraging machine learning to provide actionable business insights.",
-      "comingSoon": true
-    },
-    {
-      "name": "Microservices Accelerator",
-      "description": "Framework and tools to rapidly develop, deploy, and manage microservices architectures.",
+      "name": "CondoMan Condo Management Solution",
+      "description": "This solution consists of a client portal for owners and tenants to access their properties, and also a manager admin portal to manage the condo association.",
       "comingSoon": true
     }
   ],
   "fr": [
-    {
-      "name": "Suite d'Intégration d'Entreprise",
-      "description": "Plateforme d'intégration complète pour connecter des systèmes commerciaux disparates et automatiser les flux de travail.",
-      "comingSoon": false
-    },
-    {
-      "name": "Boîte à Outils de Migration Cloud",
-      "description": "Boîte à outils et méthodologie complètes pour une migration cloud transparente avec un temps d'arrêt minimal.",
-      "comingSoon": false
-    },
-    {
-      "name": "Tableau de Bord Analytique IA",
-      "description": "Plateforme d'analyse avancée exploitant l'apprentissage automatique pour fournir des informations commerciales exploitables.",
-      "comingSoon": true
-    },
-    {
-      "name": "Accélérateur de Microservices",
-      "description": "Framework et outils pour développer, déployer et gérer rapidement des architectures de microservices.",
-      "comingSoon": true
-    }
+  {
+    "nom": "DbDocGen - Application PowerBuilder",
+    "description": "Application permettant l’ingénierie inverse de bases de données et la génération d’une documentation complète.",
+    "bientôtDisponible": false
+  },
+  {
+    "nom": "Consultant Companion - Application PowerBuilder",
+    "description": "Application conçue pour aider un consultant à gérer son entreprise, avec une intégration à Sage Accounting.",
+    "bientôtDisponible": false
+  },
+  {
+    "nom": "CondoMan - Solution de gestion de copropriété",
+    "description": "Cette solution comprend un portail client pour les propriétaires et les locataires afin d’accéder à leurs propriétés, ainsi qu’un portail administrateur pour la gestion de l’association de copropriété.",
+    "bientôtDisponible": true
+  }
   ],
   "es": [
-    {
-      "name": "Suite de Integración Empresarial",
-      "description": "Plataforma de integración integral para conectar sistemas comerciales dispares y automatizar flujos de trabajo.",
-      "comingSoon": false
-    },
-    {
-      "name": "Kit de Herramientas de Migración a la Nube",
-      "description": "Kit de herramientas y metodología completa para una migración a la nube sin problemas con un tiempo de inactividad mínimo.",
-      "comingSoon": false
-    },
-    {
-      "name": "Panel de Análisis Impulsado por IA",
-      "description": "Plataforma de análisis avanzada que aprovecha el aprendizaje automático para proporcionar información comercial procesable.",
-      "comingSoon": true
-    },
-    {
-      "name": "Acelerador de Microservicios",
-      "description": "Framework y herramientas para desarrollar, implementar y gestionar rápidamente arquitecturas de microservicios.",
-      "comingSoon": true
-    }
+  {
+    "nombre": "DbDocGen - Aplicación PowerBuilder",
+    "descripción": "Aplicación que permite la ingeniería inversa de bases de datos y la generación de documentación completa.",
+    "próximamenteDisponible": false
+  },
+  {
+    "nombre": "Consultant Companion - Aplicación PowerBuilder",
+    "descripción": "Aplicación diseñada para ayudar a un consultor a gestionar su empresa, con integración a Sage Accounting.",
+    "próximamenteDisponible": false
+  },
+  {
+    "nombre": "CondoMan - Solución de gestión de condominios",
+    "descripción": "Esta solución incluye un portal para propietarios e inquilinos para acceder a sus propiedades, así como un portal administrativo para gestionar la asociación de condominios.",
+    "próximamenteDisponible": true
+  }
   ]
 }

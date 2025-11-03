@@ -1,0 +1,123 @@
+{
+  "HEADER": {
+    "TITLE": "Paroisse Catholique",
+    "HOME": "Accueil",
+    "PARISH": "Notre paroisse",
+    "CAMPAIGNS": "Campagnes",
+    "MASSES": "Messes",
+    "EVENTS": "Événements",
+    "NEWS": "Nouvelles",
+    "COMMITTEES": "Comités",
+    "VOLUNTEERING": "Bénévolat",
+    "CONTACT": "Contact",
+    "DONATE": "Faire un don"
+  },
+  "HOME": {
+    "TITLE": "Bienvenue à notre paroisse",
+    "SUBTITLE": "Vous êtes le temple de Dieu, la maison qu'Il construit.",
+    "MISSION": "Notre Mission",
+    "MISSION_DESC": "Proclamer l'Évangile de Jésus-Christ et servir notre communauté avec foi, espérance et amour.",
+    "MASS_TIMES": "Horaire des messes",
+    "MASS_TIMES_DESC": "Rejoignez-nous pour les célébrations quotidiennes et dominicales de la Sainte Eucharistie.",
+    "COMMUNITY": "Communauté",
+    "COMMUNITY_DESC": "Une famille paroissiale accueillante engagée dans le culte, le service et la fraternité.",
+    "SACRAMENTS": "Sacrements",
+    "SACRAMENTS_DESC": "Célébrer la vie sacramentelle et les étapes importantes de notre communauté de foi."
+  },
+  "PARISH": {
+    "TITLE": "Notre paroisse",
+    "ABOUT": "À propos de nous",
+    "ABOUT_DESC": "Nous sommes une communauté catholique dynamique dédiée à l'adoration de Dieu et au service de nos voisins. Notre paroisse est guidée par les enseignements de l'Église catholique et inspirée par l'Évangile de Jésus-Christ.",
+    "HISTORY": "Histoire de la paroisse",
+    "HISTORY_DESC": "Notre paroisse a une riche histoire de foi et de service dans notre communauté. Fondée il y a de nombreuses années, nous continuons à grandir dans notre engagement envers le Christ et son Église.",
+    "PASTOR": "Notre curé",
+    "PASTOR_DESC": "Le Père Jean Smith sert notre communauté paroissiale avec dévouement et soins pastoraux.",
+    "SACRAMENTS_RITES": "Sacrements et Rites",
+    "LITURGICAL_FUNCTIONS": "Fonctions liturgiques"
+  },
+  "MASSES": {
+    "TITLE": "Horaire des messes",
+    "WEEKDAY": "Messes en semaine",
+    "WEEKDAY_DESC": "Lundi - Vendredi : 7h00 et 12h10",
+    "SATURDAY": "Messes du samedi",
+    "SATURDAY_DESC": "Messe de vigile : 17h00",
+    "SUNDAY": "Messes dominicales",
+    "SUNDAY_DESC": "8h00, 10h00, 12h00 et 17h00",
+    "HOLY_DAYS": "Jours saints d'obligation",
+    "HOLY_DAYS_DESC": "Veuillez consulter le bulletin pour les horaires spéciaux des jours saints.",
+    "VIRTUAL": "Messes virtuelles",
+    "VIRTUAL_DESC": "Rejoignez-nous en ligne pour les célébrations diffusées en direct.",
+    "INTENTIONS": "Intentions de messe",
+    "INTENTIONS_DESC": "Demandez qu'une messe soit célébrée pour vos intentions."
+  },
+  "EVENTS": {
+    "TITLE": "Événements paroissiaux",
+    "UPCOMING": "Événements à venir",
+    "CALENDAR": "Calendrier des événements",
+    "CALENDAR_DESC": "Restez connecté avec notre communauté paroissiale à travers divers événements et activités tout au long de l'année."
+  },
+  "NEWS": {
+    "TITLE": "Nouvelles paroissiales",
+    "BULLETIN": "Bulletin hebdomadaire",
+    "BULLETIN_DESC": "Lisez notre dernier bulletin paroissial pour les annonces, les événements à venir et les réflexions spirituelles.",
+    "ANNOUNCEMENTS": "Annonces"
+  },
+  "COMMITTEES": {
+    "TITLE": "Comités paroissiaux",
+    "DESCRIPTION": "Nos comités paroissiaux aident à organiser et soutenir divers aspects de la vie paroissiale. Impliquez-vous et partagez vos talents !",
+    "LITURGY": "Comité de liturgie",
+    "LITURGY_DESC": "Planifie et coordonne les célébrations liturgiques et enrichit notre expérience de culte.",
+    "FINANCE": "Conseil des finances",
+    "FINANCE_DESC": "Fournit une supervision et des conseils pour la gestion financière de la paroisse.",
+    "PASTORAL": "Conseil pastoral",
+    "PASTORAL_DESC": "Conseille le curé sur les questions pastorales et la planification paroissiale."
+  },
+  "VOLUNTEERING": {
+    "TITLE": "Opportunités de bénévolat",
+    "DESCRIPTION": "Il existe de nombreuses façons de servir dans notre communauté paroissiale. Votre temps et vos talents sont des dons qui aident à construire le Royaume de Dieu.",
+    "OPPORTUNITIES": "Opportunités actuelles",
+    "LECTORS": "Lecteurs",
+    "LECTORS_DESC": "Proclamer la Parole de Dieu pendant la messe.",
+    "EUCHARISTIC": "Ministres de l'Eucharistie",
+    "EUCHARISTIC_DESC": "Aider à la distribution de la Sainte Communion.",
+    "USHERS": "Placiers et accueillants",
+    "USHERS_DESC": "Accueillir les paroissiens et aider pendant la messe.",
+    "CHOIR": "Chorale",
+    "CHOIR_DESC": "Partager vos talents musicaux lors des célébrations liturgiques."
+  },
+  "CAMPAIGNS": {
+    "TITLE": "Campagnes paroissiales",
+    "DESCRIPTION": "Soutenez nos initiatives paroissiales et campagnes spéciales qui nous aident à servir notre communauté et à entretenir nos installations.",
+    "CAPITAL": "Campagne de financement",
+    "CAPITAL_DESC": "Aidez-nous avec les améliorations et rénovations du bâtiment.",
+    "ANNUAL": "Appel annuel",
+    "ANNUAL_DESC": "Votre don annuel soutient nos ministères paroissiaux et programmes de sensibilisation."
+  },
+  "DONATION": {
+    "TITLE": "Faire un don",
+    "DESCRIPTION": "Votre généreux soutien aide notre paroisse à poursuivre sa mission d'adoration, de service et d'évangélisation.",
+    "ONLINE": "Donner en ligne",
+    "ONLINE_DESC": "Faire un don sécurisé en ligne via notre plateforme de don.",
+    "MAIL": "Donner par courrier",
+    "MAIL_DESC": "Envoyez votre don au bureau paroissial.",
+    "PERSON": "Donner en personne",
+    "PERSON_DESC": "Déposez votre don au bureau paroissial ou placez-le dans la corbeille de collecte à la messe.",
+    "WAYS": "Façons de donner",
+    "THANK_YOU": "Merci pour votre générosité !"
+  },
+  "CONTACT": {
+    "TITLE": "Contactez-nous",
+    "ADDRESS_TITLE": "Bureau paroissial",
+    "PHONE": "Téléphone",
+    "EMAIL": "Courriel",
+    "OFFICE_HOURS": "Heures d'ouverture",
+    "OFFICE_HOURS_DESC": "Lundi - Vendredi : 9h00 - 17h00",
+    "MAP_TITLE": "Trouvez-nous",
+    "MAP_VIEW": "Vue de la carte",
+    "MAP_NOTE": "L'intégration avec Google Maps ou un service de cartographie similaire serait ici"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2025 Paroisse Catholique. Tous droits réservés.",
+    "LOCATION": "Montréal, QC, Canada"
+  }
+}

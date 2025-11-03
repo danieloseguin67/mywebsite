@@ -1,98 +1,137 @@
 {
   "en": [
     {
-      "name": "E-Commerce Platform Modernization",
-      "description": "Led the complete modernization of a legacy e-commerce platform, migrating to a microservices architecture with React frontend and Node.js backend. Implemented real-time inventory management and integrated payment gateways.",
-      "technology": "React, Node.js, MongoDB, AWS, Docker"
+      "name": "CARe",
+      "description": "Designed and developed CAlls REquisition System, a module integrated with NorthStar Utility Billing to manage client calls and allow clients to make requisitions. This application was developed using Informix 4gl and Fourgen Case Tools.",
+      "technology": "Informix 4gl, Fourgen Case Tools, Java, SQL Server, Informix SQL"
     },
     {
-      "name": "Healthcare Data Integration System",
-      "description": "Designed and developed a HIPAA-compliant data integration platform connecting multiple healthcare systems. Implemented secure APIs and real-time data synchronization across disparate systems.",
-      "technology": "Java, Spring Boot, PostgreSQL, RabbitMQ"
+      "name": "eCare",
+      "description": "Designed and developed the classic web version of CARe.",
+      "technology": "Informix SQL, SQL Server, Classic ASP (html, javascript, vbscript)"
     },
     {
-      "name": "Financial Services Analytics Platform",
-      "description": "Built a comprehensive analytics platform for financial services, processing millions of transactions daily. Implemented machine learning models for fraud detection and risk assessment.",
-      "technology": "Python, Apache Spark, TensorFlow, Kubernetes"
+      "name": "Powerbuilder migration projects",
+      "description": "Migration from Sybase ASE, Migration from Powerbuilder 2019 to 2022, Migration from Powerbuilder 2017 to 2025",
+      "technology": "Powerbuilder, Sybase ASE, Oracle, SQL Server"
     },
     {
-      "name": "Cloud Migration Initiative",
-      "description": "Orchestrated the migration of 50+ applications from on-premise infrastructure to AWS cloud. Achieved 40% cost reduction while improving system reliability and scalability.",
-      "technology": "AWS, Terraform, Jenkins, Docker, Kubernetes"
+      "name": "Document management system for Canada Post",
+      "description": "Development of new website for Canada Post to do document management, and also intranet portal to follow the processing of docments",
+      "technology": "OCR for Anydoc, SQL Server, MS-Access, Excel, Word, Outlook, VBA, VB6, MVC Asp.Net C#"
     },
     {
-      "name": "Mobile Banking Application",
-      "description": "Developed a secure mobile banking application with biometric authentication, real-time notifications, and seamless integration with backend banking systems.",
-      "technology": "React Native, Node.js, MongoDB, Firebase"
+      "name": "Migration from Jira to Devops",
+      "description": "Development of a conversion program in powershell to migrate Jira tickets into Devops work items",
+      "technology": "Jira, Devops, PowerShell, Python, SQL Server, Power BI, GitHub Copilot"
     },
     {
-      "name": "IoT Data Processing Pipeline",
+      "name": "Dynamic website for health care industry",
+      "description": "Development of a web site for physiotherapist to manage his self serve the management of this website and also on his clients",
+      "technology": "SQL Server, Git, Microsoft Devops, MVC Asp.Net C#, GoDaddy Virtual private server"
+    },
+    {
+      "name": "Development of an integrated solution between NorthStar ERP and Microsoft Great Plains",
+      "description": "Development of the backend process to integrate NorthStar ERP with Microsoft Great Plains for several utility compane. Also developed a web application to allow users to monitor the flow of integration between the two applications",
+      "technology": "SQL Server, Informix SQL, Store Procedure, Iron Speed Designer, C#"
+    },
+    {
+      "name": "Data migration from third party system to Salesforce",
       "description": "Created a scalable IoT data processing pipeline handling millions of device events per second. Implemented real-time analytics and alerting systems for manufacturing operations.",
-      "technology": "Python, Apache Kafka, Elasticsearch, Azure IoT"
+      "technology": "SQL Server, Store procedures, Markdown, Git, Microsoft Devops, Salesforce, PowerShell, Python, Azure Data Factory, Azure SQL Database"
+    },
+    {
+      "name": "CondoMan Condo Management System",
+      "description": "In the process of developing a complete solution to manage condo buildings from large to small powered by Artificial Intelligence to help with tasks such as accounting, management, communication, and maintenance requests.",
+      "technology": "Angular, Azure Services and SQL Server, Microsoft 365 Power Platform (PowerApps, PowerAutomate, PowerBI), GitHub, PowerShell, Python"
     }
   ],
   "fr": [
-    {
-      "name": "Modernisation de Plateforme E-Commerce",
-      "description": "Dirigé la modernisation complète d'une plateforme e-commerce héritée, migration vers une architecture microservices avec frontend React et backend Node.js. Mise en œuvre de la gestion des stocks en temps réel et intégration des passerelles de paiement.",
-      "technology": "React, Node.js, MongoDB, AWS, Docker"
-    },
-    {
-      "name": "Système d'Intégration de Données de Santé",
-      "description": "Conçu et développé une plateforme d'intégration de données conforme HIPAA connectant plusieurs systèmes de santé. Mise en œuvre d'API sécurisées et synchronisation de données en temps réel entre systèmes disparates.",
-      "technology": "Java, Spring Boot, PostgreSQL, RabbitMQ"
-    },
-    {
-      "name": "Plateforme d'Analyse des Services Financiers",
-      "description": "Construit une plateforme d'analyse complète pour les services financiers, traitant des millions de transactions quotidiennes. Mise en œuvre de modèles d'apprentissage automatique pour la détection de fraude et l'évaluation des risques.",
-      "technology": "Python, Apache Spark, TensorFlow, Kubernetes"
-    },
-    {
-      "name": "Initiative de Migration Cloud",
-      "description": "Orchestré la migration de plus de 50 applications de l'infrastructure sur site vers le cloud AWS. Réduction des coûts de 40% tout en améliorant la fiabilité et l'évolutivité du système.",
-      "technology": "AWS, Terraform, Jenkins, Docker, Kubernetes"
-    },
-    {
-      "name": "Application Bancaire Mobile",
-      "description": "Développé une application bancaire mobile sécurisée avec authentification biométrique, notifications en temps réel et intégration transparente avec les systèmes bancaires backend.",
-      "technology": "React Native, Node.js, MongoDB, Firebase"
-    },
-    {
-      "name": "Pipeline de Traitement de Données IoT",
-      "description": "Créé un pipeline de traitement de données IoT évolutif traitant des millions d'événements d'appareils par seconde. Mise en œuvre d'analyses en temps réel et de systèmes d'alerte pour les opérations de fabrication.",
-      "technology": "Python, Apache Kafka, Elasticsearch, Azure IoT"
-    }
+  {
+    "name": "CARe",
+    "description": "Conception et développement du système de réquisition d'appels (CAlls REquisition System), un module intégré à NorthStar Utility Billing pour gérer les appels des clients et leur permettre de faire des demandes. Cette application a été développée en utilisant Informix 4gl et Fourgen Case Tools.",
+    "technology": "Informix 4gl, Fourgen Case Tools, Java, SQL Server, Informix SQL"
+  },
+  {
+    "name": "eCare",
+    "description": "Conception et développement de la version web classique de CARe.",
+    "technology": "Informix SQL, SQL Server, Classic ASP (html, javascript, vbscript)"
+  },
+  {
+    "name": "Projets de migration PowerBuilder",
+    "description": "Migration depuis Sybase ASE, migration de PowerBuilder 2019 vers 2022, migration de PowerBuilder 2017 vers 2025",
+    "technology": "PowerBuilder, Sybase ASE, Oracle, SQL Server"
+  },
+  {
+    "name": "Système de gestion documentaire pour Postes Canada",
+    "description": "Développement d’un nouveau site web pour Postes Canada afin de gérer les documents, ainsi qu’un portail intranet pour suivre le traitement des documents.",
+    "technology": "OCR pour Anydoc, SQL Server, MS-Access, Excel, Word, Outlook, VBA, VB6, MVC Asp.Net C#"
+  },
+  {
+    "name": "Migration de Jira vers DevOps",
+    "description": "Développement d’un programme de conversion en PowerShell pour migrer les billets Jira vers les éléments de travail DevOps.",
+    "technology": "Jira, DevOps, PowerShell, Python, SQL Server, Power BI, GitHub Copilot"
+  },
+  {
+    "name": "Site web dynamique pour l’industrie des soins de santé",
+    "description": "Développement d’un site web pour un physiothérapeute afin de gérer lui-même le site ainsi que ses clients.",
+    "technology": "SQL Server, Git, Microsoft DevOps, MVC Asp.Net C#, serveur privé virtuel GoDaddy"
+  },
+  {
+    "name": "Développement d’une solution intégrée entre NorthStar ERP et Microsoft Great Plains",
+    "description": "Développement du processus backend pour intégrer NorthStar ERP avec Microsoft Great Plains pour plusieurs compagnies de services publics. Développement également d’une application web permettant aux utilisateurs de surveiller le flux d’intégration entre les deux applications.",
+    "technology": "SQL Server, Informix SQL, procédures stockées, Iron Speed Designer, C#"
+  },
+  {
+    "name": "Migration de données d’un système tiers vers Salesforce",
+    "description": "Création d’un pipeline de traitement de données IoT évolutif gérant des millions d’événements d’appareils par seconde. Mise en œuvre de systèmes d’analyse en temps réel et d’alerte pour les opérations de fabrication.",
+    "technology": "SQL Server, procédures stockées, Markdown, Git, Microsoft DevOps, Salesforce, PowerShell, Python, Azure Data Factory, Azure SQL Database"
+  },
+  {
+  }
   ],
   "es": [
-    {
-      "name": "Modernización de Plataforma E-Commerce",
-      "description": "Lideré la modernización completa de una plataforma de comercio electrónico heredada, migrando a una arquitectura de microservicios con frontend React y backend Node.js. Implementé gestión de inventario en tiempo real e integré pasarelas de pago.",
-      "technology": "React, Node.js, MongoDB, AWS, Docker"
-    },
-    {
-      "name": "Sistema de Integración de Datos de Salud",
-      "description": "Diseñé y desarrollé una plataforma de integración de datos compatible con HIPAA que conecta múltiples sistemas de atención médica. Implementé API seguras y sincronización de datos en tiempo real entre sistemas dispares.",
-      "technology": "Java, Spring Boot, PostgreSQL, RabbitMQ"
-    },
-    {
-      "name": "Plataforma de Análisis de Servicios Financieros",
-      "description": "Construí una plataforma de análisis integral para servicios financieros, procesando millones de transacciones diarias. Implementé modelos de aprendizaje automático para detección de fraude y evaluación de riesgos.",
-      "technology": "Python, Apache Spark, TensorFlow, Kubernetes"
-    },
-    {
-      "name": "Iniciativa de Migración a la Nube",
-      "description": "Orquesté la migración de más de 50 aplicaciones desde infraestructura local a la nube AWS. Logré una reducción de costos del 40% mientras mejoraba la confiabilidad y escalabilidad del sistema.",
-      "technology": "AWS, Terraform, Jenkins, Docker, Kubernetes"
-    },
-    {
-      "name": "Aplicación Bancaria Móvil",
-      "description": "Desarrollé una aplicación bancaria móvil segura con autenticación biométrica, notificaciones en tiempo real e integración perfecta con sistemas bancarios backend.",
-      "technology": "React Native, Node.js, MongoDB, Firebase"
-    },
-    {
-      "name": "Pipeline de Procesamiento de Datos IoT",
-      "description": "Creé un pipeline de procesamiento de datos IoT escalable que maneja millones de eventos de dispositivos por segundo. Implementé análisis en tiempo real y sistemas de alertas para operaciones de fabricación.",
-      "technology": "Python, Apache Kafka, Elasticsearch, Azure IoT"
-    }
+  {
+    "name": "CARe",
+    "description": "Diseño y desarrollo del Sistema de Requisición de Llamadas (CAlls REquisition System), un módulo integrado con NorthStar Utility Billing para gestionar llamadas de clientes y permitirles realizar solicitudes. Esta aplicación fue desarrollada utilizando Informix 4gl y Fourgen Case Tools.",
+    "technology": "Informix 4gl, Fourgen Case Tools, Java, SQL Server, Informix SQL"
+  },
+  {
+    "name": "eCare",
+    "description": "Diseño y desarrollo de la versión web clásica de CARe.",
+    "technology": "Informix SQL, SQL Server, Classic ASP (html, javascript, vbscript)"
+  },
+  {
+    "name": "Proyectos de migración de PowerBuilder",
+    "description": "Migración desde Sybase ASE, migración de PowerBuilder 2019 a 2022, migración de PowerBuilder 2017 a 2025",
+    "technology": "PowerBuilder, Sybase ASE, Oracle, SQL Server"
+  },
+  {
+    "name": "Sistema de gestión documental para Canada Post",
+    "description": "Desarrollo de un nuevo sitio web para Canada Post para la gestión de documentos, y también un portal intranet para seguir el procesamiento de documentos.",
+    "technology": "OCR para Anydoc, SQL Server, MS-Access, Excel, Word, Outlook, VBA, VB6, MVC Asp.Net C#"
+  },
+  {
+    "name": "Migración de Jira a DevOps",
+    "description": "Desarrollo de un programa de conversión en PowerShell para migrar tickets de Jira a elementos de trabajo en DevOps.",
+    "technology": "Jira, DevOps, PowerShell, Python, SQL Server, Power BI, GitHub Copilot"
+  },
+  {
+    "name": "Sitio web dinámico para la industria de la salud",
+    "description": "Desarrollo de un sitio web para un fisioterapeuta para que gestione de forma autónoma el sitio web y también a sus clientes.",
+    "technology": "SQL Server, Git, Microsoft DevOps, MVC Asp.Net C#, servidor privado virtual GoDaddy"
+  },
+  {
+    "name": "Desarrollo de una solución integrada entre NorthStar ERP y Microsoft Great Plains",
+    "description": "Desarrollo del proceso backend para integrar NorthStar ERP con Microsoft Great Plains para varias empresas de servicios públicos. También se desarrolló una aplicación web para permitir a los usuarios monitorear el flujo de integración entre ambas aplicaciones.",
+    "technology": "SQL Server, Informix SQL, procedimientos almacenados, Iron Speed Designer, C#"
+  },
+  {
+    "name": "Migración de datos desde un sistema de terceros a Salesforce",
+    "description": "Creación de una canalización escalable de procesamiento de datos IoT que maneja millones de eventos de dispositivos por segundo. Implementación de sistemas de análisis en tiempo real y alertas para operaciones de manufactura.",
+    "technology": "SQL Server, procedimientos almacenados, Markdown, Git, Microsoft DevOps, Salesforce, PowerShell, Python, Azure Data Factory, Azure SQL Database"
+  },
+  {
+  }
   ]
 }

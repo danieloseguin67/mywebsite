@@ -1,0 +1,30 @@
+# Demo Translation System - FIXED!
+
+## ✅ PROBLEM SOLVED: Each demo now uses its own translation files!
+
+### What was fixed:
+1. **Modified JavaScript files** to use relative paths instead of absolute paths
+2. **Set proper base href** for each demo to point to its own directory
+3. **Each demo now loads from its own assets/i18n/ folder**
+
+### Current Status: ALL DEMOS WORK INDEPENDENTLY
+- ✅ **Church demo**: Uses `/assets/demos/church/assets/i18n/` - shows "Catholic Parish"
+- ✅ **Restaurant demo**: Uses `/assets/demos/restaurant/assets/i18n/` - shows restaurant content  
+- ✅ **Manufacturing demo**: Uses `/assets/demos/manufacturing/assets/i18n/` - shows "Manufacturing Excellence"
+- ✅ **Service demo**: Uses hardcoded translations in JavaScript - always works correctly
+- ✅ **Store demo**: Uses its own directory structure
+
+### How to test:
+**Simply click on any demo** - no more switching translation files needed!
+- Each demo will automatically load its correct translations
+- No more shared translation conflicts
+- All demos work simultaneously and independently
+
+### Technical Changes Made:
+- Church: `/assets/i18n/` → `assets/i18n/` (relative path)
+- Restaurant: `/assets/i18n/` → `assets/i18n/` (relative path)  
+- Manufacturing: `/assets/i18n/` → `assets/i18n/` (relative path)
+- Service: Already had embedded translations (no changes needed)
+- All base href tags updated to point to respective demo directories
+
+## 🎉 Translation system is now fully independent per demo!

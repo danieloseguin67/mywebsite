@@ -21,4 +21,32 @@ export class DemoComponent implements OnInit {
       this.translations = this.translationService.getTranslations(lang);
     });
   }
+
+  openServiceDemo(): void {
+    window.open('./assets/demos/service/index.html', '_blank', 'width=1200,height=800');
+  }
+
+  openRestaurantDemo(): void {
+    window.open('./assets/demos/restaurant/index.html', '_blank', 'width=1200,height=800');
+  }
+
+  openManufacturingDemo(): void {
+    // Add timestamp to prevent caching issues
+    const timestamp = new Date().getTime();
+    window.open(`./assets/demos/manufacturing/index.html?t=${timestamp}`, '_blank', 'width=1200,height=800');
+  }
+
+  openChurchDemo(): void {
+    window.open('./assets/demos/church/index.html', '_blank', 'width=1200,height=800');
+  }
+
+  openStoreDemo(): void {
+    window.open('./assets/demos/store/index.html', '_blank', 'width=1200,height=800');
+  }
+
+  onImageError(event: any): void {
+    console.log('Image failed to load:', event.target.src);
+    // Fallback to a default image or handle the error
+    event.target.src = './assets/service-preview.svg';
+  }
 }
