@@ -51,7 +51,7 @@ jobs:
           npm run build -- --configuration production --project "$PROJECT_NAME"
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -68,3 +68,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+          error_count: 10
+          reporting_interval: 5000
+          token: ${{ github.token }}
+        continue-on-error: true
+        
+      - name: Retry Deploy to GitHub Pages (if first attempt failed)
+        id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+          error_count: 10
+          reporting_interval: 5000
+          token: ${{ github.token }}
