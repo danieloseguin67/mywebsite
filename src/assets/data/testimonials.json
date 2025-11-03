@@ -1,12 +1,6 @@
 {
   "en": [
     {
-      "name": "Shayna",
-      "company": "Public Services Procurements Canada",
-      "position": "Business Analyst",
-      "testimonial": "Daniel is an exceptional and helpful developer can be described as a highly skilled individual who not only excels in Powerbuilder and java coding but also consistently supports and elevates the team. He possesses strong technical abilities, excellent communication and a proactive, collaborative attitude."
-    },
-    {
       "name": "Carl Vachon",
       "company": "Ministeres des ressources naturelles et des forêts",
       "position": "IT Manager",
@@ -65,15 +59,15 @@
       "company": "Air Canada Vacations",
       "position": "Developer",
       "testimonial": "daniel est une personne passionnee, qui aime partager ses connaissances et qui est toujours disponible pour aider! Merci Daniel"
+    },
+    {
+      "name": "Shayna",
+      "company": "Public Services Procurements Canada",
+      "position": "Business Analyst",
+      "testimonial": "Daniel is an exceptional and helpful developer can be described as a highly skilled individual who not only excels in Powerbuilder and java coding but also consistently supports and elevates the team. He possesses strong technical abilities, excellent communication and a proactive, collaborative attitude."
     }
   ],
   "fr": [
-  {
-    "nom": "Shayna",
-    "entreprise": "Services publics et Approvisionnement Canada",
-    "poste": "Analyste d'affaires",
-    "temoignage": "Daniel est un développeur exceptionnel et serviable, décrit comme une personne hautement qualifiée qui excelle non seulement en programmation PowerBuilder et Java, mais qui soutient et élève constamment l’équipe. Il possède de solides compétences techniques, une excellente communication et une attitude proactive et collaborative."
-  },
   {
     "nom": "Carl Vachon",
     "entreprise": "Ministère des Ressources naturelles et des Forêts",
@@ -133,15 +127,15 @@
     "entreprise": "Vacances Air Canada",
     "poste": "Développeur",
     "temoignage": "Daniel est une personne passionnée, qui aime partager ses connaissances et qui est toujours disponible pour aider ! Merci Daniel."
+  },
+  {
+    "nom": "Shayna",
+    "entreprise": "Services publics et Approvisionnement Canada",
+    "poste": "Analyste d'affaires",
+    "temoignage": "Daniel est un développeur exceptionnel et serviable, décrit comme une personne hautement qualifiée qui excelle non seulement en programmation PowerBuilder et Java, mais qui soutient et élève constamment l’équipe. Il possède de solides compétences techniques, une excellente communication et une attitude proactive et collaborative."
   }
   ],
   "es": [
-  {
-    "nombre": "Shayna",
-    "empresa": "Servicios Públicos y Adquisiciones Canadá",
-    "puesto": "Analista de negocios",
-    "testimonio": "Daniel es un desarrollador excepcional y servicial, descrito como una persona altamente capacitada que no solo sobresale en programación PowerBuilder y Java, sino que también apoya y eleva constantemente al equipo. Posee sólidas habilidades técnicas, excelente comunicación y una actitud proactiva y colaborativa."
-  },
   {
     "nombre": "Carl Vachon",
     "empresa": "Ministerio de Recursos Naturales y Bosques",
@@ -201,6 +195,12 @@
     "empresa": "Vacaciones Air Canada",
     "puesto": "Desarrollador",
     "testimonio": "¡Daniel es una persona apasionada, que le encanta compartir sus conocimientos y siempre está disponible para ayudar! Gracias Daniel."
+  },
+  {
+    "nombre": "Shayna",
+    "empresa": "Servicios Públicos y Adquisiciones Canadá",
+    "puesto": "Analista de negocios",
+    "testimonio": "Daniel es un desarrollador excepcional y servicial, descrito como una persona altamente capacitada que no solo sobresale en programación PowerBuilder y Java, sino que también apoya y eleva constantemente al equipo. Posee sólidas habilidades técnicas, excelente comunicación y una actitud proactiva y colaborativa."
   }
   ]
 }
