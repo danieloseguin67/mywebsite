@@ -48,96 +48,96 @@
   ],
   "fr": [
   {
-    "nom": "Développeur IA collaborant avec GitHub Copilot Agent",
+    "name": "Développeur IA collaborant avec GitHub Copilot Agent",
     "description": "Développement avancé en Python pour les services backend, le traitement de données, l'automatisation, la migration et les applications d'apprentissage automatique.",
     "experience": "2 ans"
   },
   {
-    "nom": "Python",
+    "name": "Python",
     "description": "Développement avancé en Python pour les services backend, le traitement de données, l'automatisation, la migration et les applications d'apprentissage automatique.",
     "experience": "2 ans"
   },
   {
-    "nom": "Plateformes Cloud (AWS, Azure, Power Platform)",
+    "name": "Plateformes Cloud (AWS, Azure, Power Platform)",
     "description": "Expérience complète dans la conception, le déploiement et la gestion d'applications sur les principales plateformes cloud.",
     "experience": "4 ans"
   },
   {
-    "nom": "Java / Spring / MVC / Oracle et Open JDK",
+    "name": "Java / Spring / MVC / Oracle et Open JDK",
     "description": "Développement d'applications d'entreprise en Java avec le framework Spring pour créer des microservices et des applications robustes et évolutives.",
     "experience": "Plus de 5 ans"
   },
   {
-    "nom": "PowerBuilder",
+    "name": "PowerBuilder",
     "description": "Maîtrise experte du développement et de la maintenance d'applications.",
     "experience": "Plus de 10 ans"
   },
   {
-    "nom": "Développement Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+    "name": "Développement Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
     "description": "Développement frontend moderne avec des frameworks populaires pour créer des interfaces utilisateur interactives connectées à des bases de données SQL Server.",
     "experience": "10 ans"
   },
   {
-    "nom": "Informix 4GL / Fourgen Case Tools / Genero",
+    "name": "Informix 4GL / Fourgen Case Tools / Genero",
     "description": "Orchestration et gestion de conteneurs pour la création d'applications et de microservices cloud-native.",
     "experience": "Plus de 20 ans"
   },
   {
-    "nom": "Bases de données Informix, Oracle et SQL Server",
+    "name": "Bases de données Informix, Oracle et SQL Server",
     "description": "Conception, développement, maintenance et optimisation de bases de données.",
     "experience": "Plus de 20 ans"
   },
   {
-  "nom": "Rapports BI",
+  "name": "Rapports BI",
   "description": "Développement et maintenance de rapports SSRS, SAP Business Objects et Power BI.",
-  "expérience": "5 ans et plus"
+  "experience": "5 ans et plus"
   }
   ],
   "es": [
   {
-    "nombre": "Desarrollador de IA en colaboración con GitHub Copilot Agent",
-    "descripcion": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
-    "experiencia": "2 años"
+    "name": "Desarrollador de IA en colaboración con GitHub Copilot Agent",
+    "description": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
+    "experience": "2 años"
   },
   {
-    "nombre": "Python",
-    "descripcion": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
-    "experiencia": "2 años"
+    "name": "Python",
+    "description": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
+    "experience": "2 años"
   },
   {
-    "nombre": "Plataformas en la nube (AWS, Azure, Power Platform)",
-    "descripcion": "Experiencia integral en diseño, implementación y gestión de aplicaciones en las principales plataformas en la nube.",
-    "experiencia": "4 años"
+    "name": "Plataformas en la nube (AWS, Azure, Power Platform)",
+    "description": "Experiencia integral en diseño, implementación y gestión de aplicaciones en las principales plataformas en la nube.",
+    "experience": "4 años"
   },
   {
-    "nombre": "Java / Spring / MVC / Oracle y Open JDK",
-    "descripcion": "Desarrollo empresarial en Java con el framework Spring para construir microservicios y aplicaciones robustas y escalables.",
-    "experiencia": "Más de 5 años"
+    "name": "Java / Spring / MVC / Oracle y Open JDK",
+    "description": "Desarrollo empresarial en Java con el framework Spring para construir microservicios y aplicaciones robustas y escalables.",
+    "experience": "Más de 5 años"
   },
   {
-    "nombre": "PowerBuilder",
-    "descripcion": "Dominio experto en el desarrollo y mantenimiento de aplicaciones.",
-    "experiencia": "Más de 10 años"
+    "name": "PowerBuilder",
+    "description": "Dominio experto en el desarrollo y mantenimiento de aplicaciones.",
+    "experience": "Más de 10 años"
   },
   {
-    "nombre": "Desarrollo Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
-    "descripcion": "Desarrollo frontend moderno utilizando frameworks populares para construir interfaces de usuario interactivas conectadas a bases de datos SQL Server.",
-    "experiencia": "10 años"
+    "name": "Desarrollo Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+    "description": "Desarrollo frontend moderno utilizando frameworks populares para construir interfaces de usuario interactivas conectadas a bases de datos SQL Server.",
+    "experience": "10 años"
   },
   {
-    "nombre": "Informix 4GL / Fourgen Case Tools / Genero",
-    "descripcion": "Orquestación y gestión de contenedores para construir aplicaciones nativas en la nube y microservicios.",
-    "experiencia": "Más de 20 años"
+    "name": "Informix 4GL / Fourgen Case Tools / Genero",
+    "description": "Orquestación y gestión de contenedores para construir aplicaciones nativas en la nube y microservicios.",
+    "experience": "Más de 20 años"
   },
   {
-    "nombre": "Bases de datos Informix, Oracle y SQL Server",
-    "descripcion": "Diseño, desarrollo, mantenimiento y optimización de bases de datos.",
-    "experiencia": "Más de 20 años"
+    "name": "Bases de datos Informix, Oracle y SQL Server",
+    "description": "Diseño, desarrollo, mantenimiento y optimización de bases de datos.",
+    "experience": "Más de 20 años"
   },
   {
-    "nombre": "Informes BI",
-    "descripción": "Desarrollo y mantenimiento de informes en SSRS, SAP Business Objects y Power BI.",
-    "experiencia": "Más de 5 años"
+    "name": "Informes BI",
+    "description": "Desarrollo y mantenimiento de informes en SSRS, SAP Business Objects y Power BI.",
+    "experience": "Más de 5 años"
   }
   ]
 }

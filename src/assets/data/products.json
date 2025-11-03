@@ -18,36 +18,36 @@
   ],
   "fr": [
   {
-    "nom": "DbDocGen - Application PowerBuilder",
-    "description": "Application permettant l’ingénierie inverse de bases de données et la génération d’une documentation complète.",
-    "bientôtDisponible": false
+    "name": "DbDocGen - Application PowerBuilder",
+    "description": "Application permettant l'ingénierie inverse de bases de données et la génération d'une documentation complète.",
+    "comingSoon": false
   },
   {
-    "nom": "Consultant Companion - Application PowerBuilder",
+    "name": "Consultant Companion - Application PowerBuilder",
     "description": "Application conçue pour aider un consultant à gérer son entreprise, avec une intégration à Sage Accounting.",
-    "bientôtDisponible": false
+    "comingSoon": false
   },
   {
-    "nom": "CondoMan - Solution de gestion de copropriété",
-    "description": "Cette solution comprend un portail client pour les propriétaires et les locataires afin d’accéder à leurs propriétés, ainsi qu’un portail administrateur pour la gestion de l’association de copropriété.",
-    "bientôtDisponible": true
+    "name": "CondoMan - Solution de gestion de copropriété",
+    "description": "Cette solution comprend un portail client pour les propriétaires et les locataires afin d'accéder à leurs propriétés, ainsi qu'un portail administrateur pour la gestion de l'association de copropriété.",
+    "comingSoon": true
   }
   ],
   "es": [
   {
-    "nombre": "DbDocGen - Aplicación PowerBuilder",
-    "descripción": "Aplicación que permite la ingeniería inversa de bases de datos y la generación de documentación completa.",
-    "próximamenteDisponible": false
+    "name": "DbDocGen - Aplicación PowerBuilder",
+    "description": "Aplicación que permite la ingeniería inversa de bases de datos y la generación de documentación completa.",
+    "comingSoon": false
   },
   {
-    "nombre": "Consultant Companion - Aplicación PowerBuilder",
-    "descripción": "Aplicación diseñada para ayudar a un consultor a gestionar su empresa, con integración a Sage Accounting.",
-    "próximamenteDisponible": false
+    "name": "Consultant Companion - Aplicación PowerBuilder",
+    "description": "Aplicación diseñada para ayudar a un consultor a gestionar su empresa, con integración a Sage Accounting.",
+    "comingSoon": false
   },
   {
-    "nombre": "CondoMan - Solución de gestión de condominios",
-    "descripción": "Esta solución incluye un portal para propietarios e inquilinos para acceder a sus propiedades, así como un portal administrativo para gestionar la asociación de condominios.",
-    "próximamenteDisponible": true
+    "name": "CondoMan - Solución de gestión de condominios",
+    "description": "Esta solución incluye un portal para propietarios e inquilinos para acceder a sus propiedades, así como un portal administrativo para gestionar la asociación de condominios.",
+    "comingSoon": true
   }
   ]
 }
