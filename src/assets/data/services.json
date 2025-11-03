@@ -6,15 +6,15 @@
     },
     {
       "name": "Software Development",
-      "description": "Custom software solutions built with modern technologies, from web applications to enterprise systems that drive business efficiency. Learn more about website design and development by going to the demo page"
+      "description": "Custom software solutions built with modern technologies, from web applications to enterprise systems that drive business efficiency."
     },
     {
       "name": "Legacy Systems Maintenance",
       "description": "Maintenance and support of enterprise legacy applications built in Informix 4gl, Fourgen Case Tools, Generro, Powerbuilder 5, 8, 12.5, 2017, 2019, 2021, 2022, and 2025."
     },
     {
-      "name": "Cloud Solutions",
-      "description": "Microsoft Power Tools solution design, cloud migration, architecture design, and optimization services for Azure platforms."
+      "name": "Website Design, Development, Maintenance & Hosting",
+      "description": "Services for small to medium-sized businesses, including website design, development, maintenance, and free hosting. Check out some website samples under demo menu option"
     },
     {
       "name": "DevOps & Automation",
@@ -39,8 +39,8 @@
     "description": "Maintenance et support des applications d'entreprise héritées développées avec Informix 4GL, Fourgen Case Tools, Generro, PowerBuilder 5, 8, 12.5, 2017, 2019, 2021, 2022 et 2025."
   },
   {
-    "name": "Solutions Cloud",
-    "description": "Conception de solutions avec Microsoft Power Tools, migration vers le cloud, conception d'architectures et services d'optimisation pour la plateforme Azure."
+    "name": "Conception de Sites Web, Développement, Maintenance et Hébergement",
+    "description": "Services pour les petites et moyennes entreprises, incluant la conception, le développement, la maintenance de sites web, ainsi qu’un hébergement gratuit. Consultez quelques exemples de sites web dans le menu Démo."
   },
   {
     "name": "DevOps et Automatisation",
@@ -65,8 +65,8 @@
     "description": "Mantenimiento y soporte de aplicaciones empresariales legadas desarrolladas en Informix 4GL, Fourgen Case Tools, Generro, PowerBuilder 5, 8, 12.5, 2017, 2019, 2021, 2022 y 2025."
   },
   {
-    "name": "Soluciones en la Nube",
-    "description": "Diseño de soluciones con Microsoft Power Tools, migración a la nube, diseño de arquitectura y servicios de optimización para plataforma Azure."
+    "name": "Diseño de sitios web, desarrollo, mantenimiento y alojamiento",
+    "description": "Servicios para pequeñas y medianas empresas, incluyendo diseño, desarrollo, mantenimiento de sitios web y alojamiento gratuito.  Consulta algunos ejemplos de sitios web en la opción del menú Demostración."
   },
   {
     "name": "DevOps y Automatización",
