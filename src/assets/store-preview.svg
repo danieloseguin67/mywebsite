@@ -1,0 +1,77 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="800" height="70" fill="#212529"/>
+  <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Digital Store</text>
+  
+  <!-- Navigation -->
+  <text x="300" y="45" font-family="Arial, sans-serif" font-size="16" fill="#87ceeb">Home</text>
+  <text x="380" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Products</text>
+  <text x="460" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Categories</text>
+  <text x="550" y="45" font-family="Arial, sans-serif" font-size="16" fill="white">Cart</text>
+  
+  <!-- Shopping Cart Icon -->
+  <circle cx="650" cy="35" r="12" fill="none" stroke="white" stroke-width="2"/>
+  <text x="650" y="40" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">🛒</text>
+  <circle cx="665" cy="25" r="8" fill="#dc3545"/>
+  <text x="665" y="29" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">3</text>
+  
+  <!-- Main Content Area -->
+  <rect x="50" y="100" width="700" height="480" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Hero Section -->
+  <rect x="70" y="120" width="660" height="160" fill="#e3f2fd"/>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1565c0" text-anchor="middle">Welcome to Our Store</text>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="18" fill="#424242" text-anchor="middle">Discover amazing products at great prices</text>
+  <rect x="320" y="230" width="160" height="35" fill="#1976d2" rx="5"/>
+  <text x="400" y="252" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Shop Now</text>
+  
+  <!-- Products Section -->
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#212529" text-anchor="middle">Featured Products</text>
+  
+  <!-- Product Card 1 -->
+  <rect x="90" y="340" width="150" height="180" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="100" y="350" width="130" height="90" fill="#f8f9fa"/>
+  <circle cx="165" cy="395" r="25" fill="#ff9800"/>
+  <text x="165" y="401" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">📱</text>
+  <text x="165" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212529" text-anchor="middle">Smartphone</text>
+  <text x="165" y="480" font-family="Arial, sans-serif" font-size="16" fill="#dc3545" font-weight="bold" text-anchor="middle">$599</text>
+  <rect x="120" y="490" width="90" height="20" fill="#28a745" rx="3"/>
+  <text x="165" y="503" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Add to Cart</text>
+  
+  <!-- Product Card 2 -->
+  <rect x="260" y="340" width="150" height="180" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="270" y="350" width="130" height="90" fill="#f8f9fa"/>
+  <circle cx="335" cy="395" r="25" fill="#9c27b0"/>
+  <text x="335" y="401" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">💻</text>
+  <text x="335" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212529" text-anchor="middle">Laptop</text>
+  <text x="335" y="480" font-family="Arial, sans-serif" font-size="16" fill="#dc3545" font-weight="bold" text-anchor="middle">$899</text>
+  <rect x="290" y="490" width="90" height="20" fill="#28a745" rx="3"/>
+  <text x="335" y="503" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Add to Cart</text>
+  
+  <!-- Product Card 3 -->
+  <rect x="430" y="340" width="150" height="180" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="440" y="350" width="130" height="90" fill="#f8f9fa"/>
+  <circle cx="505" cy="395" r="25" fill="#f44336"/>
+  <text x="505" y="401" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">🎧</text>
+  <text x="505" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212529" text-anchor="middle">Headphones</text>
+  <text x="505" y="480" font-family="Arial, sans-serif" font-size="16" fill="#dc3545" font-weight="bold" text-anchor="middle">$199</text>
+  <rect x="460" y="490" width="90" height="20" fill="#28a745" rx="3"/>
+  <text x="505" y="503" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Add to Cart</text>
+  
+  <!-- Product Card 4 -->
+  <rect x="600" y="340" width="130" height="180" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="610" y="350" width="110" height="90" fill="#f8f9fa"/>
+  <circle cx="665" cy="395" r="22" fill="#4caf50"/>
+  <text x="665" y="401" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">⌚</text>
+  <text x="665" y="460" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#212529" text-anchor="middle">Smartwatch</text>
+  <text x="665" y="480" font-family="Arial, sans-serif" font-size="16" fill="#dc3545" font-weight="bold" text-anchor="middle">$299</text>
+  <rect x="620" y="490" width="90" height="20" fill="#28a745" rx="3"/>
+  <text x="665" y="503" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Add to Cart</text>
+  
+  <!-- Footer -->
+  <rect x="50" y="550" width="700" height="30" fill="#343a40"/>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">© 2025 Digital Store - Your Online Shopping Destination</text>
+</svg>
