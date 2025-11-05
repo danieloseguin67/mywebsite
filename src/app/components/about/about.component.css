@@ -31,6 +31,7 @@
 
 .about-text p {
   margin-bottom: 1rem;
+  color: #555;
 }
 
 h2 {
@@ -40,23 +41,139 @@ h2 {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+/* Desktop styles */
+@media (min-width: 1200px) {
+  .about-content {
+    gap: 3rem;
+  }
+  
+  .about-image {
+    flex: 0 0 350px;
+  }
+  
+  .profile-image {
+    max-width: 350px;
+  }
+  
+  .about-text {
+    font-size: 1.15rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Large tablet styles */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .about-content {
+    gap: 2.5rem;
+  }
+  
+  .about-image {
+    flex: 0 0 280px;
+  }
+  
+  .profile-image {
+    max-width: 280px;
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 991px) and (min-width: 768px) {
   .about-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 2rem;
   }
   
   .about-image {
     flex: none;
-    margin-bottom: 1.5rem;
+  }
+  
+  .profile-image {
+    max-width: 280px;
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Large mobile styles */
+@media (max-width: 767px) and (min-width: 576px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .about-image {
+    flex: none;
   }
   
   .profile-image {
     max-width: 250px;
   }
   
+  .about-text {
+    font-size: 1.05rem;
+  }
+  
   h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 575px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+  
+  .about-image {
+    flex: none;
+  }
+  
+  .profile-image {
+    max-width: 200px;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .about-text p {
+    margin-bottom: 0.8rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Extra small mobile styles */
+@media (max-width: 360px) {
+  .profile-image {
+    max-width: 180px;
+  }
+  
+  .about-text {
+    font-size: 0.95rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
   }
 }

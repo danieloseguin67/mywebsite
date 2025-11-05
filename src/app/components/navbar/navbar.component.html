@@ -20,7 +20,7 @@
       <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.about }}</a></li>
       <li><a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.contact }}</a></li>
     </ul>
-    <div class="hamburger" (click)="toggleMenu()">
+    <div class="hamburger" [class.active]="menuOpen" (click)="toggleMenu()">
       <span></span>
       <span></span>
       <span></span>

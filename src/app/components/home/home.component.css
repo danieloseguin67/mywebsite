@@ -2,6 +2,9 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
@@ -11,6 +14,7 @@
   justify-content: center;
   gap: 3rem;
   padding: 2rem 0;
+  width: 100%;
 }
 
 .hero-image {
@@ -24,21 +28,53 @@
 .hero-text {
   max-width: 800px;
   width: 100%;
+  padding: 0 1rem;
 }
 
 .hero-section h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .subtitle {
   font-size: 1.3rem;
   opacity: 0.9;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
-@media (max-width: 968px) {
+/* Desktop styles */
+@media (min-width: 1200px) {
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.4rem;
+  }
+  
   .hero-content {
-    gap: 2rem;
+    gap: 4rem;
+  }
+}
+
+/* Large tablet styles */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 991px) and (min-width: 768px) {
+  .hero-content {
+    gap: 2.5rem;
     padding: 1.5rem 0;
   }
   
@@ -47,14 +83,89 @@
   }
   
   .hero-text {
-    max-width: 90%;
+    max-width: 85%;
+    padding: 0 1rem;
   }
   
   .hero-section h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+/* Large mobile styles */
+@media (max-width: 767px) and (min-width: 576px) {
+  .hero-content {
+    gap: 2rem;
+    padding: 1.5rem 0;
+  }
+  
+  .hero-image {
+    max-width: 85%;
+  }
+  
+  .hero-text {
+    max-width: 90%;
+    padding: 0 1rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.4rem;
   }
 
   .subtitle {
     font-size: 1.1rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 575px) {
+  .hero-section {
+    min-height: 90vh;
+  }
+  
+  .hero-content {
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+  
+  .hero-image {
+    max-width: 90%;
+  }
+  
+  .hero-text {
+    max-width: 95%;
+    padding: 0 0.5rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Extra small mobile styles */
+@media (max-width: 360px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  
+  .subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .hero-content {
+    gap: 1rem;
+  }
+  
+  .hero-text {
+    padding: 0 0.25rem;
   }
 }

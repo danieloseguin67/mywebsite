@@ -10,5 +10,35 @@
 </style><link rel="stylesheet" href="styles-FCU65H7R.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-FCU65H7R.css"></noscript></head>
 <body>
   <app-root></app-root>
-<script src="polyfills-EJ46DL77.js" type="module"></script><script src="main-DZ2DTKIJ.js" type="module"></script></body>
+<script src="polyfills-EJ46DL77.js" type="module"></script><script src="main-DZ2DTKIJ.js" type="module"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.nav-menu');
+  
+  if (hamburger && navMenu) {
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+      }
+    });
+
+    // Close menu on window resize to prevent issues
+    window.addEventListener('resize', function() {
+      if (window.innerWidth > 768) {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+      }
+    });
+  }
+});
+</script>
+</body>
 </html>

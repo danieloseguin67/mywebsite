@@ -23,25 +23,31 @@ export class DemoComponent implements OnInit {
   }
 
   openServiceDemo(): void {
-    window.open('./assets/demos/service/index.html', '_blank', 'width=1200,height=800');
+    // display message for user to to advise demo will be available soon
+    alert('Service demo will be available soon.');
+    //window.open('./assets/demos/service/index.html', '_blank', 'width=1200,height=800');
   }
 
   openRestaurantDemo(): void {
-    window.open('./assets/demos/restaurant/index.html', '_blank', 'width=1200,height=800');
+    alert('Restaurant demo will be available soon.');
+    //window.open('./assets/demos/restaurant/index.html', '_blank', 'width=1200,height=800');
   }
 
   openManufacturingDemo(): void {
     // Add timestamp to prevent caching issues
-    const timestamp = new Date().getTime();
-    window.open(`./assets/demos/manufacturing/index.html?t=${timestamp}`, '_blank', 'width=1200,height=800');
+    alert ('Manufacturing demo will be available soon.');
+    //const timestamp = new Date().getTime();
+    //window.open(`./assets/demos/manufacturing/index.html?t=${timestamp}`, '_blank', 'width=1200,height=800');
   }
 
   openChurchDemo(): void {
-    window.open('./assets/demos/church/index.html', '_blank', 'width=1200,height=800');
+    alert ('Church demo will be available soon.');
+    //window.open('./assets/demos/church/index.html', '_blank', 'width=1200,height=800');
   }
 
   openStoreDemo(): void {
-    window.open('./assets/demos/store/index.html', '_blank', 'width=1200,height=800');
+    alert ('Store demo will be available soon.');
+    //window.open('./assets/demos/store/index.html', '_blank', 'width=1200,height=800');
   }
 
   onImageError(event: any): void {
