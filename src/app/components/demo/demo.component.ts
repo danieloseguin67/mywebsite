@@ -54,9 +54,11 @@ export class DemoComponent implements OnInit {
 
   openChurchDemo(): void {
     if (this.isDesktop()) {
-      window.open('./assets/demos/church/index.html', '_blank', 'width=1200,height=800');
+      window.open ('https://churchsample.seguin.dev/#/', '_blank', 'width=400,height=700');
+      //window.open('./assets/demos/church/index.html', '_blank', 'width=1200,height=800');
     } else {
-      alert('Mobile phone and tablet version of website available soon.');
+      window.open ('https://churchsample.seguin.dev/#/', '_blank', 'width=400,height=700');
+      //alert('Mobile phone and tablet version of website available soon.');
     }
   }
 
