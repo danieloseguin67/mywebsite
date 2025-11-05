@@ -156,8 +156,17 @@ h2 {
 /* Tablet styles */
 @media (max-width: 991px) and (min-width: 768px) {
   .contact-content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2.5rem;
+  }
+  
+  .contact-form {
+    order: 1;
+  }
+  
+  .contact-info {
+    order: 2;
   }
   
   .contact-info,
@@ -185,8 +194,17 @@ h2 {
 /* Large mobile styles */
 @media (max-width: 767px) and (min-width: 576px) {
   .contact-content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+  }
+  
+  .contact-form {
+    order: 1;
+  }
+  
+  .contact-info {
+    order: 2;
   }
   
   .contact-info,
@@ -219,8 +237,18 @@ h2 {
 /* Small mobile styles */
 @media (max-width: 575px) {
   .contact-content {
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
     margin-top: 1.5rem;
+  }
+  
+  .contact-form {
+    order: 1;
+  }
+  
+  .contact-info {
+    order: 2;
   }
   
   .contact-info,
@@ -268,6 +296,19 @@ h2 {
 
 /* Extra small mobile styles */
 @media (max-width: 360px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form {
+    order: 1;
+  }
+  
+  .contact-info {
+    order: 2;
+  }
+  
   .contact-info,
   .contact-form {
     padding: 1rem;
