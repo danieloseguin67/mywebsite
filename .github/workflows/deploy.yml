@@ -73,6 +73,7 @@ jobs:
           error_count: 10
           reporting_interval: 5000
           token: ${{ github.token }}
+          enablement: true
         continue-on-error: true
         
       - name: Retry Deploy to GitHub Pages (if first attempt failed)
@@ -84,3 +85,4 @@ jobs:
           error_count: 10
           reporting_interval: 5000
           token: ${{ github.token }}
+          enablement: true
