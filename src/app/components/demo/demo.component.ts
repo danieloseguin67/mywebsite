@@ -28,17 +28,18 @@ export class DemoComponent implements OnInit {
 
   openServiceDemo(): void {
     if (this.isDesktop()) {
-      window.open('./assets/demos/service/index.html', '_blank', 'width=1200,height=800');
+      // https://servicesample.seguin.dev/#/
+      window.open ('https://servicesample.seguin.dev/#/', '_blank', 'width=1200,height=700');
     } else {
-      alert('Mobile phone and tablet version of website available soon.');
+      window.open ('https://servicesample.seguin.dev/#/', '_blank', 'width=400,height=700');
     }
   }
 
   openRestaurantDemo(): void {
     if (this.isDesktop()) {
-      window.open('./assets/demos/restaurant/index.html', '_blank', 'width=1200,height=800');
+      window.open ('https://restaurantsample.seguin.dev/#/', '_blank', 'width=1200,height=700');
     } else {
-      alert('Mobile phone and tablet version of website available soon.');
+      window.open ('https://restaurantsample.seguin.dev/#/', '_blank', 'width=400,height=700');
     }
   }
 
@@ -46,27 +47,25 @@ export class DemoComponent implements OnInit {
     if (this.isDesktop()) {
       // Add timestamp to prevent caching issues
       const timestamp = new Date().getTime();
-      window.open(`./assets/demos/manufacturing/index.html?t=${timestamp}`, '_blank', 'width=1200,height=800');
+      window.open ('https://manufacturingsample.seguin.dev/#/', '_blank', 'width=1200,height=700');
     } else {
-      alert('Mobile phone and tablet version of website available soon.');
+      window.open ('https://manufacturingsample.seguin.dev/#/', '_blank', 'width=400,height=700');
     }
   }
 
   openChurchDemo(): void {
     if (this.isDesktop()) {
-      window.open ('https://churchsample.seguin.dev/#/', '_blank', 'width=400,height=700');
-      //window.open('./assets/demos/church/index.html', '_blank', 'width=1200,height=800');
+      window.open ('https://churchsample.seguin.dev/#/', '_blank', 'width=1200,height=700');
     } else {
       window.open ('https://churchsample.seguin.dev/#/', '_blank', 'width=400,height=700');
-      //alert('Mobile phone and tablet version of website available soon.');
     }
   }
 
   openStoreDemo(): void {
     if (this.isDesktop()) {
-      window.open('./assets/demos/store/index.html', '_blank', 'width=1200,height=800');
+      window.open ('https://storesample.seguin.dev/#/', '_blank', 'width=1200,height=700');
     } else {
-      alert('Mobile phone and tablet version of website available soon.');
+      window.open ('https://storesample.seguin.dev/#/', '_blank', 'width=400,height=700');
     }
   }
 
