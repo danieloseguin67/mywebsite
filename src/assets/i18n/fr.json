@@ -22,7 +22,12 @@
     "COMMUNITY": "Communauté",
     "COMMUNITY_DESC": "Une famille paroissiale accueillante engagée dans le culte, le service et la fraternité.",
     "SACRAMENTS": "Sacrements",
-    "SACRAMENTS_DESC": "Célébrer la vie sacramentelle et les étapes importantes de notre communauté de foi."
+    "SACRAMENTS_DESC": "Célébrer la vie sacramentelle et les étapes importantes de notre communauté de foi.",
+    "NEWS1": "🌟 Daniel Seguin - Développeur Full-Stack spécialisé en Angular, React et technologies web modernes",
+    "NEWS2": "💼 Expérience dans la création d'applications d'entreprise évolutives et de solutions cloud",
+    "NEWS3": "🎯 Passionné par la création d'expériences utilisateur intuitives et de code propre et maintenable",
+    "NEWS4": "🚀 Expert en design responsive, PWA et optimisation des performances",
+    "NEWS5": "📧 Disponible pour des projets freelance et du conseil - Contact: daniel@seguin.com"
   },
   "PARISH": {
     "TITLE": "Notre paroisse",

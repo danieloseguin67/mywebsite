@@ -22,7 +22,12 @@
     "COMMUNITY": "Comunidad",
     "COMMUNITY_DESC": "Una familia parroquial acogedora comprometida con la adoración, el servicio y la fraternidad.",
     "SACRAMENTS": "Sacramentos",
-    "SACRAMENTS_DESC": "Celebrando la vida sacramental y los hitos de nuestra comunidad de fe."
+    "SACRAMENTS_DESC": "Celebrando la vida sacramental y los hitos de nuestra comunidad de fe.",
+    "NEWS1": "🌟 Daniel Seguin - Desarrollador Full-Stack especializado en Angular, React y tecnologías web modernas",
+    "NEWS2": "💼 Experiencia en la construcción de aplicaciones empresariales escalables y soluciones en la nube",
+    "NEWS3": "🎯 Apasionado por crear experiencias de usuario intuitivas y código limpio y mantenible",
+    "NEWS4": "🚀 Experto en diseño responsivo, PWAs y optimización de rendimiento",
+    "NEWS5": "📧 Disponible para proyectos freelance y consultoría - Contacto: daniel@seguin.com"
   },
   "PARISH": {
     "TITLE": "Nuestra parroquia",

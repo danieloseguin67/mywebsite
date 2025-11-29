@@ -33,6 +33,12 @@ export interface Translations {
   home: {
     title: string;
     subtitle: string;
+    news1: string;
+    news2: string;
+    news3: string;
+    news4: string;
+    news5: string;
+    news6: string;
   };
   services: { title: string };
   products: { title: string };
@@ -95,7 +101,13 @@ export class TranslationService {
       },
       home: {
         title: 'Welcome to Daniel Seguin Consultant',
-        subtitle: 'Senior IT Consultant - Delivering Excellence in Technology Solutions'
+        subtitle: 'Senior IT Consultant - Delivering Excellence in Technology Solutions',
+        news1: '🌟 Specialist in Enterprise Application Development – PowerBuilder, Informix 4GL, Java, .NET, Python, PowerShell, Unix/Linux Shells',
+        news2: '🎯 Currently delivering mission-critical solutions at PSPC as a PowerBuilder Developer',
+        news3: '🚀 On a journey to become a Microsoft Power Platform and Azure Solutions Architect',
+        news4: '💡 Passionate about creating intuitive user experiences and clean, maintainable code',
+        news5: '🔗 Integrating cutting-edge technologies like AI and Cloud to deliver robust, scalable solutions',
+        news6: '✅ Helping organizations modernize legacy systems and embrace digital transformation'
       },
       services: { title: 'Services' },
       products: { title: 'Products' },
@@ -149,7 +161,13 @@ export class TranslationService {
       },
       home: {
         title: 'Bienvenue chez Daniel Seguin Consultant',
-        subtitle: 'Consultant IT Senior - Excellence en Solutions Technologiques'
+        subtitle: 'Consultant IT Senior - Excellence en Solutions Technologiques',
+        news1: '🌟 Spécialiste en Développement d\'Applications d\'Entreprise – PowerBuilder, Informix 4GL, Java, .NET, Python, PowerShell, Unix/Linux Shells',
+        news2: '🎯 Actuellement en mission critique à SPAC en tant que Développeur PowerBuilder',
+        news3: '🚀 En route pour devenir Architecte de Solutions Microsoft Power Platform et Azure',
+        news4: '💡 Passionné par la création d\'expériences utilisateur intuitives et de code propre et maintenable',
+        news5: '🔗 Intégration de technologies de pointe comme l\'IA et le Cloud pour des solutions robustes et évolutives',
+        news6: '✅ Aide les organisations à moderniser les systèmes hérités et à adopter la transformation numérique'
       },
       services: { title: 'Services' },
       products: { title: 'Produits' },
@@ -203,7 +221,13 @@ export class TranslationService {
       },
       home: {
         title: 'Bienvenido a Daniel Seguin Consultant',
-        subtitle: 'Consultor TI Senior - Ofreciendo Excelencia en Soluciones Tecnológicas'
+        subtitle: 'Consultor TI Senior - Ofreciendo Excelencia en Soluciones Tecnológicas',
+        news1: '🌟 Especialista en Desarrollo de Aplicaciones Empresariales – PowerBuilder, Informix 4GL, Java, .NET, Python, PowerShell, Unix/Linux Shells',
+        news2: '🎯 Actualmente entregando soluciones de misión crítica en PSPC como Desarrollador PowerBuilder',
+        news3: '🚀 En camino a convertirse en Arquitecto de Soluciones de Microsoft Power Platform y Azure',
+        news4: '💡 Apasionado por crear experiencias de usuario intuitivas y código limpio y mantenible',
+        news5: '🔗 Integrando tecnologías de vanguardia como IA y Cloud para entregar soluciones robustas y escalables',
+        news6: '✅ Ayudando a las organizaciones a modernizar sistemas heredados y adoptar la transformación digital'
       },
       services: { title: 'Servicios' },
       products: { title: 'Productos' },
