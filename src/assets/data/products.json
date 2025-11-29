@@ -11,7 +11,7 @@
       "comingSoon": false
     },
     {
-      "name": "CondoMan Condo Management Solution",
+      "name": "CondoPilotAI Condo Management Solution",
       "description": "This solution consists of a client portal for owners and tenants to access their properties, and also a manager admin portal to manage the condo association.",
       "comingSoon": true
     }
@@ -28,7 +28,7 @@
     "comingSoon": false
   },
   {
-    "name": "CondoMan - Solution de gestion de copropriété",
+    "name": "CondoPilotAI - Solution de gestion de copropriété",
     "description": "Cette solution comprend un portail client pour les propriétaires et les locataires afin d'accéder à leurs propriétés, ainsi qu'un portail administrateur pour la gestion de l'association de copropriété.",
     "comingSoon": true
   }
@@ -45,7 +45,7 @@
     "comingSoon": false
   },
   {
-    "name": "CondoMan - Solución de gestión de condominios",
+    "name": "CondoPilotAI - Solución de gestión de condominios",
     "description": "Esta solución incluye un portal para propietarios e inquilinos para acceder a sus propiedades, así como un portal administrativo para gestionar la asociación de condominios.",
     "comingSoon": true
   }
