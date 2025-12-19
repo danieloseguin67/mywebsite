@@ -1,13 +1,13 @@
 {
   "en": [
     {
-      "name": "DbDocGen Powerbuilder Application",
-      "description": "Application to reverse engineer databases and generate comprehensive documentation.",
+      "name": "DbDocGen Database Documentation Generator Application",
+      "description": "Application to reverse engineer SQL Server, Oracle, Informix, Postgresql, and dataverse databases and generate comprehensive documentation.",
       "comingSoon": false
     },
     {
-      "name": "Consultant Companion Powerbuilder Application",
-      "description": "Application to help consultant manage his company and integrates with Sage Accounting",
+      "name": "ERD Generator Application",
+      "description": "Application to generate Entity Relational Diagrams using a DbDocGen Data Dictionary",
       "comingSoon": false
     },
     {
@@ -18,34 +18,34 @@
   ],
   "fr": [
   {
-    "name": "DbDocGen - Application PowerBuilder",
-    "description": "Application permettant l'ingénierie inverse de bases de données et la génération d'une documentation complète.",
+    "name": "DbDocGen Générateur de Documentation de Base de Données",
+    "description": "Application permettant l'ingénierie inverse de bases de données SQL Server, Oracle, Informix, Postgresql et Dataverse et la génération d'une documentation complète.",
     "comingSoon": false
   },
   {
-    "name": "Consultant Companion - Application PowerBuilder",
-    "description": "Application conçue pour aider un consultant à gérer son entreprise, avec une intégration à Sage Accounting.",
+    "name": "Application Générateur de Diagrammes ERD",
+    "description": "Application permettant de générer des diagrammes relationnels d'entités à l'aide d'un dictionnaire de données DbDocGen.",
     "comingSoon": false
   },
   {
-    "name": "CondoPilotAI - Solution de gestion de copropriété",
+    "name": "CondoPilotAI Solution de Gestion de Copropriété",
     "description": "Cette solution comprend un portail client pour les propriétaires et les locataires afin d'accéder à leurs propriétés, ainsi qu'un portail administrateur pour la gestion de l'association de copropriété.",
     "comingSoon": true
   }
   ],
   "es": [
   {
-    "name": "DbDocGen - Aplicación PowerBuilder",
-    "description": "Aplicación que permite la ingeniería inversa de bases de datos y la generación de documentación completa.",
+    "name": "DbDocGen Generador de Documentación de Base de Datos",
+    "description": "Aplicación para realizar ingeniería inversa de bases de datos SQL Server, Oracle, Informix, Postgresql y Dataverse y generar documentación completa.",
     "comingSoon": false
   },
   {
-    "name": "Consultant Companion - Aplicación PowerBuilder",
-    "description": "Aplicación diseñada para ayudar a un consultor a gestionar su empresa, con integración a Sage Accounting.",
+    "name": "Aplicación Generador de Diagramas ERD",
+    "description": "Aplicación para generar Diagramas de Relación de Entidades utilizando un Diccionario de Datos DbDocGen.",
     "comingSoon": false
   },
   {
-    "name": "CondoPilotAI - Solución de gestión de condominios",
+    "name": "CondoPilotAI Solución de Gestión de Condominios",
     "description": "Esta solución incluye un portal para propietarios e inquilinos para acceder a sus propiedades, así como un portal administrativo para gestionar la asociación de condominios.",
     "comingSoon": true
   }
