@@ -8,6 +8,7 @@ import { DemoComponent } from './components/demo/demo.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { NetworkingComponent } from './components/networking/networking.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -17,6 +18,7 @@ export const routes: Routes = [
   { path: 'products', component: ProductsComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'networking', component: NetworkingComponent },
   { path: 'demo', component: DemoComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent }

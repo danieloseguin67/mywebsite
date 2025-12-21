@@ -29,6 +29,7 @@ export interface Translations {
     about: string;
     contact: string;
     testimonials: string;
+    networking: string;
   };
   home: {
     title: string;
@@ -45,6 +46,7 @@ export interface Translations {
   skills: { title: string };
   projects: { title: string };
   testimonials: { title: string };
+  networking: { title: string };
   demo: {
     title: string;
     service: string;
@@ -97,7 +99,8 @@ export class TranslationService {
         demo: 'Demo',
         about: 'About Me',
         contact: 'Contact Me',
-        testimonials: 'Customer Testimonials'
+        testimonials: 'Customer Testimonials',
+        networking: 'Networking'
       },
       home: {
         title: 'Welcome to Daniel Seguin Consultant',
@@ -114,6 +117,7 @@ export class TranslationService {
       skills: { title: 'Skills' },
       projects: { title: 'Projects' },
       testimonials: { title: 'Customer Testimonials' },
+      networking: { title: 'Networking' },
       demo: {
         title: 'Demo Websites',
         service: 'Service Industry Website',
@@ -157,7 +161,8 @@ export class TranslationService {
         demo: 'Démo',
         about: 'À Propos',
         contact: 'Me Contacter',
-        testimonials: 'Témoignages Clients'
+        testimonials: 'Témoignages Clients',
+        networking: 'Réseautage'
       },
       home: {
         title: 'Bienvenue chez Daniel Seguin Consultant',
@@ -174,6 +179,7 @@ export class TranslationService {
       skills: { title: 'Compétences' },
       projects: { title: 'Projets' },
       testimonials: { title: 'Témoignages Clients' },
+      networking: { title: 'Réseautage' },
       demo: {
         title: 'Sites Web de Démonstration',
         service: 'Site Web Industrie des Services',
@@ -207,7 +213,7 @@ export class TranslationService {
       },
       footer: { rights: 'Tous droits réservés.' }
     },
-    es: {
+      es: {
       nav: {
         home: 'Inicio',
         services: 'Servicios',
@@ -217,7 +223,8 @@ export class TranslationService {
         demo: 'Demo',
         about: 'Acerca de Mí',
         contact: 'Contáctame',
-        testimonials: 'Testimonios de Clientes'
+        testimonials: 'Testimonios de Clientes',
+        networking: 'Networking'
       },
       home: {
         title: 'Bienvenido a Daniel Seguin Consultant',
@@ -234,6 +241,7 @@ export class TranslationService {
       skills: { title: 'Habilidades' },
       projects: { title: 'Proyectos' },
       testimonials: { title: 'Testimonios de Clientes' },
+      networking: { title: 'Networking' },
       demo: {
         title: 'Sitios Web de Demostración',
         service: 'Sitio Web de Industria de Servicios',

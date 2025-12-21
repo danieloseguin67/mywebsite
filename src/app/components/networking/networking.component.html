@@ -1,0 +1,11 @@
+<div class="networking-container">
+  <h1 class="networking-title">{{ translations.networking.title }}</h1>
+  
+  <div class="networking-grid">
+    <div class="networking-card" *ngFor="let item of networkingItems" (click)="openLink(item.url)">
+      <h3 class="networking-name">{{ item.name }}</h3>
+      <p class="networking-description">{{ item.description }}</p>
+      <span class="networking-link">Visit Site →</span>
+    </div>
+  </div>
+</div>

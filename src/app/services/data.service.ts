@@ -6,6 +6,7 @@ import { ProductData } from '../models/product.model';
 import { SkillData } from '../models/skill.model';
 import { ProjectData } from '../models/project.model';
 import { TestimonialData, Testimonial } from '../models/testimonial.model';
+import { NetworkingData } from '../models/networking.model';
 
 @Injectable({
   providedIn: 'root'
@@ -34,5 +35,9 @@ export class DataService {
     return this.http.get<TestimonialData>('assets/data/testimonials.json').pipe(
       map((data: TestimonialData) => data[language as keyof TestimonialData] || data.en)
     );
+  }
+
+  getNetworking(): Observable<NetworkingData> {
+    return this.http.get<NetworkingData>('assets/data/networking.json');
   }
 }

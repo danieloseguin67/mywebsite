@@ -1,0 +1,68 @@
+{
+  "en": [
+    {
+      "name": "LinkedIn",
+      "description": "Connect with me on LinkedIn to view my professional profile, experience, and network with other professionals in the industry.",
+      "url": "https://www.linkedin.com/in/daniel-seguin-98275628/"
+    },
+    {
+      "name": "Hilltop Networking",
+      "description": "Connect with me on Hilltop Networking group for professional networking events, business development opportunities, and community connections.",
+      "url": "https://hilltoppn.com/"
+    },
+    {
+      "name": "Freelance.ca",
+      "description": "Connect with me on freelance.ca, Canada's premier platform for freelance professionals and businesses.",
+      "url": "https://www.freelance.ca"
+    },
+    {
+      "name": "Pige Québec",
+      "description": "Explore advertising and media opportunities in Quebec through Pige Québec, the leading media monitoring and advertising platform.",
+      "url": "https://www.pige.quebec"
+    }
+  ],
+  "fr": [
+    {
+      "name": "LinkedIn",
+      "description": "Connectez-vous avec moi sur LinkedIn pour consulter mon profil professionnel, mon expérience et établir des contacts avec d'autres professionnels de l'industrie.",
+      "url": "https://www.linkedin.com/in/daniel-seguin-98275628/"
+    },
+    {
+      "name": "Hilltop Networking",
+      "description": "Connectez-vous avec moi sur le groupe Hilltop Networking pour des événements de réseautage professionnel, des opportunités de développement commercial et des connexions communautaires.",
+      "url": "https://hilltoppn.com/"
+    },
+    {
+      "name": "Freelance.ca",
+      "description": "Connectez-vous avec moi sur Freelance.ca, la plateforme de référence au Canada pour les professionnels indépendants et les entreprises.",
+      "url": "https://www.freelance.ca"
+    },
+    {
+      "name": "Pige Québec",
+      "description": "Explorez les opportunités publicitaires et médiatiques au Québec via Pige Québec, la principale plateforme de veille médiatique et publicitaire.",
+      "url": "https://www.pige.quebec"
+    }
+  ],
+  "es": [
+    {
+      "name": "LinkedIn",
+      "description": "Conéctate conmigo en LinkedIn para ver mi perfil profesional, experiencia y establecer contactos con otros profesionales de la industria.",
+      "url": "https://www.linkedin.com/in/daniel-seguin-98275628/"
+    },
+    {
+      "name": "Hilltop Networking",
+      "description": "Conéctate conmigo en el grupo Hilltop Networking para eventos de networking profesional, oportunidades de desarrollo empresarial y conexiones comunitarias.",
+      "url": "https://hilltoppn.com/"
+    },
+    {
+      "name": "Freelance.ca",
+      "description": "Conéctate conmigo en Freelance.ca, la plataforma líder de Canadá para profesionales independientes y empresas.",
+      "url": "https://www.freelance.ca"
+    },
+    {
+      "name": "Pige Québec",
+      "description": "Explora oportunidades publicitarias y mediáticas en Quebec a través de Pige Québec, la plataforma líder de monitoreo de medios y publicidad.",
+      "url": "https://www.pige.quebec"
+    }
+  ]
+}
