@@ -3,12 +3,12 @@
     {
       "name": "Core Competencies",
       "description": "• Legacy systems documentation & knowledge extraction\n• Reverse engineering (code, database, interfaces)\n• Architecture support: ERD, data dictionaries, BPM, integration maps\n• Modernization roadmaps: legacy-to-cloud, platform upgrades\n• Data migration/ETL, validation, and reconciliation\n• AI-accelerated analysis: Copilot-assisted coding, MCP workflows\n• DevOps: Git, Azure DevOps, CI/CD, issue tracking\n• Security, quality assurance, and production support best practices",
-      "experience": "30 ans"
+      "experience": "30 years"
     },
     {
       "name": "Technical Stack",
       "description": "• Languages: C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Platforms: .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Databases: SQL Server, Oracle, Informix\n• Cloud & DevOps: Azure, Docker, Kubernetes (exploration), Terraform (scripts), CI/CD\n• Power Platform: PowerApps, PowerAutomate, Power BI, Power Pages\n• Tools: Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
-      "experience": "30 ans"
+      "experience": "30 years"
     },
     {
       "name": "Website Frontend Development (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
