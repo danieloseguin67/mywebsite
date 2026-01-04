@@ -107,10 +107,9 @@ export class TranslationService {
         subtitle: 'Senior IT Consultant - Delivering Excellence in Technology Solutions',
         news1: '🌟 Specialist in Enterprise Application Development – PowerBuilder, Informix 4GL, Java, .NET, Python, PowerShell, Unix/Linux Shells',
         news2: '🎯 Currently delivering mission-critical solutions at PSPC as a PowerBuilder Architect/Developer',
-        news3: '🚀 On a journey to become a Microsoft Power Platform and Azure Solutions Architect',
-        news4: '💡 Passionate about creating intuitive user experiences and clean, maintainable code',
+        news4: '💡 Expert at legacy modernization and technial documentation',
         news5: '🔗 Integrating cutting-edge technologies like AI and Cloud to deliver robust, scalable solutions',
-        news6: '✅ Helping organizations modernize legacy systems and embrace digital transformation'
+        news6: '✅ Integrating cutting-edge technologies like AI to reverse engineer applications to generate docummentation'
       },
       services: { title: 'Services' },
       products: { title: 'Products' },

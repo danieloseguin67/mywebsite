@@ -1,14 +1,14 @@
 {
   "en": [
     {
-      "name": "AI Developer",
-      "description": "Worked with Github Copilot as a colleague, and assigned particular programming and validating tasks to improve the overall development process.",
-      "experience": "1 year"
+      "name": "Core Competencies",
+      "description": "• Legacy systems documentation & knowledge extraction\n• Reverse engineering (code, database, interfaces)\n• Architecture support: ERD, data dictionaries, BPM, integration maps\n• Modernization roadmaps: legacy-to-cloud, platform upgrades\n• Data migration/ETL, validation, and reconciliation\n• AI-accelerated analysis: Copilot-assisted coding, MCP workflows\n• DevOps: Git, Azure DevOps, CI/CD, issue tracking\n• Security, quality assurance, and production support best practices",
+      "experience": "30 ans"
     },
     {
-      "name": "Python",
-      "description": "Advanced Python development for backend services, data processing, automation, migration, and machine learning applications.",
-      "experience": "2 years"
+      "name": "Technical Stack",
+      "description": "• Languages: C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Platforms: .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Databases: SQL Server, Oracle, Informix\n• Cloud & DevOps: Azure, Docker, Kubernetes (exploration), Terraform (scripts), CI/CD\n• Power Platform: PowerApps, PowerAutomate, Power BI, Power Pages\n• Tools: Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
+      "experience": "30 ans"
     },
     {
       "name": "Website Frontend Development (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
@@ -16,19 +16,9 @@
       "experience": "10 years"
     },
     {
-      "name": "Java / Spring / MVC / Oracle and Open JDK",
-      "description": "Enterprise Java development with Spring Framework for building robust, scalable microservices and applications.",
-      "experience": "5 years+"
-    },
-    {
       "name": "PowerBuilder",
       "description": "Expert-level proficiency in developing and maintening applications.",
       "experience": "10+ years"
-    },
-    {
-      "name": "Cloud Platforms (Azure, Power Platform)",
-      "description": "Comprehensive experience in designing, deploying, and managing applications across major cloud platforms.",
-      "experience": "4 years"
     },
     {
       "name": "Informix 4gl / Fourgen Case Tools / Genero",
@@ -47,97 +37,76 @@
     }
   ],
   "fr": [
-  {
-    "name": "Développeur IA collaborant avec GitHub Copilot Agent",
-    "description": "Développement avancé en Python pour les services backend, le traitement de données, l'automatisation, la migration et les applications d'apprentissage automatique.",
-    "experience": "1 an"
-  },
-  {
-    "name": "Python",
-    "description": "Développement avancé en Python pour les services backend, le traitement de données, l'automatisation, la migration et les applications d'apprentissage automatique.",
-    "experience": "2 ans"
-  },
-  {
-    "name": "Plateformes Cloud (Azure, Power Platform)",
-    "description": "Expérience complète dans la conception, le déploiement et la gestion d'applications sur les principales plateformes cloud.",
-    "experience": "4 ans"
-  },
-  {
-    "name": "Java / Spring / MVC / Oracle et Open JDK",
-    "description": "Développement d'applications d'entreprise en Java avec le framework Spring pour créer des microservices et des applications robustes et évolutives.",
-    "experience": "Plus de 5 ans"
-  },
-  {
-    "name": "PowerBuilder",
-    "description": "Maîtrise experte du développement et de la maintenance d'applications.",
-    "experience": "Plus de 10 ans"
-  },
-  {
-    "name": "Développement Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
-    "description": "Développement frontend moderne avec des frameworks populaires pour créer des interfaces utilisateur interactives connectées à des bases de données SQL Server.",
-    "experience": "10 ans"
-  },
-  {
-    "name": "Informix 4GL / Fourgen Case Tools / Genero",
-    "description": "Orchestration et gestion de conteneurs pour la création d'applications et de microservices cloud-native.",
-    "experience": "Plus de 20 ans"
-  },
-  {
-    "name": "Bases de données Informix, Oracle et SQL Server",
-    "description": "Conception, développement, maintenance et optimisation de bases de données.",
-    "experience": "Plus de 20 ans"
-  },
-  {
-  "name": "Rapports BI",
-  "description": "Développement et maintenance de rapports SSRS, SAP Business Objects et Power BI.",
-  "experience": "5 ans et plus"
-  }
+    {
+      "name": "Compétences clés",
+      "description": "• Documentation des systèmes hérités et extraction des connaissances\n• Rétro-ingénierie (code, base de données, interfaces)\n• Support d'architecture : MCD, dictionnaires de données, BPM, cartes d'intégration\n• Feuilles de route de modernisation : migration vers le cloud, mises à niveau de plateforme\n• Migration/ETL de données, validation et rapprochement\n• Analyse accélérée par l'IA : codage assisté Copilot, workflows MCP\n• DevOps : Git, Azure DevOps, CI/CD, suivi des problèmes\n• Sécurité, assurance qualité et meilleures pratiques de support en production",
+      "experience": "30 ans"
+    },
+    {
+      "name": "Stack technique",
+      "description": "• Langages : C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Plateformes : .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Bases de données : SQL Server, Oracle, Informix\n• Cloud & DevOps : Azure, Docker, Kubernetes (exploration), Terraform (scripts), CI/CD\n• Power Platform : PowerApps, PowerAutomate, Power BI, Power Pages\n• Outils : Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
+      "experience": "30 ans"
+    },
+    { "name": "Développement Frontend de Site Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+      "description": "Développement frontend moderne utilisant des frameworks populaires pour créer des interfaces utilisateur interactives connectées à des bases de données SQL Server.",
+      "experience": "10 ans"
+    },
+    {
+      "name": "PowerBuilder",
+      "description": "Maîtrise experte du développement et de la maintenance d'applications.",
+      "experience": "Plus de 10 ans"
+    },
+    {
+      "name": "Informix 4GL / Fourgen Case Tools / Genero",
+      "description": "Orchestration et gestion de conteneurs pour la création d'applications et de microservices cloud-native.",
+      "experience": "Plus de 20 ans"
+    },
+    {
+      "name": "Bases de données Informix, Oracle et SQL Server",
+      "description": "Conception, développement, maintenance et optimisation de bases de données.",
+      "experience": "Plus de 20 ans"
+    },
+    {
+      "name": "Rapports BI",
+      "description": "Développement et maintenance de rapports SSRS, SAP Business Objects et Power BI.",
+      "experience": "5 ans et plus"
+    }
   ],
   "es": [
-  {
-    "name": "Desarrollador de IA en colaboración con GitHub Copilot Agent",
-    "description": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
-    "experience": "1 años"
-  },
-  {
-    "name": "Python",
-    "description": "Desarrollo avanzado en Python para servicios backend, procesamiento de datos, automatización, migración y aplicaciones de aprendizaje automático.",
-    "experience": "2 años"
-  },
-  {
-    "name": "Plataformas en la nube (Azure, Power Platform)",
-    "description": "Experiencia integral en diseño, implementación y gestión de aplicaciones en las principales plataformas en la nube.",
-    "experience": "4 años"
-  },
-  {
-    "name": "Java / Spring / MVC / Oracle y Open JDK",
-    "description": "Desarrollo empresarial en Java con el framework Spring para construir microservicios y aplicaciones robustas y escalables.",
-    "experience": "Más de 5 años"
-  },
-  {
-    "name": "PowerBuilder",
-    "description": "Dominio experto en el desarrollo y mantenimiento de aplicaciones.",
-    "experience": "Más de 10 años"
-  },
-  {
-    "name": "Desarrollo Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
-    "description": "Desarrollo frontend moderno utilizando frameworks populares para construir interfaces de usuario interactivas conectadas a bases de datos SQL Server.",
-    "experience": "10 años"
-  },
-  {
-    "name": "Informix 4GL / Fourgen Case Tools / Genero",
-    "description": "Orquestación y gestión de contenedores para construir aplicaciones nativas en la nube y microservicios.",
-    "experience": "Más de 20 años"
-  },
-  {
-    "name": "Bases de datos Informix, Oracle y SQL Server",
-    "description": "Diseño, desarrollo, mantenimiento y optimización de bases de datos.",
-    "experience": "Más de 20 años"
-  },
-  {
-    "name": "Informes BI",
-    "description": "Desarrollo y mantenimiento de informes en SSRS, SAP Business Objects y Power BI.",
-    "experience": "Más de 5 años"
-  }
+    {
+      "name": "Competencias clave",
+      "description": "• Documentación de sistemas heredados y extracción de conocimiento\n• Ingeniería inversa (código, base de datos, interfaces)\n• Soporte de arquitectura: DER, diccionarios de datos, BPM, mapas de integración\n• Hojas de ruta de modernización: migración a la nube, actualizaciones de plataforma\n• Migración/ETL de datos, validación y conciliación\n• Análisis acelerado por IA: codificación asistida por Copilot, flujos de trabajo MCP\n• DevOps: Git, Azure DevOps, CI/CD, seguimiento de incidencias\n• Seguridad, aseguramiento de la calidad y mejores prácticas de soporte en producción",
+      "experience": "30 años"
+    },
+    {
+      "name": "Stack técnico",
+      "description": "• Lenguajes: C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Plataformas: .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Bases de datos: SQL Server, Oracle, Informix\n• Cloud & DevOps: Azure, Docker, Kubernetes (exploración), Terraform (scripts), CI/CD\n• Power Platform: PowerApps, PowerAutomate, Power BI, Power Pages\n• Herramientas: Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
+      "experience": "30 años"
+    },
+    {
+      "name": "PowerBuilder",
+      "description": "Dominio experto en el desarrollo y mantenimiento de aplicaciones.",
+      "experience": "Más de 10 años"
+    },
+    {
+      "name": "Desarrollo Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
+      "description": "Desarrollo frontend moderno utilizando frameworks populares para construir interfaces de usuario interactivas conectadas a bases de datos SQL Server.",
+      "experience": "10 años"
+    },
+    {
+      "name": "Informix 4GL / Fourgen Case Tools / Genero",
+      "description": "Orquestación y gestión de contenedores para construir aplicaciones nativas en la nube y microservicios.",
+      "experience": "Más de 20 años"
+    },
+    {
+      "name": "Bases de datos Informix, Oracle y SQL Server",
+      "description": "Diseño, desarrollo, mantenimiento y optimización de bases de datos.",
+      "experience": "Más de 20 años"
+    },
+    {
+      "name": "Informes BI",
+      "description": "Desarrollo y mantenimiento de informes en SSRS, SAP Business Objects y Power BI.",
+      "experience": "Más de 5 años"
+    }
   ]
 }

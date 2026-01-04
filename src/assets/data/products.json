@@ -9,11 +9,6 @@
       "name": "ERD Generator Application",
       "description": "Application to generate Entity Relational Diagrams using a DbDocGen Data Dictionary",
       "comingSoon": false
-    },
-    {
-      "name": "CondoPilotAI Condo Management Solution",
-      "description": "This solution consists of a client portal for owners and tenants to access their properties, and also a manager admin portal to manage the condo association.",
-      "comingSoon": true
     }
   ],
   "fr": [
@@ -26,11 +21,6 @@
     "name": "Application Générateur de Diagrammes ERD",
     "description": "Application permettant de générer des diagrammes relationnels d'entités à l'aide d'un dictionnaire de données DbDocGen.",
     "comingSoon": false
-  },
-  {
-    "name": "CondoPilotAI Solution de Gestion de Copropriété",
-    "description": "Cette solution comprend un portail client pour les propriétaires et les locataires afin d'accéder à leurs propriétés, ainsi qu'un portail administrateur pour la gestion de l'association de copropriété.",
-    "comingSoon": true
   }
   ],
   "es": [
@@ -43,11 +33,6 @@
     "name": "Aplicación Generador de Diagramas ERD",
     "description": "Aplicación para generar Diagramas de Relación de Entidades utilizando un Diccionario de Datos DbDocGen.",
     "comingSoon": false
-  },
-  {
-    "name": "CondoPilotAI Solución de Gestión de Condominios",
-    "description": "Esta solución incluye un portal para propietarios e inquilinos para acceder a sus propiedades, así como un portal administrativo para gestionar la asociación de condominios.",
-    "comingSoon": true
   }
   ]
 }
