@@ -9,6 +9,11 @@
       "name": "ERD Generator Application",
       "description": "Application to generate Entity Relational Diagrams using a DbDocGen Data Dictionary",
       "comingSoon": false
+    },
+    {
+      "name": "C# API Service & Swagger Generator",
+      "description": "Solution to automatically generate RESTful API services in C# and produce Swagger/OpenAPI documentation for seamless integration and testing.",
+      "comingSoon": false
     }
   ],
   "fr": [
@@ -21,6 +26,11 @@
     "name": "Application Générateur de Diagrammes ERD",
     "description": "Application permettant de générer des diagrammes relationnels d'entités à l'aide d'un dictionnaire de données DbDocGen.",
     "comingSoon": false
+  },
+  {
+    "name": "Générateur de services API C# et Swagger",
+    "description": "Solution pour générer automatiquement des services API RESTful en C# et produire une documentation Swagger/OpenAPI pour une intégration et des tests facilités.",
+    "comingSoon": false
   }
   ],
   "es": [
@@ -32,6 +42,11 @@
   {
     "name": "Aplicación Generador de Diagramas ERD",
     "description": "Aplicación para generar Diagramas de Relación de Entidades utilizando un Diccionario de Datos DbDocGen.",
+    "comingSoon": false
+  },
+  {
+    "name": "Generador de servicios API en C# y Swagger",
+    "description": "Solución para generar automáticamente servicios API RESTful en C# y producir documentación Swagger/OpenAPI para integración y pruebas sencillas.",
     "comingSoon": false
   }
   ]
