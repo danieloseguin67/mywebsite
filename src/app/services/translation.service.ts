@@ -43,8 +43,16 @@ export interface Translations {
   };
   services: { title: string };
   products: { title: string };
-  skills: { title: string };
-  projects: { title: string };
+  skills: {
+    title: string;
+    constructionTitle: string;
+    constructionMessage: string;
+  };
+  projects: {
+    title: string;
+    constructionTitle: string;
+    constructionMessage: string;
+  };
   testimonials: { title: string };
   networking: { title: string };
   demo: {
@@ -114,8 +122,16 @@ export class TranslationService {
       },
       services: { title: 'Services' },
       products: { title: 'Products' },
-      skills: { title: 'Skills' },
-      projects: { title: 'Projects' },
+      skills: {
+        title: 'Skills',
+        constructionTitle: 'Page Under Construction',
+        constructionMessage: 'I am currently preparing this skills section with detailed capability breakdowns. Please check back soon.'
+      },
+      projects: {
+        title: 'Projects',
+        constructionTitle: 'Page Under Construction',
+        constructionMessage: 'I am currently curating project case studies for this section. Please check back soon.'
+      },
       testimonials: { title: 'Customer Testimonials' },
       networking: { title: 'Networking' },
       demo: {
@@ -176,8 +192,16 @@ export class TranslationService {
       },
       services: { title: 'Services' },
       products: { title: 'Produits' },
-      skills: { title: 'Compétences' },
-      projects: { title: 'Projets' },
+      skills: {
+        title: 'Compétences',
+        constructionTitle: 'Page en cours de construction',
+        constructionMessage: 'Je prépare actuellement cette section de compétences avec une présentation detaillee des capacites. Revenez bientot.'
+      },
+      projects: {
+        title: 'Projets',
+        constructionTitle: 'Page en cours de construction',
+        constructionMessage: 'Je suis actuellement en train de preparer des etudes de cas pour cette section. Revenez bientot.'
+      },
       testimonials: { title: 'Témoignages Clients' },
       networking: { title: 'Réseautage' },
       demo: {
@@ -238,8 +262,16 @@ export class TranslationService {
       },
       services: { title: 'Servicios' },
       products: { title: 'Productos' },
-      skills: { title: 'Habilidades' },
-      projects: { title: 'Proyectos' },
+      skills: {
+        title: 'Habilidades',
+        constructionTitle: 'Pagina en construccion',
+        constructionMessage: 'Actualmente estoy preparando esta seccion de habilidades con un desglose detallado de capacidades. Vuelve pronto.'
+      },
+      projects: {
+        title: 'Proyectos',
+        constructionTitle: 'Pagina en construccion',
+        constructionMessage: 'Actualmente estoy preparando estudios de caso para esta seccion. Vuelve pronto.'
+      },
       testimonials: { title: 'Testimonios de Clientes' },
       networking: { title: 'Networking' },
       demo: {

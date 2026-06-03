@@ -22,55 +22,47 @@
     }
   ],
   "fr": [
-  {
-    "name": "Stratégie et Conseil en TI",
-    "description": "Conseils d'experts en stratégie technologique, transformation numérique et élaboration de feuilles de route TI pour aligner la technologie sur les objectifs d'affaires."
-  },
-  {
-    "name": "Développement de Logiciels",
-    "description": "Solutions logicielles personnalisées conçues avec des technologies modernes, allant des applications web aux systèmes d'entreprise pour améliorer l'efficacité opérationnelle."
-  },
-  {
-    "name": "Maintenance des Systèmes Hérités",
-    "description": "Maintenance et support des applications d'entreprise héritées développées avec Informix 4GL, Fourgen Case Tools, Generro, PowerBuilder 5, 8, 12.5, 2017, 2019, 2021, 2022 et 2025."
-  },
-  {
-    "name": "Conception de Sites Web, Développement, Maintenance et Hébergement",
-    "description": "Services pour les petites et moyennes entreprises, incluant la conception, le développement, la maintenance de sites web, ainsi qu’un hébergement gratuit. Consultez quelques exemples de sites web dans le menu Démo."
-  },
-  {
-    "name": "DevOps et Automatisation",
-    "description": "Implémentation de pipelines CI/CD, meilleures pratiques DevOps, configuration de tableaux de bord DevOps pour les projets Scrum, et tests automatisés pour accélérer la livraison et améliorer la qualité."
-  },
-  {
-    "name": "Leadership Technique",
-    "description": "Mentorat des équipes de développement, établissement de normes de codage et orientation technique pour des projets complexes."
-  }
+    {
+      "name": "Specialisation Low-Code / No-Code",
+      "description": "Specialise en plateformes low-code/no-code, notamment Bizagi, SnapLogic, Mendix, Salesforce et Microsoft Power Platform."
+    },
+    {
+      "name": "Maintenance et support des applications heritees",
+      "description": "Maintenance et support d'applications d'entreprise heritees en PowerBuilder et Informix 4GL / Fourgen Case Tools / Genero."
+    },
+    {
+      "name": "Modelisation, documentation et programmation de bases de donnees",
+      "description": "Modelisation de donnees, documentation technique et programmation pour SQL Server, Informix, Oracle, Sybase, PostgreSQL et MySQL."
+    },
+    {
+      "name": "Developpement logiciel avec GitHub Copilot",
+      "description": "Developpement logiciel accelere avec Microsoft GitHub Copilot pour des livraisons plus rapides, une meilleure qualite de code et une productivite accrue."
+    },
+    {
+      "name": "Conception, developpement et maintenance de sites Web",
+      "description": "Conception, developpement et maintenance de sites Web avec Angular 19, en mettant l'accent sur une architecture frontend moderne, adaptative et maintenable."
+    }
   ],
   "es": [
-  {
-    "name": "Estrategia y Consultoría en TI",
-    "description": "Asesoramiento experto en estrategia tecnológica, transformación digital y desarrollo de hojas de ruta de TI para alinear la tecnología con los objetivos empresariales."
-  },
-  {
-    "name": "Desarrollo de Software",
-    "description": "Soluciones de software personalizadas desarrolladas con tecnologías modernas, desde aplicaciones web hasta sistemas empresariales que mejoran la eficiencia del negocio."
-  },
-  {
-    "name": "Mantenimiento de Sistemas Legados",
-    "description": "Mantenimiento y soporte de aplicaciones empresariales legadas desarrolladas en Informix 4GL, Fourgen Case Tools, Generro, PowerBuilder 5, 8, 12.5, 2017, 2019, 2021, 2022 y 2025."
-  },
-  {
-    "name": "Diseño de sitios web, desarrollo, mantenimiento y alojamiento",
-    "description": "Servicios para pequeñas y medianas empresas, incluyendo diseño, desarrollo, mantenimiento de sitios web y alojamiento gratuito.  Consulta algunos ejemplos de sitios web en la opción del menú Demostración."
-  },
-  {
-    "name": "DevOps y Automatización",
-    "description": "Implementación de pipelines CI/CD, mejores prácticas de DevOps, configuración de paneles DevOps para proyectos Scrum y pruebas automatizadas para acelerar la entrega y mejorar la calidad."
-  },
-  {
-    "name": "Liderazgo Técnico",
-    "description": "Mentoría de equipos de desarrollo, establecimiento de estándares de codificación y dirección técnica para proyectos complejos."
-  }
+    {
+      "name": "Especializacion Low-Code / No-Code",
+      "description": "Especializado en plataformas low-code/no-code, incluyendo Bizagi, SnapLogic, Mendix, Salesforce y Microsoft Power Platform."
+    },
+    {
+      "name": "Mantenimiento y soporte de aplicaciones heredadas",
+      "description": "Mantenimiento y soporte de aplicaciones empresariales heredadas en PowerBuilder e Informix 4GL / Fourgen Case Tools / Genero."
+    },
+    {
+      "name": "Modelado, documentacion y programacion de bases de datos",
+      "description": "Modelado de datos, documentacion tecnica y programacion para SQL Server, Informix, Oracle, Sybase, PostgreSQL y MySQL."
+    },
+    {
+      "name": "Desarrollo de software con GitHub Copilot",
+      "description": "Desarrollo de software acelerado con Microsoft GitHub Copilot para entregas mas rapidas, mayor calidad de codigo y mejor productividad del equipo."
+    },
+    {
+      "name": "Diseno, desarrollo y mantenimiento de sitios web",
+      "description": "Diseno, desarrollo y mantenimiento de sitios web con Angular 19, utilizando una arquitectura frontend moderna, adaptable y mantenible."
+    }
   ]
 }
