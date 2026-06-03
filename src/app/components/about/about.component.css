@@ -34,6 +34,23 @@
   color: #555;
 }
 
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+}
+
+.about-highlights span {
+  background: #f4f6f8;
+  color: #1f2732;
+  border: 1px solid #d3dae2;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+}
+
 h2 {
   color: #333;
   margin-bottom: 1rem;
@@ -99,6 +116,10 @@ h2 {
   .about-text {
     max-width: 600px;
   }
+
+  .about-highlights {
+    justify-content: center;
+  }
   
   h2 {
     font-size: 2.5rem;
@@ -124,6 +145,10 @@ h2 {
   
   .about-text {
     font-size: 1.05rem;
+  }
+
+  .about-highlights {
+    justify-content: center;
   }
   
   h2 {
@@ -156,6 +181,15 @@ h2 {
   
   .about-text p {
     margin-bottom: 0.8rem;
+  }
+
+  .about-highlights {
+    justify-content: center;
+    gap: 0.45rem;
+  }
+
+  .about-highlights span {
+    font-size: 0.8rem;
   }
   
   h2 {

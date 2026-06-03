@@ -1,5 +1,5 @@
 .hero-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: radial-gradient(circle at top right, rgba(224, 0, 21, 0.28), transparent 42%), linear-gradient(140deg, #16181d 0%, #232830 55%, #2f3641 100%);
   color: white;
   text-align: center;
   min-height: 100vh;
@@ -30,8 +30,9 @@
   width: 100%;
   max-width: 1600px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   padding: 1rem 0;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
@@ -86,6 +87,19 @@
   padding: 0 1rem;
 }
 
+.role-badge {
+  display: inline-block;
+  background: #e00015;
+  color: #fff;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
 .hero-section h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -98,6 +112,55 @@
   opacity: 0.9;
   line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.4rem;
+}
+
+.hero-btn {
+  text-decoration: none;
+  padding: 0.65rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+}
+
+.hero-btn.primary {
+  background: #e00015;
+  color: #fff;
+}
+
+.hero-btn.primary:hover {
+  background: #b80011;
+}
+
+.hero-btn.secondary {
+  background: #fff;
+  color: #181c22;
+}
+
+.hero-btn.secondary:hover {
+  background: #eceff3;
+}
+
+.hero-btn.ghost {
+  border-color: rgba(255, 255, 255, 0.65);
+  color: #fff;
+}
+
+.hero-btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 /* Desktop styles */
@@ -149,6 +212,10 @@
   .subtitle {
     font-size: 1.2rem;
   }
+
+  .hero-actions {
+    gap: 0.6rem;
+  }
   
   .news-ticker-container {
     max-width: 90%;
@@ -182,6 +249,10 @@
 
   .subtitle {
     font-size: 1.1rem;
+  }
+
+  .hero-btn {
+    font-size: 0.9rem;
   }
   
   .news-ticker-container {
@@ -222,6 +293,15 @@
 
   .subtitle {
     font-size: 1rem;
+  }
+
+  .role-badge {
+    font-size: 0.75rem;
+  }
+
+  .hero-btn {
+    width: 100%;
+    max-width: 260px;
   }
   
   .news-ticker-container {

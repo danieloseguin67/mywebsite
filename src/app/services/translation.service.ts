@@ -92,25 +92,25 @@ export class TranslationService {
     en: {
       nav: {
         home: 'Home',
-        services: 'Services',
-        products: 'Products',
+        services: 'Consulting',
+        products: 'Solutions',
         skills: 'Skills',
         projects: 'Projects',
         demo: 'Demo',
         about: 'About Me',
         contact: 'Contact Me',
-        testimonials: 'Customer Testimonials',
+        testimonials: 'Testimonials',
         networking: 'Networking'
       },
       home: {
-        title: 'Welcome to Daniel Seguin Consultant',
-        subtitle: 'Senior IT Consultant - Delivering Excellence in Technology Solutions',
-        news1: '🌟 Specialist in Enterprise Application Development – PowerBuilder, Informix 4GL, Java, .NET, Python, PowerShell, Unix/Linux Shells',
-        news2: '🎯 Currently delivering mission-critical solutions at PSPC as a PowerBuilder Architect/Developer',
-        news3: '💡 Expert at legacy modernization and technial documentation',
-        news4: '🔗 Integrating cutting-edge technologies like AI and Cloud to deliver robust, scalable solutions',
-        news5: '✅ Integrating cutting-edge technologies like AI to reverse engineer applications to generate documentation',
-        news6: '🚀 Helping organizations modernize legacy systems and embrace digital transformation'
+        title: 'Daniel Seguin | CGI Senior Consultant',
+        subtitle: 'Personal portfolio focused on enterprise modernization, delivery excellence, and measurable business outcomes.',
+        news1: '🌟 30+ years delivering enterprise application solutions across public and private sectors',
+        news2: '🎯 CGI Senior Consultant driving mission-critical modernization and delivery quality',
+        news3: '💡 Specialized in reverse engineering legacy systems and building clear technical documentation',
+        news4: '🔗 End-to-end expertise: architecture, development, data migration, and production support',
+        news5: '✅ AI-accelerated delivery using GitHub Copilot, automation, and DevOps best practices',
+        news6: '🚀 Helping organizations reduce risk while modernizing complex business platforms'
       },
       services: { title: 'Services' },
       products: { title: 'Products' },
@@ -136,7 +136,7 @@ export class TranslationService {
       about: {
         title: 'About Me',
         imageLabel: 'Photo',
-        bio: 'As a Senior IT Consultant with extensive experience in delivering innovative technology solutions, I specialize in helping businesses transform their operations through strategic technology implementation. With a proven track record across multiple industries, I bring deep expertise in software development, system architecture, and digital transformation. My passion lies in understanding client needs and delivering solutions that drive real business value.'
+        bio: 'I am a CGI Senior Consultant with over three decades of experience in software engineering, enterprise architecture support, and modernization programs. I work at the intersection of business and technology to help teams stabilize legacy systems, define pragmatic roadmaps, and deliver secure, maintainable solutions. My approach is hands-on, collaborative, and outcome-driven: align with stakeholders, simplify complexity, and execute with discipline.'
       },
       contact: {
         title: 'Contact Me',

@@ -5,11 +5,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --brand-red: #e00015;
+  --brand-red-dark: #b80011;
+  --brand-charcoal: #161b22;
+  --brand-surface: #f3f5f8;
+  --brand-text: #1d2430;
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f5f5f5;
+  color: var(--brand-text);
+  background-color: var(--brand-surface);
 }
 
 .container {
@@ -29,7 +37,7 @@ body {
 .section h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #111922;
   text-align: center;
 }
 
@@ -56,7 +64,7 @@ body {
 }
 
 .card h3 {
-  color: #2c3e50;
+  color: #1b2330;
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
@@ -70,7 +78,7 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.3rem 0.8rem;
-  background-color: #3498db;
+  background-color: #27384d;
   color: white;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -80,7 +88,7 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.3rem 0.8rem;
-  background-color: #2ecc71;
+  background-color: var(--brand-red);
   color: white;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -127,7 +135,7 @@ body {
 
 .demo-card h3 {
   padding: 1.5rem;
-  background-color: #2c3e50;
+  background-color: var(--brand-charcoal);
   color: white;
   text-align: center;
 }
@@ -232,13 +240,13 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #3498db;
+  border-color: var(--brand-red);
 }
 
 .btn-submit {
   width: 100%;
   padding: 1rem;
-  background-color: #3498db;
+  background-color: var(--brand-red);
   color: white;
   border: none;
   border-radius: 5px;
@@ -249,7 +257,7 @@ body {
 }
 
 .btn-submit:hover {
-  background-color: #2980b9;
+  background-color: var(--brand-red-dark);
 }
 
 .form-status {
@@ -265,7 +273,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #2c3e50;
+  background-color: var(--brand-charcoal);
   color: white;
   padding: 2rem 0;
   text-align: center;
@@ -531,7 +539,7 @@ img {
 
 /* Focus styles for accessibility */
 *:focus {
-  outline: 2px solid #3498db;
+  outline: 2px solid var(--brand-red);
   outline-offset: 2px;
 }
 
@@ -540,7 +548,7 @@ img {
   position: absolute;
   top: -40px;
   left: 6px;
-  background: #3498db;
+  background: var(--brand-red);
   color: white;
   padding: 8px;
   text-decoration: none;

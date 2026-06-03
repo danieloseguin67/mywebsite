@@ -1,28 +1,24 @@
 {
   "en": [
     {
-      "name": "IT Strategy & Consulting",
-      "description": "Expert guidance on technology strategy, digital transformation, and IT roadmap development to align technology with business objectives."
+      "name": "Low-Code / No-Code Specialization",
+      "description": "Specialized in low-code/no-code platforms including Bizagi, SnapLogic, Mendix, Salesforce, and Microsoft Power Platform."
     },
     {
-      "name": "Software Development",
-      "description": "Custom software solutions built with modern technologies, from web applications to enterprise systems that drive business efficiency."
+      "name": "Legacy Application Maintenance and Support",
+      "description": "Maintenance and support for legacy enterprise applications in PowerBuilder and Informix 4GL / Fourgen Case Tools / Genero."
     },
     {
-      "name": "Legacy Systems Maintenance",
-      "description": "Maintenance and support of enterprise legacy applications built in Informix 4gl, Fourgen Case Tools, Generro, Powerbuilder 5, 8, 12.5, 2017, 2019, 2021, 2022, and 2025."
+      "name": "Database Modeling, Documentation, and Programming",
+      "description": "Database modeling, technical documentation, and programming for SQL Server, Informix, Oracle, Sybase, PostgreSQL, and MySQL."
     },
     {
-      "name": "Website Design, Development, Maintenance & Hosting",
-      "description": "Services for small to medium-sized businesses, including website design, development, maintenance, and free hosting. Check out some website samples under demo menu option"
+      "name": "Software Development with GitHub Copilot",
+      "description": "Accelerated software development using Microsoft GitHub Copilot for faster delivery, stronger code quality, and improved developer productivity."
     },
     {
-      "name": "DevOps & Automation",
-      "description": "Implementation of CI/CD pipelines, DevOps best practices, Devops Dashboard setup for scrum projects, and automated testing to accelerate delivery and improve quality."
-    },
-    {
-      "name": "Technical Leadership",
-      "description": "Mentoring development teams, establishing coding standards, and providing technical direction for complex projects."
+      "name": "Website Design, Development, and Maintenance",
+      "description": "Website design, development, and maintenance using Angular 19 with modern, responsive, and maintainable frontend architecture."
     }
   ],
   "fr": [

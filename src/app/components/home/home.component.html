@@ -23,8 +23,13 @@
       </div>
       
       <div class="hero-text">
+        <p class="role-badge">CGI Senior Consultant</p>
         <h1>{{ translations.home.title }}</h1>
         <p class="subtitle">{{ translations.home.subtitle }}</p>
+        <div class="hero-actions">
+          <a class="hero-btn primary" href="/projects" (click)="navigateTo('/projects', $event)">View Projects</a>
+          <a class="hero-btn secondary" href="/skills" (click)="navigateTo('/skills', $event)">Explore Skills</a>
+        </div>
       </div>
     </div>
   </div>
