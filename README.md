@@ -8,7 +8,7 @@ Professional Angular website showcasing the services, skills, projects, and expe
 
 - **Angular 17**: Modern Angular framework with standalone components
 - **Multi-Page Routing**: Separate pages for each section with Angular Router
-- **Multi-language Support**: Available in English, French, and Spanish
+- **Multi-language Support**: Available in English and French
 - **Responsive Design**: Fully responsive across all devices
 - **Dynamic Content**: Services, products, skills, and projects loaded from JSON files
 - **Modern UI**: Clean, professional design with smooth animations

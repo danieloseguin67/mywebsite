@@ -42,27 +42,5 @@
       "name": "Conception, developpement et maintenance de sites Web",
       "description": "Conception, developpement et maintenance de sites Web avec Angular 19, en mettant l'accent sur une architecture frontend moderne, adaptative et maintenable."
     }
-  ],
-  "es": [
-    {
-      "name": "Especializacion Low-Code / No-Code",
-      "description": "Especializado en plataformas low-code/no-code, incluyendo Bizagi, SnapLogic, Mendix, Salesforce y Microsoft Power Platform."
-    },
-    {
-      "name": "Mantenimiento y soporte de aplicaciones heredadas",
-      "description": "Mantenimiento y soporte de aplicaciones empresariales heredadas en PowerBuilder e Informix 4GL / Fourgen Case Tools / Genero."
-    },
-    {
-      "name": "Modelado, documentacion y programacion de bases de datos",
-      "description": "Modelado de datos, documentacion tecnica y programacion para SQL Server, Informix, Oracle, Sybase, PostgreSQL y MySQL."
-    },
-    {
-      "name": "Desarrollo de software con GitHub Copilot",
-      "description": "Desarrollo de software acelerado con Microsoft GitHub Copilot para entregas mas rapidas, mayor calidad de codigo y mejor productividad del equipo."
-    },
-    {
-      "name": "Diseno, desarrollo y mantenimiento de sitios web",
-      "description": "Diseno, desarrollo y mantenimiento de sitios web con Angular 19, utilizando una arquitectura frontend moderna, adaptable y mantenible."
-    }
   ]
 }

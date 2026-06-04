@@ -1,9 +1,13 @@
 <section class="section">
   <div class="container">
     <h2>{{ translations.projects.title }}</h2>
-    <div class="construction-card">
-      <h3>{{ translations.projects.constructionTitle }}</h3>
-      <p>{{ translations.projects.constructionMessage }}</p>
+
+    <div class="grid-container">
+      <div class="card" *ngFor="let project of projects">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+        <p class="technology"><strong>Technology:</strong> {{ project.technology }}</p>
+      </div>
     </div>
   </div>
 </section>

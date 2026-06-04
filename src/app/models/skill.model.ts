@@ -7,5 +7,4 @@ export interface Skill {
 export interface SkillData {
   en: Skill[];
   fr: Skill[];
-  es: Skill[];
 }

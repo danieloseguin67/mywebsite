@@ -6,5 +6,4 @@ export interface Service {
 export interface ServiceData {
   en: Service[];
   fr: Service[];
-  es: Service[];
 }

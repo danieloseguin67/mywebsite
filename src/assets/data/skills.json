@@ -1,112 +1,56 @@
 {
   "en": [
     {
-      "name": "Core Competencies",
-      "description": "• Legacy systems documentation & knowledge extraction\n• Reverse engineering (code, database, interfaces)\n• Architecture support: ERD, data dictionaries, BPM, integration maps\n• Modernization roadmaps: legacy-to-cloud, platform upgrades\n• Data migration/ETL, validation, and reconciliation\n• AI-accelerated analysis: Copilot-assisted coding, MCP workflows\n• DevOps: Git, Azure DevOps, CI/CD, issue tracking\n• Security, quality assurance, and production support best practices",
-      "experience": "30 years"
+      "name": "PROFILE",
+      "description": "I am an IT Analyst / Developer with 30+ years of experience specializing in legacy application maintenance, system documentation, and risk-free modernization. I help organizations extend the life of their mission-critical systems while guiding them toward scalable, modern architectures backed by AI-enhanced development practices.\n\nCore Strengths Organizations Care About\n\n✔ Legacy System Expertise\nDecades of hands-on experience supporting, enhancing, and troubleshooting complex enterprise systems that remain vital but difficult to maintain due to talent shortages.\n\n✔ Modernization Without Disruption\nI specialize in reverse-engineering existing systems and documenting large, multi-decade databases using tools such as DbDocGen and ERD Generator, enabling organizations to move forward with clarity.\n\n✔ API & Platform Modernization\nI deliver API service app development, maintenance, and documentation using PowerBuilder API generator and GitHub Copilot Agents.\n\n✔ AI-Assisted Development\nActively integrates GitHub Copilot and modern development workflows to accelerate delivery, reduce defects, and optimize modernization projects.\n\n✔ Cloud-Ready Migration\nExperienced in transitioning legacy systems to Azure and modern database environments, ensuring long-term scalability and lowered operational risk.\n\n✔ Low-No-Code Enablement\nHands-on with low-no-code platforms to quickly deliver business solutions and streamline process automation where full custom development is not required.",
+      "experience": ""
     },
     {
-      "name": "Technical Stack",
-      "description": "• Languages: C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Platforms: .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Databases: SQL Server, Oracle, Informix\n• Cloud & DevOps: Azure, Docker, Kubernetes (exploration), Terraform (scripts), CI/CD\n• Power Platform: PowerApps, PowerAutomate, Power BI, Power Pages\n• Tools: Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
-      "experience": "30 years"
+      "name": "CORE STRENGTHS",
+      "description": "• Legacy System Expertise: Support, enhance, and troubleshoot complex enterprise systems amid talent shortages.\n• Modernization Without Disruption: Reverse-engineering and documentation (DbDocGen, ERD Generator) of multi-decade databases.\n• API & Platform Modernization: PowerBuilder 2025 → C# .NET API services with auto-generated Swagger and VS-ready projects.\n• AI-Assisted Development: Developing solutions integrating generative AI, developed modern workflows using GitHub Actions to accelerate delivery and reduce defects.\n• Architecture: Developed service-oriented architecture either using API Services or JSON or XML data files and messages.\n• Cloud-Ready Migration: Transitioning legacy systems to Azure. Power Platform, and modern database environments.",
+      "experience": ""
     },
     {
-      "name": "Website Frontend Development (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
-      "description": "Modern frontend development using popular frameworks for building interactive user interfaces connected to SQL Server Databases.",
-      "experience": "10 years"
+      "name": "SKILLS & TECHNOLOGIES",
+      "description": "• Languages & Frameworks: Informix 4GL (Like RPG), PowerBuilder, VB6, VB.NET, C#, Java, Python, PowerShell, SQL, PL/SQL, .NET 6/8/9, TypeScript, Angular.\n• Databases: Informix, SQL Server, Oracle, MySQL, PostgreSQL, Dataverse.\n• Tools & Platforms: PowerBuilder 2025, GitHub Copilot, GitHub Actions, Microsoft 365 Copilot, PowerApps, PowerAutomate, Power BI, Jira, Confluence, SSRS, SAP BusinessObjects.\n• Cloud & DevOps: Azure, Azure DevOps, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), MCP Servers, FastMCP.cloud.\n• Operating Systems: Windows, Linux, Unix.",
+      "experience": ""
     },
     {
-      "name": "PowerBuilder",
-      "description": "Expert-level proficiency in developing and maintening applications.",
-      "experience": "10+ years"
+      "name": "LOW-CODE & AI-ENHANCED DEVELOPMENT",
+      "description": "• Bizagi, Mendix, SnapLogic, Microsoft Entity Framework, \nPower Platform (PowerApps, PowerPages, PowerBI, PowerAutomate)",
+      "experience": ""
     },
     {
-      "name": "Informix 4gl / Fourgen Case Tools / Genero",
-      "description": "Developing and maintaining applications in Informix 4gl connected to either Informix, Sql Server, and Oracle",
-      "experience": "20 years+"
-    },
-    {
-      "name": "Informix, Oracle, and SQL Server Databases",
-      "description": "Database design, development, maintenance, and optimizations.",
-      "experience": "20 years+"
-    },
-    {
-      "name": "BI Reporting",
-      "description": "SSRS, SAP Business Objects, Power BI report development and maintenance.",
-      "experience": "5 years+"
+      "name": "SCRIPTING & JOB MONITORING",
+      "description": "• PowerShell\n• Cronjobs\n• Korn shell\n• Bash shell",
+      "experience": ""
     }
   ],
   "fr": [
     {
-      "name": "Compétences clés",
-      "description": "• Documentation des systèmes hérités et extraction des connaissances\n• Rétro-ingénierie (code, base de données, interfaces)\n• Support d'architecture : MCD, dictionnaires de données, BPM, cartes d'intégration\n• Feuilles de route de modernisation : migration vers le cloud, mises à niveau de plateforme\n• Migration/ETL de données, validation et rapprochement\n• Analyse accélérée par l'IA : codage assisté Copilot, workflows MCP\n• DevOps : Git, Azure DevOps, CI/CD, suivi des problèmes\n• Sécurité, assurance qualité et meilleures pratiques de support en production",
-      "experience": "30 ans"
+      "name": "PROFIL",
+      "description": "Je suis Analyste / Développeur TI avec plus de 30 ans d'expérience, spécialisé dans la maintenance d'applications patrimoniales, la documentation des systèmes et la modernisation sans risque. J'aide les organisations à prolonger la durée de vie de leurs systèmes critiques tout en les guidant vers des architectures modernes, évolutives et soutenues par des pratiques de développement améliorées par l'IA.\n\nForces clés recherchées par les organisations\n\n✔ Expertise des systèmes patrimoniaux\nDes décennies d'expérience pratique en soutien, amélioration et dépannage de systèmes d'entreprise complexes, toujours essentiels mais difficiles à maintenir en raison de la rareté des talents.\n\n✔ Modernisation sans interruption\nJe me spécialise dans la rétro-ingénierie des systèmes existants et la documentation de grandes bases de données multi-décennales à l'aide d'outils tels que DbDocGen et ERD Generator, permettant aux organisations d'avancer avec clarté.\n\n✔ Modernisation des API et des plateformes\nJ'assure le développement, la maintenance et la documentation d'applications de services API en utilisant PowerBuilder 2025 avec connectivité aux bases de données et les agents GitHub Copilot.\n\n✔ Développement assisté par l'IA\nIntègre activement GitHub Copilot et des flux de développement modernes pour accélérer la livraison, réduire les défauts et optimiser les projets de modernisation.\n\n✔ Migration prête pour le cloud\nExpérience de la transition des systèmes patrimoniaux vers Azure et des environnements de bases de données modernes, afin d'assurer une évolutivité à long terme et de réduire les risques opérationnels.\n\n✔ Approche low-no-code\nExpérience pratique avec des plateformes low-no-code pour livrer rapidement des solutions d'affaires et automatiser les processus lorsque le développement entièrement sur mesure n'est pas nécessaire.",
+      "experience": ""
     },
     {
-      "name": "Stack technique",
-      "description": "• Langages : C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Plateformes : .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Bases de données : SQL Server, Oracle, Informix\n• Cloud & DevOps : Azure, Docker, Kubernetes (exploration), Terraform (scripts), CI/CD\n• Power Platform : PowerApps, PowerAutomate, Power BI, Power Pages\n• Outils : Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
-      "experience": "30 ans"
-    },
-    { "name": "Développement Frontend de Site Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
-      "description": "Développement frontend moderne utilisant des frameworks populaires pour créer des interfaces utilisateur interactives connectées à des bases de données SQL Server.",
-      "experience": "10 ans"
+      "name": "COMPÉTENCES CLÉS",
+      "description": "• Expertise des systèmes patrimoniaux : Soutien, amélioration et résolution de problèmes sur des systèmes d'entreprise complexes malgré la rareté des talents.\n• Modernisation sans interruption : Rétro-ingénierie et documentation (DbDocGen, ERD Generator) de bases de données vieilles de plusieurs décennies.\n• Modernisation API et plateformes : PowerBuilder 2025 → services API C# .NET avec Swagger auto-généré et projets prêts pour Visual Studio.\n• Développement assisté par l'IA : Création de solutions intégrant l'IA générative et mise en place de flux modernes avec GitHub Actions pour accélérer la livraison et réduire les défauts.\n• Architecture : Conception d'architectures orientées services utilisant des services API et des fichiers/messages JSON ou XML.\n• Migration vers le nuage : Transition de systèmes patrimoniaux vers Azure, Power Platform et des environnements de bases de données modernes.",
+      "experience": ""
     },
     {
-      "name": "PowerBuilder",
-      "description": "Maîtrise experte du développement et de la maintenance d'applications.",
-      "experience": "Plus de 10 ans"
+      "name": "COMPÉTENCES ET TECHNOLOGIES",
+      "description": "• Langages et frameworks : Informix 4GL (semblable à RPG), PowerBuilder, VB6, VB.NET, C#, Java, Python, PowerShell, SQL, PL/SQL, .NET 6/8/9, TypeScript, Angular.\n• Bases de données : Informix, SQL Server, Oracle, MySQL, PostgreSQL, Dataverse.\n• Outils et plateformes : PowerBuilder 2025, GitHub Copilot, GitHub Actions, Microsoft 365 Copilot, PowerApps, PowerAutomate, Power BI, Jira, Confluence, SSRS, SAP BusinessObjects.\n• Cloud et DevOps : Azure, Azure DevOps, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), serveurs MCP, FastMCP.cloud.\n• Systèmes d'exploitation : Windows, Linux, Unix.",
+      "experience": ""
     },
     {
-      "name": "Informix 4GL / Fourgen Case Tools / Genero",
-      "description": "Orchestration et gestion de conteneurs pour la création d'applications et de microservices cloud-native.",
-      "experience": "Plus de 20 ans"
+      "name": "DÉVELOPPEMENT LOW-CODE ET AMÉLIORÉ PAR L'IA",
+      "description": "• Bizagi, Mendix, SnapLogic, Microsoft Entity Framework, \nPower Platform (PowerApps, PowerPages, Power BI, PowerAutomate)",
+      "experience": ""
     },
     {
-      "name": "Bases de données Informix, Oracle et SQL Server",
-      "description": "Conception, développement, maintenance et optimisation de bases de données.",
-      "experience": "Plus de 20 ans"
-    },
-    {
-      "name": "Rapports BI",
-      "description": "Développement et maintenance de rapports SSRS, SAP Business Objects et Power BI.",
-      "experience": "5 ans et plus"
-    }
-  ],
-  "es": [
-    {
-      "name": "Competencias clave",
-      "description": "• Documentación de sistemas heredados y extracción de conocimiento\n• Ingeniería inversa (código, base de datos, interfaces)\n• Soporte de arquitectura: DER, diccionarios de datos, BPM, mapas de integración\n• Hojas de ruta de modernización: migración a la nube, actualizaciones de plataforma\n• Migración/ETL de datos, validación y conciliación\n• Análisis acelerado por IA: codificación asistida por Copilot, flujos de trabajo MCP\n• DevOps: Git, Azure DevOps, CI/CD, seguimiento de incidencias\n• Seguridad, aseguramiento de la calidad y mejores prácticas de soporte en producción",
-      "experience": "30 años"
-    },
-    {
-      "name": "Stack técnico",
-      "description": "• Lenguajes: C#, Java, Python, PowerShell, SQL, PL/SQL, TypeScript, JavaScript\n• Frameworks/Plataformas: .NET 6/8, Angular, PowerBuilder, Informix 4GL/Genero\n• Bases de datos: SQL Server, Oracle, Informix\n• Cloud & DevOps: Azure, Docker, Kubernetes (exploración), Terraform (scripts), CI/CD\n• Power Platform: PowerApps, PowerAutomate, Power BI, Power Pages\n• Herramientas: Jira, Confluence, SSRS, SAP BusinessObjects, Bizagi, PowerDesigner",
-      "experience": "30 años"
-    },
-    {
-      "name": "PowerBuilder",
-      "description": "Dominio experto en el desarrollo y mantenimiento de aplicaciones.",
-      "experience": "Más de 10 años"
-    },
-    {
-      "name": "Desarrollo Frontend Web (MVC Asp.Net C# / Angular / Power Pages / Iron Speed Designer)",
-      "description": "Desarrollo frontend moderno utilizando frameworks populares para construir interfaces de usuario interactivas conectadas a bases de datos SQL Server.",
-      "experience": "10 años"
-    },
-    {
-      "name": "Informix 4GL / Fourgen Case Tools / Genero",
-      "description": "Orquestación y gestión de contenedores para construir aplicaciones nativas en la nube y microservicios.",
-      "experience": "Más de 20 años"
-    },
-    {
-      "name": "Bases de datos Informix, Oracle y SQL Server",
-      "description": "Diseño, desarrollo, mantenimiento y optimización de bases de datos.",
-      "experience": "Más de 20 años"
-    },
-    {
-      "name": "Informes BI",
-      "description": "Desarrollo y mantenimiento de informes en SSRS, SAP Business Objects y Power BI.",
-      "experience": "Más de 5 años"
+      "name": "SCRIPTING ET SURVEILLANCE DES TÂCHES",
+      "description": "• PowerShell\n• Tâches cron\n• Shell Korn (ksh)\n• Shell Bash",
+      "experience": ""
     }
   ]
 }

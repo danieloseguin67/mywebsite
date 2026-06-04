@@ -7,5 +7,4 @@ export interface Project {
 export interface ProjectData {
   en: Project[];
   fr: Project[];
-  es: Project[];
 }

@@ -1,0 +1,365 @@
+Daniel O. Seguin
+Legacy Maintenance, Modernization & Technical Documentation Specialist (AI-Accelerated)
+Montreal, QC | 514-827-6244 | daniel@seguin.dev | LinkedIn:
+https://www.linkedin.com/in/daniel-seguin-98275628/ | Website: https://daniel.seguin.dev
+PROFILE
+IT Analyst/Developer with 30+ years of experience specializing in legacy application
+maintenance, system documentation, and risk-free modernization. Expert in extending mission-
+critical systems while guiding organizations toward scalable, modern architectures with AI-
+enhanced development practices. Hands-on background across Informix 4GL, Genero,
+PowerBuilder, Classic ASP, COBOL, and RPG, plus major databases including Informix, SQL
+Server, Oracle, MySQL, Dataverse, and PostgreSQL.
+CORE STRENGTHS
+ Legacy System Expertise: Support, enhance, and troubleshoot complex enterprise systems
+amid talent shortages.
+ Modernization Without Disruption: Reverse-engineering and documentation (DbDocGen,
+ERD Generator) of multi-decade databases.
+ API & Platform Modernization: PowerBuilder 2025 → C# .NET API services with auto-
+generated Swagger and VS-ready projects.
+ AI-Assisted Development: Developing solutions integrating generative AI, developed
+modern workflows using GitHub Actions to accelerate delivery and reduce defects.
+ Architecture: Developed service-oriented architecture either using API Services or JSON or
+XML data files and messages.
+ Cloud-Ready Migration: Transitioning legacy systems to Azure. Power Platform, and modern
+database environments.
+SKILLS & TECHNOLOGIES
+ Languages & Frameworks: Informix 4GL, PowerBuilder, COBOL, RPG, C#, Java, Python,
+PowerShell, SQL, PL/SQL, .NET 6/8, TypeScript, Angular.
+ Databases: Informix, SQL Server, Oracle, MySQL, PostgreSQL, Dataverse.
+ Tools & Platforms: PowerBuilder 2025, GitHub Copilot, GitHub Actions, Microsoft 365
+Copilot, PowerApps, PowerAutomate, Power BI, Jira, Confluence, SSRS, SAP
+BusinessObjects.
+ Cloud & DevOps: Azure, Azure DevOps, Docker, Kubernetes, Terraform, CI/CD (GitHub
+Actions), MCP Servers, FastMCP.cloud.
+ Operating Systems: Windows, Linux, Unix.
+
+PROFESSIONAL EXPERIENCE
+Data Analyst / Web Developer / Full-Stack Developer (in collaboration with GitHub Copilot
+Agent)
+September 2024 – Present
+The following projects are internal, or client projects intended to work with new technologies.
+ Internal Project: Consultant Companion
+Consultant Companion is a comprehensive business management application developed
+with PowerBuilder 2025 and integrated with Power Automate and PowerApps, designed
+specifically for consultants and small consulting firms. It centralizes and streamlines
+operations across multiple business domains.
+The solution was developed using Dynamics 365, Power Tools, and PowerBuilder 2025. It
+enables consultants to manage core business entities such as clients, engagements,
+employees, expenses, timesheets, invoices, projects, and accounting (including general
+journal entries and chart of accounts).
+The application also integrates with Sage Accounting for financial operations, ADP for
+payroll, and Microsoft Power Platform components (Dataverse, model-driven apps, Power
+Pages, Power Automate, and Power BI).
+ Internal Project: DbDocGen
+DbDocGen (2025) is a Python-based solution designed for reverse engineering various
+databases (SQL Server, Oracle, Informix, PostgreSQL, Dataverse/PowerApps) to produce
+data dictionaries in Markdown, PDF, or HTML formats.
+The data dictionary can also be used to generate ERD diagrams viewable in Draw.io and
+Lucidchart.
+ Internal Project: DBA Helper
+Development of a DBA tool for monitoring database server statistics.
+This application was developed in Python.
+ Client Projects: Responsive Website Development and Maintenance
+Development and maintenance of responsive websites adapted to multiple device types and
+compliant with accessibility standards for visually impaired users:
+o Roxane Bélanger, Speech-Language Pathologist — https://roxanebelanger.com
+Migration from .NET to Angular
+o SeguinDev Corporate Website — https://daniel.seguin.dev
+o Jessica Larmour, Real Estate Leasing Specialist — https://montreal4rent.com
+Integrated with the Web Companion application
+o Web Companion — A real estate management web application exchanging data via
+JSON files and integrated with Google Drive:
+https://realestatewebcompanion.seguin.dev
+
+ Internal Project: Data Validator
+Development of a Python-based data validation tool to help data analysts perform
+rigorous validation of database tables and associated business rules.
+ Internal Project: DemoStore
+Development of a complete e-commerce web application demonstrating secure, PCI
+DSS-compliant payment integration using Stripe Elements and the PaymentIntents API.
+The application includes a session-based shopping cart, real-time webhook event
+handling, and a REST API (Django REST Framework + drf-spectacular) connected to
+Microsoft SQL Server.
+Credit card data never transits through the application server—Stripe.js sends it directly
+to Stripe, eliminating any server-side PCI exposure.
+ Internal Project: Legacy Application Migration (PowerBuilder → Django/Python)
+Modernization of an aging desktop application originally developed in PowerBuilder,
+rebuilt as a full web application using Python and the Django Framework.
+The legacy system managed core operations of a consulting firm—tracking consultants,
+clients, projects, timesheets, and expenses—but relied on outdated proprietary
+technology that was difficult to maintain.
+The rewritten application delivers the same functionality through a modern
+browser-based interface, with a codebase that is easier to maintain, scale, and deploy.
+ Internal Project: MyAccounting — Desktop Accounting Application
+Desktop accounting application developed in Python (tkinter) for small Canadian service
+businesses. Designed as an alternative to Sage 50 Accounting Pro, it enables migration
+to an in-house solution and saves nearly $1,000 per year in recurring license fees.
+The application manages the full accounts receivable lifecycle: invoicing with PDF
+generation, payments, general ledger, accounting journals, and financial statements
+(balance sheet, income statement, trial balance).
+It includes a real-time dashboard, role-based access control, flat-file data imports, and
+Excel exports, and connects to Microsoft SQL Server via ODBC.
+Public Works Canada — Analyst Developer
+September 2024 – Present
+ Provide second-line application support and ongoing development for DISIS and PSDCA
+systems (Sybase ASE, SQL Server).
+ Troubleshoot and resolve production issues using PowerBuilder debugger and database
+tools; perform root-cause analysis and fixes.
+ Manage Agile tasks and issues using Jira and Devops; communicate findings and
+recommendations to management.
+ Perform QA reviews and support technical architecture and application security processes.
+ Migrations: Java Mail app from Oracle Java to Microsoft JDK as a Windows Service;
+PowerBuilder apps (2017 → 2025); source code from SVN → Git (Bitbucket); DB connec(cid:415)vity
+from Sybase ASE → SQL Server.
+
+ Developed PowerShell tool to migrate Jira tickets to Azure DevOps with Power BI
+dashboards (DAX) for progress tracking.
+ Authored Java utility to encrypt credentials in configuration files and a SQL Server data
+model dictionary.
+ Built Python utilities: data extractors to CSV/Excel; PowerBuilder source search; data flow
+diagram generator; Sybase→SQL Server migra(cid:415)on valida(cid:415)on.
+ Created C# .NET API services for DISIS and PSDCA via PowerBuilder 2025 API generator.
+ Modified PSDCA XML exchange processes with third parties (OLISS, RCMP, CSIS).
+ Accelerated SQL migration and code validation (Java, PowerBuilder, PowerShell, SQL,
+Python).
+ Deployed MSI Packages using Advanced Installer Application to deploy DISIS and PSDCA
+PowerBuilder applications with Spif release documents requested by PSPC package team to
+send to Shared Services Canada.
+ Implemented the Devops legacy applications dashboard to do daily support and
+maintenance, to manage backlogs via parking logs, and to manage releases.
+ Developed Devops queries to do queries used in the dashboard, and to do work item
+reporting.
+ Created documentation in Devops wiki, created Lucidchart architecture, application, and
+database ERD diagrams.
+ Developed a Python program that acts as report scheduler for DISIS and PSDCA
+PowerBuilder applications.
+ Developed PowerShell and Python programs to extract database meta data to generate data
+model and ERD diagrams in Drawio which can be imported into Lucidchart.
+ Modernize PowerBuilder applications DISIS and PSDCA to use modern authentication
+either by database login, LDAP login, or SSO.
+ Prepared DISIS and PSDCA projects to start using agile ceremonies like sprint planning,
+scrums, sprint planning, and sprint retrospective.
+ Analyzing, documenting, and planning how to replace the use of network drives as SSC
+will be retiring their use as of October 2026.
+Ministry of Natural Resources of Quebec — Analyst Developer
+December 2023 – September 2024
+ Maintained Registre Foncier du Québec (PowerBuilder 2019–2022) using PFC libraries.
+ Supported Solaris-to-Linux migration by preparing and executing test plans.
+ Diagnosed and resolved production issues across Oracle PL/SQL, ETL, Korn Shell, COBOL,
+Java, and PowerBuilder components.
+ Built complex SQL queries to support test execution and assist non-technical analysts.
+ Migrated Unix Korn Shell scripts to Windows PowerShell.
+ Conducted web accessibility and mobility testing for Geo-Immobilier (Angular/JavaScript).
+
+ Documented technical work in Confluence; followed DMR methodology; used Jira
+(Scrum/Kanban).
+Ministry of Environment of Quebec — Analyst Developer
+June 2023 – November 2023
+ Resolved production issues in Sago using PowerBuilder 2021 debugger and database tools;
+performed root-cause analysis and alternatives. Sago application was developed with PFC
+libraries.
+ Documented technical procedures, maintained and enhanced application programs.
+ Supported DevOps operations (dashboards, Git management, test plan maintenance).
+ Designed ETL strategy to migrate data from Sago to external CRM (Logient) using
+PowerBuilder and PL/SQL.
+Skechers — Analyst Developer
+August 2022 – June 2023
+ Analyzed business requirements and enhancements for Garpac (Order & Warehouse
+Management).
+ Developed and maintained applications using Informix 4GL and Genero Desktop Client.
+ Supported Wholesale (ERP), Retail, and E-Commerce operations.
+ Resolved production issues using Informix 4GL Debugger, Genero Studio, and DB tools.
+ Migrated Genero programs to newer versions; configured client/server environment.
+ Created and maintained ETL scripts for data transformation within Garpac.
+ Authored functional and technical documentation using Confluence and Lucidchart;
+managed requests via ServiceNow.
+ Led PoC to migrate Informix 4GL source control from RCS to GitHub.
+ Documented BPM for integrating order entry, warehouse, and Salesforce.
+ Usage of ServiceNow ticket system to manage issues from beginning to end; added
+knowledge base documents.
+Industrial Alliance — Analyst Developer
+June 2021 – August 2022
+ Designed data migration process, documented database entities and metadata in
+Markdown.
+ Created ETL scripts to reverse engineer Equisoft Connect DB using CSV files, staged DB for
+cleansing.
+ Coached junior analysts and developers (Markdown, VS Code, SQL Server, SSMS, Git,
+DevOps).
+
+ Developed components in Azure Data Factory (linked services, pipelines, datasets,
+dataflows).
+ Built PowerShell, C#, and SQL scripts; managed work in Scrum (ADO).
+ Modeled SQL Server and JSON data (PowerDesigner); modeled Salesforce (ERBuilder).
+ Developed ADF pipelines; performed integration and performance testing to load data into
+Salesforce.
+ Configured Salesforce custom fields; built queries in Salesforce Workbench.
+ Analyzed and documented applications for decommissioning; supported required business
+apps; participated in TFS testing.
+ Usage of ServiceNow ticket system to manage issues from beginning to end; added
+knowledge base documents.
+Desjardins — Functional Analyst
+March 2021 – June 2021
+ Modeled the current notary deposit process for automation aligned with business
+requirements.
+ Modeled documents and email injection processes for improved efficiency.
+ Collaborated in Scrum ceremonies and with business analysts.
+SeguinDev
+Various Projects — Analyst Developer
+July 2020 – March 2021
+ Synapsia (Neuligent): Led interim dev team; prepared user stories; built Scrum boards in
+ADO; developed backend scripts (Node.js, NPM, JavaScript); performed system/integration
+testing; documented and supported pre-production.
+ RAD Exploration: Studied market niches; developed apps using Genero architecture.
+ EFICIO (Integra-co): Maintained Windows Server 2016 infrastructure monthly.
+ Four JS Tools: Created REST APIs using Genero/Informix 4GL; tested with Postman/Talend;
+performed code reviews and documentation.
+ Paradox Security Systems: Built Python reporting programs integrated with SQL Server.
+ System Administration: Managed Office365, SharePoint, Teams for condo and family
+organizations.
+ Physiogougeon Web App: Developed/maintained C# MVC app with EF; administered VPS
+hosting and SQL Server; resolved production issues and performed debugging.
+Air Canada Vacations — Analyst Developer
+December 2019 – July 2020
+ Analyzed business requirements for report migration from WebFocus to SAP
+BusinessObjects.
+ Developed Web Intelligence reports using SAP BO Universe (BI).
+
+ Managed SAP BO CMC (user security, universe management, report deployment, version
+control).
+ Provided pre-production support and troubleshooting for migrated reports.
+ Maintained and enhanced ERP Back-Office programs (Informix Genero 4GL) integrating with
+external systems via APIs.
+ Maintained SSIS processes for importing vacation orders; documented ERP processes in
+Confluence; worked with Jira (Kanban).
+Ministry of Justice — Functional Analyst
+July 2019 – September 2019
+ Created and executed test plans during ERP migration from Dynamics 2011 to 365.
+ Participated in Scrum ceremonies, sessions with business analysts.
+ Used DevOps for ticketing; created test plans (ADO/TFS).
+EFICIO — Analyst Developer
+June 2018 – July 2019
+ Project 10a (Bizagi – OPEQ): Designed, developed, and maintained HR BPM workflow system
+using Bizagi; gathered requirements; authored specs; delivered in Agile sprints; improved
+release management; provided production support and troubleshooting (Bizagi Studio, SQL
+Server, JavaScript); executed test plans; configured environments on Windows Server 2016;
+created SSRS reports; mentored colleagues on Agile and release management.
+ Project 10b (BI – IPEX): Developed and maintained SSRS reports and complex SQL for MES
+Hydra MOC; analyzed business requirements for OEE reporting; acted as technical analyst
+for SAP Concur; introduced/configured DevOps in Scrum; provided production support and
+RCA using Visual Studio and SQL Server.
+Alithya — Analyst Developer
+November 2017 – May 2018
+ Collaborated with functional analysts to gather requirements and translate them into
+technical solutions.
+ Created detailed organic analysis to minimize impacts and stay on budget.
+ Wrote and executed test cases; participated in daily scrums; performed Agile tasks in Jira;
+maintained and developed solutions in an order management app (CLIC) using Velocity,
+JavaScript, XML, XSLT; used Jira for ticketing.
+General Dynamics Information Technology — Analyst Developer
+March 2016 – October 2017 (continued part-time support Nov 2017 – Oct 2018)
+ Supported production environment using AnyDoc OCR, improved performance and stability.
+ Troubleshot business issues across SSMS, VB6, AnyDoc, MS Access, VBA (Excel/Outlook),
+Visual Studio Debugger.
+
+ Designed/implemented wire payment remittance processing solution integrating email
+processing, OCR, SQL Server, and C# MVC4.
+ Gathered requirements, authored functional documents, translated into Agile user stories.
+ Developed/maintained MVC4 apps in C# for operations and asset management.
+ Configured Azure DevOps (TFS) for Agile PM: ticketing, team collaboration.
+ Created SSRS dashboards, SSIS packages, ETL scripts for document processing/reporting;
+administered SQL Server and Access; built stored procedures, agent jobs, shell scripts.
+ Maintained AnyDoc form families and Exchange IT jobs; programmed in VBScript, batch,
+VBA, and VB6.
+ Deployed via IIS; configured Jaspersoft for self-service reporting; reverse-engineered and
+modeled DBs using PowerDesigner.
+ Provided technical support during MBI upgrade testing, supported help desk, network, and
+printer issues.
+Public Works of Canada — Analyst Developer
+June 2015 – February 2016
+ Supported users, developers, and testers with SPMIS reporting in prod and test
+environments.
+ Troubleshot PowerBuilder and SQL Server issues; provided immediate fixes and RCA.
+ Gathered requirements; developed specs, estimates; maintained functional specs and
+report models.
+ Investigated the SPMIS PowerBuilder 12.5 applications using debugger which was using PFC
+libraries.
+ Created Excel tools with VBA for specs and test plans.
+ Developed VB.NET tool to reverse engineer SSRS Report Models into SQL Server to generate
+documentation.
+ Updated SPMIS Help file using MS Help Template and SVN; prepared functional specs for
+SSRS.
+PowerStream — Analyst
+February 2015 – May 2015
+ Documented and executed applications upgrade deployment tasks using I-TOP across
+environments.
+ Managed and version-controlled Java and COBOL source code, prepared and packaged
+releases.
+ Generated Javadoc and Application Viewer documentation for each release; reviewed SQL
+scripts.
+Public Works of Canada — Analyst Developer
+October 2013 – February 2015
+
+ Technical analysis and production support for SMIS (incident reporting): PowerBuilder app,
+Oracle DB, Cognos reports.
+ Diagnosed/resolved production issues; RCA; proposed alternatives.
+ Designed/developed enhancements to AFDMS integrating with SAP Financial.
+ Authored documentation: variance/impact analysis; technical specs; collaborated with
+cross-functional teams.
+ Developed AFDMS–SAP integration (PowerBuilder 12.5, SQL/PLSQL).
+ Investigated the SMIS and AFDMS PowerBuilder 12.5 applications using debugger which was
+using PFC libraries.
+ Created/executed test plans; implemented dashboard to track Agile testing progress and
+issues.
+ Developed Oracle stored procedures to validate SAP data.
+
+ERTH Corporation — Analyst Developer
+December 2010 – September 2013
+ Technologies: Informix, SQL Server, Java, Unix, Linux, Microsoft Dynamics Great Plains,
+PowerDesigner, Iron Speed Designer, .NET, Classic ASP, VBScript, JavaScript.
+Seguin Consulting Services (Various Clients) Analyst Developer
+April 2002 – April 2004
+ Technologies: PHP, Classic ASP, MySQL, Unix, Business Vision, Acomba.
+Nortel Network — Analyst Developer
+October 2000 – March 2002
+ Technologies: Informix 4GL, Informix SQL, Unix, PowerBuilder, MS-Access, PowerDesigner.
+Harris Computer Systems — Analyst Developer
+December 1991 – December 2010
+ Technologies: Informix 4GL, Informix SQL, SQL Server, Oracle, PL/SQL, Classic ASP, VBScript,
+Java Spring MVC, JavaScript, PowerBuilder, PowerDesigner, VB6, Crystal Reports.
+Domtar — Junior Developer (Young Professional Program)
+September 1988 – November 1991
+ Assignments in Goderich (Sifto), Donnacona (Paper Mill), and Montreal (Head Office, paper
+mill division).
+ Technologies: dBASE IV, FoxPro, Informix 4GL and SQL.
+PASSION PROJECTS & TECHNICAL EXPLORATION
+Exploration with Power Tools, Azure, CI/CD, Docker, Kubernetes
+ Prototyped integrations between Power Tools, PowerBuilder, and Azure SQL Server.
+ Leveraged GitHub Copilot to accelerate SQL migration from Sybase to SQL Server and
+assist in multi-language development (Java, PowerBuilder, PowerShell, .NET).
+ Used GitHub Copilot to validate source code across various languages including SQL,
+Java, .NET, PowerBuilder, COBOL, and PowerShell, within both Visual Studio and Visual
+Studio Code.
+ Utilized Microsoft 365 Copilot for both technical and non-technical tasks as a
+complement to GitHub Copilot.
+ Developed Terraform scripts in PowerShell to support Azure resource development,
+validation, and deployment.
+ Configured Windows and Linux environments using Docker and Kubernetes for
+development projects.
+ Explored Microsoft Azure Free Tier and Pay-As-You-Go services for experimentation
+and testing.
+
+ Set up CI/CD pipelines for .NET Dynaweb applications and legacy PowerBuilder
+applications using batch files and Python scripts.
+ Developed sample web application with ASP.NET Core Identification Authentication
+using Blazor framework.
+ LinkedIn training on Kafka and created samples programs.
+Exploration building AI Solutions
+ Learning the development of Model Context Protocol (MCP) servers and deployment
+to the cloud on FastMCP.cloud
+ Learning the planning and development of AI Solutions using Anthropic foundation
+and framework.
+ Developing client and server programs using Python with various libraries.
+EDUCATION & CLEARANCES
+ B.Sc. in Computer Science — University of Ottawa (1988).
+ Security Clearance — Enhanced: File No. 95-60-7790-0003180084 (Expires 2034-05-30).
+ Security Clearance — Secret: File No. 95607790-0003275929 (Expires 2035-02-21).

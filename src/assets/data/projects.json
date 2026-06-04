@@ -1,137 +1,106 @@
 {
   "en": [
     {
-      "name": "CARe",
-      "description": "Designed and developed CAlls REquisition System, a module integrated with NorthStar Utility Billing to manage client calls and allow clients to make requisitions. This application was developed using Informix 4gl and Fourgen Case Tools.",
-      "technology": "Informix 4gl, Fourgen Case Tools, Java, SQL Server, Informix SQL"
+      "name": "Consultant Companion",
+      "description": "Comprehensive business management platform for consultants and small firms covering clients, engagements, employees, expenses, timesheets, invoices, projects, and accounting workflows.",
+      "technology": "PowerBuilder 2025, Dynamics 365, Dataverse, PowerApps, Power Automate, Power BI, Sage Accounting, ADP"
     },
     {
-      "name": "eCare",
-      "description": "Designed and developed the classic web version of CARe.",
-      "technology": "Informix SQL, SQL Server, Classic ASP (html, javascript, vbscript)"
+      "name": "DbDocGen",
+      "description": "Python-based reverse engineering solution that generates structured data dictionaries and ERD-ready artifacts for heterogeneous enterprise databases.",
+      "technology": "Python, SQL Server, Oracle, Informix, Sybase, PostgreSQL, Dataverse, Markdown, PDF, HTML, Draw.io"
     },
     {
-      "name": "Powerbuilder migration projects",
-      "description": "Migration from Sybase ASE, Migration from Powerbuilder 2019 to 2022, Migration from Powerbuilder 2017 to 2025",
-      "technology": "Powerbuilder, Sybase ASE, Oracle, SQL Server"
+      "name": "DBA Helper",
+      "description": "Utility for monitoring database server statistics and supporting day-to-day administration and diagnostics.",
+      "technology": "Python, SQL"
     },
     {
-      "name": "Document management system for Canada Post",
-      "description": "Development of new website for Canada Post to do document management, and also intranet portal to follow the processing of docments",
-      "technology": "OCR for Anydoc, SQL Server, MS-Access, Excel, Word, Outlook, VBA, VB6, MVC Asp.Net C#"
+      "name": "Responsive Website Development and Maintenance",
+      "description": "Built and maintained responsive, accessibility-aware websites for multiple clients, including migrations from legacy stacks and JSON data exchange integrations.",
+      "technology": "Angular, TypeScript, HTML, CSS, C#, Entity Framework, .NET Migration, JSON Integration"
     },
     {
-      "name": "Migration from Jira to Devops",
-      "description": "Development of a conversion program in powershell to migrate Jira tickets into Devops work items",
-      "technology": "Jira, Devops, PowerShell, Python, SQL Server, Power BI, GitHub Copilot"
+      "name": "Data Validator",
+      "description": "Python-based data validation solution used by analysts to enforce business rules and validate table-level data quality.",
+      "technology": "Python, SQL, Data Quality Rules"
     },
     {
-      "name": "Dynamic website for health care industry",
-      "description": "Development of a web site for physiotherapist to manage his self serve the management of this website and also on his clients",
-      "technology": "SQL Server, Git, Microsoft Devops, MVC Asp.Net C#, GoDaddy Virtual private server"
+      "name": "Demo Ecommerce Solution Web Store",
+      "description": "End-to-end e-commerce demonstration with secure payment processing, webhook workflows, and an API-first backend architecture.",
+      "technology": "Django REST Framework, Stripe Elements, PaymentIntents API, SQL Server, drf-spectacular"
     },
     {
-      "name": "Development of an integrated solution between NorthStar ERP and Microsoft Great Plains",
-      "description": "Development of the backend process to integrate NorthStar ERP with Microsoft Great Plains for several utility compane. Also developed a web application to allow users to monitor the flow of integration between the two applications",
-      "technology": "SQL Server, Informix SQL, Store Procedure, Iron Speed Designer, C#"
+      "name": "Legacy Application Migration (PowerBuilder to Django)",
+      "description": "Modernization of a legacy desktop system into a browser-based web application while preserving core operational workflows and improving long-term maintainability.",
+      "technology": "PowerBuilder, Python, Django, SQL Server, Web Architecture"
     },
     {
-      "name": "Data migration from third party system to Salesforce",
-      "description": "Created a scalable IoT data processing pipeline handling millions of device events per second. Implemented real-time analytics and alerting systems for manufacturing operations.",
-      "technology": "SQL Server, Store procedures, Markdown, Git, Microsoft Devops, Salesforce, PowerShell, Python, Azure Data Factory, Azure SQL Database"
+      "name": "MyAccounting",
+      "description": "Desktop accounting application for Canadian service businesses featuring invoicing, journals, financial statements, dashboarding, and export/import workflows.",
+      "technology": "Python, Tkinter, SQL Server, ODBC, PDF, Excel"
     },
     {
-      "name": "CondoMan Condo Management System",
-      "description": "In the process of developing a complete solution to manage condo buildings from large to small powered by Artificial Intelligence to help with tasks such as accounting, management, communication, and maintenance requests.",
-      "technology": "Angular, Azure Services and SQL Server, Microsoft 365 Power Platform (PowerApps, PowerAutomate, PowerBI), GitHub, PowerShell, Python"
+      "name": "Public Sector Modernization Tooling",
+      "description": "Built migration and modernization support tooling, including Jira-to-Azure DevOps migration, metadata extraction utilities, ERD generation, and API service enablement.",
+      "technology": "PowerShell, Python, Java, C#, SQL Server, Azure DevOps, Power BI, Draw.io"
+    },
+    {
+      "name": "Demo Ecommerce Solution Book Store",
+      "description": "End-to-end e-commerce demonstration with secure payment processing, webhook workflows, and an API-first backend architecture.",
+      "technology": "Java Spring Boot Framework, Stripe Elements, Sprintdoc OpenAPI Swagger, SQL Server"
     }
   ],
   "fr": [
-  {
-    "name": "CARe",
-    "description": "Conception et développement du système de réquisition d'appels (CAlls REquisition System), un module intégré à NorthStar Utility Billing pour gérer les appels des clients et leur permettre de faire des demandes. Cette application a été développée en utilisant Informix 4gl et Fourgen Case Tools.",
-    "technology": "Informix 4gl, Fourgen Case Tools, Java, SQL Server, Informix SQL"
-  },
-  {
-    "name": "eCare",
-    "description": "Conception et développement de la version web classique de CARe.",
-    "technology": "Informix SQL, SQL Server, Classic ASP (html, javascript, vbscript)"
-  },
-  {
-    "name": "Projets de migration PowerBuilder",
-    "description": "Migration depuis Sybase ASE, migration de PowerBuilder 2019 vers 2022, migration de PowerBuilder 2017 vers 2025",
-    "technology": "PowerBuilder, Sybase ASE, Oracle, SQL Server"
-  },
-  {
-    "name": "Système de gestion documentaire pour Postes Canada",
-    "description": "Développement d’un nouveau site web pour Postes Canada afin de gérer les documents, ainsi qu’un portail intranet pour suivre le traitement des documents.",
-    "technology": "OCR pour Anydoc, SQL Server, MS-Access, Excel, Word, Outlook, VBA, VB6, MVC Asp.Net C#"
-  },
-  {
-    "name": "Migration de Jira vers DevOps",
-    "description": "Développement d’un programme de conversion en PowerShell pour migrer les billets Jira vers les éléments de travail DevOps.",
-    "technology": "Jira, DevOps, PowerShell, Python, SQL Server, Power BI, GitHub Copilot"
-  },
-  {
-    "name": "Site web dynamique pour l’industrie des soins de santé",
-    "description": "Développement d’un site web pour un physiothérapeute afin de gérer lui-même le site ainsi que ses clients.",
-    "technology": "SQL Server, Git, Microsoft DevOps, MVC Asp.Net C#, serveur privé virtuel GoDaddy"
-  },
-  {
-    "name": "Développement d’une solution intégrée entre NorthStar ERP et Microsoft Great Plains",
-    "description": "Développement du processus backend pour intégrer NorthStar ERP avec Microsoft Great Plains pour plusieurs compagnies de services publics. Développement également d’une application web permettant aux utilisateurs de surveiller le flux d’intégration entre les deux applications.",
-    "technology": "SQL Server, Informix SQL, procédures stockées, Iron Speed Designer, C#"
-  },
-  {
-    "name": "Migration de données d’un système tiers vers Salesforce",
-    "description": "Création d’un pipeline de traitement de données IoT évolutif gérant des millions d’événements d’appareils par seconde. Mise en œuvre de systèmes d’analyse en temps réel et d’alerte pour les opérations de fabrication.",
-    "technology": "SQL Server, procédures stockées, Markdown, Git, Microsoft DevOps, Salesforce, PowerShell, Python, Azure Data Factory, Azure SQL Database"
-  },
-  {
-  }
-  ],
-  "es": [
-  {
-    "name": "CARe",
-    "description": "Diseño y desarrollo del Sistema de Requisición de Llamadas (CAlls REquisition System), un módulo integrado con NorthStar Utility Billing para gestionar llamadas de clientes y permitirles realizar solicitudes. Esta aplicación fue desarrollada utilizando Informix 4gl y Fourgen Case Tools.",
-    "technology": "Informix 4gl, Fourgen Case Tools, Java, SQL Server, Informix SQL"
-  },
-  {
-    "name": "eCare",
-    "description": "Diseño y desarrollo de la versión web clásica de CARe.",
-    "technology": "Informix SQL, SQL Server, Classic ASP (html, javascript, vbscript)"
-  },
-  {
-    "name": "Proyectos de migración de PowerBuilder",
-    "description": "Migración desde Sybase ASE, migración de PowerBuilder 2019 a 2022, migración de PowerBuilder 2017 a 2025",
-    "technology": "PowerBuilder, Sybase ASE, Oracle, SQL Server"
-  },
-  {
-    "name": "Sistema de gestión documental para Canada Post",
-    "description": "Desarrollo de un nuevo sitio web para Canada Post para la gestión de documentos, y también un portal intranet para seguir el procesamiento de documentos.",
-    "technology": "OCR para Anydoc, SQL Server, MS-Access, Excel, Word, Outlook, VBA, VB6, MVC Asp.Net C#"
-  },
-  {
-    "name": "Migración de Jira a DevOps",
-    "description": "Desarrollo de un programa de conversión en PowerShell para migrar tickets de Jira a elementos de trabajo en DevOps.",
-    "technology": "Jira, DevOps, PowerShell, Python, SQL Server, Power BI, GitHub Copilot"
-  },
-  {
-    "name": "Sitio web dinámico para la industria de la salud",
-    "description": "Desarrollo de un sitio web para un fisioterapeuta para que gestione de forma autónoma el sitio web y también a sus clientes.",
-    "technology": "SQL Server, Git, Microsoft DevOps, MVC Asp.Net C#, servidor privado virtual GoDaddy"
-  },
-  {
-    "name": "Desarrollo de una solución integrada entre NorthStar ERP y Microsoft Great Plains",
-    "description": "Desarrollo del proceso backend para integrar NorthStar ERP con Microsoft Great Plains para varias empresas de servicios públicos. También se desarrolló una aplicación web para permitir a los usuarios monitorear el flujo de integración entre ambas aplicaciones.",
-    "technology": "SQL Server, Informix SQL, procedimientos almacenados, Iron Speed Designer, C#"
-  },
-  {
-    "name": "Migración de datos desde un sistema de terceros a Salesforce",
-    "description": "Creación de una canalización escalable de procesamiento de datos IoT que maneja millones de eventos de dispositivos por segundo. Implementación de sistemas de análisis en tiempo real y alertas para operaciones de manufactura.",
-    "technology": "SQL Server, procedimientos almacenados, Markdown, Git, Microsoft DevOps, Salesforce, PowerShell, Python, Azure Data Factory, Azure SQL Database"
-  },
-  {
-  }
+    {
+      "name": "Consultant Companion",
+      "description": "Plateforme complete de gestion d'entreprise pour consultants et petites firmes couvrant les clients, mandats, employes, depenses, feuilles de temps, factures, projets et processus comptables.",
+      "technology": "PowerBuilder 2025, Dynamics 365, Dataverse, PowerApps, Power Automate, Power BI, Sage Accounting, ADP"
+    },
+    {
+      "name": "DbDocGen",
+      "description": "Solution de retro-ingenierie basee sur Python qui genere des dictionnaires de donnees structures et des artefacts prets pour les diagrammes ERD pour des bases de donnees d'entreprise heterogenes.",
+      "technology": "Python, SQL Server, Oracle, Informix, PostgreSQL, Dataverse, Markdown, PDF, HTML, Draw.io"
+    },
+    {
+      "name": "DBA Helper",
+      "description": "Utilitaire de surveillance des statistiques des serveurs de bases de donnees et de soutien a l'administration et au diagnostic quotidiens.",
+      "technology": "Python, SQL"
+    },
+    {
+      "name": "Developpement et maintenance de sites Web responsifs",
+      "description": "Conception et maintenance de sites Web responsifs et accessibles pour plusieurs clients, incluant des migrations de technologies heritage et des integrations d'echange de donnees JSON.",
+      "technology": "Angular, TypeScript, HTML, CSS, Migration .NET, Integration JSON"
+    },
+    {
+      "name": "Validateur de donnees",
+      "description": "Solution de validation de donnees basee sur Python utilisee par les analystes pour appliquer des regles d'affaires et valider la qualite des donnees au niveau des tables.",
+      "technology": "Python, SQL, Regles de qualite des donnees"
+    },
+    {
+      "name": "Solution demo de commerce electronique - Boutique Web",
+      "description": "Demonstration complete de commerce electronique avec traitement securise des paiements, flux de travail par webhooks et architecture backend orientee API.",
+      "technology": "Django REST Framework, Stripe Elements, PaymentIntents API, SQL Server, drf-spectacular"
+    },
+    {
+      "name": "Migration d'application heritage (PowerBuilder vers Django)",
+      "description": "Modernisation d'un systeme bureau heritage en application Web basee sur navigateur, tout en preservant les flux operationnels essentiels et en ameliorant la maintenabilite a long terme.",
+      "technology": "PowerBuilder, Python, Django, SQL Server, Architecture Web"
+    },
+    {
+      "name": "MyAccounting",
+      "description": "Application comptable de bureau pour entreprises canadiennes de services offrant facturation, journaux, etats financiers, tableaux de bord et flux d'import/export.",
+      "technology": "Python, Tkinter, SQL Server, ODBC, PDF, Excel"
+    },
+    {
+      "name": "Outillage de modernisation du secteur public",
+      "description": "Developpement d'outils de soutien a la migration et a la modernisation, incluant la migration Jira vers Azure DevOps, des utilitaires d'extraction de metadonnees, la generation de diagrammes ERD et l'activation de services API.",
+      "technology": "PowerShell, Python, Java, C#, SQL Server, Azure DevOps, Power BI, Draw.io"
+    },
+    {
+      "name": "Solution demo de commerce electronique - Librairie",
+      "description": "Demonstration complete de commerce electronique avec traitement securise des paiements, flux de travail par webhooks et architecture backend orientee API.",
+      "technology": "Java Spring Boot Framework, Stripe Elements, Sprintdoc OpenAPI Swagger, SQL Server"
+    }
   ]
 }

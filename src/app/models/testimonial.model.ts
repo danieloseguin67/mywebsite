@@ -8,5 +8,4 @@ export interface Testimonial {
 export interface TestimonialData {
   en: Testimonial[];
   fr: Testimonial[];
-  es: Testimonial[];
 }

@@ -41,8 +41,7 @@ export class ContactComponent implements OnInit {
     if (!this.formData.name || !this.formData.email || !this.formData.subject || !this.formData.message) {
       const errorMessages = {
         en: 'Please fill in all required fields.',
-        fr: 'Veuillez remplir tous les champs obligatoires.',
-        es: 'Por favor, complete todos los campos requeridos.'
+        fr: 'Veuillez remplir tous les champs obligatoires.'
       };
       
       this.formStatus = {
@@ -63,8 +62,7 @@ export class ContactComponent implements OnInit {
       next: (response) => {
         const messages = {
           en: 'Thank you for your message! I will get back to you soon.',
-          fr: 'Merci pour votre message! Je vous répondrai bientôt.',
-          es: '¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.'
+          fr: 'Merci pour votre message! Je vous répondrai bientôt.'
         };
 
         this.formStatus = {
@@ -84,8 +82,7 @@ export class ContactComponent implements OnInit {
         
         const errorMessages = {
           en: 'Sorry, there was an error sending your message. Please try again later.',
-          fr: 'Désolé, une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.',
-          es: 'Lo siento, hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.'
+          fr: 'Désolé, une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.'
         };
 
         this.formStatus = {

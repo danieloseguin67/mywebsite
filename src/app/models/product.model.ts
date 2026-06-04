@@ -7,5 +7,4 @@ export interface Product {
 export interface ProductData {
   en: Product[];
   fr: Product[];
-  es: Product[];
 }

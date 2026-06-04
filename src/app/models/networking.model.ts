@@ -7,5 +7,4 @@ export interface NetworkingItem {
 export interface NetworkingData {
   en: NetworkingItem[];
   fr: NetworkingItem[];
-  es: NetworkingItem[];
 }
