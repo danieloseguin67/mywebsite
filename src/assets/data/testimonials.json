@@ -69,6 +69,12 @@
   ],
   "fr": [
     {
+      "name": "Nim Cook",
+      "company": "Services publics et Approvisionnement Canada",
+      "position": "Gestionnaire TI",
+      "testimonial": "Bonjour Daniel,\n\nJe voulais prendre un moment pour vous remercier de votre soutien tout au long du transfert de connaissances pour PSDCA et DISIS. Votre collaboration, votre réactivité et votre volonté de partager vos connaissances ont été grandement appréciées et ont contribué de manière significative à assurer la continuité et la clarté pour l’équipe.\n\nVotre expertise et votre engagement ont permis de faciliter la transition et de nous fournir le niveau de confiance dont nous avions besoin pour aller de l’avant.\n\nMerci encore pour tout votre temps et votre dévouement.\n\nCordialement,\nNim"
+    },
+    {
       "name": "Carl Vachon",
       "company": "Ministère des Ressources naturelles et des Forêts",
       "position": "Gestionnaire TI",
@@ -127,12 +133,6 @@
       "company": "Vacances Air Canada",
       "position": "Développeur",
       "testimonial": "Daniel est une personne passionnée, qui aime partager ses connaissances et qui est toujours disponible pour aider ! Merci Daniel."
-    },
-    {
-      "name": "Nim Cook",
-      "company": "Services publics et Approvisionnement Canada",
-      "position": "Gestionnaire TI",
-      "testimonial": "Bonjour Daniel,\n\nJe voulais prendre un moment pour vous remercier de votre soutien tout au long du transfert de connaissances pour PSDCA et DISIS. Votre collaboration, votre réactivité et votre volonté de partager vos connaissances ont été grandement appréciées et ont contribué de manière significative à assurer la continuité et la clarté pour l’équipe.\n\nVotre expertise et votre engagement ont permis de faciliter la transition et de nous fournir le niveau de confiance dont nous avions besoin pour aller de l’avant.\n\nMerci encore pour tout votre temps et votre dévouement.\n\nCordialement,\nNim"
     }
   ]
 }
