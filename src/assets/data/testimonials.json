@@ -1,6 +1,12 @@
 {
   "en": [
     {
+      "name": "Nim Cook",
+      "company": "Public Services Procurements Canada",
+      "position": "IT Manager",
+      "testimonial": "Hi Daniel,\n\nI wanted to take a moment to thank you for your support throughout the knowledge transfer for PSDCA and DISIS. Your collaboration, responsiveness, and willingness to share insights have been greatly appreciated and have made a meaningful difference in ensuring continuity and clarity for the team.\n\nYour expertise and commitment helped streamline the transition and provided the level of confidence we needed as we move forward.\n\nThank you again for all of your time and dedication.\n\nBest regards,\nNim"
+    },
+    {
       "name": "Carl Vachon",
       "company": "Ministeres des ressources naturelles et des forêts",
       "position": "IT Manager",
@@ -129,10 +135,10 @@
       "testimonial": "Daniel est une personne passionnée, qui aime partager ses connaissances et qui est toujours disponible pour aider ! Merci Daniel."
     },
     {
-      "name": "Shayna",
+      "name": "Nim Cook",
       "company": "Services publics et Approvisionnement Canada",
-      "position": "Analyste d'affaires",
-      "testimonial": "Daniel est un développeur exceptionnel et serviable, décrit comme une personne hautement qualifiée qui excelle non seulement en programmation PowerBuilder et Java, mais qui soutient et élève constamment l’équipe. Il possède de solides compétences techniques, une excellente communication et une attitude proactive et collaborative."
+      "position": "Gestionnaire TI",
+      "testimonial": "Bonjour Daniel,\n\nJe voulais prendre un moment pour vous remercier de votre soutien tout au long du transfert de connaissances pour PSDCA et DISIS. Votre collaboration, votre réactivité et votre volonté de partager vos connaissances ont été grandement appréciées et ont contribué de manière significative à assurer la continuité et la clarté pour l’équipe.\n\nVotre expertise et votre engagement ont permis de faciliter la transition et de nous fournir le niveau de confiance dont nous avions besoin pour aller de l’avant.\n\nMerci encore pour tout votre temps et votre dévouement.\n\nCordialement,\nNim"
     }
   ]
 }
