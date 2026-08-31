@@ -88,7 +88,7 @@
         "The role also supports gap analysis between the legacy static JSON model and the target API-first model, helps define CRUD workflows, validation rules, and user interactions, and collaborates with developers and stakeholders to ensure the platform delivers a cohesive administrative experience and a reliable public rental search experience."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Realestatate WebCompanion - contact Daniel for a demo", "url": "https://realestatewebcompanion.seguin.dev/#/dashboard" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -112,7 +112,7 @@
         "Summary: this migration eliminated the dependency on a .NET server runtime, simplified the hosting model, and delivered a modern, interactive, bilingual user experience. The Angular architecture positions the clinic website to scale toward dynamic content management and backend integration without requiring a full rebuild."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Roxane Belanger Orthophoniste", "url": "https://roxanebelanger.com/#/home" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -155,7 +155,7 @@
         "Conclusion: the Personal Website is a practical digital foundation for Daniel Seguin's consulting and Developer-as-a-Service positioning. It combines professional credibility, bilingual accessibility, and maintainable Angular content management into a focused platform for showcasing expertise and generating qualified business conversations."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Site personnel de Daniel Seguin", "url": "https://daniel.seguin.dev" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -177,9 +177,9 @@
         "Conclusion : MyAccounting est une application comptable pratique et axée sur les opérations pour les petites entreprises de services. Elle fournit les contrôles financiers essentiels et les fonctions de rapports nécessaires pour gérer la facturation, les flux de trésorerie et les rapports de façon simple et structurée. Comme analyste fonctionnel, je la classerais comme une solide solution comptable PME, fortement alignée sur les flux de travail des entreprises de services, surtout pour les opérations canadiennes qui exigent un contrôle local et une gestion financière directe."
       ],
       "attachments": [
-        { "title": "", "url": "" },
-        { "title": "", "url": "" },
-        { "title": "", "url": "" }
+        { "title": "MyAccounting User Guide", "url": "https://university.seguin.dev/topics/MyAccountingUserGuide.pdf" },
+        { "title": "MyAccounting Architecture", "url": "https://university.seguin.dev/topics/MyAccountingArchitecture.pdf" },
+        { "title": "MyAccounting Functional Analysis", "url": "https://university.seguin.dev/topics/MyAccountingFunctionalAnalysis.pdf" }
       ]
     },
     {
