@@ -40,6 +40,8 @@ export interface Translations {
     news4: string;
     news5: string;
     news6: string;
+    rebuildTitle: string;
+    rebuildMessage: string;
   };
   services: { title: string };
   products: { title: string };
@@ -118,7 +120,9 @@ export class TranslationService {
         news3: '💡 Specialized in reverse engineering legacy systems and building clear technical documentation',
         news4: '🔗 End-to-end expertise: architecture, development, data migration, and production support',
         news5: '✅ AI-accelerated delivery using GitHub Copilot, automation, and DevOps best practices',
-        news6: '🚀 Helping organizations reduce risk while modernizing complex business platforms'
+        news6: '🚀 Helping organizations reduce risk while modernizing complex business platforms',
+        rebuildTitle: 'I am building a new personal website.',
+        rebuildMessage: 'A refreshed portfolio and project showcase is on the way. Please check back soon.'
       },
       services: { title: 'Services' },
       products: { title: 'Products' },
@@ -188,7 +192,9 @@ export class TranslationService {
         news3: '💡 Passionné par la création d\'expériences utilisateur intuitives et de code propre et maintenable',
         news4: '🔗 Intégration de technologies de pointe comme l\'IA et le Cloud pour des solutions robustes et évolutives',
         news5: '✅ Aide les organisations à moderniser les systèmes hérités et à adopter la transformation numérique',
-        news6: '🚀 Aider les organisations à moderniser les systèmes hérités et à adopter la transformation numérique'
+        news6: '🚀 Aider les organisations à moderniser les systèmes hérités et à adopter la transformation numérique',
+        rebuildTitle: 'Je construis un nouveau site web personnel.',
+        rebuildMessage: 'Un portfolio et une vitrine de projets renouvelés sont en préparation. Revenez bientôt.'
       },
       services: { title: 'Services' },
       products: { title: 'Produits' },

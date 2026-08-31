@@ -10,8 +10,6 @@
     <h1 class="logo">Daniel Seguin</h1>
     <ul class="nav-menu" [class.active]="menuOpen">
       <li><a routerLink="/home" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.home }}</a></li>
-      <li><a routerLink="/demo" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.demo }}</a></li>
-      <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.about }}</a></li>
     </ul>
     <div class="hamburger" [class.active]="menuOpen" (click)="toggleMenu()">
       <span></span>
