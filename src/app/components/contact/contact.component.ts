@@ -39,15 +39,10 @@ export class ContactComponent implements OnInit {
   onSubmit(): void {
     // Validate form before submission
     if (!this.formData.name || !this.formData.email || !this.formData.subject || !this.formData.message) {
-      const errorMessages = {
-        en: 'Please fill in all required fields.',
-        fr: 'Veuillez remplir tous les champs obligatoires.'
-      };
-      
       this.formStatus = {
         show: true,
         success: false,
-        message: errorMessages[this.currentLang as keyof typeof errorMessages]
+        message: this.translations.contact.requiredMessage
       };
       
       setTimeout(() => {
@@ -60,15 +55,10 @@ export class ContactComponent implements OnInit {
     // Call email service
     this.translationService.sendEmail(this.formData).subscribe({
       next: (response) => {
-        const messages = {
-          en: 'Thank you for your message! I will get back to you soon.',
-          fr: 'Merci pour votre message! Je vous répondrai bientôt.'
-        };
-
         this.formStatus = {
           show: true,
           success: true,
-          message: messages[this.currentLang as keyof typeof messages]
+          message: this.translations.contact.successMessage
         };
 
         this.formData = { name: '', email: '', subject: '', message: '' };
@@ -79,16 +69,11 @@ export class ContactComponent implements OnInit {
       },
       error: (error) => {
         console.error('Error sending email:', error);
-        
-        const errorMessages = {
-          en: 'Sorry, there was an error sending your message. Please try again later.',
-          fr: 'Désolé, une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.'
-        };
 
         this.formStatus = {
           show: true,
           success: false,
-          message: errorMessages[this.currentLang as keyof typeof errorMessages]
+          message: this.translations.contact.errorMessage
         };
         
         setTimeout(() => {

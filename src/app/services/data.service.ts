@@ -7,6 +7,8 @@ import { SkillData } from '../models/skill.model';
 import { ProjectData } from '../models/project.model';
 import { TestimonialData, Testimonial } from '../models/testimonial.model';
 import { NetworkingData } from '../models/networking.model';
+import { DaasData } from '../models/daas.model';
+import { ExpertiseData } from '../models/expertise.model';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +19,14 @@ export class DataService {
 
   getServices(): Observable<ServiceData> {
     return this.http.get<ServiceData>('assets/data/services.json');
+  }
+
+  getDaas(): Observable<DaasData> {
+    return this.http.get<DaasData>('assets/data/daas.json');
+  }
+
+  getExpertises(): Observable<ExpertiseData> {
+    return this.http.get<ExpertiseData>('assets/data/expertises.json');
   }
 
   getProducts(): Observable<ProductData> {

@@ -4,6 +4,8 @@ import { HttpClient } from '@angular/common/http';
 import { map, catchError } from 'rxjs/operators';
 import emailjs from '@emailjs/browser';
 import { environment } from '../../environments/environment';
+import enTranslations from '../../assets/i18n/en.json';
+import frTranslations from '../../assets/i18n/fr.json';
 
 export interface EmailData {
   name: string;
@@ -21,6 +23,9 @@ export interface EmailResponse {
 export interface Translations {
   nav: {
     home: string;
+    daas: string;
+    expertises: string;
+    daasProjects: string;
     services: string;
     products: string;
     skills: string;
@@ -34,15 +39,35 @@ export interface Translations {
   home: {
     title: string;
     subtitle: string;
-    news1: string;
-    news2: string;
-    news3: string;
-    news4: string;
-    news5: string;
-    news6: string;
+    eyebrow: string;
+    summaryTitle: string;
+    summary: string;
+    primaryCta: string;
+    secondaryCta: string;
+    expertisePreviewTitle: string;
+    projectsPreviewTitle: string;
+    testimonialsPreviewTitle: string;
+    viewExpertises: string;
+    viewProjects: string;
+    viewTestimonials: string;
     rebuildTitle: string;
     rebuildMessage: string;
   };
+  daas: {
+    title: string;
+    subtitle: string;
+    modelTitle: string;
+    phasesTitle: string;
+    benefitsTitle: string;
+    pricingTitle: string;
+    deploymentTitle: string;
+    supportTitle: string;
+    ctaTitle: string;
+    ctaText: string;
+    primaryCta: string;
+    secondaryCta: string;
+  };
+  expertises: { title: string; subtitle: string };
   services: { title: string };
   products: { title: string };
   skills: {
@@ -52,10 +77,17 @@ export interface Translations {
   };
   projects: {
     title: string;
+    subtitle: string;
+    technologyLabel: string;
+    detailsLink: string;
+    detailPlaceholderTitle: string;
+    backToProjects: string;
+    notFoundTitle: string;
+    notFoundMessage: string;
     constructionTitle: string;
     constructionMessage: string;
   };
-  testimonials: { title: string };
+  testimonials: { title: string; subtitle: string };
   networking: { title: string };
   demo: {
     title: string;
@@ -76,19 +108,38 @@ export interface Translations {
     title: string;
     imageLabel: string;
     bio: string;
+    journeyTitle: string;
+    journey: string;
+    positioningTitle: string;
+    positioning: string;
+    visionTitle: string;
+    vision: string;
+    highlights: string[];
   };
   contact: {
     title: string;
+    subtitle: string;
     imageLabel: string;
     addressTitle: string;
+    contactOptionsTitle: string;
+    emailTitle: string;
+    emailValue: string;
+    linkedinTitle: string;
+    linkedinValue: string;
+    linkedinUrl: string;
+    bookCallTitle: string;
+    bookCallValue: string;
     formTitle: string;
     name: string;
     email: string;
     subject: string;
     message: string;
     send: string;
+    requiredMessage: string;
+    successMessage: string;
+    errorMessage: string;
   };
-  footer: { rights: string };
+  footer: { rights: string; tagline: string };
 }
 
 @Injectable({
@@ -99,150 +150,8 @@ export class TranslationService {
   public currentLang$ = this.currentLangSubject.asObservable();
 
   private translations: { [key: string]: Translations } = {
-    en: {
-      nav: {
-        home: 'Home',
-        services: 'Expertise',
-        products: 'Solutions',
-        skills: 'Skills',
-        projects: 'Projects',
-        demo: 'Demo',
-        about: 'About Me',
-        contact: 'Contact Me',
-        testimonials: 'Testimonials',
-        networking: 'Networking'
-      },
-      home: {
-        title: 'Daniel Seguin | Senior Consultant',
-        subtitle: 'Personal portfolio focused on enterprise modernization, delivery excellence, and measurable business outcomes.',
-        news1: '🌟 30+ years delivering enterprise application solutions across public and private sectors',
-        news2: '🎯 Senior Consultant driving mission-critical modernization and delivery quality',
-        news3: '💡 Specialized in reverse engineering legacy systems and building clear technical documentation',
-        news4: '🔗 End-to-end expertise: architecture, development, data migration, and production support',
-        news5: '✅ AI-accelerated delivery using GitHub Copilot, automation, and DevOps best practices',
-        news6: '🚀 Helping organizations reduce risk while modernizing complex business platforms',
-        rebuildTitle: 'I am building a new personal website.',
-        rebuildMessage: 'A refreshed portfolio and project showcase is on the way. Please check back soon.'
-      },
-      services: { title: 'Services' },
-      products: { title: 'Products' },
-      skills: {
-        title: 'Skills',
-        constructionTitle: 'Page Under Construction',
-        constructionMessage: 'I am currently preparing this skills section with detailed capability breakdowns. Please check back soon.'
-      },
-      projects: {
-        title: 'Projects',
-        constructionTitle: 'Page Under Construction',
-        constructionMessage: 'I am currently curating project case studies for this section. Please check back soon.'
-      },
-      testimonials: { title: 'Customer Testimonials' },
-      networking: { title: 'Networking' },
-      demo: {
-        title: 'Demo Websites',
-        service: 'Service Industry Website',
-        restaurant: 'Restaurant Industry Website',
-        manufacturing: 'Manufacturing Industry Website',
-        store: 'Store Industry Website',
-        church: 'Church Website',
-        placeholder: 'Demo Coming Soon',
-        introduction: {
-          title: 'Professional Website Design for Every Industry',
-          paragraph1: 'Your website is more than just an online presence—it\'s your brand\'s first impression. I specialize in creating modern, responsive, and visually appealing websites tailored to your business needs. Whether you run a service company, restaurant, manufacturing firm, retail store, or a community organization, I design websites that combine functionality, aesthetics, and user experience to help you stand out.',
-          paragraph2: 'Explore my demo websites below to see how I bring ideas to life across different industries. Each design is crafted to be easy to navigate, mobile-friendly, and optimized for performance, ensuring your visitors have a seamless experience.',
-          callToAction: 'Ready to elevate your online presence? Let\'s build a website that works for you.'
-        }
-      },
-      about: {
-        title: 'About Me',
-        imageLabel: 'Photo',
-        bio: 'I am Daniel Seguin, a Senior Consultant with over three decades of experience in software engineering, enterprise architecture support, and modernization programs. I work at the intersection of business and technology to help teams stabilize legacy systems, define pragmatic roadmaps, and deliver secure, maintainable solutions. My approach is hands-on, collaborative, and outcome-driven: align with stakeholders, simplify complexity, and execute with discipline.'
-      },
-      contact: {
-        title: 'Contact Me',
-        imageLabel: 'Contact',
-        addressTitle: 'Address',
-        formTitle: 'Send Me a Message',
-        name: 'Name:',
-        email: 'Email:',
-        subject: 'Subject:',
-        message: 'Message:',
-        send: 'Send Message'
-      },
-      footer: { rights: 'All rights reserved.' }
-    },
-    fr: {
-      nav: {
-        home: 'Accueil',
-        services: 'Services',
-        products: 'Produits',
-        skills: 'Compétences',
-        projects: 'Projets',
-        demo: 'Démo',
-        about: 'À Propos',
-        contact: 'Me Contacter',
-        testimonials: 'Témoignages Clients',
-        networking: 'Réseautage'
-      },
-      home: {
-        title: 'Bienvenue chez Daniel Seguin Consultant',
-        subtitle: 'Consultant IT Senior - Excellence en Solutions Technologiques',
-        news1: '🌟 Spécialiste en Développement d\'Applications d\'Entreprise – PowerBuilder, Informix 4GL, Java, .NET, Python, PowerShell, Unix/Linux Shells',
-        news2: '🎯 Actuellement en mission critique à SPAC en tant qu\'Architecte/Développeur PowerBuilder',
-        news3: '💡 Passionné par la création d\'expériences utilisateur intuitives et de code propre et maintenable',
-        news4: '🔗 Intégration de technologies de pointe comme l\'IA et le Cloud pour des solutions robustes et évolutives',
-        news5: '✅ Aide les organisations à moderniser les systèmes hérités et à adopter la transformation numérique',
-        news6: '🚀 Aider les organisations à moderniser les systèmes hérités et à adopter la transformation numérique',
-        rebuildTitle: 'Je construis un nouveau site web personnel.',
-        rebuildMessage: 'Un portfolio et une vitrine de projets renouvelés sont en préparation. Revenez bientôt.'
-      },
-      services: { title: 'Services' },
-      products: { title: 'Produits' },
-      skills: {
-        title: 'Compétences',
-        constructionTitle: 'Page en cours de construction',
-        constructionMessage: 'Je prépare actuellement cette section de compétences avec une présentation detaillee des capacites. Revenez bientot.'
-      },
-      projects: {
-        title: 'Projets',
-        constructionTitle: 'Page en cours de construction',
-        constructionMessage: 'Je suis actuellement en train de preparer des etudes de cas pour cette section. Revenez bientot.'
-      },
-      testimonials: { title: 'Témoignages Clients' },
-      networking: { title: 'Réseautage' },
-      demo: {
-        title: 'Sites Web de Démonstration',
-        service: 'Site Web Industrie des Services',
-        restaurant: 'Site Web Industrie de la Restauration',
-        manufacturing: 'Site Web Industrie Manufacturière',
-        store: 'Site Web Industrie du Commerce',
-        church: 'Site Web d\'Église',
-        placeholder: 'Démo Bientôt Disponible',
-        introduction: {
-          title: 'Conception de Sites Web Professionnels pour Chaque Industrie',
-          paragraph1: 'Votre site web est bien plus qu\'une simple présence en ligne—c\'est la première impression de votre marque. Je me spécialise dans la création de sites web modernes, adaptatifs et visuellement attrayants, conçus sur mesure selon les besoins de votre entreprise. Que vous dirigiez une entreprise de services, un restaurant, une firme manufacturière, un magasin de détail ou une organisation communautaire, je conçois des sites web qui combinent fonctionnalité, esthétique et expérience utilisateur pour vous aider à vous démarquer.',
-          paragraph2: 'Explorez mes sites web de démonstration ci-dessous pour voir comment je donne vie aux idées à travers différentes industries. Chaque design est conçu pour être facile à naviguer, compatible avec les appareils mobiles et optimisé pour la performance, garantissant à vos visiteurs une expérience fluide.',
-          callToAction: 'Prêt à élever votre présence en ligne? Construisons ensemble un site web qui fonctionne pour vous.'
-        }
-      },
-      about: {
-        title: 'À Propos de Moi',
-        imageLabel: 'Photo',
-        bio: 'En tant que consultant IT senior avec une vaste expérience dans la fourniture de solutions technologiques innovantes, je me spécialise dans l\'aide aux entreprises pour transformer leurs opérations grâce à une mise en œuvre technologique stratégique. Avec un historique éprouvé dans plusieurs industries, j\'apporte une expertise approfondie en développement logiciel, architecture système et transformation numérique. Ma passion réside dans la compréhension des besoins des clients et la fourniture de solutions qui génèrent une réelle valeur commerciale.'
-      },
-      contact: {
-        title: 'Me Contacter',
-        imageLabel: 'Contact',
-        addressTitle: 'Adresse',
-        formTitle: 'Envoyez-moi un Message',
-        name: 'Nom:',
-        email: 'Courriel:',
-        subject: 'Sujet:',
-        message: 'Message:',
-        send: 'Envoyer le Message'
-      },
-      footer: { rights: 'Tous droits réservés.' }
-    }
+    en: enTranslations as Translations,
+    fr: frTranslations as Translations
   };
 
   constructor(private http: HttpClient) {

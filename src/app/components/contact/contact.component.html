@@ -1,6 +1,9 @@
 <section class="section">
   <div class="container">
-    <h2>{{ translations.contact.title }}</h2>
+    <div class="page-header">
+      <h2>{{ translations.contact.title }}</h2>
+      <p>{{ translations.contact.subtitle }}</p>
+    </div>
     <div class="contact-content">
       <div class="contact-info">
         <div class="contact-image">
@@ -13,6 +16,12 @@
             Montreal (Lasalle), Quebec<br>
             H8N 0H7
           </p>
+        </div>
+        <div class="contact-details contact-options">
+          <h3>{{ translations.contact.contactOptionsTitle }}</h3>
+          <p><strong>{{ translations.contact.emailTitle }}:</strong> <a [href]="'mailto:' + translations.contact.emailValue">{{ translations.contact.emailValue }}</a></p>
+          <p><strong>{{ translations.contact.linkedinTitle }}:</strong> <a [href]="translations.contact.linkedinUrl" target="_blank" rel="noopener">{{ translations.contact.linkedinValue }}</a></p>
+          <p><strong>{{ translations.contact.bookCallTitle }}:</strong> {{ translations.contact.bookCallValue }}</p>
         </div>
       </div>
       <div class="contact-form">

@@ -1,17 +1,25 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { DaasComponent } from './components/daas/daas.component';
+import { ExpertisesComponent } from './components/expertises/expertises.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ProductsComponent } from './components/products/products.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 import { DemoComponent } from './components/demo/demo.component';
 import { AboutComponent } from './components/about/about.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NetworkingComponent } from './components/networking/networking.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'developer-as-a-service', component: DaasComponent },
+  { path: 'expertises', component: ExpertisesComponent },
+  { path: 'projets-daas', component: ProjectsComponent },
+  { path: 'projets-daas/:slug', component: ProjectDetailComponent },
   { path: 'testimonials', component: TestimonialsComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'products', component: ProductsComponent },
@@ -19,5 +27,6 @@ export const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'networking', component: NetworkingComponent },
   { path: 'demo', component: DemoComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent }
 ];

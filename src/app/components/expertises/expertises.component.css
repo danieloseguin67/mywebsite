@@ -1,0 +1,55 @@
+.expertises-page {
+  align-items: flex-start;
+  background: #ffffff;
+}
+
+.page-header {
+  max-width: 840px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.page-header p {
+  color: #4b5f74;
+  font-size: 1.12rem;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.expertise-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  border: 1px solid #dbe8f3;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(11, 31, 58, 0.08);
+  padding: 1.5rem;
+}
+
+.expertise-card h3 {
+  color: #0b1f3a;
+  margin-bottom: 0.7rem;
+}
+
+.expertise-card p {
+  color: #4b5f74;
+}
+
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.tool-list span {
+  background: #e6f2fb;
+  border: 1px solid #c8deef;
+  border-radius: 999px;
+  color: #0b4f8a;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+}

@@ -1,0 +1,59 @@
+<section class="section daas-page" *ngIf="content">
+  <div class="container">
+    <div class="page-header">
+      <p class="eyebrow">DaaS</p>
+      <h2>{{ translations.daas.title }}</h2>
+      <p>{{ translations.daas.subtitle }}</p>
+    </div>
+
+    <div class="daas-intro">
+      <h3>{{ translations.daas.modelTitle }}</h3>
+      <p>{{ content.model }}</p>
+    </div>
+
+    <div class="daas-layout">
+      <div class="daas-main">
+        <h3>{{ translations.daas.phasesTitle }}</h3>
+        <div class="phase-list">
+          <article class="phase-card" *ngFor="let phase of content.phases">
+            <h4>{{ phase.title }}</h4>
+            <p>{{ phase.description }}</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="daas-side">
+        <h3>{{ translations.daas.benefitsTitle }}</h3>
+        <ul>
+          <li *ngFor="let benefit of content.benefits">{{ benefit }}</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="detail-grid">
+      <article>
+        <h3>{{ translations.daas.pricingTitle }}</h3>
+        <p>{{ content.pricing }}</p>
+      </article>
+      <article>
+        <h3>{{ translations.daas.deploymentTitle }}</h3>
+        <p>{{ content.deployment }}</p>
+      </article>
+      <article>
+        <h3>{{ translations.daas.supportTitle }}</h3>
+        <p>{{ content.support }}</p>
+      </article>
+    </div>
+
+    <div class="cta-band">
+      <div>
+        <h3>{{ translations.daas.ctaTitle }}</h3>
+        <p>{{ translations.daas.ctaText }}</p>
+      </div>
+      <div class="cta-actions">
+        <a href="/contact" class="btn-primary" (click)="navigateToContact($event)">{{ translations.daas.primaryCta }}</a>
+        <a href="/contact" class="btn-secondary" (click)="navigateToContact($event)">{{ translations.daas.secondaryCta }}</a>
+      </div>
+    </div>
+  </div>
+</section>

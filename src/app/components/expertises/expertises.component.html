@@ -1,0 +1,18 @@
+<section class="section expertises-page">
+  <div class="container">
+    <div class="page-header">
+      <h2>{{ translations.expertises.title }}</h2>
+      <p>{{ translations.expertises.subtitle }}</p>
+    </div>
+
+    <div class="expertise-grid">
+      <article class="expertise-card" *ngFor="let expertise of expertises">
+        <h3>{{ expertise.name }}</h3>
+        <p>{{ expertise.description }}</p>
+        <div class="tool-list">
+          <span *ngFor="let tool of expertise.tools">{{ tool }}</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

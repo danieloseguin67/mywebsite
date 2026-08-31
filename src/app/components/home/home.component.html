@@ -1,9 +1,69 @@
-<section class="section home-rebuild">
+<section class="home-hero">
   <div class="container">
-    <div class="announcement-panel">
-      <p class="eyebrow">Daniel Seguin</p>
-      <h1>{{ translations.home.rebuildTitle }}</h1>
-      <p class="message">{{ translations.home.rebuildMessage }}</p>
+    <div class="hero-content">
+      <p class="eyebrow">{{ translations.home.eyebrow }}</p>
+      <h1>{{ translations.home.title }}</h1>
+      <p class="hero-subtitle">{{ translations.home.subtitle }}</p>
+      <div class="hero-actions">
+        <a href="/contact" class="btn-primary" (click)="navigateTo('/contact', $event)">{{ translations.home.primaryCta }}</a>
+        <a href="/contact" class="btn-secondary" (click)="navigateTo('/contact', $event)">{{ translations.home.secondaryCta }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-summary">
+  <div class="container summary-grid">
+    <div>
+      <p class="eyebrow">DaaS</p>
+      <h2>{{ translations.home.summaryTitle }}</h2>
+    </div>
+    <p>{{ translations.home.summary }}</p>
+  </div>
+</section>
+
+<section class="preview-section">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ translations.home.expertisePreviewTitle }}</h2>
+      <a href="/expertises" (click)="navigateTo('/expertises', $event)">{{ translations.home.viewExpertises }}</a>
+    </div>
+    <div class="preview-grid">
+      <article class="preview-card" *ngFor="let expertise of expertises">
+        <h3>{{ expertise.name }}</h3>
+        <p>{{ expertise.description }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="preview-section alt">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ translations.home.projectsPreviewTitle }}</h2>
+      <a href="/projets-daas" (click)="navigateTo('/projets-daas', $event)">{{ translations.home.viewProjects }}</a>
+    </div>
+    <div class="preview-grid">
+      <article class="preview-card" *ngFor="let project of projects">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="preview-section testimonials-preview">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ translations.home.testimonialsPreviewTitle }}</h2>
+      <a href="/testimonials" (click)="navigateTo('/testimonials', $event)">{{ translations.home.viewTestimonials }}</a>
+    </div>
+    <div class="testimonial-preview-grid">
+      <article class="quote-card" *ngFor="let testimonial of testimonials">
+        <p>"{{ testimonial.testimonial }}"</p>
+        <h3>{{ testimonial.name }}</h3>
+        <span>{{ testimonial.position }}</span>
+      </article>
     </div>
   </div>
 </section>

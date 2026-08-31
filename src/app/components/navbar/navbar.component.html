@@ -1,16 +1,21 @@
-<div class="language-selector">
-  <select id="languageSelect" (change)="changeLanguage($event)">
-    <option value="en" [selected]="currentLang === 'en'">English</option>
-    <option value="fr" [selected]="currentLang === 'fr'">Français</option>
-  </select>
-</div>
-
 <nav class="navbar">
   <div class="nav-container">
     <h1 class="logo">Daniel Seguin</h1>
     <ul class="nav-menu" [class.active]="menuOpen">
       <li><a routerLink="/home" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.home }}</a></li>
+      <li><a routerLink="/developer-as-a-service" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.daas }}</a></li>
+      <li><a routerLink="/expertises" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.expertises }}</a></li>
+      <li><a routerLink="/projets-daas" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.daasProjects }}</a></li>
+      <li><a routerLink="/testimonials" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.testimonials }}</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.about }}</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.contact }}</a></li>
     </ul>
+    <div class="language-selector">
+      <select id="languageSelect" (change)="changeLanguage($event)">
+        <option value="en" [selected]="currentLang === 'en'">English</option>
+        <option value="fr" [selected]="currentLang === 'fr'">Français</option>
+      </select>
+    </div>
     <div class="hamburger" [class.active]="menuOpen" (click)="toggleMenu()">
       <span></span>
       <span></span>

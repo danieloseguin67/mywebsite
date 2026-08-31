@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { TranslationService, Translations } from '../../services/translation.service';
 import { DataService } from '../../services/data.service';
 import { Project } from '../../models/project.model';
@@ -7,7 +8,7 @@ import { Project } from '../../models/project.model';
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })

@@ -1,12 +1,16 @@
 <section class="section">
   <div class="container">
-    <h2>{{ translations.projects.title }}</h2>
+    <div class="page-header">
+      <h2>{{ translations.projects.title }}</h2>
+      <p>{{ translations.projects.subtitle }}</p>
+    </div>
 
     <div class="grid-container">
       <div class="card" *ngFor="let project of projects">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
-        <p class="technology"><strong>Technology:</strong> {{ project.technology }}</p>
+        <p class="technology"><strong>{{ translations.projects.technologyLabel }}:</strong> {{ project.technology }}</p>
+        <a class="project-link" [routerLink]="['/projets-daas', project.slug]">{{ translations.projects.detailsLink }}</a>
       </div>
     </div>
   </div>

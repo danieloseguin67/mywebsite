@@ -9,6 +9,10 @@
   --brand-blue: #1479c9;
   --brand-blue-dark: #0b4f8a;
   --brand-navy: #0b1f3a;
+  --brand-charcoal: #171a20;
+  --brand-red: #c7352b;
+  --brand-red-dark: #9f251f;
+  --brand-gold: #f2c94c;
   --brand-surface: #eef6fc;
   --brand-text: #142b45;
 }
@@ -93,6 +97,40 @@ body {
   border-radius: 20px;
   font-size: 0.9rem;
   margin-right: 0.5rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.page-header p {
+  color: #4b5f74;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.btn-primary,
+.btn-secondary {
+  align-items: center;
+  border-radius: 6px;
+  display: inline-flex;
+  font-weight: 800;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.8rem 1.1rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--brand-gold);
+  color: #0b1f3a;
+}
+
+.btn-secondary {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  color: #ffffff;
 }
 
 .card.coming-soon {

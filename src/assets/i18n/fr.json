@@ -1,128 +1,141 @@
 {
-  "HEADER": {
-    "TITLE": "Paroisse Catholique",
-    "HOME": "Accueil",
-    "PARISH": "Notre paroisse",
-    "CAMPAIGNS": "Campagnes",
-    "MASSES": "Messes",
-    "EVENTS": "Événements",
-    "NEWS": "Nouvelles",
-    "COMMITTEES": "Comités",
-    "VOLUNTEERING": "Bénévolat",
-    "CONTACT": "Contact",
-    "DONATE": "Faire un don"
+  "nav": {
+    "home": "Accueil",
+    "daas": "Developer-as-a-Service",
+    "expertises": "Expertises",
+    "daasProjects": "Projets DaaS",
+    "services": "Expertises",
+    "products": "Solutions",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "demo": "Démo",
+    "about": "À propos",
+    "contact": "Contact",
+    "testimonials": "Témoignages",
+    "networking": "Réseautage"
   },
-  "HOME": {
-    "TITLE": "Bienvenue à notre paroisse",
-    "SUBTITLE": "Vous êtes le temple de Dieu, la maison qu'Il construit.",
-    "MISSION": "Notre Mission",
-    "MISSION_DESC": "Proclamer l'Évangile de Jésus-Christ et servir notre communauté avec foi, espérance et amour.",
-    "MASS_TIMES": "Horaire des messes",
-    "MASS_TIMES_DESC": "Rejoignez-nous pour les célébrations quotidiennes et dominicales de la Sainte Eucharistie.",
-    "COMMUNITY": "Communauté",
-    "COMMUNITY_DESC": "Une famille paroissiale accueillante engagée dans le culte, le service et la fraternité.",
-    "SACRAMENTS": "Sacrements",
-    "SACRAMENTS_DESC": "Célébrer la vie sacramentelle et les étapes importantes de notre communauté de foi.",
-    "NEWS1": "🌟 Daniel Seguin - Développeur Full-Stack spécialisé en Angular, React et technologies web modernes",
-    "NEWS2": "💼 Expérience dans la création d'applications d'entreprise évolutives et de solutions cloud",
-    "NEWS3": "🎯 Passionné par la création d'expériences utilisateur intuitives et de code propre et maintenable",
-    "NEWS4": "🚀 Expert en design responsive, PWA et optimisation des performances",
-    "NEWS5": "📧 Disponible pour des projets freelance et du conseil - Contact: daniel@seguin.com"
+  "home": {
+    "eyebrow": "Daniel Seguin | Analyste Développeur Senior",
+    "title": "Developer-as-a-Service pour entrepreneurs prêts à bâtir",
+    "subtitle": "Transformez une idée en solution logicielle réelle et déployable avec des coûts mensuels prévisibles, une livraison accélérée par l'IA et 30 ans d'expérience concrète en consultation.",
+    "summaryTitle": "Un chemin léger de l'idée au MVP",
+    "summary": "Pour 100 $/mois, les fondateurs obtiennent un accompagnement technique, la planification de l'MVP, du développement propulsé par GitHub Copilot, du soutien en architecture et un avancement continu sans investissement initial lourd.",
+    "primaryCta": "Commencer",
+    "secondaryCta": "Réserver un appel",
+    "expertisePreviewTitle": "Aperçu des expertises",
+    "projectsPreviewTitle": "Exemples de projets DaaS",
+    "testimonialsPreviewTitle": "Ce que disent les gestionnaires et collègues",
+    "viewExpertises": "Voir les expertises",
+    "viewProjects": "Voir les projets",
+    "viewTestimonials": "Lire les témoignages",
+    "rebuildTitle": "Developer-as-a-Service pour entrepreneurs prêts à bâtir",
+    "rebuildMessage": "Développement logiciel abordable et accéléré par l'IA, de l'idée au MVP déployable."
   },
-  "PARISH": {
-    "TITLE": "Notre paroisse",
-    "ABOUT": "À propos de nous",
-    "ABOUT_DESC": "Nous sommes une communauté catholique dynamique dédiée à l'adoration de Dieu et au service de nos voisins. Notre paroisse est guidée par les enseignements de l'Église catholique et inspirée par l'Évangile de Jésus-Christ.",
-    "HISTORY": "Histoire de la paroisse",
-    "HISTORY_DESC": "Notre paroisse a une riche histoire de foi et de service dans notre communauté. Fondée il y a de nombreuses années, nous continuons à grandir dans notre engagement envers le Christ et son Église.",
-    "PASTOR": "Notre curé",
-    "PASTOR_DESC": "Le Père Jean Smith sert notre communauté paroissiale avec dévouement et soins pastoraux.",
-    "SACRAMENTS_RITES": "Sacrements et Rites",
-    "LITURGICAL_FUNCTIONS": "Fonctions liturgiques"
+  "daas": {
+    "title": "Developer-as-a-Service",
+    "subtitle": "Un modèle d'abonnement pour les entrepreneurs qui veulent valider et lancer une solution logicielle sans coûts de développement initiaux élevés.",
+    "modelTitle": "Le modèle",
+    "phasesTitle": "Les 3 phases",
+    "benefitsTitle": "Pourquoi ça fonctionne pour les entrepreneurs et PME",
+    "pricingTitle": "Tarification",
+    "deploymentTitle": "Déploiement",
+    "supportTitle": "Soutien post-MVP",
+    "ctaTitle": "Prêt à structurer votre MVP?",
+    "ctaText": "Commencez par une conversation ciblée sur votre idée, vos contraintes, votre échéancier et votre première version déployable.",
+    "primaryCta": "Commencer",
+    "secondaryCta": "Réserver un appel"
   },
-  "MASSES": {
-    "TITLE": "Horaire des messes",
-    "WEEKDAY": "Messes en semaine",
-    "WEEKDAY_DESC": "Lundi - Vendredi : 7h00 et 12h10",
-    "SATURDAY": "Messes du samedi",
-    "SATURDAY_DESC": "Messe de vigile : 17h00",
-    "SUNDAY": "Messes dominicales",
-    "SUNDAY_DESC": "8h00, 10h00, 12h00 et 17h00",
-    "HOLY_DAYS": "Jours saints d'obligation",
-    "HOLY_DAYS_DESC": "Veuillez consulter le bulletin pour les horaires spéciaux des jours saints.",
-    "VIRTUAL": "Messes virtuelles",
-    "VIRTUAL_DESC": "Rejoignez-nous en ligne pour les célébrations diffusées en direct.",
-    "INTENTIONS": "Intentions de messe",
-    "INTENTIONS_DESC": "Demandez qu'une messe soit célébrée pour vos intentions."
+  "expertises": {
+    "title": "Expertises",
+    "subtitle": "Un mélange pratique d'expertise legacy, d'ingénierie de données, d'intelligence d'affaires, d'automatisation et de développement accéléré par l'IA."
   },
-  "EVENTS": {
-    "TITLE": "Événements paroissiaux",
-    "UPCOMING": "Événements à venir",
-    "CALENDAR": "Calendrier des événements",
-    "CALENDAR_DESC": "Restez connecté avec notre communauté paroissiale à travers divers événements et activités tout au long de l'année."
+  "services": {
+    "title": "Expertises"
   },
-  "NEWS": {
-    "TITLE": "Nouvelles paroissiales",
-    "BULLETIN": "Bulletin hebdomadaire",
-    "BULLETIN_DESC": "Lisez notre dernier bulletin paroissial pour les annonces, les événements à venir et les réflexions spirituelles.",
-    "ANNOUNCEMENTS": "Annonces"
+  "products": {
+    "title": "Solutions"
   },
-  "COMMITTEES": {
-    "TITLE": "Comités paroissiaux",
-    "DESCRIPTION": "Nos comités paroissiaux aident à organiser et soutenir divers aspects de la vie paroissiale. Impliquez-vous et partagez vos talents !",
-    "LITURGY": "Comité de liturgie",
-    "LITURGY_DESC": "Planifie et coordonne les célébrations liturgiques et enrichit notre expérience de culte.",
-    "FINANCE": "Conseil des finances",
-    "FINANCE_DESC": "Fournit une supervision et des conseils pour la gestion financière de la paroisse.",
-    "PASTORAL": "Conseil pastoral",
-    "PASTORAL_DESC": "Conseille le curé sur les questions pastorales et la planification paroissiale."
+  "skills": {
+    "title": "Compétences",
+    "constructionTitle": "Page en cours de construction",
+    "constructionMessage": "Je prépare actuellement cette section de compétences avec une présentation détaillée des capacités. Revenez bientôt."
   },
-  "VOLUNTEERING": {
-    "TITLE": "Opportunités de bénévolat",
-    "DESCRIPTION": "Il existe de nombreuses façons de servir dans notre communauté paroissiale. Votre temps et vos talents sont des dons qui aident à construire le Royaume de Dieu.",
-    "OPPORTUNITIES": "Opportunités actuelles",
-    "LECTORS": "Lecteurs",
-    "LECTORS_DESC": "Proclamer la Parole de Dieu pendant la messe.",
-    "EUCHARISTIC": "Ministres de l'Eucharistie",
-    "EUCHARISTIC_DESC": "Aider à la distribution de la Sainte Communion.",
-    "USHERS": "Placiers et accueillants",
-    "USHERS_DESC": "Accueillir les paroissiens et aider pendant la messe.",
-    "CHOIR": "Chorale",
-    "CHOIR_DESC": "Partager vos talents musicaux lors des célébrations liturgiques."
+  "projects": {
+    "title": "Projets DaaS",
+    "subtitle": "Exemples de produits logiciels et d'accélérateurs qui s'inscrivent dans le modèle Developer-as-a-Service.",
+    "technologyLabel": "Technologie",
+    "detailsLink": "Voir les détails du projet",
+    "detailPlaceholderTitle": "Page de détail temporaire",
+    "backToProjects": "Retour aux projets DaaS",
+    "notFoundTitle": "Projet introuvable",
+    "notFoundMessage": "Cette page de détail de projet n'est pas encore disponible.",
+    "constructionTitle": "Page en cours de construction",
+    "constructionMessage": "Je prépare actuellement des études de cas pour cette section. Revenez bientôt."
   },
-  "CAMPAIGNS": {
-    "TITLE": "Campagnes paroissiales",
-    "DESCRIPTION": "Soutenez nos initiatives paroissiales et campagnes spéciales qui nous aident à servir notre communauté et à entretenir nos installations.",
-    "CAPITAL": "Campagne de financement",
-    "CAPITAL_DESC": "Aidez-nous avec les améliorations et rénovations du bâtiment.",
-    "ANNUAL": "Appel annuel",
-    "ANNUAL_DESC": "Votre don annuel soutient nos ministères paroissiaux et programmes de sensibilisation."
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Témoignages de gestionnaires et collègues à propos de la livraison, de la collaboration et de la contribution technique de Daniel."
   },
-  "DONATION": {
-    "TITLE": "Faire un don",
-    "DESCRIPTION": "Votre généreux soutien aide notre paroisse à poursuivre sa mission d'adoration, de service et d'évangélisation.",
-    "ONLINE": "Donner en ligne",
-    "ONLINE_DESC": "Faire un don sécurisé en ligne via notre plateforme de don.",
-    "MAIL": "Donner par courrier",
-    "MAIL_DESC": "Envoyez votre don au bureau paroissial.",
-    "PERSON": "Donner en personne",
-    "PERSON_DESC": "Déposez votre don au bureau paroissial ou placez-le dans la corbeille de collecte à la messe.",
-    "WAYS": "Façons de donner",
-    "THANK_YOU": "Merci pour votre générosité !"
+  "networking": {
+    "title": "Réseautage"
   },
-  "CONTACT": {
-    "TITLE": "Contactez-nous",
-    "ADDRESS_TITLE": "Bureau paroissial",
-    "PHONE": "Téléphone",
-    "EMAIL": "Courriel",
-    "OFFICE_HOURS": "Heures d'ouverture",
-    "OFFICE_HOURS_DESC": "Lundi - Vendredi : 9h00 - 17h00",
-    "MAP_TITLE": "Trouvez-nous",
-    "MAP_VIEW": "Vue de la carte",
-    "MAP_NOTE": "L'intégration avec Google Maps ou un service de cartographie similaire serait ici"
+  "demo": {
+    "title": "Sites Web de démonstration",
+    "service": "Site Web industrie des services",
+    "restaurant": "Site Web industrie de la restauration",
+    "manufacturing": "Site Web industrie manufacturière",
+    "store": "Site Web industrie du commerce",
+    "church": "Site Web d'église",
+    "placeholder": "Démo bientôt disponible",
+    "introduction": {
+      "title": "Conception de sites Web professionnels pour chaque industrie",
+      "paragraph1": "Votre site web est plus qu'une présence en ligne; c'est la première impression de votre marque.",
+      "paragraph2": "Explorez des sites de démonstration qui montrent du design responsive dans plusieurs industries.",
+      "callToAction": "Prêt à améliorer votre présence en ligne? Construisons un site web qui travaille pour vous."
+    }
   },
-  "FOOTER": {
-    "COPYRIGHT": "© 2025 Paroisse Catholique. Tous droits réservés.",
-    "LOCATION": "Montréal, QC, Canada"
+  "about": {
+    "title": "À propos de Daniel",
+    "imageLabel": "Photo",
+    "bio": "Je suis Daniel Seguin, consultant senior avec plus de trois décennies d'expérience en génie logiciel, soutien aux applications d'entreprise et programmes de modernisation.",
+    "journeyTitle": "30 ans d'expérience",
+    "journey": "Mon parcours s'est construit autour de la livraison concrète: maintenir des systèmes legacy critiques, moderniser des applications d'entreprise, documenter des bases de données complexes et aider les équipes à passer de l'incertitude à un logiciel fonctionnel.",
+    "positioningTitle": "Positionnement unique",
+    "positioning": "Je combine une expertise profonde des systèmes legacy avec des pratiques modernes en Angular, Python, PowerShell, .NET, API, données et développement assisté par l'IA. Cette combinaison aide les fondateurs et PME à avancer rapidement sans négliger la maintenabilité.",
+    "visionTitle": "Vision",
+    "vision": "Mon modèle DaaS s'adresse aux entrepreneurs qui souhaitent transformer une idée en une solution logicielle réelle et déployable sans les coûts élevés habituellement associés au développement traditionnel. Au lieu de payer des dizaines de milliers de dollars avant d'obtenir un résultat concret, les fondateurs s'abonnent pour 100 $/mois et bénéficient d'un avancement continu, propulsé par GitHub Copilot, des outils de développement modernes et mes 30 années d'expérience comme consultant.",
+    "highlights": [
+      "30 ans d'expérience en consultation",
+      "Livraison logicielle legacy et moderne",
+      "Reverse engineering et documentation de bases de données",
+      "Développement accéléré par l'IA avec GitHub Copilot"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Parlez-moi de votre idée, MVP, projet de modernisation ou besoin de soutien.",
+    "imageLabel": "Contact",
+    "addressTitle": "Localisation",
+    "contactOptionsTitle": "Contact direct",
+    "emailTitle": "Courriel",
+    "emailValue": "daniel@seguin.dev",
+    "linkedinTitle": "LinkedIn",
+    "linkedinValue": "Daniel Seguin sur LinkedIn",
+    "linkedinUrl": "https://www.linkedin.com/",
+    "bookCallTitle": "Réserver un appel",
+    "bookCallValue": "Utilisez le formulaire et je vous répondrai pour planifier un moment.",
+    "formTitle": "Envoyez-moi un message",
+    "name": "Nom:",
+    "email": "Courriel:",
+    "subject": "Sujet:",
+    "message": "Message:",
+    "send": "Envoyer le message",
+    "requiredMessage": "Veuillez remplir tous les champs obligatoires.",
+    "successMessage": "Merci pour votre message! Je vous répondrai bientôt.",
+    "errorMessage": "Désolé, une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "tagline": "Analyste Développeur senior | Developer-as-a-Service"
   }
 }

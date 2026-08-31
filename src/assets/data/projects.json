@@ -1,106 +1,104 @@
 {
   "en": [
     {
-      "name": "Consultant Companion",
-      "description": "Comprehensive business management platform for consultants and small firms covering clients, engagements, employees, expenses, timesheets, invoices, projects, and accounting workflows.",
-      "technology": "PowerBuilder 2025, Dynamics 365, Dataverse, PowerApps, Power Automate, Power BI, Sage Accounting, ADP"
-    },
-    {
-      "name": "DbDocGen",
-      "description": "Python-based reverse engineering solution that generates structured data dictionaries and ERD-ready artifacts for heterogeneous enterprise databases.",
-      "technology": "Python, SQL Server, Oracle, Informix, Sybase, PostgreSQL, Dataverse, Markdown, PDF, HTML, Draw.io"
-    },
-    {
-      "name": "DBA Helper",
-      "description": "Utility for monitoring database server statistics and supporting day-to-day administration and diagnostics.",
-      "technology": "Python, SQL"
-    },
-    {
-      "name": "Responsive Website Development and Maintenance",
-      "description": "Built and maintained responsive, accessibility-aware websites for multiple clients, including migrations from legacy stacks and JSON data exchange integrations.",
-      "technology": "Angular, TypeScript, HTML, CSS, C#, Entity Framework, .NET Migration, JSON Integration"
-    },
-    {
-      "name": "Data Validator",
-      "description": "Python-based data validation solution used by analysts to enforce business rules and validate table-level data quality.",
-      "technology": "Python, SQL, Data Quality Rules"
-    },
-    {
-      "name": "Demo Ecommerce Solution Web Store",
-      "description": "End-to-end e-commerce demonstration with secure payment processing, webhook workflows, and an API-first backend architecture.",
-      "technology": "Django REST Framework, Stripe Elements, PaymentIntents API, SQL Server, drf-spectacular"
-    },
-    {
-      "name": "Legacy Application Migration (PowerBuilder to Django)",
-      "description": "Modernization of a legacy desktop system into a browser-based web application while preserving core operational workflows and improving long-term maintainability.",
-      "technology": "PowerBuilder, Python, Django, SQL Server, Web Architecture"
-    },
-    {
+      "slug": "myaccounting",
       "name": "MyAccounting",
-      "description": "Desktop accounting application for Canadian service businesses featuring invoicing, journals, financial statements, dashboarding, and export/import workflows.",
-      "technology": "Python, Tkinter, SQL Server, ODBC, PDF, Excel"
+      "description": "Accounting application for consultants and independent service professionals, focused on practical invoicing, journals, financial reporting, and business administration.",
+      "technology": "Python, SQL Server, ODBC, PDF, Excel",
+      "detailPlaceholder": "Project detail page placeholder for MyAccounting. Add the business problem, screenshots, MVP scope, architecture, roadmap, and deployment notes here."
     },
     {
-      "name": "Public Sector Modernization Tooling",
-      "description": "Built migration and modernization support tooling, including Jira-to-Azure DevOps migration, metadata extraction utilities, ERD generation, and API service enablement.",
-      "technology": "PowerShell, Python, Java, C#, SQL Server, Azure DevOps, Power BI, Draw.io"
+      "slug": "dbdocgen",
+      "name": "DbDocGen",
+      "description": "Database reverse engineering application that generates documentation and ERD-ready diagrams from existing schemas.",
+      "technology": "SQL Server, Informix, Oracle, Sybase, Dataverse, Python, Markdown, Draw.io",
+      "detailPlaceholder": "Project detail page placeholder for DbDocGen. Add supported database engines, generated artifacts, ERD workflow, and sample documentation output here."
     },
     {
-      "name": "Demo Ecommerce Solution Book Store",
-      "description": "End-to-end e-commerce demonstration with secure payment processing, webhook workflows, and an API-first backend architecture.",
-      "technology": "Java Spring Boot Framework, Stripe Elements, Sprintdoc OpenAPI Swagger, SQL Server"
+      "slug": "rental-agent-web-application",
+      "name": "Rental Agent Web Application",
+      "description": "Web application concept for rental agents to manage listings, client requests, property information, and day-to-day follow-ups.",
+      "technology": "Angular, Node.js, APIs, SQL Server",
+      "detailPlaceholder": "Project detail page placeholder for the rental agent web application. Add user roles, listing workflow, CRM features, and deployment plan here."
+    },
+    {
+      "slug": "real-estate-listing-companion",
+      "name": "Real Estate Listing Companion",
+      "description": "Companion application for real estate agents to add listings to their personalized websites and maintain client-facing property content.",
+      "technology": "Angular, APIs, JSON, .NET, Cloud Hosting",
+      "detailPlaceholder": "Project detail page placeholder for the real estate listing companion. Add listing publication flow, website integration notes, media handling, and agent dashboard ideas here."
+    },
+    {
+      "slug": "csharp-website-migration-to-angular",
+      "name": "C# Website Migration to Angular",
+      "description": "Modernization project that migrates a C# website to Angular while preserving business content and improving responsiveness and maintainability.",
+      "technology": "C#, Angular, TypeScript, HTML, CSS, Entity Framework",
+      "detailPlaceholder": "Project detail page placeholder for the C# to Angular migration. Add migration strategy, legacy risks, component map, data/API plan, and before/after notes here."
+    },
+    {
+      "slug": "electronic-business-card-generator",
+      "name": "Electronic Business Card Generator",
+      "description": "Application for generating electronic business cards that can be shared easily and updated as contact information changes.",
+      "technology": "Angular, JSON, APIs, QR Code Workflows",
+      "detailPlaceholder": "Project detail page placeholder for the electronic business card generator. Add card templates, QR code flow, sharing options, and administration features here."
+    },
+    {
+      "slug": "personal-website",
+      "name": "Personal Website",
+      "description": "Daniel Seguin's bilingual personal website and DaaS portfolio, structured around JSON-driven content and responsive Angular pages.",
+      "technology": "Angular, TypeScript, JSON, Responsive CSS, GitHub Copilot",
+      "detailPlaceholder": "Project detail page placeholder for the personal website. Add content strategy, bilingual structure, Angular architecture, deployment approach, and future enhancements here."
     }
   ],
   "fr": [
     {
-      "name": "Consultant Companion",
-      "description": "Plateforme complete de gestion d'entreprise pour consultants et petites firmes couvrant les clients, mandats, employes, depenses, feuilles de temps, factures, projets et processus comptables.",
-      "technology": "PowerBuilder 2025, Dynamics 365, Dataverse, PowerApps, Power Automate, Power BI, Sage Accounting, ADP"
-    },
-    {
-      "name": "DbDocGen",
-      "description": "Solution de retro-ingenierie basee sur Python qui genere des dictionnaires de donnees structures et des artefacts prets pour les diagrammes ERD pour des bases de donnees d'entreprise heterogenes.",
-      "technology": "Python, SQL Server, Oracle, Informix, PostgreSQL, Dataverse, Markdown, PDF, HTML, Draw.io"
-    },
-    {
-      "name": "DBA Helper",
-      "description": "Utilitaire de surveillance des statistiques des serveurs de bases de donnees et de soutien a l'administration et au diagnostic quotidiens.",
-      "technology": "Python, SQL"
-    },
-    {
-      "name": "Developpement et maintenance de sites Web responsifs",
-      "description": "Conception et maintenance de sites Web responsifs et accessibles pour plusieurs clients, incluant des migrations de technologies heritage et des integrations d'echange de donnees JSON.",
-      "technology": "Angular, TypeScript, HTML, CSS, Migration .NET, Integration JSON"
-    },
-    {
-      "name": "Validateur de donnees",
-      "description": "Solution de validation de donnees basee sur Python utilisee par les analystes pour appliquer des regles d'affaires et valider la qualite des donnees au niveau des tables.",
-      "technology": "Python, SQL, Regles de qualite des donnees"
-    },
-    {
-      "name": "Solution demo de commerce electronique - Boutique Web",
-      "description": "Demonstration complete de commerce electronique avec traitement securise des paiements, flux de travail par webhooks et architecture backend orientee API.",
-      "technology": "Django REST Framework, Stripe Elements, PaymentIntents API, SQL Server, drf-spectacular"
-    },
-    {
-      "name": "Migration d'application heritage (PowerBuilder vers Django)",
-      "description": "Modernisation d'un systeme bureau heritage en application Web basee sur navigateur, tout en preservant les flux operationnels essentiels et en ameliorant la maintenabilite a long terme.",
-      "technology": "PowerBuilder, Python, Django, SQL Server, Architecture Web"
-    },
-    {
+      "slug": "myaccounting",
       "name": "MyAccounting",
-      "description": "Application comptable de bureau pour entreprises canadiennes de services offrant facturation, journaux, etats financiers, tableaux de bord et flux d'import/export.",
-      "technology": "Python, Tkinter, SQL Server, ODBC, PDF, Excel"
+      "description": "Application comptable pour consultants et professionnels indépendants, axée sur la facturation, les journaux, les rapports financiers et l'administration d'affaires.",
+      "technology": "Python, SQL Server, ODBC, PDF, Excel",
+      "detailPlaceholder": "Page de détail temporaire pour MyAccounting. Ajouter ici le problème d'affaires, les captures d'écran, le périmètre MVP, l'architecture, la feuille de route et les notes de déploiement."
     },
     {
-      "name": "Outillage de modernisation du secteur public",
-      "description": "Developpement d'outils de soutien a la migration et a la modernisation, incluant la migration Jira vers Azure DevOps, des utilitaires d'extraction de metadonnees, la generation de diagrammes ERD et l'activation de services API.",
-      "technology": "PowerShell, Python, Java, C#, SQL Server, Azure DevOps, Power BI, Draw.io"
+      "slug": "dbdocgen",
+      "name": "DbDocGen",
+      "description": "Application de reverse engineering de bases de données qui génère de la documentation et des diagrammes ERD à partir de schémas existants.",
+      "technology": "SQL Server, Informix, Oracle, Sybase, Dataverse, Python, Markdown, Draw.io",
+      "detailPlaceholder": "Page de détail temporaire pour DbDocGen. Ajouter ici les moteurs de bases de données supportés, les artefacts générés, le flux ERD et des exemples de documentation."
     },
     {
-      "name": "Solution demo de commerce electronique - Librairie",
-      "description": "Demonstration complete de commerce electronique avec traitement securise des paiements, flux de travail par webhooks et architecture backend orientee API.",
-      "technology": "Java Spring Boot Framework, Stripe Elements, Sprintdoc OpenAPI Swagger, SQL Server"
+      "slug": "rental-agent-web-application",
+      "name": "Application web pour agents de location",
+      "description": "Concept d'application web permettant aux agents de location de gérer les annonces, demandes clients, informations d'immeubles et suivis quotidiens.",
+      "technology": "Angular, Node.js, API, SQL Server",
+      "detailPlaceholder": "Page de détail temporaire pour l'application web des agents de location. Ajouter ici les rôles utilisateurs, le flux des annonces, les fonctions CRM et le plan de déploiement."
+    },
+    {
+      "slug": "real-estate-listing-companion",
+      "name": "Companion pour agents d'immeubles",
+      "description": "Application companion permettant aux agents d'immeubles d'ajouter des listings à leurs sites web personnalisés et de maintenir le contenu visible par les clients.",
+      "technology": "Angular, API, JSON, .NET, Hébergement cloud",
+      "detailPlaceholder": "Page de détail temporaire pour le companion des agents d'immeubles. Ajouter ici le flux de publication, l'intégration au site web, la gestion des médias et les idées de tableau de bord."
+    },
+    {
+      "slug": "csharp-website-migration-to-angular",
+      "name": "Migration de site web de C# vers Angular",
+      "description": "Projet de modernisation qui migre un site web C# vers Angular tout en préservant le contenu d'affaires et en améliorant la responsivité et la maintenabilité.",
+      "technology": "C#, Angular, TypeScript, HTML, CSS, Entity Framework",
+      "detailPlaceholder": "Page de détail temporaire pour la migration C# vers Angular. Ajouter ici la stratégie de migration, les risques legacy, la carte des composants, le plan données/API et les notes avant/après."
+    },
+    {
+      "slug": "electronic-business-card-generator",
+      "name": "Générateur de cartes d'affaires électroniques",
+      "description": "Application pour générer des cartes d'affaires électroniques faciles à partager et à mettre à jour lorsque les coordonnées changent.",
+      "technology": "Angular, JSON, API, Flux QR Code",
+      "detailPlaceholder": "Page de détail temporaire pour le générateur de cartes d'affaires électroniques. Ajouter ici les modèles de cartes, le flux QR code, les options de partage et les fonctions d'administration."
+    },
+    {
+      "slug": "personal-website",
+      "name": "Site web personnel",
+      "description": "Site web bilingue et portfolio DaaS de Daniel Seguin, structuré autour de contenu JSON et de pages Angular responsives.",
+      "technology": "Angular, TypeScript, JSON, CSS responsive, GitHub Copilot",
+      "detailPlaceholder": "Page de détail temporaire pour le site web personnel. Ajouter ici la stratégie de contenu, la structure bilingue, l'architecture Angular, le déploiement et les améliorations futures."
     }
   ]
 }

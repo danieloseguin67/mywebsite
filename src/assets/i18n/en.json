@@ -1,128 +1,141 @@
 {
-  "HEADER": {
-    "TITLE": "Catholic Parish",
-    "HOME": "Home",
-    "PARISH": "Our Parish",
-    "CAMPAIGNS": "Campaigns",
-    "MASSES": "Masses",
-    "EVENTS": "Events",
-    "NEWS": "News",
-    "COMMITTEES": "Committees",
-    "VOLUNTEERING": "Volunteering",
-    "CONTACT": "Contact",
-    "DONATE": "Make a Donation"
+  "nav": {
+    "home": "Home",
+    "daas": "Developer-as-a-Service",
+    "expertises": "Expertise",
+    "daasProjects": "DaaS Projects",
+    "services": "Expertise",
+    "products": "Solutions",
+    "skills": "Skills",
+    "projects": "Projects",
+    "demo": "Demo",
+    "about": "About",
+    "contact": "Contact",
+    "testimonials": "Testimonials",
+    "networking": "Networking"
   },
-  "HOME": {
-    "TITLE": "Welcome to Our Parish",
-    "SUBTITLE": "You are the temple of God, the house that He builds.",
-    "MISSION": "Our Mission",
-    "MISSION_DESC": "To proclaim the Gospel of Jesus Christ and serve our community with faith, hope, and love.",
-    "MASS_TIMES": "Mass Times",
-    "MASS_TIMES_DESC": "Join us for daily and Sunday celebrations of the Holy Eucharist.",
-    "COMMUNITY": "Community",
-    "COMMUNITY_DESC": "A welcoming parish family committed to worship, service, and fellowship.",
-    "SACRAMENTS": "Sacraments",
-    "SACRAMENTS_DESC": "Celebrating the sacramental life and milestones of our faith community.",
-    "NEWS1": "🌟 Daniel Seguin - Full-Stack Developer specializing in Angular, React, and modern web technologies",
-    "NEWS2": "💼 Experienced in building scalable enterprise applications and cloud solutions",
-    "NEWS3": "🎯 Passionate about creating intuitive user experiences and clean, maintainable code",
-    "NEWS4": "🚀 Expert in responsive design, PWAs, and performance optimization",
-    "NEWS5": "📧 Available for freelance projects and consulting - Contact: daniel@seguin.com"
+  "home": {
+    "eyebrow": "Daniel Seguin | Senior Analyst Developer",
+    "title": "Developer-as-a-Service for entrepreneurs ready to build",
+    "subtitle": "Turn an idea into a real, deployable software solution with predictable monthly costs, AI-accelerated delivery, and 30 years of practical consulting experience.",
+    "summaryTitle": "A lean path from idea to MVP",
+    "summary": "For $100/month, founders receive technical guidance, MVP planning, GitHub Copilot-powered development, architecture support, and steady progress without the high upfront cost of traditional development.",
+    "primaryCta": "Get started",
+    "secondaryCta": "Book a call",
+    "expertisePreviewTitle": "Expertise snapshot",
+    "projectsPreviewTitle": "DaaS project examples",
+    "testimonialsPreviewTitle": "What colleagues and managers say",
+    "viewExpertises": "View expertise",
+    "viewProjects": "View projects",
+    "viewTestimonials": "Read testimonials",
+    "rebuildTitle": "Developer-as-a-Service for entrepreneurs ready to build",
+    "rebuildMessage": "Affordable, AI-accelerated software delivery from idea to deployable MVP."
   },
-  "PARISH": {
-    "TITLE": "Our Parish",
-    "ABOUT": "About Us",
-    "ABOUT_DESC": "We are a vibrant Catholic community dedicated to worshiping God and serving our neighbors. Our parish is guided by the teachings of the Catholic Church and inspired by the Gospel of Jesus Christ.",
-    "HISTORY": "Parish History",
-    "HISTORY_DESC": "Our parish has a rich history of faith and service in our community. Founded many years ago, we continue to grow in our commitment to Christ and His Church.",
-    "PASTOR": "Our Pastor",
-    "PASTOR_DESC": "Father John Smith has been serving our parish community with dedication and pastoral care.",
-    "SACRAMENTS_RITES": "Sacraments and Rites",
-    "LITURGICAL_FUNCTIONS": "Liturgical Functions"
+  "daas": {
+    "title": "Developer-as-a-Service",
+    "subtitle": "A subscription model for entrepreneurs who want to validate and launch software without heavy upfront development costs.",
+    "modelTitle": "The model",
+    "phasesTitle": "The 3 phases",
+    "benefitsTitle": "Why it works for entrepreneurs and small businesses",
+    "pricingTitle": "Pricing",
+    "deploymentTitle": "Deployment",
+    "supportTitle": "Post-MVP support",
+    "ctaTitle": "Ready to shape your MVP?",
+    "ctaText": "Start with a focused conversation about your idea, constraints, timeline, and first deployable version.",
+    "primaryCta": "Start",
+    "secondaryCta": "Book a call"
   },
-  "MASSES": {
-    "TITLE": "Mass Schedule",
-    "WEEKDAY": "Weekday Masses",
-    "WEEKDAY_DESC": "Monday - Friday: 7:00 AM and 12:10 PM",
-    "SATURDAY": "Saturday Masses",
-    "SATURDAY_DESC": "Vigil Mass: 5:00 PM",
-    "SUNDAY": "Sunday Masses",
-    "SUNDAY_DESC": "8:00 AM, 10:00 AM, 12:00 PM, and 5:00 PM",
-    "HOLY_DAYS": "Holy Days of Obligation",
-    "HOLY_DAYS_DESC": "Please check the bulletin for special Mass times on Holy Days.",
-    "VIRTUAL": "Virtual Masses",
-    "VIRTUAL_DESC": "Join us online for livestreamed celebrations.",
-    "INTENTIONS": "Mass Intentions",
-    "INTENTIONS_DESC": "Request a Mass to be offered for your intentions."
+  "expertises": {
+    "title": "Expertise",
+    "subtitle": "A practical mix of legacy depth, database engineering, business intelligence, automation, and AI-accelerated delivery."
   },
-  "EVENTS": {
-    "TITLE": "Parish Events",
-    "UPCOMING": "Upcoming Events",
-    "CALENDAR": "Event Calendar",
-    "CALENDAR_DESC": "Stay connected with our parish community through various events and activities throughout the year."
+  "services": {
+    "title": "Expertise"
   },
-  "NEWS": {
-    "TITLE": "Parish News",
-    "BULLETIN": "Weekly Bulletin",
-    "BULLETIN_DESC": "Read our latest parish bulletin for announcements, upcoming events, and spiritual reflections.",
-    "ANNOUNCEMENTS": "Announcements"
+  "products": {
+    "title": "Solutions"
   },
-  "COMMITTEES": {
-    "TITLE": "Parish Committees",
-    "DESCRIPTION": "Our parish committees help organize and support various aspects of parish life. Get involved and share your talents!",
-    "LITURGY": "Liturgy Committee",
-    "LITURGY_DESC": "Plans and coordinates liturgical celebrations and enhances our worship experience.",
-    "FINANCE": "Finance Council",
-    "FINANCE_DESC": "Provides oversight and guidance for the parish's financial stewardship.",
-    "PASTORAL": "Pastoral Council",
-    "PASTORAL_DESC": "Advises the pastor on pastoral matters and parish planning."
+  "skills": {
+    "title": "Skills",
+    "constructionTitle": "Page under construction",
+    "constructionMessage": "I am currently preparing this skills section with detailed capability breakdowns. Please check back soon."
   },
-  "VOLUNTEERING": {
-    "TITLE": "Volunteer Opportunities",
-    "DESCRIPTION": "There are many ways to serve in our parish community. Your time and talents are gifts that help build the Kingdom of God.",
-    "OPPORTUNITIES": "Current Opportunities",
-    "LECTORS": "Lectors",
-    "LECTORS_DESC": "Proclaim the Word of God during Mass.",
-    "EUCHARISTIC": "Eucharistic Ministers",
-    "EUCHARISTIC_DESC": "Assist in the distribution of Holy Communion.",
-    "USHERS": "Ushers and Greeters",
-    "USHERS_DESC": "Welcome parishioners and assist during Mass.",
-    "CHOIR": "Choir",
-    "CHOIR_DESC": "Share your musical talents in liturgical celebrations."
+  "projects": {
+    "title": "DaaS Projects",
+    "subtitle": "Examples of software products and accelerators that fit the Developer-as-a-Service model.",
+    "technologyLabel": "Technology",
+    "detailsLink": "View project details",
+    "detailPlaceholderTitle": "Project detail placeholder",
+    "backToProjects": "Back to DaaS Projects",
+    "notFoundTitle": "Project not found",
+    "notFoundMessage": "This project detail page is not available yet.",
+    "constructionTitle": "Page under construction",
+    "constructionMessage": "I am currently curating project case studies for this section. Please check back soon."
   },
-  "CAMPAIGNS": {
-    "TITLE": "Parish Campaigns",
-    "DESCRIPTION": "Support our parish initiatives and special campaigns that help us serve our community and maintain our facilities.",
-    "CAPITAL": "Capital Campaign",
-    "CAPITAL_DESC": "Help us with building improvements and renovations.",
-    "ANNUAL": "Annual Appeal",
-    "ANNUAL_DESC": "Your annual gift supports our parish ministries and outreach programs."
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Feedback from managers and colleagues about Daniel's delivery, collaboration, and technical contribution."
   },
-  "DONATION": {
-    "TITLE": "Make a Donation",
-    "DESCRIPTION": "Your generous support helps our parish continue its mission of worship, service, and evangelization.",
-    "ONLINE": "Give Online",
-    "ONLINE_DESC": "Make a secure online donation through our giving platform.",
-    "MAIL": "Give by Mail",
-    "MAIL_DESC": "Send your donation to our parish office.",
-    "PERSON": "Give in Person",
-    "PERSON_DESC": "Drop off your donation at the parish office or place it in the collection basket at Mass.",
-    "WAYS": "Ways to Give",
-    "THANK_YOU": "Thank you for your generosity!"
+  "networking": {
+    "title": "Networking"
   },
-  "CONTACT": {
-    "TITLE": "Contact Us",
-    "ADDRESS_TITLE": "Parish Office",
-    "PHONE": "Phone",
-    "EMAIL": "Email",
-    "OFFICE_HOURS": "Office Hours",
-    "OFFICE_HOURS_DESC": "Monday - Friday: 9:00 AM - 5:00 PM",
-    "MAP_TITLE": "Find Us",
-    "MAP_VIEW": "Map View",
-    "MAP_NOTE": "Integration with Google Maps or similar mapping service would go here"
+  "demo": {
+    "title": "Demo Websites",
+    "service": "Service Industry Website",
+    "restaurant": "Restaurant Industry Website",
+    "manufacturing": "Manufacturing Industry Website",
+    "store": "Store Industry Website",
+    "church": "Church Website",
+    "placeholder": "Demo Coming Soon",
+    "introduction": {
+      "title": "Professional Website Design for Every Industry",
+      "paragraph1": "Your website is more than an online presence; it is your brand's first impression.",
+      "paragraph2": "Explore demo websites that show responsive design across several industries.",
+      "callToAction": "Ready to elevate your online presence? Let's build a website that works for you."
+    }
   },
-  "FOOTER": {
-    "COPYRIGHT": "© 2025 Catholic Parish. All rights reserved.",
-    "LOCATION": "Montreal, QC, Canada"
+  "about": {
+    "title": "About Daniel",
+    "imageLabel": "Photo",
+    "bio": "I am Daniel Seguin, a Senior Analyst Developer with over three decades of experience in software engineering, enterprise application support, and modernization programs.",
+    "journeyTitle": "30 years of experience",
+    "journey": "My career has been built around practical delivery: maintaining critical legacy systems, modernizing enterprise applications, documenting complex databases, and helping teams move from uncertainty to working software.",
+    "positioningTitle": "Unique positioning",
+    "positioning": "I combine deep legacy expertise with modern Angular, Python, PowerShell, .NET, API, data, and AI-assisted development practices. That mix helps founders and small businesses move quickly without losing sight of maintainability.",
+    "visionTitle": "Vision",
+    "vision": "My DaaS model is for entrepreneurs who want to transform an idea into a real, deployable software solution without the high costs normally associated with traditional development. Instead of paying tens of thousands before seeing a concrete result, founders subscribe for $100/month and receive continuous progress powered by GitHub Copilot, modern development tools, and my 30 years of consulting experience.",
+    "highlights": [
+      "30 years of consulting experience",
+      "Legacy and modern software delivery",
+      "Database reverse engineering and documentation",
+      "AI-accelerated development with GitHub Copilot"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Tell me about your idea, MVP, modernization project, or support need.",
+    "imageLabel": "Contact",
+    "addressTitle": "Location",
+    "contactOptionsTitle": "Direct contact",
+    "emailTitle": "Email",
+    "emailValue": "daniel@seguin.dev",
+    "linkedinTitle": "LinkedIn",
+    "linkedinValue": "Daniel Seguin on LinkedIn",
+    "linkedinUrl": "https://www.linkedin.com/",
+    "bookCallTitle": "Book a call",
+    "bookCallValue": "Use the form and I will reply to schedule a time.",
+    "formTitle": "Send me a message",
+    "name": "Name:",
+    "email": "Email:",
+    "subject": "Subject:",
+    "message": "Message:",
+    "send": "Send message",
+    "requiredMessage": "Please fill in all required fields.",
+    "successMessage": "Thank you for your message! I will get back to you soon.",
+    "errorMessage": "Sorry, there was an error sending your message. Please try again later."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Senior Analyst Developer | Developer-as-a-Service"
   }
 }

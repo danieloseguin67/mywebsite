@@ -1,0 +1,76 @@
+{
+  "en": [
+    {
+      "name": "Legacy development",
+      "description": "More than 10 years maintaining, modernizing, and documenting critical business applications.",
+      "tools": ["Informix 4GL - 20+ years", "PowerBuilder 5, 8, 12.5, 2017, 2019, 2021, 2022, 2025 - 10+ years", "Genero", "Fourgen Case Tools"]
+    },
+    {
+      "name": "Database development",
+      "description": "Data modeling, SQL development, documentation, migration support, and reverse engineering across enterprise databases.",
+      "tools": ["Informix", "SQL Server", "Oracle", "Sybase", "Dataverse"]
+    },
+    {
+      "name": "Business intelligence tools",
+      "description": "Operational reporting and analytics support for business and management teams.",
+      "tools": ["SSRS", "SAP Business Objects"]
+    },
+    {
+      "name": "ETL tools",
+      "description": "Data movement, transformation, integration, and workflow automation for reporting and operational systems.",
+      "tools": ["SSIS", "Azure Data Flow"]
+    },
+    {
+      "name": "Low-code tools",
+      "description": "Process automation and application delivery using low-code platforms and enterprise development frameworks.",
+      "tools": ["Bizagi", "SnapLogic", "Mendix", "Microsoft Entity Framework"]
+    },
+    {
+      "name": "Operating system development",
+      "description": "Automation, scripting, diagnostics, and support across server and workstation environments.",
+      "tools": ["Unix", "Linux", "PowerShell"]
+    },
+    {
+      "name": "AI-accelerated development",
+      "description": "Modern software delivery using GitHub Copilot to accelerate implementation, refactoring, documentation, and support tasks.",
+      "tools": ["GitHub Copilot", "Python", "Angular", "PowerShell", "Node.js", ".NET", "APIs"]
+    }
+  ],
+  "fr": [
+    {
+      "name": "Développement legacy",
+      "description": "Plus de 20 ans à maintenir, moderniser et documenter des applications d'affaires critiques.",
+      "tools": ["Informix 4GL", "PowerBuilder 5, 8, 12.5, 2017, 2019, 2021, 2022, 2025 - 10+ ans", "Genero", "Fourgen Case Tools"]
+    },
+    {
+      "name": "Développement de bases de données",
+      "description": "Modélisation de données, développement SQL, documentation, soutien à la migration et reverse engineering de bases de données d'entreprise.",
+      "tools": ["Informix", "SQL Server", "Oracle", "Sybase", "Dataverse"]
+    },
+    {
+      "name": "Outils BI",
+      "description": "Rapports opérationnels et soutien analytique pour les équipes d'affaires et de gestion.",
+      "tools": ["SSRS", "SAP Business Objects"]
+    },
+    {
+      "name": "Outils ETL",
+      "description": "Déplacement, transformation, intégration de données et automatisation de flux pour les systèmes opérationnels et de rapports.",
+      "tools": ["SSIS", "Azure Data Flow"]
+    },
+    {
+      "name": "Outils low-code",
+      "description": "Automatisation de processus et livraison d'applications avec des plateformes low-code et des cadres de développement d'entreprise.",
+      "tools": ["Bizagi", "SnapLogic", "Mendix", "Microsoft Entity Framework"]
+    },
+    {
+      "name": "Développement O/S",
+      "description": "Automatisation, scripts, diagnostics et soutien sur des environnements serveurs et postes de travail.",
+      "tools": ["Unix", "Linux", "PowerShell"]
+    },
+    {
+      "name": "Développement accéléré par l'IA",
+      "description": "Livraison logicielle moderne avec GitHub Copilot pour accélérer l'implémentation, la refactorisation, la documentation et le soutien.",
+      "tools": ["GitHub Copilot", "Python", "Angular", "PowerShell", "Node.js", ".NET", "API"]
+    }
+  ]
+}
