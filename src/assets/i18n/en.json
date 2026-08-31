@@ -134,6 +134,18 @@
     "successMessage": "Thank you for your message! I will get back to you soon.",
     "errorMessage": "Sorry, there was an error sending your message. Please try again later."
   },
+  "bookCall": {
+    "title": "Book a call about your Developer-as-a-Service project",
+    "subtitle": "Tell me a bit about yourself and your idea, and I will reach out to schedule a time to talk.",
+    "name": "Name:",
+    "phone": "Phone number:",
+    "email": "Email:",
+    "ideaDescription": "Describe your idea:",
+    "send": "Request a call",
+    "requiredMessage": "Please fill in all required fields.",
+    "successMessage": "Thank you! I received your request and will contact you soon to schedule a call.",
+    "errorMessage": "Sorry, there was an error sending your request. Please try again later."
+  },
   "footer": {
     "rights": "All rights reserved.",
     "tagline": "Senior Analyst Developer | Developer-as-a-Service"

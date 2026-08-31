@@ -134,6 +134,18 @@
     "successMessage": "Merci pour votre message! Je vous répondrai bientôt.",
     "errorMessage": "Désolé, une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
   },
+  "bookCall": {
+    "title": "Réservez un appel au sujet de votre projet Developer-as-a-Service",
+    "subtitle": "Parlez-moi un peu de vous et de votre idée, et je vous contacterai pour planifier un moment pour discuter.",
+    "name": "Nom:",
+    "phone": "Numéro de téléphone:",
+    "email": "Courriel:",
+    "ideaDescription": "Décrivez votre idée:",
+    "send": "Demander un appel",
+    "requiredMessage": "Veuillez remplir tous les champs obligatoires.",
+    "successMessage": "Merci! J'ai bien reçu votre demande et je vous contacterai bientôt pour planifier un appel.",
+    "errorMessage": "Désolé, une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer plus tard."
+  },
   "footer": {
     "rights": "Tous droits réservés.",
     "tagline": "Analyste Développeur senior | Developer-as-a-Service"

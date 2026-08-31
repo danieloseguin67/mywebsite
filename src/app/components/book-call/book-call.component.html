@@ -1,0 +1,32 @@
+<section class="section">
+  <div class="container">
+    <div class="page-header">
+      <h2>{{ translations.bookCall.title }}</h2>
+      <p>{{ translations.bookCall.subtitle }}</p>
+    </div>
+    <div class="book-call-form">
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="name">{{ translations.bookCall.name }}</label>
+          <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">{{ translations.bookCall.phone }}</label>
+          <input type="tel" id="phone" name="phone" [(ngModel)]="formData.phone" required>
+        </div>
+        <div class="form-group">
+          <label for="email">{{ translations.bookCall.email }}</label>
+          <input type="email" id="email" name="email" [(ngModel)]="formData.email" required>
+        </div>
+        <div class="form-group">
+          <label for="ideaDescription">{{ translations.bookCall.ideaDescription }}</label>
+          <textarea id="ideaDescription" name="ideaDescription" rows="5" [(ngModel)]="formData.ideaDescription" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">{{ translations.bookCall.send }}</button>
+      </form>
+      <div *ngIf="formStatus.show" class="form-status" [class.success]="formStatus.success">
+        {{ formStatus.message }}
+      </div>
+    </div>
+  </div>
+</section>

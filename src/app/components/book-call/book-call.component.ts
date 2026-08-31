@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { TranslationService, Translations, EmailData } from '../../services/translation.service';
+import { TranslationService, Translations } from '../../services/translation.service';
 
 @Component({
-  selector: 'app-contact',
+  selector: 'app-book-call',
   standalone: true,
   imports: [CommonModule, FormsModule],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+  templateUrl: './book-call.component.html',
+  styleUrl: './book-call.component.css'
 })
-export class ContactComponent implements OnInit {
+export class BookCallComponent implements OnInit {
   translations: Translations;
   currentLang: string = 'en';
   formData = {
     name: '',
+    phone: '',
     email: '',
-    subject: '',
-    message: ''
+    ideaDescription: ''
   };
   formStatus: { show: boolean; success: boolean; message: string } = {
     show: false,
@@ -37,48 +37,48 @@ export class ContactComponent implements OnInit {
   }
 
   onSubmit(): void {
-    // Validate form before submission
-    if (!this.formData.name || !this.formData.email || !this.formData.subject || !this.formData.message) {
+    if (!this.formData.name || !this.formData.phone || !this.formData.email || !this.formData.ideaDescription) {
       this.formStatus = {
         show: true,
         success: false,
-        message: this.translations.contact.requiredMessage
+        message: this.translations.bookCall.requiredMessage
       };
-      
+
       setTimeout(() => {
         this.formStatus.show = false;
       }, 5000);
-      
+
       return;
     }
 
-    // Call email service
     this.translationService.sendEmail({
-      ...this.formData,
-      subject: `Contact Form: ${this.formData.subject}`
+      name: this.formData.name,
+      email: this.formData.email,
+      subject: 'Book a Call Request',
+      message: `Phone: ${this.formData.phone}\n\nIdea description:\n${this.formData.ideaDescription}`
     }).subscribe({
-      next: (response) => {
+      next: () => {
         this.formStatus = {
           show: true,
           success: true,
-          message: this.translations.contact.successMessage
+          message: this.translations.bookCall.successMessage
         };
 
-        this.formData = { name: '', email: '', subject: '', message: '' };
-        
+        this.formData = { name: '', phone: '', email: '', ideaDescription: '' };
+
         setTimeout(() => {
           this.formStatus.show = false;
         }, 5000);
       },
       error: (error) => {
-        console.error('Error sending email:', error);
+        console.error('Error sending book a call request:', error);
 
         this.formStatus = {
           show: true,
           success: false,
-          message: this.translations.contact.errorMessage
+          message: this.translations.bookCall.errorMessage
         };
-        
+
         setTimeout(() => {
           this.formStatus.show = false;
         }, 5000);

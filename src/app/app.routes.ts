@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NetworkingComponent } from './components/networking/networking.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BookCallComponent } from './components/book-call/book-call.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -28,5 +29,6 @@ export const routes: Routes = [
   { path: 'networking', component: NetworkingComponent },
   { path: 'demo', component: DemoComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'book-a-call', component: BookCallComponent }
 ];

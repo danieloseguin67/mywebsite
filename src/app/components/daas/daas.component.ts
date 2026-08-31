@@ -41,9 +41,9 @@ export class DaasComponent implements OnInit, OnDestroy {
     this.subscription.unsubscribe();
   }
 
-  navigateToContact(event: Event): void {
+  navigateToBookCall(event: Event): void {
     event.preventDefault();
-    this.router.navigateByUrl('/contact');
+    this.router.navigateByUrl('/book-a-call');
   }
 
   private loadContent(): void {

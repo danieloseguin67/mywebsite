@@ -139,6 +139,18 @@ export interface Translations {
     successMessage: string;
     errorMessage: string;
   };
+  bookCall: {
+    title: string;
+    subtitle: string;
+    name: string;
+    phone: string;
+    email: string;
+    ideaDescription: string;
+    send: string;
+    requiredMessage: string;
+    successMessage: string;
+    errorMessage: string;
+  };
   footer: { rights: string; tagline: string };
 }
 
