@@ -7,13 +7,9 @@
 
 <nav class="navbar">
   <div class="nav-container">
-    <h1 class="logo">Daniel Seguin | CGI</h1>
+    <h1 class="logo">Daniel Seguin</h1>
     <ul class="nav-menu" [class.active]="menuOpen">
       <li><a routerLink="/home" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.home }}</a></li>
-      <li><a routerLink="/services" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.services }}</a></li>
-      <li><a routerLink="/skills" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.skills }}</a></li>
-      <li><a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.projects }}</a></li>
-      <li><a routerLink="/testimonials" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.testimonials }}</a></li>
       <li><a routerLink="/demo" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.demo }}</a></li>
       <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">{{ translations.nav.about }}</a></li>
     </ul>

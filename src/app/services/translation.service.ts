@@ -100,7 +100,7 @@ export class TranslationService {
     en: {
       nav: {
         home: 'Home',
-        services: 'Consulting',
+        services: 'Expertise',
         products: 'Solutions',
         skills: 'Skills',
         projects: 'Projects',
@@ -111,10 +111,10 @@ export class TranslationService {
         networking: 'Networking'
       },
       home: {
-        title: 'Daniel Seguin | CGI Senior Consultant',
+        title: 'Daniel Seguin | Senior Consultant',
         subtitle: 'Personal portfolio focused on enterprise modernization, delivery excellence, and measurable business outcomes.',
         news1: '🌟 30+ years delivering enterprise application solutions across public and private sectors',
-        news2: '🎯 CGI Senior Consultant driving mission-critical modernization and delivery quality',
+        news2: '🎯 Senior Consultant driving mission-critical modernization and delivery quality',
         news3: '💡 Specialized in reverse engineering legacy systems and building clear technical documentation',
         news4: '🔗 End-to-end expertise: architecture, development, data migration, and production support',
         news5: '✅ AI-accelerated delivery using GitHub Copilot, automation, and DevOps best practices',
@@ -152,7 +152,7 @@ export class TranslationService {
       about: {
         title: 'About Me',
         imageLabel: 'Photo',
-        bio: 'I am a CGI Senior Consultant with over three decades of experience in software engineering, enterprise architecture support, and modernization programs. I work at the intersection of business and technology to help teams stabilize legacy systems, define pragmatic roadmaps, and deliver secure, maintainable solutions. My approach is hands-on, collaborative, and outcome-driven: align with stakeholders, simplify complexity, and execute with discipline.'
+        bio: 'I am Daniel Seguin, a Senior Consultant with over three decades of experience in software engineering, enterprise architecture support, and modernization programs. I work at the intersection of business and technology to help teams stabilize legacy systems, define pragmatic roadmaps, and deliver secure, maintainable solutions. My approach is hands-on, collaborative, and outcome-driven: align with stakeholders, simplify complexity, and execute with discipline.'
       },
       contact: {
         title: 'Contact Me',

@@ -6,11 +6,11 @@
 }
 
 :root {
-  --brand-red: #e00015;
-  --brand-red-dark: #b80011;
-  --brand-charcoal: #161b22;
-  --brand-surface: #f3f5f8;
-  --brand-text: #1d2430;
+  --brand-blue: #1479c9;
+  --brand-blue-dark: #0b4f8a;
+  --brand-navy: #0b1f3a;
+  --brand-surface: #eef6fc;
+  --brand-text: #142b45;
 }
 
 body {
@@ -88,7 +88,7 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.3rem 0.8rem;
-  background-color: var(--brand-red);
+  background-color: var(--brand-blue);
   color: white;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -135,7 +135,7 @@ body {
 
 .demo-card h3 {
   padding: 1.5rem;
-  background-color: var(--brand-charcoal);
+  background-color: var(--brand-navy);
   color: white;
   text-align: center;
 }

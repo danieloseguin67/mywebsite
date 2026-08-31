@@ -1,6 +1,6 @@
 .testimonials-container {
   min-height: 100vh;
-  background: radial-gradient(circle at 15% 20%, rgba(224, 0, 21, 0.18), transparent 45%), linear-gradient(155deg, #12161d 0%, #1f2733 58%, #2c3442 100%);
+  background: radial-gradient(circle at 15% 20%, rgba(20, 121, 201, 0.25), transparent 45%), linear-gradient(155deg, #071a33 0%, #0b315b 58%, #125083 100%);
   padding: 2rem 0;
 }
 
@@ -29,7 +29,7 @@ h1 {
   background: rgba(255, 255, 255, 0.96);
   border-radius: 15px;
   padding: 2rem;
-  border: 1px solid rgba(224, 0, 21, 0.22);
+  border: 1px solid rgba(20, 121, 201, 0.3);
   box-shadow: 0 10px 30px rgba(8, 12, 20, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   backdrop-filter: blur(10px);
@@ -53,7 +53,7 @@ h1 {
 }
 
 .testimonial-author {
-  border-top: 2px solid #e00015;
+  border-top: 2px solid #1479c9;
   padding-top: 1rem;
 }
 
@@ -66,7 +66,7 @@ h1 {
 
 .author-position {
   font-size: 1rem;
-  color: #b70011;
+  color: #0b4f8a;
   font-weight: 600;
   margin-bottom: 0.2rem;
 }
