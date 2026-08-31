@@ -20,6 +20,22 @@ export class ProjectDetailComponent implements OnInit, OnDestroy {
   private slug: string = '';
   private subscription = new Subscription();
 
+  get detailParagraphs(): string[] {
+    const detail = this.project?.detailPlaceholder;
+
+    if (!detail) {
+      return [];
+    }
+
+    return Array.isArray(detail) ? detail : [detail];
+  }
+
+  get projectAttachments(): { title: string; url: string }[] {
+    return (this.project?.attachments || []).filter(attachment =>
+      attachment.title.trim() && attachment.url.trim()
+    );
+  }
+
   constructor(
     private route: ActivatedRoute,
     private dataService: DataService,

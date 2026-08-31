@@ -80,7 +80,7 @@ export interface Translations {
     subtitle: string;
     technologyLabel: string;
     detailsLink: string;
-    detailPlaceholderTitle: string;
+    attachmentsTitle: string;
     backToProjects: string;
     notFoundTitle: string;
     notFoundMessage: string;

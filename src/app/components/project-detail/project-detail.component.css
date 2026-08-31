@@ -25,13 +25,13 @@
   padding: 2rem;
 }
 
-.eyebrow {
-  color: var(--brand-blue-dark);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  margin-bottom: 0.85rem;
-  text-transform: uppercase;
+.detail-copy {
+  display: grid;
+  gap: 1rem;
+}
+
+.detail-copy p {
+  margin: 0;
 }
 
 .technology-block {
@@ -42,4 +42,37 @@
   gap: 0.35rem;
   margin-top: 1.25rem;
   padding: 1rem;
+}
+
+.attachments-block {
+  border-top: 1px solid #dbe8f3;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.attachments-block h3 {
+  color: var(--brand-blue-dark);
+  font-size: 1rem;
+  margin: 0 0 0.85rem;
+}
+
+.attachment-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.attachment-link {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dbe8f3;
+  border-radius: 8px;
+  color: #0b4f8a;
+  display: inline-flex;
+  font-weight: 800;
+  padding: 0.85rem 1rem;
+  text-decoration: none;
+}
+
+.attachment-link:hover {
+  background: #eef6fc;
 }

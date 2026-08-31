@@ -5,49 +5,160 @@
       "name": "MyAccounting",
       "description": "Accounting application for consultants and independent service professionals, focused on practical invoicing, journals, financial reporting, and business administration.",
       "technology": "Python, SQL Server, ODBC, PDF, Excel",
-      "detailPlaceholder": "Project detail page placeholder for MyAccounting. Add the business problem, screenshots, MVP scope, architecture, roadmap, and deployment notes here."
+      "detailPlaceholder": [
+        "MyAccounting is a Windows-based accounting and operational management solution designed for small Canadian service businesses. It combines day-to-day financial processing with operational tracking in a single desktop application, enabling businesses to manage billing, collections, general ledger activity, and reporting without needing a full enterprise ERP.",
+        "From a functional perspective, the software addresses the core needs of a service-oriented business: creating invoices, tracking receivables, recording cash receipts, posting journal entries, maintaining customer and service master data, and producing financial reports such as Trial Balance, Income Statement, and Balance Sheet. It also includes timesheet management, rental service tracking, and configurable user permissions, making it relevant beyond basic bookkeeping.",
+        "Core Functional Scope: customer and contract setup; invoice creation and PDF delivery; cash receipt recording and allocation; general journal posting and ledger maintenance; chart of accounts management; financial reporting and export; timesheet entry and client billing support; role-based access control; local configuration and operational setup.",
+        "Strategic Value: MyAccounting provides strong value to small businesses that need an integrated, low-complexity accounting system with local control. It is especially suitable for firms operating in Canada, where tax rules, invoice numbering, customer setup, and bilingual support are important. The application reduces manual spreadsheet work, improves visibility into outstanding receivables, and supports faster month-end closing and financial review.",
+        "Functional Strengths: end-to-end accounting flow from invoice to receipt to financial reporting; strong focus on accounts receivable and service billing; role-based security for different users and access levels; built-in dashboard for monitoring business health; Canadian business orientation, including tax and reporting assumptions; local SQL Server data model enabling structured reporting and reliable transaction handling.",
+        "Key Business Considerations: while the application is functionally strong for its target market, it is best viewed as a focused small-business accounting tool rather than a full ERP suite. It does not cover advanced accounts payable, payroll, inventory accounting, or multi-entity consolidation. Its architecture is designed for Windows desktop deployment, which makes it suitable for local business environments but less flexible than cloud-based systems.",
+        "Conclusion: MyAccounting is a practical and operationally focused accounting application for small service businesses. It delivers the essential financial controls and reporting functionality needed to manage billing, cash flow, and reporting in a simple and structured way. As a functional analyst, I would classify it as a solid SMB accounting solution with strong alignment to service-business workflows, especially for Canadian operations requiring local control and straightforward financial management."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "dbdocgen",
       "name": "DbDocGen",
       "description": "Database reverse engineering application that generates documentation and ERD-ready diagrams from existing schemas.",
       "technology": "SQL Server, Informix, Oracle, Sybase, Dataverse, Python, Markdown, Draw.io",
-      "detailPlaceholder": "Project detail page placeholder for DbDocGen. Add supported database engines, generated artifacts, ERD workflow, and sample documentation output here."
+      "detailPlaceholder": [
+        "DbDocGen - High-Level Purpose and Value Proposition.",
+        "What it is: DbDocGen, short for Database Documentation Generator, is a professional reverse-engineering tool that connects to a live database, extracts the full schema, and produces ready-to-use technical documentation in Markdown, HTML, and PDF formats in minutes, without writing a single query by hand.",
+        "Supported Platforms: DbDocGen supports Microsoft SQL Server with Windows and SQL authentication, PostgreSQL with full schema support, Oracle with enterprise metadata and TNS support, IBM Informix with full schema extraction, and Microsoft Dataverse / Dynamics 365 using OAuth2 via Azure AD.",
+        "The Problem It Solves: most teams that maintain applications backed by a relational database or Dataverse environment share the same pain: they know what the application does, but nobody fully knows what the database looks like anymore. Over months and years of development, databases accumulate tables, views, columns, constraints, and relationships that are rarely documented or were documented once and never updated. This documentation gap slows teams down and increases operational risk.",
+        "No Up-to-Date Data Dictionary: column names change, tables are added, and relationships evolve. Hand-maintained spreadsheets fall out of sync quickly. DbDocGen generates a complete, accurate data dictionary directly from the live schema every time it runs, keeping documentation current with zero manual effort.",
+        "New Developer Onboarding: without a map of the data model, new team members spend weeks asking questions or reading old code to understand what tables exist, what they contain, and how they relate. DbDocGen produces an ER diagram and structured table-by-table reference that answers those questions in one document.",
+        "Support and Maintenance: when a bug report references an unexpected field value or a migration introduces a breaking change, the team needs to understand data relationships quickly. DbDocGen's relationship mapping and foreign key documentation make impact analysis faster and more reliable.",
+        "Audits and Compliance: regulatory or internal audits such as SOX, HIPAA, and ISO often require formal evidence of what data the system stores and how it is structured. DbDocGen can produce PDF documentation suitable for audit packages on demand, without a manual documentation sprint.",
+        "Dataverse and Dynamics 365: organizations that customize Dataverse environments with custom entities, fields, and relationships have limited built-in options for exporting their full data model as readable documentation. DbDocGen connects through the Dataverse Web API using OAuth2 and documents entities, attributes, and relationships, including custom ones, in the same professional format as SQL databases.",
+        "Developer Productivity: every table section includes copy-paste SELECT, INSERT, UPDATE, and DELETE templates built from actual column names. Developers stop rewriting boilerplate and can focus on business logic.",
+        "Stakeholder Communication: business analysts, architects, and project managers need to understand the data model without reading SQL. DbDocGen generates Mermaid ER diagrams embedded in the documentation and exportable as .mmd files for use in GitHub, GitLab, or diagram editors.",
+        "Who Benefits: application developers understand the schema quickly and get copy-paste SQL templates; DBAs and data engineers automate documentation for deployments and migrations; business analysts read ER diagrams and field descriptions without needing database access; project managers share professional documentation with clients and stakeholders; auditors and compliance officers receive formal PDF documentation of the data model on demand; and new team members onboard faster with a complete reference document.",
+        "Key Output Artifacts: DbDocGen produces a data dictionary covering tables, views, columns, data types, constraints, and descriptions; ER diagrams in Mermaid format; sample SQL queries for SELECT, INSERT, UPDATE, and DELETE operations per table; and documentation outputs in Markdown, HTML, and PDF.",
+        "Business Case: DbDocGen eliminates the documentation gap that exists in virtually every team maintaining a database-backed application, turning an undocumented or out-of-date schema into professional, accurate, shareable documentation in minutes."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "rental-agent-web-application",
       "name": "Rental Agent Web Application",
       "description": "Web application concept for rental agents to manage listings, client requests, property information, and day-to-day follow-ups.",
       "technology": "Angular, Node.js, APIs, SQL Server",
-      "detailPlaceholder": "Project detail page placeholder for the rental agent web application. Add user roles, listing workflow, CRM features, and deployment plan here."
+      "detailPlaceholder": [
+        "Montreal4Rent is a professional luxury apartment rental web platform serving as the primary digital storefront for a real estate agent specializing in Montreal's premium rental market. It targets prospective tenants seeking furnished and unfurnished condos, suites, rooms, and student housing across desirable neighborhoods such as Downtown, Plateau-Mont-Royal, Cote-des-Neiges, Lachine, and Pierrefonds.",
+        "Functional Scope: the platform delivers bilingual French and English content with reactive language switching persisted through localStorage. UI labels, property descriptions, navigation items, and form validation messages are maintained in a centralized translations.json resource, making the system fully internationalizable.",
+        "Property Listing and Discovery: the core function is a searchable, filterable inventory of rental listings. Users can filter by neighborhood or area, minimum and maximum price, number of bedrooms, furnished versus unfurnished status, and specialized categories such as condo, suite, room, or student housing. Results support real-time sorting by price, and each listing has a dedicated detail page with a photo gallery, unit specifications, and a direct contact action.",
+        "Lead Generation and Contact: a multi-type contact form routes inquiries such as general contact, book-a-tour, and share-a-listing requests to the agent through an integrated PHP and PHPMailer email backend using Office365 SMTP. The submission flow is tracked client-side in an email log accessible to the agent.",
+        "Accessibility: the platform is aligned with WCAG 2.1 expectations, including ARIA live regions, screen reader guidance for tools such as NVDA, VoiceOver, and Narrator, semantic HTML, and a dedicated accessibility instruction modal.",
+        "Architecture at a Glance: the frontend is built with Angular 19 standalone components as a single-page application with routing and reactive state. TypeScript 5.6 and SCSS provide type safety and responsive styling. RxJS BehaviorSubject and HttpClient support observable data streams from JSON assets. PHP and PHPMailer handle email dispatch and SMTP relay. GitHub Pages provides primary static SPA hosting, and GitHub Actions supports automated CI/CD deployment on pushes to main.",
+        "Data Model and Storage Strategy: the application is database-free by design. All application data is stored in flat JSON files, eliminating the need for a database server and reducing hosting and operational costs for rental agents. There is no SQL server, no ORM, and no backend API beyond the PHP email handler.",
+        "Companion Data Management: the platform integrates with Realestate Web Companion v1, a companion data management system that reads and writes the same JSON files. These files are hosted in a shared Google Drive folder, enabling a multi-user workflow where agents or administrators can update listing data, add or remove units, change prices, and toggle availability through the companion app without touching the website codebase or requiring a developer.",
+        "Runtime Data Flow: shared Google Drive JSON files are synced or downloaded into website/src/assets/data, including apartments.json for active listings, areas.json for neighborhood definitions, translations.json for bilingual UI strings, preferences.json for site-wide settings, toggles.json for amenity and feature flags, and unittypes.json for unit classification labels. Angular HttpClient loads these files at runtime through DataService and makes them available to the components.",
+        "Cost and Operational Benefits: the JSON architecture avoids database licensing, provisioning, and maintenance costs. It removes the need for a backend API server for listing content, allows non-technical agents to update content through Realestate Web Companion v1, uses Google Drive sharing controls as the collaboration access layer, and keeps the static hosting model free and scalable through GitHub Pages.",
+        "Key Business Rules: the email backend enforces recipient lockdown so all contact form submissions are routed exclusively to the configured agent address, info@montreal4rent.com, preventing injection or redirection abuse. Both English and French URL slugs are supported, so paths such as /appartements and /apartments resolve to the same view. Property availability is controlled through JSON flags, allowing agents to soft-hide units without redeployment.",
+        "Deployment Profile: the production site is deployed at https://danieloseguin67.github.io/montreal4rent/ through automated GitHub Actions CI/CD on merge to main. An alternate GoDaddy Economy Linux hosting path is documented for migration if a PHP-backed domain, montreal4rent.com, is required for full email functionality. The build pipeline is contained within the website folder.",
+        "Project Footprint: the solution includes approximately 18 Angular standalone components, five Angular services, around eight active property listings, full bilingual UI coverage, a PHP email backend, zero database dependency, a JSON data layer managed through Realestate Web Companion v1 on Google Drive, and production-ready CI/CD."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "real-estate-listing-companion",
       "name": "Real Estate Listing Companion",
       "description": "Companion application for real estate agents to add listings to their personalized websites and maintain client-facing property content.",
       "technology": "Angular, APIs, JSON, .NET, Cloud Hosting",
-      "detailPlaceholder": "Project detail page placeholder for the real estate listing companion. Add listing publication flow, website integration notes, media handling, and agent dashboard ideas here."
+      "detailPlaceholder": [
+        "Real Estate Web Companion is a property management and publishing platform built to centralize the administration of apartment rental data and streamline how listings are delivered to a public-facing rental website.",
+        "The solution combines an Angular-based administrative application, a public Montreal4Rent website, and an ASP.NET Core REST API backed by SQL Server. Its primary business value is to replace fragmented, manually maintained static content with a structured, scalable, API-driven system for managing apartments, areas, unit types, SEO pages, customer records, feature settings, and support workflows.",
+        "From a functional perspective, the platform supports the end-to-end operations required by a real estate rental business: listing administration, public content publishing, customer data handling, bilingual or structured content management, search-facing data consistency, and support workflow coordination.",
+        "Functional Analyst Role: as a Functional Analyst on this project, the role is to translate business requirements for a real estate rental platform into clear functional specifications across the admin application, public website, and supporting API services.",
+        "This includes analyzing user needs for apartment listing management, lookup data administration, bilingual content delivery, SEO management, customer data handling, image workflows, and support/contact processes, then defining how those requirements are implemented across the end-to-end solution.",
+        "The Functional Analyst is responsible for documenting business processes, mapping data flows between the Angular frontend, REST API, and SQL Server database, and ensuring that system behavior aligns with operational objectives such as content accuracy, maintainability, and faster publishing.",
+        "The role also supports gap analysis between the legacy static JSON model and the target API-first model, helps define CRUD workflows, validation rules, and user interactions, and collaborates with developers and stakeholders to ensure the platform delivers a cohesive administrative experience and a reliable public rental search experience."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "csharp-website-migration-to-angular",
       "name": "C# Website Migration to Angular",
       "description": "Modernization project that migrates a C# website to Angular while preserving business content and improving responsiveness and maintainability.",
       "technology": "C#, Angular, TypeScript, HTML, CSS, Entity Framework",
-      "detailPlaceholder": "Project detail page placeholder for the C# to Angular migration. Add migration strategy, legacy risks, component map, data/API plan, and before/after notes here."
+      "detailPlaceholder": [
+        "This project is the v2 redevelopment of the public-facing website for Roxane Belanger's Speech Language Pathology practice, operating under the brand Clinique de developpement de la communication, or Communication Development Clinic. The site serves as the primary digital presence for the clinic, targeting parents and individuals seeking speech therapy services across age groups.",
+        "Migration: the original website was a server-rendered ASP.NET MVC application built in C#. Each page request was handled server-side, HTML was generated by Razor views, and the application was tightly coupled to a .NET hosting environment such as IIS or Windows Server. Content was largely static, with limited interactivity and no client-side state management.",
+        "The new application is a fully client-side Single Page Application built on Angular 20 and TypeScript. This represents a fundamental architectural shift from server-side rendering to client-side SPA navigation, from IIS and .NET runtime hosting to static file hosting, and from page reloads to instant client-side interactions.",
+        "Architecture Shift: rendering moved from Razor-generated server-side HTML to Angular client-side rendering; hosting moved from IIS and .NET runtime requirements to static hosts such as GoDaddy, GitHub Pages, or Nginx; language switching moved from server round-trips to instant zero-reload switching through TranslationService; deployment moved from a .NET publish pipeline to npm run build producing static assets; and state management moved from ViewState or TempData patterns to Angular Signals.",
+        "Functional Scope: the application delivers five core pages through client-side routing. Home provides the brand landing page with an animated image carousel and clinic tagline. Services presents a service catalogue organized by age group, including infants, preschool, and school-age clients, with detailed descriptions. FAQ provides an accordion-style expandable question-and-answer section covering seven common topics. About Me presents the clinician profile, credentials, and mission statement. Contact provides the clinic address, phone, email, and a map placeholder ready for Google Maps integration.",
+        "Shared Layout: a persistent header and footer are implemented as Angular standalone components. The header provides clinic branding, navigation, and the language switcher, while the footer provides a consistent contact summary across all pages.",
+        "Bilingual Capability: the site defaults to French, reflecting the clinic's primary market. A single toggle in the header switches the full interface instantly between English and French using a centralized TranslationService with more than 50 translation keys, with no page reload required.",
+        "Responsive Design: the layout adapts to desktop and mobile viewports, supporting an accessible experience for parents, patients, and visitors using different devices.",
+        "Extensibility: the architecture is designed to connect to a SQL Server backend through an ASP.NET Core API for future dynamic content management. The TranslationService and data layers are structured so static in-memory content can later be replaced by API-driven data with minimal refactoring.",
+        "Deployment: the built output is pure static HTML, JavaScript, and CSS, making it deployable to any static host. The project is configured for GoDaddy shared hosting and GitHub Pages, with automated CI/CD available through GitHub Actions.",
+        "Summary: this migration eliminated the dependency on a .NET server runtime, simplified the hosting model, and delivered a modern, interactive, bilingual user experience. The Angular architecture positions the clinic website to scale toward dynamic content management and backend integration without requiring a full rebuild."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "electronic-business-card-generator",
       "name": "Electronic Business Card Generator",
       "description": "Application for generating electronic business cards that can be shared easily and updated as contact information changes.",
       "technology": "Angular, JSON, APIs, QR Code Workflows",
-      "detailPlaceholder": "Project detail page placeholder for the electronic business card generator. Add card templates, QR code flow, sharing options, and administration features here."
+      "detailPlaceholder": [
+        "E-Bus Card App - Executive Functional Overview.",
+        "What it is: a digital business-card application. It manages contact records for a client organisation and renders each one as a shareable web business card. It is currently built as a local-first demonstrator: an Angular 17 single-page app plus a small Node.js JSON file server.",
+        "Business Capabilities: the application provides a client-scoped contact directory with live search across names, emails, and phone numbers, including total and filtered record counts. It also supports contact maintenance with create, edit, and delete workflows, validation for mandatory name, business email, and business phone fields, URL and email format checks, structured address details, social links, fax, and profile images up to 3 MB stored inline as data URLs.",
+        "Digital Business Card: the selected contact is rendered through a live preview, with theme and label behaviour driven by templates. English and French label switching is supported so cards can adapt to bilingual presentation needs.",
+        "Sharing: the application generates a public /card/:id link and uses the operating system share sheet where supported, with clipboard fallback where sharing is unavailable. Cards can also travel as fully self-contained links through an encoded query parameter.",
+        "Template Automation: the Auto by city and language mode resolves the best template through a deterministic fallback chain: city plus language, then language, then city, then default, then first active, then classic.",
+        "Data Portability: the solution supports CSV export for core contact data without images or metadata, full JSON export, and JSON import that replaces only the current client's contact set.",
+        "Administration: admin users can manage card templates, languages, clients, users, role assignment, client assignment, temporary password generation, password-email drafting, and default-template preferences.",
+        "Roles and Access: standard users can manage the full contact lifecycle for their own client. Admin users can perform those same actions plus reference-data and user management. Public visitors can open shared cards without signing in. Sign-in is validated against a local users.json file, the browser session is stored in localStorage, the contacts area is route-guarded, and the card page is deliberately public.",
+        "Multi-Tenancy: every user and contact carries a clientid. Queries, fallback storage keys, and imports are scoped by clientid so clients do not see each other's data. This isolation is enforced by the UI and the local API filtering, not by an authenticated server boundary."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "personal-website",
       "name": "Personal Website",
       "description": "Daniel Seguin's bilingual personal website and DaaS portfolio, structured around JSON-driven content and responsive Angular pages.",
       "technology": "Angular, TypeScript, JSON, Responsive CSS, GitHub Copilot",
-      "detailPlaceholder": "Project detail page placeholder for the personal website. Add content strategy, bilingual structure, Angular architecture, deployment approach, and future enhancements here."
+      "detailPlaceholder": [
+        "The Personal Website project is a bilingual Angular portfolio and business presence designed to present Daniel Seguin's senior analyst developer profile, Developer-as-a-Service offering, project examples, services, skills, testimonials, and contact channels in a structured digital experience.",
+        "From a functional perspective, the website centralizes professional positioning, service discovery, portfolio navigation, and lead-generation content. It supports visitors who want to understand Daniel's expertise, review DaaS project examples, explore industry demo sites, and initiate contact for consulting, MVP development, modernization, or support work.",
+        "Core Functional Scope: bilingual English and French content; JSON-driven project, service, skill, and testimonial data; responsive page layouts; DaaS project detail pages; industry demo website navigation; contact form workflow; reusable Angular components; and static deployment support.",
+        "Strategic Value: the website provides a clear public-facing platform for communicating technical credibility, business services, and software product ideas. It reduces friction for prospective clients by organizing Daniel's experience, delivery model, and project concepts into a navigable structure that can evolve as new services, case studies, and demos are added.",
+        "Functional Strengths: modular Angular architecture; bilingual content model; clean separation between application structure and JSON-managed data; responsive design for desktop and mobile visitors; reusable project detail patterns; and room for attachments, screenshots, documents, or supporting project artifacts.",
+        "Key Business Considerations: the site is best viewed as a professional portfolio and DaaS business enablement platform rather than a transactional web application. Its value depends on keeping project details, service descriptions, testimonials, and contact information current, while continuing to refine calls to action and supporting assets.",
+        "Conclusion: the Personal Website is a practical digital foundation for Daniel Seguin's consulting and Developer-as-a-Service positioning. It combines professional credibility, bilingual accessibility, and maintainable Angular content management into a focused platform for showcasing expertise and generating qualified business conversations."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     }
   ],
   "fr": [
@@ -56,49 +167,160 @@
       "name": "MyAccounting",
       "description": "Application comptable pour consultants et professionnels indépendants, axée sur la facturation, les journaux, les rapports financiers et l'administration d'affaires.",
       "technology": "Python, SQL Server, ODBC, PDF, Excel",
-      "detailPlaceholder": "Page de détail temporaire pour MyAccounting. Ajouter ici le problème d'affaires, les captures d'écran, le périmètre MVP, l'architecture, la feuille de route et les notes de déploiement."
+      "detailPlaceholder": [
+        "MyAccounting est une solution de comptabilité et de gestion opérationnelle pour Windows, conçue pour les petites entreprises canadiennes de services. Elle combine le traitement financier quotidien et le suivi opérationnel dans une seule application de bureau, permettant aux entreprises de gérer la facturation, les encaissements, les activités du grand livre et les rapports sans avoir besoin d'un ERP complet.",
+        "D'un point de vue fonctionnel, le logiciel répond aux besoins essentiels d'une entreprise axée sur les services : créer des factures, suivre les comptes clients, enregistrer les encaissements, comptabiliser les écritures de journal, maintenir les données maîtres des clients et des services, et produire des rapports financiers comme la balance de vérification, l'état des résultats et le bilan. Il inclut aussi la gestion des feuilles de temps, le suivi des services de location et des permissions utilisateur configurables, ce qui le rend pertinent au-delà de la tenue de livres de base.",
+        "Périmètre fonctionnel principal : configuration des clients et des contrats; création de factures et livraison PDF; enregistrement et allocation des encaissements; comptabilisation des journaux généraux et tenue du grand livre; gestion du plan comptable; rapports financiers et exportation; saisie des feuilles de temps et soutien à la facturation client; contrôle d'accès basé sur les rôles; configuration locale et paramétrage opérationnel.",
+        "Valeur stratégique : MyAccounting offre une forte valeur aux petites entreprises qui ont besoin d'un système comptable intégré, peu complexe et sous contrôle local. Il convient particulièrement aux entreprises établies au Canada, où les règles fiscales, la numérotation des factures, la configuration des clients et le soutien bilingue sont importants. L'application réduit le travail manuel dans les feuilles de calcul, améliore la visibilité sur les comptes clients impayés et soutient une clôture de fin de mois et une revue financière plus rapides.",
+        "Forces fonctionnelles : flux comptable complet de la facture à l'encaissement jusqu'aux rapports financiers; forte orientation vers les comptes clients et la facturation de services; sécurité basée sur les rôles pour différents utilisateurs et niveaux d'accès; tableau de bord intégré pour surveiller la santé de l'entreprise; orientation canadienne, incluant les hypothèses fiscales et de rapports; modèle de données SQL Server local permettant des rapports structurés et un traitement transactionnel fiable.",
+        "Considérations d'affaires clés : même si l'application est fonctionnellement solide pour son marché cible, elle doit être vue comme un outil comptable ciblé pour petites entreprises plutôt que comme une suite ERP complète. Elle ne couvre pas les comptes fournisseurs avancés, la paie, la comptabilité d'inventaire ni la consolidation multi-entités. Son architecture est conçue pour un déploiement de bureau Windows, ce qui la rend adaptée aux environnements d'affaires locaux, mais moins flexible que les systèmes infonuagiques.",
+        "Conclusion : MyAccounting est une application comptable pratique et axée sur les opérations pour les petites entreprises de services. Elle fournit les contrôles financiers essentiels et les fonctions de rapports nécessaires pour gérer la facturation, les flux de trésorerie et les rapports de façon simple et structurée. Comme analyste fonctionnel, je la classerais comme une solide solution comptable PME, fortement alignée sur les flux de travail des entreprises de services, surtout pour les opérations canadiennes qui exigent un contrôle local et une gestion financière directe."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "dbdocgen",
       "name": "DbDocGen",
       "description": "Application de reverse engineering de bases de données qui génère de la documentation et des diagrammes ERD à partir de schémas existants.",
       "technology": "SQL Server, Informix, Oracle, Sybase, Dataverse, Python, Markdown, Draw.io",
-      "detailPlaceholder": "Page de détail temporaire pour DbDocGen. Ajouter ici les moteurs de bases de données supportés, les artefacts générés, le flux ERD et des exemples de documentation."
+      "detailPlaceholder": [
+        "DbDocGen - Objectif général et proposition de valeur.",
+        "Ce que c'est : DbDocGen, abréviation de Database Documentation Generator, est un outil professionnel de rétro-ingénierie qui se connecte à une base de données active, extrait le schéma complet et produit en quelques minutes une documentation technique prête à l'emploi aux formats Markdown, HTML et PDF, sans écrire une seule requête à la main.",
+        "Plateformes supportées : DbDocGen prend en charge Microsoft SQL Server avec authentification Windows et SQL, PostgreSQL avec support complet des schémas, Oracle avec métadonnées d'entreprise et support TNS, IBM Informix avec extraction complète du schéma, ainsi que Microsoft Dataverse / Dynamics 365 avec OAuth2 via Azure AD.",
+        "Le problème résolu : la plupart des équipes qui maintiennent des applications appuyées par une base de données relationnelle ou un environnement Dataverse partagent la même difficulté : elles savent ce que fait l'application, mais personne ne connaît pleinement l'état actuel de la base de données. Au fil des mois et des années de développement, les bases de données accumulent des tables, vues, colonnes, contraintes et relations qui sont rarement documentées, ou qui l'ont été une fois puis n'ont jamais été mises à jour. Ce manque de documentation ralentit les équipes et augmente le risque opérationnel.",
+        "Aucun dictionnaire de données à jour : les noms de colonnes changent, des tables sont ajoutées et les relations évoluent. Les feuilles de calcul maintenues manuellement deviennent rapidement désynchronisées. DbDocGen génère un dictionnaire de données complet et exact directement à partir du schéma actif à chaque exécution, gardant la documentation à jour sans effort manuel.",
+        "Intégration des nouveaux développeurs : sans carte du modèle de données, les nouveaux membres de l'équipe passent des semaines à poser des questions ou à lire de l'ancien code pour comprendre quelles tables existent, ce qu'elles contiennent et comment elles sont liées. DbDocGen produit un diagramme ER et une référence structurée table par table qui répondent à ces questions dans un seul document.",
+        "Support et maintenance : lorsqu'un rapport d'anomalie mentionne une valeur de champ inattendue ou qu'une migration introduit un changement cassant, l'équipe doit comprendre rapidement les relations de données. La cartographie des relations et la documentation des clés étrangères de DbDocGen rendent l'analyse d'impact plus rapide et plus fiable.",
+        "Audits et conformité : les audits réglementaires ou internes, comme SOX, HIPAA et ISO, exigent souvent une preuve formelle des données stockées par le système et de leur structure. DbDocGen peut produire sur demande une documentation PDF adaptée aux dossiers d'audit, sans lancer un sprint manuel de documentation.",
+        "Dataverse et Dynamics 365 : les organisations qui personnalisent des environnements Dataverse avec des entités, champs et relations personnalisés disposent de peu d'options intégrées pour exporter leur modèle de données complet sous forme de documentation lisible. DbDocGen se connecte par l'API Web Dataverse avec OAuth2 et documente les entités, attributs et relations, y compris les personnalisations, dans le même format professionnel que les bases SQL.",
+        "Productivité des développeurs : chaque section de table inclut des modèles SELECT, INSERT, UPDATE et DELETE prêts à copier-coller, construits à partir des noms de colonnes réels. Les développeurs cessent de réécrire du code répétitif et peuvent se concentrer sur la logique d'affaires.",
+        "Communication avec les parties prenantes : les analystes d'affaires, architectes et gestionnaires de projet doivent comprendre le modèle de données sans lire du SQL. DbDocGen génère des diagrammes ER Mermaid intégrés à la documentation et exportables en fichiers .mmd pour GitHub, GitLab ou les éditeurs de diagrammes.",
+        "Bénéficiaires : les développeurs d'applications comprennent rapidement le schéma et obtiennent des modèles SQL prêts à copier-coller; les DBA et ingénieurs de données automatisent la documentation des déploiements et des migrations; les analystes d'affaires lisent les diagrammes ER et les descriptions de champs sans accès direct à la base de données; les gestionnaires de projet partagent une documentation professionnelle avec les clients et les parties prenantes; les auditeurs et responsables de conformité reçoivent sur demande une documentation PDF formelle du modèle de données; et les nouveaux membres s'intègrent plus vite grâce à un document de référence complet.",
+        "Artefacts produits : DbDocGen génère un dictionnaire de données couvrant les tables, vues, colonnes, types de données, contraintes et descriptions; des diagrammes ER au format Mermaid; des exemples de requêtes SQL SELECT, INSERT, UPDATE et DELETE par table; ainsi que des sorties de documentation en Markdown, HTML et PDF.",
+        "Justification d'affaires : DbDocGen élimine le manque de documentation présent dans presque toutes les équipes qui maintiennent une application basée sur une base de données, transformant en quelques minutes un schéma non documenté ou désuet en documentation professionnelle, exacte et partageable."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "rental-agent-web-application",
       "name": "Application web pour agents de location",
       "description": "Concept d'application web permettant aux agents de location de gérer les annonces, demandes clients, informations d'immeubles et suivis quotidiens.",
       "technology": "Angular, Node.js, API, SQL Server",
-      "detailPlaceholder": "Page de détail temporaire pour l'application web des agents de location. Ajouter ici les rôles utilisateurs, le flux des annonces, les fonctions CRM et le plan de déploiement."
+      "detailPlaceholder": [
+        "Montreal4Rent est une plateforme web professionnelle de location d'appartements de luxe qui sert de vitrine numérique principale pour une agente immobilière spécialisée dans le marché locatif haut de gamme de Montréal. Elle cible les locataires potentiels qui recherchent des condos, suites, chambres et logements étudiants meublés ou non meublés dans des quartiers recherchés comme le Centre-ville, le Plateau-Mont-Royal, Côte-des-Neiges, Lachine et Pierrefonds.",
+        "Périmètre fonctionnel : la plateforme offre du contenu bilingue français et anglais avec changement de langue réactif conservé dans localStorage. Les libellés d'interface, descriptions de propriétés, éléments de navigation et messages de validation des formulaires sont maintenus dans une ressource translations.json centralisée, ce qui rend le système entièrement internationalisable.",
+        "Recherche et découverte des propriétés : la fonction principale est un inventaire d'annonces locatives consultable et filtrable. Les utilisateurs peuvent filtrer par quartier ou secteur, prix minimal et maximal, nombre de chambres, statut meublé ou non meublé, et catégories spécialisées comme condo, suite, chambre ou logement étudiant. Les résultats supportent le tri en temps réel par prix, et chaque annonce possède une page de détail dédiée avec galerie photo, caractéristiques de l'unité et action de contact directe.",
+        "Génération de prospects et contact : un formulaire de contact multi-type achemine les demandes, comme contact général, réservation de visite et partage d'annonce, vers l'agente au moyen d'un backend courriel intégré en PHP et PHPMailer utilisant le SMTP Office365. Le flux de soumission est suivi côté client dans un journal de courriels accessible à l'agente.",
+        "Accessibilité : la plateforme est alignée sur les attentes WCAG 2.1, incluant les régions ARIA live, des indications pour lecteurs d'écran comme NVDA, VoiceOver et Narrator, du HTML sémantique et une fenêtre modale dédiée aux consignes d'accessibilité.",
+        "Architecture en bref : le frontend est construit avec des composants autonomes Angular 19 sous forme d'application monopage avec routage et état réactif. TypeScript 5.6 et SCSS fournissent typage et styles responsives. RxJS BehaviorSubject et HttpClient soutiennent les flux de données observables provenant des assets JSON. PHP et PHPMailer gèrent l'envoi des courriels et le relais SMTP. GitHub Pages fournit l'hébergement statique SPA principal, et GitHub Actions prend en charge le déploiement CI/CD automatisé lors des poussées vers main.",
+        "Modèle de données et stratégie de stockage : l'application est conçue sans base de données. Toutes les données applicatives sont stockées dans des fichiers JSON plats, éliminant le besoin d'un serveur de base de données et réduisant les coûts d'hébergement et d'exploitation pour les agents de location. Il n'y a ni serveur SQL, ni ORM, ni API backend au-delà du gestionnaire de courriel PHP.",
+        "Gestion de données companion : la plateforme s'intègre à Realestate Web Companion v1, un système companion de gestion des données qui lit et écrit les mêmes fichiers JSON. Ces fichiers sont hébergés dans un dossier Google Drive partagé, permettant un flux multi-utilisateur où les agents ou administrateurs peuvent mettre à jour les annonces, ajouter ou retirer des unités, modifier les prix et basculer la disponibilité dans l'application companion sans toucher au code du site web ni demander l'aide d'un développeur.",
+        "Flux de données à l'exécution : les fichiers JSON partagés de Google Drive sont synchronisés ou téléchargés dans website/src/assets/data, incluant apartments.json pour les annonces actives, areas.json pour les définitions de quartiers, translations.json pour les chaînes d'interface bilingues, preferences.json pour les paramètres globaux du site, toggles.json pour les indicateurs d'équipements et de fonctionnalités, et unittypes.json pour les libellés de classification des unités. Angular HttpClient charge ces fichiers à l'exécution par DataService et les rend disponibles aux composants.",
+        "Bénéfices financiers et opérationnels : l'architecture JSON évite les coûts de licences, de provisionnement et de maintenance de base de données. Elle supprime le besoin d'un serveur API backend pour le contenu des annonces, permet aux agents non techniques de mettre à jour le contenu avec Realestate Web Companion v1, utilise les contrôles de partage de Google Drive comme couche d'accès collaborative et conserve un modèle d'hébergement statique gratuit et évolutif avec GitHub Pages.",
+        "Règles d'affaires clés : le backend courriel impose un verrouillage du destinataire afin que toutes les soumissions du formulaire de contact soient acheminées exclusivement à l'adresse configurée de l'agente, info@montreal4rent.com, empêchant les abus par injection ou redirection. Les slugs d'URL anglais et français sont supportés, donc des chemins comme /appartements et /apartments résolvent vers la même vue. La disponibilité des propriétés est contrôlée par des indicateurs JSON, permettant aux agents de masquer des unités sans redéploiement.",
+        "Profil de déploiement : le site de production est déployé à https://danieloseguin67.github.io/montreal4rent/ par GitHub Actions CI/CD automatisé lors des fusions vers main. Un chemin alternatif d'hébergement Linux GoDaddy Economy est documenté pour une migration éventuelle si un domaine avec PHP, montreal4rent.com, est requis pour la fonctionnalité courriel complète. Le pipeline de build est contenu dans le dossier website.",
+        "Portée du projet : la solution comprend environ 18 composants autonomes Angular, cinq services Angular, près de huit annonces actives, une couverture complète de l'interface bilingue, un backend courriel PHP, aucune dépendance à une base de données, une couche de données JSON gérée par Realestate Web Companion v1 sur Google Drive, et un CI/CD prêt pour la production."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "real-estate-listing-companion",
       "name": "Companion pour agents d'immeubles",
       "description": "Application companion permettant aux agents d'immeubles d'ajouter des listings à leurs sites web personnalisés et de maintenir le contenu visible par les clients.",
       "technology": "Angular, API, JSON, .NET, Hébergement cloud",
-      "detailPlaceholder": "Page de détail temporaire pour le companion des agents d'immeubles. Ajouter ici le flux de publication, l'intégration au site web, la gestion des médias et les idées de tableau de bord."
+      "detailPlaceholder": [
+        "Real Estate Web Companion est une plateforme de gestion et de publication immobilière conçue pour centraliser l'administration des données de location d'appartements et simplifier la livraison des annonces vers un site web public de location.",
+        "La solution combine une application administrative Angular, un site public Montreal4Rent et une API REST ASP.NET Core appuyée par SQL Server. Sa principale valeur d'affaires est de remplacer du contenu statique fragmenté et maintenu manuellement par un système structuré, évolutif et piloté par API pour gérer les appartements, secteurs, types d'unités, pages SEO, dossiers clients, paramètres de fonctionnalités et flux de support.",
+        "D'un point de vue fonctionnel, la plateforme soutient les opérations de bout en bout nécessaires à une entreprise de location immobilière : administration des annonces, publication de contenu public, gestion des données clients, gestion bilingue ou structurée du contenu, cohérence des données orientées recherche et coordination des flux de support.",
+        "Rôle d'analyste fonctionnel : comme analyste fonctionnel sur ce projet, le rôle consiste à traduire les besoins d'affaires d'une plateforme de location immobilière en spécifications fonctionnelles claires pour l'application d'administration, le site public et les services API de soutien.",
+        "Cela inclut l'analyse des besoins utilisateurs pour la gestion des annonces d'appartements, l'administration des données de référence, la diffusion de contenu bilingue, la gestion SEO, la gestion des données clients, les flux d'images et les processus de support/contact, puis la définition de la façon dont ces exigences sont implantées dans la solution de bout en bout.",
+        "L'analyste fonctionnel est responsable de documenter les processus d'affaires, de cartographier les flux de données entre le frontend Angular, l'API REST et la base de données SQL Server, et de s'assurer que le comportement du système s'aligne sur les objectifs opérationnels comme l'exactitude du contenu, la maintenabilité et une publication plus rapide.",
+        "Le rôle soutient aussi l'analyse des écarts entre l'ancien modèle JSON statique et le modèle cible API-first, aide à définir les flux CRUD, les règles de validation et les interactions utilisateur, et collabore avec les développeurs et parties prenantes pour garantir que la plateforme offre une expérience administrative cohérente et une expérience fiable de recherche locative publique."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "csharp-website-migration-to-angular",
       "name": "Migration de site web de C# vers Angular",
       "description": "Projet de modernisation qui migre un site web C# vers Angular tout en préservant le contenu d'affaires et en améliorant la responsivité et la maintenabilité.",
       "technology": "C#, Angular, TypeScript, HTML, CSS, Entity Framework",
-      "detailPlaceholder": "Page de détail temporaire pour la migration C# vers Angular. Ajouter ici la stratégie de migration, les risques legacy, la carte des composants, le plan données/API et les notes avant/après."
+      "detailPlaceholder": [
+        "Ce projet est le redéveloppement v2 du site web public de la pratique d'orthophonie de Roxane Belanger, exploitée sous la marque Clinique de développement de la communication, ou Communication Development Clinic. Le site sert de présence numérique principale pour la clinique et cible les parents et les personnes qui recherchent des services d'orthophonie pour différents groupes d'âge.",
+        "Migration : le site original était une application ASP.NET MVC rendue côté serveur et développée en C#. Chaque requête de page était traitée côté serveur, le HTML était généré par des vues Razor, et l'application était fortement liée à un environnement d'hébergement .NET comme IIS ou Windows Server. Le contenu était largement statique, avec une interactivité limitée et aucune gestion d'état côté client.",
+        "La nouvelle application est une application monopage entièrement côté client, construite avec Angular 20 et TypeScript. Cela représente un changement architectural fondamental : du rendu côté serveur vers la navigation SPA côté client, de l'hébergement IIS et runtime .NET vers l'hébergement de fichiers statiques, et des rechargements de page vers des interactions instantanées côté client.",
+        "Changement d'architecture : le rendu est passé du HTML côté serveur généré par Razor au rendu côté client Angular; l'hébergement est passé des exigences IIS et runtime .NET à des hôtes statiques comme GoDaddy, GitHub Pages ou Nginx; le changement de langue est passé des allers-retours serveur à une commutation instantanée sans rechargement avec TranslationService; le déploiement est passé d'un pipeline de publication .NET à npm run build produisant des assets statiques; et la gestion d'état est passée des modèles ViewState ou TempData aux Signals Angular.",
+        "Périmètre fonctionnel : l'application fournit cinq pages principales par routage côté client. Accueil présente la page d'arrivée de la marque avec un carrousel d'images animé et la signature de la clinique. Services présente un catalogue de services organisé par groupe d'âge, incluant les nourrissons, les enfants préscolaires et les enfants d'âge scolaire, avec descriptions détaillées. FAQ fournit une section de questions-réponses extensible de style accordéon couvrant sept sujets fréquents. À propos présente le profil de la clinicienne, ses qualifications et son énoncé de mission. Contact fournit l'adresse de la clinique, le téléphone, le courriel et un emplacement réservé pour une future intégration Google Maps.",
+        "Mise en page partagée : un en-tête et un pied de page persistants sont implantés comme composants autonomes Angular. L'en-tête fournit l'image de marque, la navigation et le sélecteur de langue, tandis que le pied de page fournit un résumé de contact cohérent sur toutes les pages.",
+        "Capacité bilingue : le site utilise le français par défaut, reflétant le marché principal de la clinique. Un seul bouton dans l'en-tête bascule instantanément toute l'interface entre l'anglais et le français grâce à un TranslationService centralisé contenant plus de 50 clés de traduction, sans rechargement de page.",
+        "Design responsive : la mise en page s'adapte aux écrans de bureau et mobiles, offrant une expérience accessible aux parents, patients et visiteurs utilisant différents appareils.",
+        "Extensibilité : l'architecture est conçue pour se connecter ultérieurement à un backend SQL Server par une API ASP.NET Core afin de permettre une gestion dynamique du contenu. Le TranslationService et les couches de données sont structurés pour que le contenu statique en mémoire puisse être remplacé plus tard par des données pilotées par API avec un minimum de refactorisation.",
+        "Déploiement : la sortie compilée est composée uniquement de HTML, JavaScript et CSS statiques, ce qui la rend déployable sur n'importe quel hôte statique. Le projet est configuré pour l'hébergement partagé GoDaddy et GitHub Pages, avec CI/CD automatisé disponible par GitHub Actions.",
+        "Résumé : cette migration a éliminé la dépendance à un runtime serveur .NET, simplifié le modèle d'hébergement et livré une expérience utilisateur moderne, interactive et bilingue. L'architecture Angular positionne le site de la clinique pour évoluer vers une gestion dynamique du contenu et une intégration backend sans nécessiter une reconstruction complète."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "electronic-business-card-generator",
       "name": "Générateur de cartes d'affaires électroniques",
       "description": "Application pour générer des cartes d'affaires électroniques faciles à partager et à mettre à jour lorsque les coordonnées changent.",
       "technology": "Angular, JSON, API, Flux QR Code",
-      "detailPlaceholder": "Page de détail temporaire pour le générateur de cartes d'affaires électroniques. Ajouter ici les modèles de cartes, le flux QR code, les options de partage et les fonctions d'administration."
+      "detailPlaceholder": [
+        "E-Bus Card App - Aperçu fonctionnel exécutif.",
+        "Ce que c'est : une application de cartes d'affaires numériques. Elle gère les dossiers de contacts pour une organisation cliente et affiche chacun d'eux sous forme de carte d'affaires web partageable. Elle est actuellement construite comme démonstrateur local-first : une application monopage Angular 17 accompagnée d'un petit serveur de fichiers JSON Node.js.",
+        "Capacités d'affaires : l'application fournit un répertoire de contacts limité au client avec recherche en direct sur les noms, courriels et numéros de téléphone, incluant le nombre total et filtré d'enregistrements. Elle prend aussi en charge la maintenance des contacts avec des flux de création, modification et suppression, la validation des champs obligatoires nom, courriel professionnel et téléphone professionnel, les contrôles de format URL et courriel, les détails d'adresse structurés, les liens sociaux, le fax et les images de profil jusqu'à 3 Mo stockées en ligne sous forme d'URL de données.",
+        "Carte d'affaires numérique : le contact sélectionné est affiché dans un aperçu en direct, avec thème et comportement des libellés pilotés par des modèles. Le changement de libellés en anglais et en français est supporté afin que les cartes puissent s'adapter aux besoins de présentation bilingue.",
+        "Partage : l'application génère un lien public /card/:id et utilise la feuille de partage du système d'exploitation lorsque disponible, avec un repli vers le presse-papiers lorsque le partage n'est pas disponible. Les cartes peuvent aussi être transmises comme liens entièrement autonomes grâce à un paramètre de requête encodé.",
+        "Automatisation des modèles : le mode Automatique par ville et langue détermine le meilleur modèle au moyen d'une chaîne de repli déterministe : ville plus langue, puis langue, puis ville, puis défaut, puis premier modèle actif, puis classique.",
+        "Portabilité des données : la solution prend en charge l'export CSV des données de contact principales sans images ni métadonnées, l'export JSON complet et l'import JSON qui remplace uniquement l'ensemble de contacts du client courant.",
+        "Administration : les administrateurs peuvent gérer les modèles de cartes, les langues, les clients, les utilisateurs, l'attribution des rôles, l'attribution des clients, la génération de mots de passe temporaires, la préparation de courriels de mot de passe et les préférences de modèle par défaut.",
+        "Rôles et accès : les utilisateurs standards peuvent gérer le cycle de vie complet des contacts pour leur propre client. Les administrateurs peuvent effectuer ces mêmes actions en plus de la gestion des données de référence et des utilisateurs. Les visiteurs publics peuvent ouvrir les cartes partagées sans se connecter. La connexion est validée avec un fichier users.json local, la session navigateur est stockée dans localStorage, la zone des contacts est protégée par route guard, et la page de carte est volontairement publique.",
+        "Multilocation : chaque utilisateur et chaque contact possède un clientid. Les requêtes, les clés de stockage de repli et les imports sont limités par clientid afin que les clients ne voient pas les données des autres. Cette isolation est appliquée par l'interface utilisateur et le filtrage de l'API locale, et non par une frontière serveur authentifiée."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     },
     {
       "slug": "personal-website",
       "name": "Site web personnel",
       "description": "Site web bilingue et portfolio DaaS de Daniel Seguin, structuré autour de contenu JSON et de pages Angular responsives.",
       "technology": "Angular, TypeScript, JSON, CSS responsive, GitHub Copilot",
-      "detailPlaceholder": "Page de détail temporaire pour le site web personnel. Ajouter ici la stratégie de contenu, la structure bilingue, l'architecture Angular, le déploiement et les améliorations futures."
+      "detailPlaceholder": [
+        "Le projet Site web personnel est un portfolio Angular bilingue et une présence d'affaires conçus pour présenter le profil d'analyste développeur senior de Daniel Seguin, son offre Developer-as-a-Service, des exemples de projets, ses services, compétences, témoignages et canaux de contact dans une expérience numérique structurée.",
+        "D'un point de vue fonctionnel, le site centralise le positionnement professionnel, la découverte des services, la navigation dans le portfolio et le contenu de génération de prospects. Il soutient les visiteurs qui veulent comprendre l'expertise de Daniel, consulter des exemples de projets DaaS, explorer des sites de démonstration sectoriels et initier un contact pour du conseil, du développement de MVP, de la modernisation ou du support.",
+        "Périmètre fonctionnel principal : contenu bilingue anglais et français; données de projets, services, compétences et témoignages pilotées par JSON; mises en page responsives; pages de détail de projets DaaS; navigation vers des sites de démonstration sectoriels; flux de formulaire de contact; composants Angular réutilisables; et support de déploiement statique.",
+        "Valeur stratégique : le site fournit une plateforme publique claire pour communiquer la crédibilité technique, les services d'affaires et les idées de produits logiciels. Il réduit la friction pour les clients potentiels en organisant l'expérience de Daniel, son modèle de livraison et ses concepts de projets dans une structure navigable qui peut évoluer à mesure que de nouveaux services, études de cas et démos sont ajoutés.",
+        "Forces fonctionnelles : architecture Angular modulaire; modèle de contenu bilingue; séparation nette entre la structure de l'application et les données gérées en JSON; design responsive pour les visiteurs sur bureau et mobile; modèles réutilisables de détail de projet; et espace prévu pour des pièces jointes, captures d'écran, documents ou artefacts de soutien aux projets.",
+        "Considérations d'affaires clés : le site doit être vu comme un portfolio professionnel et une plateforme de soutien à l'offre DaaS plutôt que comme une application transactionnelle. Sa valeur dépend de la mise à jour continue des détails de projets, descriptions de services, témoignages et informations de contact, tout en continuant à améliorer les appels à l'action et les actifs de soutien.",
+        "Conclusion : le Site web personnel est une base numérique pratique pour le positionnement de Daniel Seguin en conseil et Developer-as-a-Service. Il combine crédibilité professionnelle, accessibilité bilingue et gestion de contenu Angular maintenable dans une plateforme ciblée pour mettre en valeur l'expertise et générer des conversations d'affaires qualifiées."
+      ],
+      "attachments": [
+        { "title": "", "url": "" },
+        { "title": "", "url": "" },
+        { "title": "", "url": "" }
+      ]
     }
   ]
 }

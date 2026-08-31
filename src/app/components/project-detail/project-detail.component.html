@@ -9,12 +9,28 @@
       </div>
 
       <article class="placeholder-panel">
-        <p class="eyebrow">{{ translations.projects.detailPlaceholderTitle }}</p>
-        <p>{{ project.detailPlaceholder }}</p>
+        <div class="detail-copy">
+          <p *ngFor="let paragraph of detailParagraphs">{{ paragraph }}</p>
+        </div>
         <div class="technology-block">
           <strong>{{ translations.projects.technologyLabel }}:</strong>
           <span>{{ project.technology }}</span>
         </div>
+
+        <section class="attachments-block" *ngIf="projectAttachments.length">
+          <h3>{{ translations.projects.attachmentsTitle }}</h3>
+          <div class="attachment-list">
+            <a
+              *ngFor="let attachment of projectAttachments"
+              class="attachment-link"
+              [href]="attachment.url"
+              target="_blank"
+              rel="noopener"
+            >
+              {{ attachment.title }}
+            </a>
+          </div>
+        </section>
       </article>
     </ng-container>
 
