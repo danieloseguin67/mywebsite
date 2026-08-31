@@ -15,9 +15,9 @@
         "Conclusion: MyAccounting is a practical and operationally focused accounting application for small service businesses. It delivers the essential financial controls and reporting functionality needed to manage billing, cash flow, and reporting in a simple and structured way. As a functional analyst, I would classify it as a solid SMB accounting solution with strong alignment to service-business workflows, especially for Canadian operations requiring local control and straightforward financial management."
       ],
       "attachments": [
-        { "title": "", "url": "" },
-        { "title": "", "url": "" },
-        { "title": "", "url": "" }
+        { "title": "MyAccounting User Guide", "url": "https://university.seguin.dev/topics/MyAccountingUserGuide.pdf" },
+        { "title": "MyAccounting Architecture", "url": "https://university.seguin.dev/topics/MyAccountingArchitecture.pdf" },
+        { "title": "MyAccounting Functional Analysis", "url": "https://university.seguin.dev/topics/MyAccountingFunctionalAnalysis.pdf" }
       ]
     },
     {
@@ -42,8 +42,8 @@
         "Business Case: DbDocGen eliminates the documentation gap that exists in virtually every team maintaining a database-backed application, turning an undocumented or out-of-date schema into professional, accurate, shareable documentation in minutes."
       ],
       "attachments": [
-        { "title": "", "url": "" },
-        { "title": "", "url": "" },
+        { "title": "DbDocGen User Guide", "url": "https://university.seguin.dev/topics/DBDOCGEN_USERGUIDE.pdf" },
+        { "title": "ERD Generator User Guide", "url": "https://university.seguin.dev/topics/ERDGeneratorUserGuide.pdf" },
         { "title": "", "url": "" }
       ]
     },
@@ -68,7 +68,7 @@
         "Project Footprint: the solution includes approximately 18 Angular standalone components, five Angular services, around eight active property listings, full bilingual UI coverage, a PHP email backend, zero database dependency, a JSON data layer managed through Realestate Web Companion v1 on Google Drive, and production-ready CI/CD."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Montreal4Rent Website for rental agent", "url": "https://montreal4rent.com" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -112,7 +112,7 @@
         "Summary: this migration eliminated the dependency on a .NET server runtime, simplified the hosting model, and delivered a modern, interactive, bilingual user experience. The Angular architecture positions the clinic website to scale toward dynamic content management and backend integration without requiring a full rebuild."
       ],
       "attachments": [
-        { "title": "Roxane Belanger Orthophoniste", "url": "https://roxanebelanger.com/#/home" },
+        { "title": "Roxane Belanger Orthophoniste website", "url": "https://roxanebelanger.com/#/home" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -155,7 +155,7 @@
         "Conclusion: the Personal Website is a practical digital foundation for Daniel Seguin's consulting and Developer-as-a-Service positioning. It combines professional credibility, bilingual accessibility, and maintainable Angular content management into a focused platform for showcasing expertise and generating qualified business conversations."
       ],
       "attachments": [
-        { "title": "Site personnel de Daniel Seguin", "url": "https://daniel.seguin.dev" },
+        { "title": "Daniel Seguin developer analyst website", "url": "https://daniel.seguin.dev" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -177,9 +177,9 @@
         "Conclusion : MyAccounting est une application comptable pratique et axée sur les opérations pour les petites entreprises de services. Elle fournit les contrôles financiers essentiels et les fonctions de rapports nécessaires pour gérer la facturation, les flux de trésorerie et les rapports de façon simple et structurée. Comme analyste fonctionnel, je la classerais comme une solide solution comptable PME, fortement alignée sur les flux de travail des entreprises de services, surtout pour les opérations canadiennes qui exigent un contrôle local et une gestion financière directe."
       ],
       "attachments": [
-        { "title": "MyAccounting User Guide", "url": "https://university.seguin.dev/topics/MyAccountingUserGuide.pdf" },
-        { "title": "MyAccounting Architecture", "url": "https://university.seguin.dev/topics/MyAccountingArchitecture.pdf" },
-        { "title": "MyAccounting Functional Analysis", "url": "https://university.seguin.dev/topics/MyAccountingFunctionalAnalysis.pdf" }
+        { "title": "MyAccounting guide d'utilisateur", "url": "https://university.seguin.dev/topics/MyAccountingUserGuide.pdf" },
+        { "title": "MyAccounting Documentation d'Architecture", "url": "https://university.seguin.dev/topics/MyAccountingArchitecture.pdf" },
+        { "title": "MyAccounting Analyse Fonctionnelle", "url": "https://university.seguin.dev/topics/MyAccountingFunctionalAnalysis.pdf" }
       ]
     },
     {
@@ -204,8 +204,8 @@
         "Justification d'affaires : DbDocGen élimine le manque de documentation présent dans presque toutes les équipes qui maintiennent une application basée sur une base de données, transformant en quelques minutes un schéma non documenté ou désuet en documentation professionnelle, exacte et partageable."
       ],
       "attachments": [
-        { "title": "", "url": "" },
-        { "title": "", "url": "" },
+        { "title": "DbDocGen User Guide", "url": "https://university.seguin.dev/topics/DBDOCGEN_USERGUIDE.pdf" },
+        { "title": "ERD Generator User Guide", "url": "https://university.seguin.dev/topics/ERDGeneratorUserGuide.pdf" },
         { "title": "", "url": "" }
       ]
     },
@@ -230,7 +230,7 @@
         "Portée du projet : la solution comprend environ 18 composants autonomes Angular, cinq services Angular, près de huit annonces actives, une couverture complète de l'interface bilingue, un backend courriel PHP, aucune dépendance à une base de données, une couche de données JSON gérée par Realestate Web Companion v1 sur Google Drive, et un CI/CD prêt pour la production."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Site internet de Montreal4Rent pour agent de location", "url": "https://montreal4rent.com" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -250,7 +250,7 @@
         "Le rôle soutient aussi l'analyse des écarts entre l'ancien modèle JSON statique et le modèle cible API-first, aide à définir les flux CRUD, les règles de validation et les interactions utilisateur, et collabore avec les développeurs et parties prenantes pour garantir que la plateforme offre une expérience administrative cohérente et une expérience fiable de recherche locative publique."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Realestatate WebCompanion - contactez Daniel pour un demo", "url": "https://realestatewebcompanion.seguin.dev/#/dashboard" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -274,7 +274,7 @@
         "Résumé : cette migration a éliminé la dépendance à un runtime serveur .NET, simplifié le modèle d'hébergement et livré une expérience utilisateur moderne, interactive et bilingue. L'architecture Angular positionne le site de la clinique pour évoluer vers une gestion dynamique du contenu et une intégration backend sans nécessiter une reconstruction complète."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Site Internet de Roxane Belanger Orthophoniste", "url": "https://roxanebelanger.com/#/home" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
@@ -317,7 +317,7 @@
         "Conclusion : le Site web personnel est une base numérique pratique pour le positionnement de Daniel Seguin en conseil et Developer-as-a-Service. Il combine crédibilité professionnelle, accessibilité bilingue et gestion de contenu Angular maintenable dans une plateforme ciblée pour mettre en valeur l'expertise et générer des conversations d'affaires qualifiées."
       ],
       "attachments": [
-        { "title": "", "url": "" },
+        { "title": "Site internet de Daniel Seguin developpeur analyste", "url": "https://daniel.seguin.dev" },
         { "title": "", "url": "" },
         { "title": "", "url": "" }
       ]
