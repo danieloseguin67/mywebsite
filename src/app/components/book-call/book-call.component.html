@@ -1,28 +1,43 @@
 <section class="section">
   <div class="container">
     <div class="page-header">
-      <h2>{{ translations.bookCall.title }}</h2>
-      <p>{{ translations.bookCall.subtitle }}</p>
+      <h2>{{ labels.title }}</h2>
+      <p>{{ labels.subtitle }}</p>
     </div>
     <div class="book-call-form">
       <form (ngSubmit)="onSubmit()">
         <div class="form-group">
-          <label for="name">{{ translations.bookCall.name }}</label>
+          <label for="name">{{ labels.name }}</label>
           <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
         </div>
         <div class="form-group">
-          <label for="phone">{{ translations.bookCall.phone }}</label>
+          <label for="phone">{{ labels.phone }}</label>
           <input type="tel" id="phone" name="phone" [(ngModel)]="formData.phone" required>
         </div>
         <div class="form-group">
-          <label for="email">{{ translations.bookCall.email }}</label>
+          <label for="email">{{ labels.email }}</label>
           <input type="email" id="email" name="email" [(ngModel)]="formData.email" required>
         </div>
+        <div class="form-group" *ngIf="isWebSolutionBooking">
+          <label for="packageInterest">{{ labels.packageInterest }}</label>
+          <select id="packageInterest" name="packageInterest" [(ngModel)]="formData.packageInterest" required>
+            <option value="">Select a package</option>
+            <option *ngFor="let option of packageOptions" [value]="option">{{ option }}</option>
+          </select>
+        </div>
+        <div class="form-group" *ngIf="isWebSolutionBooking">
+          <label for="projectType">{{ labels.projectType }}</label>
+          <input type="text" id="projectType" name="projectType" [(ngModel)]="formData.projectType" placeholder="Website, e-commerce, booking platform, portal...">
+        </div>
+        <div class="form-group" *ngIf="isWebSolutionBooking">
+          <label for="currentWebsite">{{ labels.currentWebsite }}</label>
+          <input type="url" id="currentWebsite" name="currentWebsite" [(ngModel)]="formData.currentWebsite" placeholder="https://">
+        </div>
         <div class="form-group">
-          <label for="ideaDescription">{{ translations.bookCall.ideaDescription }}</label>
+          <label for="ideaDescription">{{ labels.ideaDescription }}</label>
           <textarea id="ideaDescription" name="ideaDescription" rows="5" [(ngModel)]="formData.ideaDescription" required></textarea>
         </div>
-        <button type="submit" class="btn-submit">{{ translations.bookCall.send }}</button>
+        <button type="submit" class="btn-submit">{{ labels.send }}</button>
       </form>
       <div *ngIf="formStatus.show" class="form-status" [class.success]="formStatus.success">
         {{ formStatus.message }}

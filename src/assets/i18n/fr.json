@@ -4,6 +4,7 @@
     "daas": "Developer-as-a-Service",
     "expertises": "Expertises",
     "daasProjects": "Projets DaaS",
+    "webportfolio": "Portfolio Web",
     "services": "Expertises",
     "products": "Solutions",
     "skills": "Compétences",
@@ -19,7 +20,7 @@
     "title": "Developer-as-a-Service pour entrepreneurs prêts à bâtir",
     "subtitle": "Transformez une idée en solution logicielle réelle et déployable avec des coûts mensuels prévisibles, une livraison accélérée par l'IA et 30 ans d'expérience concrète en consultation.",
     "summaryTitle": "Un chemin léger de l'idée au MVP",
-    "summary": "Pour 100 $/mois, les fondateurs obtiennent un accompagnement technique, la planification de l'MVP, du développement propulsé par GitHub Copilot, du soutien en architecture et un avancement continu sans investissement initial lourd.",
+    "summary": "Pour 250$/semaine, les fondateurs obtiennent un accompagnement technique, la planification de l'MVP, du développement propulsé par GitHub Copilot, du soutien en architecture et un avancement continu sans investissement initial lourd.",
     "primaryCta": "Commencer",
     "secondaryCta": "Réserver un appel",
     "expertisePreviewTitle": "Aperçu des expertises",
@@ -103,7 +104,7 @@
     "positioningTitle": "Positionnement unique",
     "positioning": "Je combine une expertise profonde des systèmes legacy avec des pratiques modernes en Angular, Python, PowerShell, .NET, API, données et développement assisté par l'IA. Cette combinaison aide les fondateurs et PME à avancer rapidement sans négliger la maintenabilité.",
     "visionTitle": "Vision",
-    "vision": "Mon modèle DaaS s'adresse aux entrepreneurs qui souhaitent transformer une idée en une solution logicielle réelle et déployable sans les coûts élevés habituellement associés au développement traditionnel. Au lieu de payer des dizaines de milliers de dollars avant d'obtenir un résultat concret, les fondateurs s'abonnent pour 100 $/mois et bénéficient d'un avancement continu, propulsé par GitHub Copilot, des outils de développement modernes et mes 30 années d'expérience comme consultant.",
+    "vision": "Mon modèle DaaS s'adresse aux entrepreneurs qui souhaitent transformer une idée en une solution logicielle réelle et déployable sans les coûts élevés habituellement associés au développement traditionnel. Au lieu de payer des dizaines de milliers de dollars avant d'obtenir un résultat concret, les fondateurs s'abonnent pour 250$/semaine et bénéficient d'un avancement continu, propulsé par GitHub Copilot, des outils de développement modernes et mes 30 années d'expérience comme consultant.",
     "highlights": [
       "30 ans d'expérience en consultation",
       "Livraison logicielle legacy et moderne",
@@ -145,6 +146,199 @@
     "requiredMessage": "Veuillez remplir tous les champs obligatoires.",
     "successMessage": "Merci! J'ai bien reçu votre demande et je vous contacterai bientôt pour planifier un appel.",
     "errorMessage": "Désolé, une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer plus tard."
+  },
+  "webSolutionBookCall": {
+    "title": "Réservez un appel au sujet de votre solution web",
+    "subtitle": "Parlez-moi du site web ou de l'application web dont vous avez besoin, et je vous contacterai pour discuter du meilleur forfait, de l'échéancier et des prochaines étapes.",
+    "name": "Nom:",
+    "phone": "Numéro de téléphone:",
+    "email": "Courriel:",
+    "packageInterest": "Forfait de développement web:",
+    "projectType": "Que souhaitez-vous faire construire?",
+    "currentWebsite": "Site web actuel, si vous en avez un:",
+    "ideaDescription": "Décrivez vos objectifs web:",
+    "send": "Demander un appel pour une solution web",
+    "requiredMessage": "Veuillez remplir tous les champs obligatoires.",
+    "successMessage": "Merci! J'ai bien reçu votre demande de solution web et je vous contacterai bientôt pour planifier un appel.",
+    "errorMessage": "Désolé, une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer plus tard."
+  },
+  "webportfolio": {
+    "hero": {
+      "badge": "Applications Web Sur Mesure & Solutions Sectorielles",
+      "title": "Portfolio de Sites Web Interactifs",
+      "subtitle": "Explorez des applications web réelles et fonctionnelles conçues pour différents secteurs d'activité. Des entreprises de services aux restaurants, en passant par le secteur manufacturier et le commerce en ligne.",
+      "primaryCta": "Explorer les Démos",
+      "secondaryCta": "Réserver un Projet"
+    },
+    "stats": {
+      "responsive": "100% Adaptatif Mobile",
+      "multilingual": "Multilingue (FR / EN / ES)",
+      "delivery": "Livraison Accélérée par l'IA",
+      "architecture": "Architecture Moderne et Épurée"
+    },
+    "filter": {
+      "all": "Toutes les Solutions",
+      "services": "Métiers & Services",
+      "hospitality": "Restauration & Accueil",
+      "industrial": "B2B & Manufacturier",
+      "retail": "Commerce & Boutique",
+      "community": "Communautaire & OBNL",
+      "clients": "Sites Web Clients"
+    },
+    "card": {
+      "viewDemo": "Voir la Démo en Direct",
+      "requestSimilar": "Demander une Solution Similaire",
+      "keyFeatures": "Fonctionnalités Clés :",
+      "targetAudience": "Secteur Cible :"
+    },
+    "items": {
+      "service": {
+        "title": "Plateforme pour Entreprises de Services & Entrepreneurs",
+        "subtitle": "Électricité, Plomberie, CVC & Construction",
+        "badge": "Métiers & Services",
+        "description": "Une plateforme marketing et de réservation à forte conversion conçue pour les professionnels des métiers. Inclut l'estimation de devis en ligne, la carte des zones de service et la prise de rendez-vous.",
+        "features": [
+          "Calculateur de devis interactif en ligne",
+          "Bannière de service d'urgence & appel 24/7",
+          "Carte de couverture des zones de service",
+          "Vitrine d'avis clients et témoignages"
+        ],
+        "target": "Services à domicile, Électriciens, Plombiers, Entrepreneurs"
+      },
+      "restaurant": {
+        "title": "Vitrine pour Restaurants & Gastronomie",
+        "subtitle": "Restaurants Gastronomiques, Bistros & Cafés",
+        "badge": "Restauration & Accueil",
+        "description": "Une expérience culinaire numérique élégante avec menus interactifs, filtres allergènes, système de réservation de tables en ligne et demandes d'événements privés.",
+        "features": [
+          "Menu interactif avec filtres diététiques & allergènes",
+          "Widget de réservation de tables en ligne",
+          "Carte des vins du sommelier & suggestions du chef",
+          "Formulaires de réservation d'événements privés"
+        ],
+        "target": "Restaurants, Bistros, Cafés, Traiteurs & Hôtellerie"
+      },
+      "manufacturing": {
+        "title": "Portail Manufacturier & Industriel",
+        "subtitle": "Ingénierie, Industrie Lourde & Chaîne d'Approvisionnement",
+        "badge": "B2B & Manufacturier",
+        "description": "Un portail d'entreprise B2B robuste pour les équipements industriels, le secteur manufacturier et la chaîne d'approvisionnement. Présente les capacités de production et demandes de devis (RFQ).",
+        "features": [
+          "Schéma interactif des capacités de production",
+          "Téléchargement de fiches techniques et spécifications",
+          "Certifications de contrôle qualité & normes ISO",
+          "Flux de travail de demande de devis personnalisé (RFQ)"
+        ],
+        "target": "Manufacturiers, Ingénieurs Industriels, Fournisseurs OEM, B2B"
+      },
+      "store": {
+        "title": "Boutique en Ligne & E-Commerce",
+        "subtitle": "Vente en Ligne, Catalogue Numérique & Paiement",
+        "badge": "Commerce & Boutique",
+        "description": "Une boutique en ligne complète dotée d'une catégorisation dynamique des produits, d'une recherche filtrée, d'un panier d'achat interactif et d'une simulation de paiement.",
+        "features": [
+          "Catalogue de produits avec recherche & filtres instantanés",
+          "Panier d'achat interactif et tiroir coulissant",
+          "Galeries de détails de produits avec évaluations",
+          "Interface de paiement optimisée pour mobile"
+        ],
+        "target": "Détaillants, Boutiques en ligne, Marques directes aux consommateurs"
+      },
+      "church": {
+        "title": "Site pour Église & Organisme Communautaire",
+        "subtitle": "Lieux de Culte, OBNL & Centres Communautaires",
+        "badge": "Communautaire & OBNL",
+        "description": "Un carrefour numérique accueillant pour les organismes communautaires et lieux de culte. Intègre un calendrier d'événements, des archives de prédications, les ministères et les dons en ligne.",
+        "features": [
+          "Calendrier des événements à venir & inscriptions",
+          "Bibliothèque de prédications et médias avec filtres",
+          "Répertoire des groupes et ministères",
+          "Portail de dons en ligne sécurisé"
+        ],
+        "target": "Églises, Centres communautaires, OBNL, Associations"
+      },
+      "realestate": {
+        "title": "Real Estate WebCompanion",
+        "subtitle": "Plateforme d'Annonces Immobilières & Gestion",
+        "badge": "Sites Web Clients",
+        "description": "Une plateforme immobilière complète pour la recherche de propriétés, la consultation de fiches détaillées, la gestion des demandes clients et l'exploration du marché immobilier.",
+        "features": [
+          "Galerie d'annonces immobilières et recherche interactive",
+          "Aperçu détaillé des propriétés et caractéristiques",
+          "Flux de contact direct avec les agents",
+          "Design adaptatif optimisé pour appareils mobiles"
+        ],
+        "target": "Agents immobiliers, Gestionnaires de biens & Courtiers"
+      },
+      "daniel-portfolio": {
+        "title": "Portfolio Daniel Seguin Développeur",
+        "subtitle": "Vitrine Professionnelle pour Analyste Développeur",
+        "badge": "Sites Web Clients",
+        "description": "Un portfolio moderne mettant en valeur les compétences full-stack, le modèle Developer-as-a-Service, des démos sectorielles interactives et des témoignages.",
+        "features": [
+          "Moteur de traduction bilingue français/anglais",
+          "Démos interactives par secteur d'activité",
+          "Catalogue complet d'expertises et de réalisations",
+          "Prise de rendez-vous en ligne et formulaire de contact"
+        ],
+        "target": "Entreprises, PME & Organismes cherchant un développement web"
+      },
+      "roxane": {
+        "title": "Roxane Bélanger - Orthophoniste",
+        "subtitle": "Services Cliniques en Orthophonie",
+        "badge": "Sites Web Clients",
+        "description": "Un site web clinique chaleureux et accessible pour des services d'orthophonie. Présente les démarches d'évaluation, la philosophie de la clinique et la prise de contact.",
+        "features": [
+          "Présentation des services d'orthophonie et volets d'intervention",
+          "Formulaire de demande de consultation et contact",
+          "Design accessible avec typographie lisible",
+          "Navigation bilingue français et anglais"
+        ],
+        "target": "Secteur de la santé, Cliniques privées & Services spécialisés"
+      },
+      "grocery": {
+        "title": "Épicerie Intelligente & Gestion d'Inventaire",
+        "subtitle": "Application de Liste de Courses & Suivi Alimentaire",
+        "badge": "Sites Web Clients",
+        "description": "Une application web intuitive pour créer des listes d'épicerie, suivre les stocks du garde-manger, catégoriser les articles et planifier ses achats.",
+        "features": [
+          "Création dynamique de listes d'épicerie et suivi",
+          "Gestion des catégories et recherche instantanée",
+          "Interface tactile optimisée pour mobile",
+          "Architecture web légère et ultrarapide"
+        ],
+        "target": "E-Commerce, Applications d'inventaire & Outils de productivité"
+      },
+      "montreal4rent": {
+        "title": "Montreal4Rent - Location d'Appartements de Luxe",
+        "subtitle": "Portail Locatif Haut de Gamme à Montréal",
+        "badge": "Sites Web Clients",
+        "description": "Une vitrine locative haut de gamme au service du marché des appartements meublés et non meublés à Montréal, avec acheminement sécurisé des demandes.",
+        "features": [
+          "Vitrine de logements dans les quartiers prisés de Montréal",
+          "Acheminement direct des demandes à l'agente locative",
+          "Routes d'URL bilingues (/appartements & /apartments)",
+          "Galeries photos haute résolution et spécifications d'unités"
+        ],
+        "target": "Agents de location immobilière & Gestionnaires immobiliers"
+      }
+    },
+    "valueProp": {
+      "title": "Pourquoi Choisir les Solutions Web de Daniel?",
+      "subtitle": "Conçues selon les normes d'ingénierie logicielle modernes—sans les ralentissements des modèles CMS lourds.",
+      "point1Title": "Développeur à l'Écoute de vos Exigences",
+      "point1Desc": "Des solutions web sur mesure conçues selon vos besoins réels, avec une écoute attentive et une communication transparente à chaque étape.",
+      "point2Title": "Solutions Web Évolutives & Adaptatives",
+      "point2Desc": "Des architectures flexibles et modulaires conçues pour évoluer de façon fluide avec la croissance de votre entreprise et des technologies.",
+      "point3Title": "Support Dédier Après Livraison",
+      "point3Desc": "Accompagnement technique continu, maintenance, mises à jour et soutien à long terme après le lancement de votre projet."
+    },
+    "cta": {
+      "title": "Prêt pour une Solution Web Sur Mesure?",
+      "subtitle": "Discutons de vos besoins, de votre calendrier et de la façon dont nous pouvons donner vie à votre projet.",
+      "primaryBtn": "Commencer",
+      "secondaryBtn": "Réserver un Appel"
+    }
   },
   "footer": {
     "rights": "Tous droits réservés.",

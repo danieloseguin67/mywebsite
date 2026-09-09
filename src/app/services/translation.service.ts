@@ -26,6 +26,7 @@ export interface Translations {
     daas: string;
     expertises: string;
     daasProjects: string;
+    webportfolio: string;
     services: string;
     products: string;
     skills: string;
@@ -89,6 +90,7 @@ export interface Translations {
   };
   testimonials: { title: string; subtitle: string };
   networking: { title: string };
+  webportfolio?: any;
   demo: {
     title: string;
     service: string;

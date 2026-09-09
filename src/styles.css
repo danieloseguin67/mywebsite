@@ -506,6 +506,38 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Web portfolio package selector */
+.packages-toggle-wrapper, .packages-header { margin-top: 36px; text-align: center; }
+.btn-packages { background: var(--brand-red); border: 0; border-radius: 8px; color: #fff; cursor: pointer; font-weight: 800; padding: 14px 26px; }
+.development-packages { margin-top: 36px; }
+.packages-header { margin-inline: auto; max-width: 760px; }
+.packages-eyebrow, .package-level { color: var(--brand-red); font-size: 0.8rem; font-weight: 800; text-transform: uppercase; }
+.packages-header h3 { color: #0f172a; font-size: 1.8rem; margin: 10px 0; }
+.package-grid { display: grid; gap: 22px; grid-template-columns: repeat(3, 1fr); }
+.package-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; }
+.package-card--starter { border-top: 5px solid #22c55e; }
+.package-card--business { border-top: 5px solid var(--brand-blue); }
+.package-card--advanced { border-top: 5px solid var(--brand-red); }
+.package-card h4, .comparison-header h4 { color: #0f172a; margin: 10px 0; }
+.package-meta { display: grid; gap: 8px; margin: 0 0 18px; }
+.package-meta div { background: #f8fafc; border-radius: 8px; padding: 10px; }
+.package-meta dt { color: #64748b; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; }
+.package-meta dd, .package-services ul, .package-includes ul { margin: 0; }
+.package-services ul, .package-includes ul { padding-left: 18px; }
+.comparison-card { background: #f8fafc; border-radius: 12px; margin-top: 28px; padding: 24px; }
+.comparison-table-wrapper { overflow-x: auto; }
+.comparison-table { border-collapse: collapse; min-width: 720px; width: 100%; }
+.comparison-table th, .comparison-table td { border-bottom: 1px solid #dbe4ef; padding: 12px; text-align: left; }
+
+@media (max-width: 992px) {
+  .package-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .packages-header h3 { font-size: 1.55rem; }
+  .btn-packages { width: 100%; }
+}
+
 /* Additional Responsive Utilities */
 
 /* Touch-friendly buttons on mobile */

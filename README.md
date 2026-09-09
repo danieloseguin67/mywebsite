@@ -126,6 +126,17 @@ To add or modify translations, edit the `translations` object in `src/app/servic
 - **Global styles**: `src/styles.css`
 - **Component styles**: Each component has its own `.css` file
 
+## Email Functionality
+
+The **Contact** and **Book a Call** forms send emails directly from the browser using [EmailJS](https://www.emailjs.com/) (`@emailjs/browser`) — no backend server is required.
+
+- Implementation lives in `TranslationService.sendEmail()` in [translation.service.ts](src/app/services/translation.service.ts), which is called by [contact.component.ts](src/app/components/contact/contact.component.ts) and [book-call.component.ts](src/app/components/book-call/book-call.component.ts).
+- EmailJS credentials (public key, service ID, template ID) are stored per environment in [environment.ts](src/environments/environment.ts) and [environment.prod.ts](src/environments/environment.prod.ts).
+- The service initializes EmailJS with the public key and posts the form data (name, email, subject, message) to the configured EmailJS template, which forwards it to daniel@seguin.dev.
+- A `sendEmailViaBackend()` method also exists as an alternative if a backend API (`POST /api/send-email`) is preferred instead of EmailJS.
+
+See [EMAIL_SETUP.md](EMAIL_SETUP.md) for full setup instructions, including how to create an EmailJS account, service, and template, and troubleshooting tips.
+
 ## Deployment
 
 ### GitHub Pages

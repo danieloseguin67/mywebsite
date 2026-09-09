@@ -1,6 +1,6 @@
 {
   "en": {
-    "model": "Developer-as-a-Service is a practical subscription model for founders and small businesses that need steady technical progress without committing tens of thousands of dollars before seeing a working product. For $100/month, you get planning, architecture guidance, and AI-accelerated development focused on a deployable MVP.",
+    "model": "Developer-as-a-Service is a practical subscription model for founders and small businesses that need steady technical progress without committing tens of thousands of dollars before seeing a working product. For $250/week, you get planning, architecture guidance, and AI-accelerated development focused on a deployable MVP.",
     "phases": [
       {
         "title": "1. Affordable AI-accelerated development",
@@ -16,18 +16,18 @@
       }
     ],
     "benefits": [
-      "Predictable $100/month development cost",
+      "Predictable $250/week development cost",
       "Technical guidance and MVP planning",
       "Architecture and design support",
       "Continuous progress powered by GitHub Copilot",
       "A concrete product to test, validate, and present"
     ],
-    "pricing": "$100/month for ongoing Developer-as-a-Service support through the MVP build phase.",
+    "pricing": "$250/week for ongoing Developer-as-a-Service support through the MVP build phase.",
     "deployment": "Hosting and cloud costs are paid directly by the entrepreneur to the selected provider. This keeps ownership, billing, and scaling decisions transparent.",
     "support": "After the MVP is online and starts generating revenue, I can join the team as a part-time or full-time Support Analyst Developer with flexible compensation adapted to the early operational stage of the business."
   },
   "fr": {
-    "model": "Developer-as-a-Service est un modèle d'abonnement pratique pour les fondateurs et PME qui ont besoin d'un avancement technique continu sans investir des dizaines de milliers de dollars avant d'obtenir un produit fonctionnel. Pour 100 $/mois, vous obtenez de la planification, du soutien en architecture et du développement accéléré par l'IA orienté vers un MVP déployable.",
+    "model": "Developer-as-a-Service est un modèle d'abonnement pratique pour les fondateurs et PME qui ont besoin d'un avancement technique continu sans investir des dizaines de milliers de dollars avant d'obtenir un produit fonctionnel. Pour 250$/semaine, vous obtenez de la planification, du soutien en architecture et du développement accéléré par l'IA orienté vers un MVP déployable.",
     "phases": [
       {
         "title": "1. Développement abordable et accéléré par l'IA",
@@ -43,13 +43,13 @@
       }
     ],
     "benefits": [
-      "Coût de développement prévisible de 100 $/mois",
+      "Coût de développement prévisible de 250$/semaine",
       "Accompagnement technique et planification de l'MVP",
       "Soutien en architecture et en conception",
       "Avancement continu propulsé par GitHub Copilot",
       "Produit concret à tester, valider et présenter"
     ],
-    "pricing": "100 $/mois pour un soutien Developer-as-a-Service continu pendant la phase de construction du MVP.",
+    "pricing": "250$/semaine pour un soutien Developer-as-a-Service continu pendant la phase de construction du MVP.",
     "deployment": "Les frais d'hébergement et de cloud sont payés directement par l'entrepreneur au fournisseur choisi. La propriété, la facturation et les décisions d'évolution restent transparentes.",
     "support": "Lorsque le MVP est en ligne et commence à générer des revenus, je peux rejoindre l'équipe comme Support Analyst Developer à temps partiel ou à temps plein, avec une rémunération flexible adaptée au stade opérationnel initial de l'entreprise."
   }

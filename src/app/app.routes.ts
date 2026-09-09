@@ -8,6 +8,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 import { DemoComponent } from './components/demo/demo.component';
+import { WebPortfolioComponent } from './components/web-portfolio/web-portfolio.component';
 import { AboutComponent } from './components/about/about.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NetworkingComponent } from './components/networking/networking.component';
@@ -26,8 +27,10 @@ export const routes: Routes = [
   { path: 'products', component: ProductsComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'web-portfolio', component: WebPortfolioComponent },
+  { path: 'web-porfolio', redirectTo: '/web-portfolio', pathMatch: 'full' },
   { path: 'networking', component: NetworkingComponent },
-  { path: 'demo', component: DemoComponent },
+  { path: 'demo', redirectTo: '/web-portfolio', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'book-a-call', component: BookCallComponent }

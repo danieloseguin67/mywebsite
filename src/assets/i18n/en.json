@@ -4,6 +4,7 @@
     "daas": "Developer-as-a-Service",
     "expertises": "Expertise",
     "daasProjects": "DaaS Projects",
+    "webportfolio": "Web Portfolio",
     "services": "Expertise",
     "products": "Solutions",
     "skills": "Skills",
@@ -145,6 +146,199 @@
     "requiredMessage": "Please fill in all required fields.",
     "successMessage": "Thank you! I received your request and will contact you soon to schedule a call.",
     "errorMessage": "Sorry, there was an error sending your request. Please try again later."
+  },
+  "webSolutionBookCall": {
+    "title": "Book a call about your web solution",
+    "subtitle": "Tell me what kind of website or web application you need, and I will follow up to discuss the best package, timeline, and next steps.",
+    "name": "Name:",
+    "phone": "Phone number:",
+    "email": "Email:",
+    "packageInterest": "Website development package:",
+    "projectType": "What do you need built?",
+    "currentWebsite": "Current website, if you have one:",
+    "ideaDescription": "Describe your website goals:",
+    "send": "Request a web solution call",
+    "requiredMessage": "Please fill in all required fields.",
+    "successMessage": "Thank you! I received your web solution request and will contact you soon to schedule a call.",
+    "errorMessage": "Sorry, there was an error sending your request. Please try again later."
+  },
+  "webportfolio": {
+    "hero": {
+      "badge": "Bespoke Web Applications & Vertical Solutions",
+      "title": "Interactive Website & Industry Portfolio",
+      "subtitle": "Explore live, fully-functional web applications built for distinct industry verticals. From service contractors and fine dining to industrial manufacturing and e-commerce stores.",
+      "primaryCta": "Explore Live Demos",
+      "secondaryCta": "Book a Custom Build"
+    },
+    "stats": {
+      "responsive": "100% Mobile Responsive",
+      "multilingual": "Multi-language (EN / FR / ES)",
+      "delivery": "AI-Accelerated Delivery",
+      "architecture": "Clean Modern Architecture"
+    },
+    "filter": {
+      "all": "All Solutions",
+      "services": "Trades & Services",
+      "hospitality": "Hospitality & Dining",
+      "industrial": "B2B & Manufacturing",
+      "retail": "E-Commerce & Retail",
+      "community": "Non-Profit & Community",
+      "clients": "Client Websites"
+    },
+    "card": {
+      "viewDemo": "View Live Demo",
+      "requestSimilar": "Request Similar Solution",
+      "keyFeatures": "Key Features:",
+      "targetAudience": "Target Industry:"
+    },
+    "items": {
+      "service": {
+        "title": "Service Industry & Contractor Platform",
+        "subtitle": "Electrical, Plumbing, HVAC & Construction Services",
+        "badge": "Trades & Services",
+        "description": "A high-conversion marketing and booking platform built for trade professionals. Features instant quote estimations, service area maps, emergency response banner, and online scheduling.",
+        "features": [
+          "Interactive online quote calculator",
+          "Emergency service banner & 24/7 hotline CTA",
+          "Service area & project coverage map",
+          "Customer review & testimonial showcase"
+        ],
+        "target": "Home Services, HVAC, Electricians, Plumbers, Contractors"
+      },
+      "restaurant": {
+        "title": "Restaurant & Culinary Showcase",
+        "subtitle": "Fine Dining, Bistros, Cafes & Catering",
+        "badge": "Hospitality & Dining",
+        "description": "An elegant digital culinary experience with dynamic food & beverage menus, dietary filters, online table reservation system, private event inquiries, and chef highlights.",
+        "features": [
+          "Interactive menu with dietary & allergen filters",
+          "Online table reservation booking widget",
+          "Sommelier wine list & daily specials gallery",
+          "Private dining & catering inquiry forms"
+        ],
+        "target": "Fine Dining, Bistros, Cafes, Catering & Hospitality"
+      },
+      "manufacturing": {
+        "title": "Manufacturing & Industrial Portal",
+        "subtitle": "Engineering, Heavy Industry & Supply Chain",
+        "badge": "B2B & Manufacturing",
+        "description": "A robust B2B corporate portal for industrial equipment, manufacturing, and supply chain partners. Showcases production capabilities, quality certifications, and RFQ workflows.",
+        "features": [
+          "Interactive production capabilities diagram",
+          "Spec sheet & technical document downloads",
+          "Quality control & ISO certification showcase",
+          "Custom Request for Quote (RFQ) workflow"
+        ],
+        "target": "Manufacturers, Industrial Engineers, OEM Suppliers, B2B"
+      },
+      "store": {
+        "title": "E-Commerce Store & Retail Platform",
+        "subtitle": "Online Retail, Digital Catalog & Checkout",
+        "badge": "E-Commerce & Retail",
+        "description": "A complete online retail store equipped with dynamic product categorization, faceted search & filter, interactive cart, product image galleries, and simulated checkout.",
+        "features": [
+          "Product catalog with instant search & filters",
+          "Interactive slide-out shopping cart & drawer",
+          "Product detail galleries with customer ratings",
+          "Mobile-optimized checkout & payment UI"
+        ],
+        "target": "Retailers, Boutique Stores, Direct-to-Consumer Brands"
+      },
+      "church": {
+        "title": "Church & Community Organization Site",
+        "subtitle": "Places of Worship, Non-Profits & Centers",
+        "badge": "Non-Profit & Community",
+        "description": "A welcoming digital hub for community organizations and places of worship. Integrates upcoming event calendars, sermon audio/video archives, ministry groups, and online giving.",
+        "features": [
+          "Upcoming events calendar & registration",
+          "Sermon & media library with filtering",
+          "Ministry & community group directory",
+          "Secure online giving & donation portal"
+        ],
+        "target": "Churches, Community Centers, Non-Profits, Associations"
+      },
+      "realestate": {
+        "title": "Real Estate WebCompanion",
+        "subtitle": "Property Listings & Real Estate Management",
+        "badge": "Client Websites",
+        "description": "A feature-rich real estate platform for browsing property listings, viewing interactive details, managing inquiries, and exploring housing markets.",
+        "features": [
+          "Interactive property search & listings gallery",
+          "Detailed property view with specs & amenities",
+          "Inquiry & agent contact workflow",
+          "Responsive layout for mobile house hunters"
+        ],
+        "target": "Real Estate Agents, Property Managers & Brokers"
+      },
+      "daniel-portfolio": {
+        "title": "Daniel Seguin Developer Portfolio",
+        "subtitle": "Professional Analyst Developer Showcase",
+        "badge": "Client Websites",
+        "description": "A modern developer portfolio showcasing full-stack capabilities, DaaS service models, vertical industry solutions, interactive demos, and client testimonials.",
+        "features": [
+          "Bilingual English/French translation engine",
+          "Interactive vertical industry demo previews",
+          "Comprehensive expertise & project catalog",
+          "Automated appointment booking & contact form"
+        ],
+        "target": "Businesses, Startups & Organizations Seeking Web Development"
+      },
+      "roxane": {
+        "title": "Roxane Bélanger - Orthophoniste",
+        "subtitle": "Speech-Language Pathology Clinical Services",
+        "badge": "Client Websites",
+        "description": "A welcoming, accessible clinical web portal for speech-language pathology services. Features treatment information, clinic philosophy, and patient inquiry options.",
+        "features": [
+          "Clinical service descriptions & therapy scope",
+          "Patient consultation inquiry & contact forms",
+          "Accessible design with clear typography",
+          "Bilingual English and French navigation"
+        ],
+        "target": "Healthcare, Private Clinics & Specialized Services"
+      },
+      "grocery": {
+        "title": "Smart Grocery & Food Tracker",
+        "subtitle": "Interactive Shopping List & Inventory Application",
+        "badge": "Client Websites",
+        "description": "An intuitive web application for managing grocery lists, tracking pantry inventory, categorizing items, and planning shopping efficiently. To try use user id: demo and token: demo2026",
+        "features": [
+          "Dynamic grocery list creation & item tracking",
+          "Category management & instant search",
+          "Mobile-optimized touch interface",
+          "Fast & lightweight web client architecture"
+        ],
+        "target": "E-Commerce, Inventory Apps & Productivity Tools"
+      },
+      "montreal4rent": {
+        "title": "Montreal4Rent Luxury Leasing",
+        "subtitle": "Montreal Premium Apartment Rental Portal",
+        "badge": "Client Websites",
+        "description": "A high-end rental property portal serving Montreal's premium apartment market. Features apartment listings across key neighborhoods and secure lead routing.",
+        "features": [
+          "Property showcase across major Montreal districts",
+          "Lockdown lead routing directly to leasing agent",
+          "Bilingual URL routing (/apartments & /appartements)",
+          "High-resolution photo galleries & unit specs"
+        ],
+        "target": "Real Estate Rental Agents & Property Managers"
+      }
+    },
+    "valueProp": {
+      "title": "Why Choose Daniel's Web Solutions?",
+      "subtitle": "Built with modern software engineering standards—not bloated, slow CMS templates.",
+      "point1Title": "Developer Who Listens to Client Requirements",
+      "point1Desc": "Custom web solutions designed around your exact business needs, active listening, and transparent communication at every step.",
+      "point2Title": "Evolutionary & Adaptive Web Solutions",
+      "point2Desc": "Scalable, flexible architectures engineered to evolve seamlessly alongside your growing business and technological changes.",
+      "point3Title": "Dedicated After-Delivery Support",
+      "point3Desc": "Continuous technical support, maintenance, updates, and assistance long after launch to ensure your application runs smoothly."
+    },
+    "cta": {
+      "title": "Ready for a Custom Web Solution?",
+      "subtitle": "Let's discuss your project requirements, timeline, and how we can bring your vision to life.",
+      "primaryBtn": "Get Started",
+      "secondaryBtn": "Book a Call"
+    }
   },
   "footer": {
     "rights": "All rights reserved.",

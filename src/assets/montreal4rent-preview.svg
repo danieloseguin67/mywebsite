@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fafaf9"/>
+  <rect width="800" height="70" fill="#1c1917"/>
+  <text x="40" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ea580c">Montreal4Rent</text>
+  <text x="210" y="45" font-family="Arial, sans-serif" font-size="14" fill="#a8a29e">Luxury Apartments &amp; Suites</text>
+  <text x="500" y="44" font-family="Arial, sans-serif" font-size="15" fill="#ea580c">Apartments</text>
+  <text x="610" y="44" font-family="Arial, sans-serif" font-size="15" fill="#e7e5e4">Districts</text>
+  <text x="690" y="44" font-family="Arial, sans-serif" font-size="15" fill="#e7e5e4">Contact</text>
+
+  <!-- Hero Section -->
+  <rect x="40" y="90" width="720" height="150" rx="12" fill="#292524"/>
+  <text x="70" y="145" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Premium Apartment Rentals in Montreal</text>
+  <text x="70" y="180" font-family="Arial, sans-serif" font-size="15" fill="#d6d3d1">Furnished &amp; unfurnished condos, suites, and rooms across top neighborhoods.</text>
+
+  <!-- Property Cards -->
+  <rect x="40" y="260" width="220" height="300" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="40" y="260" width="220" height="140" rx="10" fill="#ea580c"/>
+  <text x="150" y="335" font-family="Arial, sans-serif" font-size="40" fill="#ffffff" text-anchor="middle">🏙️</text>
+  <text x="55" y="425" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1c1917">Downtown Executive Suite</text>
+  <text x="55" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ea580c">$2,400 / month</text>
+  <text x="55" y="475" font-family="Arial, sans-serif" font-size="12" fill="#78716c">2 Bed • 2 Bath • Furnished</text>
+
+  <rect x="290" y="260" width="220" height="300" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="290" y="260" width="220" height="140" rx="10" fill="#c2410c"/>
+  <text x="400" y="335" font-family="Arial, sans-serif" font-size="40" fill="#ffffff" text-anchor="middle">🏢</text>
+  <text x="305" y="425" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1c1917">Plateau Modern Condo</text>
+  <text x="305" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ea580c">$1,950 / month</text>
+  <text x="305" y="475" font-family="Arial, sans-serif" font-size="12" fill="#78716c">1 Bed • 1 Bath • Balcony</text>
+
+  <rect x="540" y="260" width="220" height="300" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="540" y="260" width="220" height="140" rx="10" fill="#9a3412"/>
+  <text x="650" y="335" font-family="Arial, sans-serif" font-size="40" fill="#ffffff" text-anchor="middle">🏡</text>
+  <text x="555" y="425" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1c1917">Old Montreal Luxury Unit</text>
+  <text x="555" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ea580c">$3,100 / month</text>
+  <text x="555" y="475" font-family="Arial, sans-serif" font-size="12" fill="#78716c">3 Bed • 2 Bath • Historic View</text>
+</svg>

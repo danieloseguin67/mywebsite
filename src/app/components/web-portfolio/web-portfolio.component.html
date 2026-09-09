@@ -1,0 +1,322 @@
+<div class="web-portfolio-page">
+  <!-- Hero Section -->
+  <section class="portfolio-hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        {{ translations.webportfolio?.hero?.badge || 'Bespoke Web Applications & Vertical Solutions' }}
+      </div>
+      
+      <h1 class="hero-title">
+        {{ translations.webportfolio?.hero?.title || 'Interactive Website & Industry Portfolio' }}
+      </h1>
+      
+      <p class="hero-subtitle">
+        {{ translations.webportfolio?.hero?.subtitle || 'Explore live, fully-functional web applications built for distinct industry verticals. From service contractors and fine dining to industrial manufacturing and e-commerce stores.' }}
+      </p>
+
+      <div class="hero-actions">
+        <a href="#demos-grid" class="btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          {{ translations.webportfolio?.hero?.primaryCta || 'Explore Live Demos' }}
+        </a>
+        <a routerLink="/book-a-call" [queryParams]="{ type: 'web-solution' }" class="btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.79 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          {{ translations.webportfolio?.hero?.secondaryCta || 'Book a Custom Build' }}
+        </a>
+      </div>
+
+      <!-- Stats / Key Metrics Bar -->
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-icon">📱</span>
+          <span class="stat-label">{{ translations.webportfolio?.stats?.responsive || '100% Mobile Responsive' }}</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-icon">🌍</span>
+          <span class="stat-label">{{ translations.webportfolio?.stats?.multilingual || 'Multi-language (EN / FR / ES)' }}</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-icon">⚡</span>
+          <span class="stat-label">{{ translations.webportfolio?.stats?.delivery || 'AI-Accelerated Delivery' }}</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-icon">🛡️</span>
+          <span class="stat-label">{{ translations.webportfolio?.stats?.architecture || 'Clean Modern Architecture' }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter & Portfolio Section -->
+  <section id="demos-grid" class="portfolio-grid-section">
+    <div class="container">
+      <!-- Category Filter Tabs -->
+      <div class="filter-wrapper">
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'all'" 
+          (click)="filterCategory('all')">
+          {{ translations.webportfolio?.filter?.all || 'All Solutions' }}
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'services'" 
+          (click)="filterCategory('services')">
+          {{ translations.webportfolio?.filter?.services || 'Trades & Services' }}
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'hospitality'" 
+          (click)="filterCategory('hospitality')">
+          {{ translations.webportfolio?.filter?.hospitality || 'Hospitality & Dining' }}
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'industrial'" 
+          (click)="filterCategory('industrial')">
+          {{ translations.webportfolio?.filter?.industrial || 'B2B & Manufacturing' }}
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'retail'" 
+          (click)="filterCategory('retail')">
+          {{ translations.webportfolio?.filter?.retail || 'E-Commerce & Retail' }}
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'community'" 
+          (click)="filterCategory('community')">
+          {{ translations.webportfolio?.filter?.community || 'Non-Profit & Community' }}
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="selectedCategory === 'clients'" 
+          (click)="filterCategory('clients')">
+          {{ translations.webportfolio?.filter?.clients || 'Client Websites' }}
+        </button>
+      </div>
+
+      <!-- Grid Cards -->
+      <div class="portfolio-grid">
+        <div 
+          *ngFor="let item of filteredItems" 
+          class="portfolio-card">
+          
+          <!-- Image Container with Hover Overlay -->
+          <div class="card-image-wrapper" (click)="openDemo(item.demoUrl)">
+            <img 
+              [src]="item.image" 
+              [alt]="translations.webportfolio?.items?.[item.id]?.title || item.id" 
+              class="card-preview-img"
+              (error)="onImageError($event)">
+            
+            <div class="card-badge">
+              {{ translations.webportfolio?.items?.[item.id]?.badge || item.category }}
+            </div>
+
+            <div class="card-overlay">
+              <div class="overlay-content">
+                <span class="play-icon">▶</span>
+                <span class="overlay-text">{{ translations.webportfolio?.card?.viewDemo || 'View Live Demo' }}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Content Body -->
+          <div class="card-body">
+            <h3 class="card-title">
+              {{ translations.webportfolio?.items?.[item.id]?.title }}
+            </h3>
+            <p class="card-subtitle">
+              {{ translations.webportfolio?.items?.[item.id]?.subtitle }}
+            </p>
+            <p class="card-description">
+              {{ translations.webportfolio?.items?.[item.id]?.description }}
+            </p>
+
+            <!-- Key Features Bullets -->
+            <div class="card-features">
+              <span class="features-label">
+                {{ translations.webportfolio?.card?.keyFeatures || 'Key Features:' }}
+              </span>
+              <ul class="feature-list">
+                <li *ngFor="let feature of translations.webportfolio?.items?.[item.id]?.features">
+                  <span class="feature-check">✓</span>
+                  {{ feature }}
+                </li>
+              </ul>
+            </div>
+
+            <!-- Target Industry Tag -->
+            <div class="card-target">
+              <strong>{{ translations.webportfolio?.card?.targetAudience || 'Target Industry:' }}</strong>
+              {{ translations.webportfolio?.items?.[item.id]?.target }}
+            </div>
+
+            <!-- Card Actions -->
+            <div class="card-actions">
+              <button class="btn-demo" (click)="openDemo(item.demoUrl)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                {{ translations.webportfolio?.card?.viewDemo || 'View Live Demo' }}
+              </button>
+              <a routerLink="/contact" class="btn-request">
+                {{ translations.webportfolio?.card?.requestSimilar || 'Request Similar' }}
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition Section -->
+  <section class="value-prop-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{ translations.webportfolio?.valueProp?.title || "Why Choose Daniel's Web Solutions?" }}</h2>
+        <p>{{ translations.webportfolio?.valueProp?.subtitle || "Built with modern software engineering standards—not bloated, slow CMS templates." }}</p>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-card">
+          <div class="value-icon">🎯</div>
+          <h3>{{ translations.webportfolio?.valueProp?.point1Title || 'Developer Who Listens to Client Requirements' }}</h3>
+          <p>{{ translations.webportfolio?.valueProp?.point1Desc || 'Custom web solutions designed around your exact business needs, active listening, and transparent communication at every step.' }}</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">📈</div>
+          <h3>{{ translations.webportfolio?.valueProp?.point2Title || 'Evolutionary & Adaptive Web Solutions' }}</h3>
+          <p>{{ translations.webportfolio?.valueProp?.point2Desc || 'Scalable, flexible architectures engineered to evolve seamlessly alongside your growing business and technological changes.' }}</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">🛡️</div>
+          <h3>{{ translations.webportfolio?.valueProp?.point3Title || 'Dedicated After-Delivery Support' }}</h3>
+          <p>{{ translations.webportfolio?.valueProp?.point3Desc || 'Continuous technical support, maintenance, updates, and assistance long after launch to ensure your application runs smoothly.' }}</p>
+        </div>
+      </div>
+
+      <div class="packages-toggle-wrapper">
+        <button
+          type="button"
+          class="btn-packages"
+          (click)="toggleDevelopmentPackages()"
+          [attr.aria-expanded]="showDevelopmentPackages"
+          aria-controls="development-packages">
+          Select your website development package
+        </button>
+      </div>
+
+      <div id="development-packages" class="development-packages" *ngIf="showDevelopmentPackages">
+        <div class="packages-header">
+          <span class="packages-eyebrow">Website development packages</span>
+          <h3>Choose the right build for your next launch</h3>
+          <p>From a fast AI web presence to a full SQL Server web app with API integrations, each package is scoped for clear delivery and practical business outcomes.</p>
+        </div>
+
+        <div class="package-grid">
+          <article
+            class="package-card"
+            *ngFor="let package of websiteDevelopmentPackages"
+            [class.package-card--starter]="package.theme === 'starter'"
+            [class.package-card--business]="package.theme === 'business'"
+            [class.package-card--advanced]="package.theme === 'advanced'">
+            <div class="package-card-header">
+              <span class="package-level">{{ package.level }}</span>
+              <h4>{{ package.title }}</h4>
+              <p>{{ package.badge }}</p>
+            </div>
+
+            <dl class="package-meta">
+              <div>
+                <dt>Price</dt>
+                <dd>{{ package.price }}</dd>
+              </div>
+              <div>
+                <dt>Delivery</dt>
+                <dd>{{ package.delivery }}</dd>
+              </div>
+              <div>
+                <dt>Database</dt>
+                <dd>{{ package.database }}</dd>
+              </div>
+              <div>
+                <dt>CMS</dt>
+                <dd>{{ package.cms }}</dd>
+              </div>
+            </dl>
+
+            <div class="package-services">
+              <strong>External Services</strong>
+              <ul>
+                <li *ngFor="let service of package.externalServices">{{ service }}</li>
+              </ul>
+            </div>
+
+            <div class="package-includes">
+              <strong>Includes</strong>
+              <ul>
+                <li *ngFor="let item of package.includes">
+                  <span>✓</span>
+                  {{ item }}
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="comparison-card">
+          <div class="comparison-header">
+            <span>Updated Comparison Table</span>
+            <h4>SQL Server + API-enabled services</h4>
+          </div>
+
+          <div class="comparison-table-wrapper">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Starter</th>
+                  <th>Business</th>
+                  <th>Advanced</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let row of packageComparisonFeatures">
+                  <th scope="row">{{ row.feature }}</th>
+                  <td>{{ row.starter }}</td>
+                  <td>{{ row.business }}</td>
+                  <td>{{ row.advanced }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA Banner -->
+  <section class="portfolio-cta-banner">
+    <div class="container">
+      <div class="cta-card">
+        <h2>{{ translations.webportfolio?.cta?.title || 'Ready for a Custom Web Solution?' }}</h2>
+        <p>{{ translations.webportfolio?.cta?.subtitle || "Let's discuss your project requirements, timeline, and how we can bring your vision to life." }}</p>
+        <div class="cta-buttons">
+          <a routerLink="/contact" class="btn-primary">
+            {{ translations.webportfolio?.cta?.primaryBtn || 'Get Started' }}
+          </a>
+          <a routerLink="/book-a-call" [queryParams]="{ type: 'web-solution' }" class="btn-secondary">
+            {{ translations.webportfolio?.cta?.secondaryBtn || 'Book a Call' }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
