@@ -20,6 +20,7 @@ interface WebsitePackage {
   externalServices: string[];
   cms: string;
   includes: string[];
+  excludes: string[];
   theme: 'starter' | 'business' | 'advanced';
 }
 
@@ -60,6 +61,12 @@ export class WebPortfolioComponent implements OnInit {
         'Deployment to chosen hosting',
         '1-2 revisions'
       ],
+      excludes: [
+        'Database integration',
+        'CMS / admin dashboard',
+        'Third-party API integrations',
+        'Hosting fees (Azure, AWS, or any web hosting provider billed separately)'
+      ],
       theme: 'starter'
     },
     {
@@ -82,6 +89,12 @@ export class WebPortfolioComponent implements OnInit {
         'Google Analytics + Search Console',
         '30 days support'
       ],
+      excludes: [
+        'Third-party API integrations (Stripe, Dataverse, etc.)',
+        'Fully custom UI/UX design',
+        'Role-based access control',
+        'Hosting fees (Azure, AWS, or any web hosting provider billed separately)'
+      ],
       theme: 'business'
     },
     {
@@ -102,6 +115,11 @@ export class WebPortfolioComponent implements OnInit {
         'Advanced dashboards + reporting',
         'Automated workflows (email, SMS, webhooks)',
         '45-60 days support'
+      ],
+      excludes: [
+        'Ongoing content writing / copywriting',
+        'Paid ad campaign management',
+        'Hosting fees (Azure, AWS, or any web hosting provider billed separately)'
       ],
       theme: 'advanced'
     }
