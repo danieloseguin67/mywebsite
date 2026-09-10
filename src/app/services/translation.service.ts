@@ -46,9 +46,11 @@ export interface Translations {
     primaryCta: string;
     secondaryCta: string;
     expertisePreviewTitle: string;
+    webportfolioPreviewTitle: string;
     projectsPreviewTitle: string;
     testimonialsPreviewTitle: string;
     viewExpertises: string;
+    viewPortfolio: string;
     viewProjects: string;
     viewTestimonials: string;
     rebuildTitle: string;

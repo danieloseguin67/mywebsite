@@ -37,6 +37,21 @@
   </div>
 </section>
 
+<section class="preview-section">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ translations.home.webportfolioPreviewTitle }}</h2>
+      <a href="/web-portfolio" (click)="navigateTo('/web-portfolio', $event)">{{ translations.home.viewPortfolio }}</a>
+    </div>
+    <div class="preview-grid">
+      <article class="preview-card" *ngFor="let portfolio of expertises">
+        <h3>{{ portfolio.name }}</h3>
+        <p>{{ portfolio.description }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section class="preview-section alt">
   <div class="container">
     <div class="section-heading">
