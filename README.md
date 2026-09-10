@@ -185,7 +185,7 @@ Simply connect your repository and these platforms will automatically detect the
 
 For inquiries, use the contact form on the website or email: daniel@seguin.dev
 
-**Address**: 7227 Newman Boulevard, Unit 1504, Montreal (Lasalle), Quebec, H8N 0H7
+**Address**: 123 rue des Epinards, LeJardins, Quebec, L3S 1J2
 
 ## License
 
