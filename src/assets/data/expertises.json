@@ -34,6 +34,21 @@
       "name": "AI-accelerated development",
       "description": "Modern software delivery using GitHub Copilot to accelerate implementation, refactoring, documentation, and support tasks.",
       "tools": ["GitHub Copilot", "Python", "Angular", "PowerShell", "Node.js", ".NET", "APIs"]
+    },
+    {
+      "name": "Website developed with modern tools",
+      "description": "Angular, Node.JS, Integrated with Github, SQL Server, ASP.NET C# API, Collaboration human & AI Agents",
+      "tools": ["Angular, Node.JS,  SQL Server, Docker, API"]
+    },
+    {
+      "name": "Websites Templates, and client websites",
+      "description": "Trades & Services, Hospitality & Dining, B2B & Manufacturing, E-Commerce & Retail, Non-Profit & Community, Client Websites",
+      "tools": [""]
+    },
+    {
+      "name": "Websites development packages",
+      "description": "Starter package, business package, and advanced package",
+      "tools": [""]
     }
   ],
   "fr": [
@@ -71,6 +86,21 @@
       "name": "Développement accéléré par l'IA",
       "description": "Livraison logicielle moderne avec GitHub Copilot pour accélérer l'implémentation, la refactorisation, la documentation et le soutien.",
       "tools": ["GitHub Copilot", "Python", "Angular", "PowerShell", "Node.js", ".NET", "API"]
+    },
+    {
+      "name": "Website developed with modern tools",
+      "description": "Angular, Node.JS, Integrated with Github, SQL Server, ASP.NET C# API, Collaboration human & AI Agents",
+      "tools": ["Angular, Node.JS,  SQL Server, Docker, API"]
+    },
+    {
+      "name": "Websites Templates, and client websites",
+      "description": "Trades & Services, Hospitality & Dining, B2B & Manufacturing, E-Commerce & Retail, Non-Profit & Community, Client Websites",
+      "tools": [""]
+    },
+    {
+      "name": "Websites development packages",
+      "description": "Starter package, business package, and advanced package",
+      "tools": [""]
     }
   ]
 }

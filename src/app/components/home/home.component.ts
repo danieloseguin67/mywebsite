@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { TranslationService, Translations } from '../../services/translation.service';
 import { DataService } from '../../services/data.service';
 import { Expertise } from '../../models/expertise.model';
+import { Webportfolio } from '../../models/webportfolio.model';
 import { Project } from '../../models/project.model';
 import { Testimonial } from '../../models/testimonial.model';
 
@@ -17,6 +18,7 @@ import { Testimonial } from '../../models/testimonial.model';
 export class HomeComponent implements OnInit {
   translations: Translations;
   expertises: Expertise[] = [];
+  webportfolio: Webportfolio[] = [];
   projects: Project[] = [];
   testimonials: Testimonial[] = [];
   currentLang: string = 'en';
@@ -43,6 +45,9 @@ export class HomeComponent implements OnInit {
   }
 
   private loadPreviewData(): void {
+    this.dataService.getWebportfolio().subscribe(data => {
+      this.webportfolio = (data[this.currentLang as keyof typeof data] || data.en).slice(0, 3);
+    });
     this.dataService.getExpertises().subscribe(data => {
       this.expertises = (data[this.currentLang as keyof typeof data] || data.en).slice(0, 3);
     });

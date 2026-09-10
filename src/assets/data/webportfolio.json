@@ -1,0 +1,36 @@
+{
+  "en": [
+    {
+      "name": "Website developed with modern tools",
+      "description": "Angular, Node.JS, Integrated with Github, SQL Server, ASP.NET C# API, Collaboration human & AI Agents",
+      "tools": ["Angular, Node.JS,  SQL Server, Docker, API"]
+    },
+    {
+      "name": "Websites Templates, and client websites",
+      "description": "Trades & Services, Hospitality & Dining, B2B & Manufacturing, E-Commerce & Retail, Non-Profit & Community, Client Websites",
+      "tools": [""]
+    },
+    {
+      "name": "Websites development packages",
+      "description": "Starter package, business package, and advanced package",
+      "tools": [""]
+    }
+  ],
+  "fr": [
+    {
+      "name": "Site Web développé avec des outils modernes",
+      "description": "Angular, Node.js, intégré à GitHub, SQL Server, API ASP.NET C#, collaboration entre humains et agents d’IA",
+      "tools": ["Angular, Node.js, SQL Server, Docker, API"]
+    },
+    {
+      "name": "Modèles de sites Web et sites Web clients",
+      "description": "Métiers et services, hôtellerie et restauration, B2B et fabrication, commerce électronique et vente au détail, organismes à but non lucratif et communautaires, sites Web clients",
+      "tools": [""]
+    },
+    {
+      "name": "Forfaits de développement de sites Web",
+      "description": "Forfait de démarrage, forfait entreprise et forfait avancé",
+      "tools": [""]
+    }
+  ]
+}

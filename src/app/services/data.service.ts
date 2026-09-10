@@ -4,6 +4,7 @@ import { Observable, map } from 'rxjs';
 import { ServiceData } from '../models/service.model';
 import { ProductData } from '../models/product.model';
 import { SkillData } from '../models/skill.model';
+import { WebportfolioData } from '../models/webportfolio.model';
 import { ProjectData } from '../models/project.model';
 import { TestimonialData, Testimonial } from '../models/testimonial.model';
 import { NetworkingData } from '../models/networking.model';
@@ -27,6 +28,10 @@ export class DataService {
 
   getExpertises(): Observable<ExpertiseData> {
     return this.http.get<ExpertiseData>('assets/data/expertises.json');
+  }
+
+  getWebportfolio(): Observable<WebportfolioData> {
+    return this.http.get<WebportfolioData>('assets/data/webportfolio.json');
   }
 
   getProducts(): Observable<ProductData> {
